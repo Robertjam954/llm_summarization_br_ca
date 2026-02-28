@@ -1,0 +1,9 @@
+openai
+langchain
+pandas
+numpy
+matplotlib
+jupyter
+pytest
+black
+flake8
