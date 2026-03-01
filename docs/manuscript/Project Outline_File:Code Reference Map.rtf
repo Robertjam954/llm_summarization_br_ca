@@ -1,0 +1,599 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red45\green45\blue45;\red255\green255\blue255;\red107\green0\blue1;
+\red0\green0\blue0;\red144\green1\blue18;\red9\green60\blue148;\red0\green0\blue109;\red19\green118\blue70;
+}
+{\*\expandedcolortbl;;\cssrgb\c23137\c23137\c23137;\cssrgb\c100000\c100000\c100000;\cssrgb\c50196\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c0\c0\c50196;\cssrgb\c3529\c52549\c34510;
+}
+\margl1440\margr1440\vieww26540\viewh20200\viewkind1
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ---\cf2 \cb1 \strokec2 \
+\cf4 \cb3 \strokec4 title\cf2 \strokec5 : \cf6 \cb3 \strokec6 "Prompt-Technique Evaluation for Feature-Level Human vs LLM Validation (Base Model)"\cf2 \cb1 \strokec2 \
+\cf4 \cb3 \strokec4 subtitle\cf2 \strokec5 : \cf6 \cb3 \strokec6 "Project Outline + File/Code Reference Map"\cf2 \cb1 \strokec2 \
+\cf4 \cb3 \strokec4 date\cf2 \strokec5 : \cf6 \cb3 \strokec6 "2026-03-01"\cf2 \cb1 \strokec2 \
+\cf4 \cb3 \strokec4 author\cf2 \strokec5 : \cf6 \cb3 \strokec6 "Robertjam954"\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 ---\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 1.\cf2 \strokec2  Executive Summary\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 This project evaluates whether different prompting techniques improve LLM-based validation of clinical summary features relative to human validation.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Independent Variable (IV)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt technique:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 zero_shot_structured_extraction_prod\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 chain_of_thought_3\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 rag_*\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 few_shot_*\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 program_aided_*\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 react_*\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 2pop_mcode_gpt\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 bfop_*\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Base model only (no fine-tuning in this phase).\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Primary Dependent Variables (DVs)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Correct rate (label = 1)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Omission rate (label = 2)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Fabrication rate (label = 3; only when source == 1)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Secondary DVs\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Cohen\'92s kappa (human vs AI)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Domain-stratified performance (radiology vs pathology)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Per-element performance\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Time-series stability of metrics\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Key Confounder (Required)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR quality / document image quality\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 2.\cf2 \strokec2  Data Model and Label Encoding\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Source Encoding\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 *_status_source\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 1 = present in source\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 0 = absent in source\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Human & AI Encoding (only when source==1)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 1 = correct\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 2 = omission\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 3 = fabrication\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 If source==0:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 human and ai = NaN or "N/A"\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 3.\cf2 \strokec2  LangChain + RAG Integration (New Core Layer)\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Purpose\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Replace full-document prompting with retrieval-augmented extraction to:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Reduce fabrication\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Improve traceability\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Enable evidence citation\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Support interpretability analysis\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 3.1 OCR Loader\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Scanned PDFs \uc0\u8594  OCR \u8594  LangChain Documents\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 def ocr_pdf_to_documents(pdf_path):\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     # Rasterize via PyMuPDF\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     # OCR via pytesseract\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     # Return list[Document(page_content, metadata)]\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 3.2 Chunking Strategy\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 RecursiveCharacterTextSplitter(\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     chunk_size=1000,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     chunk_overlap=200,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     add_start_index=True\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 )\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 3.3 Embedding Options\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OpenAI text-embedding-3-large\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 HuggingFace sentence-transformers/all-mpnet-base-v2\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Others allowed if logged\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Embedding config must be stored per run.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 3.4 Vector Store Options\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 FAISS (recommended default)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Chroma (persistent)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Qdrant / PGVector (if scaling later)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 3.5 Per-Element RAG Extraction\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Each feature uses:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Query:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Element name + definition + synonyms\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt must:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Restrict reasoning to provided context\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Return structured JSON\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Return null if not found\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 3.6 Required Extraction Output Schema\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "case_id": "CASE_0001",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "model": "gpt-4o-mini",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "prompt_id": "P2",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "elements": [\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "element_name": "ER_status",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "value": "positive",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "evidence": "Estrogen receptor: Positive (90%)",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "page_refs": [\cf6 \cb3 \strokec6 2\cf2 \cb3 \strokec2 ],\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "confidence": 0.86,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2       "rationale": "Explicit statement in pathology section."\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     \}\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   ]\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \}\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 4.\cf2 \strokec2  Frozen Prompt Registry (Required)\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Directory\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 prompts/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   frozen/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     P1_initial.txt\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     P2_refined.txt\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     P3_rag_structured.txt\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   metadata.json\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Rules\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Frozen prompts are immutable.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Any modification \uc0\u8594  new prompt ID.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt ID referenced in run logs.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt escalation documented (problem \uc0\u8594  change \u8594  hypothesis).\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 5.\cf2 \strokec2  Experiment Run Logging (Required)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Each experiment produces an immutable log entry.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 5.1 Required Schema\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "run_id": "R23",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "model": "gpt-4.x",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "prompt_id": "P17",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "approach": "RAG_structured",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "timestamp": "2026-03-10",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "overall_accuracy": 0.82,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "fabrication_rate": 0.05,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "domain_breakdown": \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "radiology": 0.84,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "pathology": 0.79\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   \}\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \}\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 5.2 Required Additional Fields\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 dataset hash\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 git commit hash\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 embedding model\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 chunk size\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 top_k retrieval\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 temperature\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 total elements evaluated (source==1 rows)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR thresholds used\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 6.\cf2 \strokec2  Document Quality Assessment (Required)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR quality is a confounder and must be measured.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 6.1 Per-Page Metrics\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Variance of Laplacian (blur)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Tenengrad\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 RMS contrast\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Intensity spread (p95 - p5)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Mean brightness\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Skew angle\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Resolution/DPI\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 6.2 Flag Definitions\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Define percentile-based thresholds:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 blurry = bottom 10% Laplacian variance\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 low_contrast = bottom 10% RMS contrast\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Threshold values must be logged per dataset.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 6.3 Required Case-Level JSON\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "case_id": "CASE_0123",\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "case_quality_summary": \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "num_pages": 6,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "pct_pages_blurry": 0.33,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "pct_pages_low_contrast": 0.50,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "worst_page_laplacian_var": 31.8\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   \},\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   "annotation_performance": \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "correct": 15,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "fabrications": 1,\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     "omissions": 2\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   \}\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 \}\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 7.\cf2 \strokec2  Interpretability Framework (Molnar-Aligned)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 This project operationalizes:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Global interpretability: feature-level performance trends\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Local interpretability: per-element evidence citations\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Example-based explanations: retrieved chunks\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Post-hoc analysis: document predictors of failure\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Key analysis layers:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Which elements are most fragile?\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Which document features predict fabrication?\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Does RAG reduce hallucination?\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Does OCR quality predict omission?\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 8.\cf2 \strokec2  Predictive Modeling Layer\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 8.1 Binary Classification Model\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Goal:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Predict probability of correct extraction (label=1).\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Models:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 H2O AutoML\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 HistGradientBoostingClassifier\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Evaluation:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Brier score\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Calibration curves\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 ROC-AUC\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 8.2 Regression Model\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Goal:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Predict mean overall AI metric by prompt version.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Outcome:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Mean accuracy or mean fabrication rate per run.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Used for:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt optimization objective\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Loss monitoring\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 9.\cf2 \strokec2  Time-Series Forecasting\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Track over runs:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Fabrication rate\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Accuracy\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Per-element fabrication\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Domain-specific trends\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Requirements:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Prompt versions must be sequential and hypothesis-driven.\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Forecasting model:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 ARIMA or Prophet\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Detect drift\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Trigger alerts\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 10.\cf2 \strokec2  Folder Structure\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 data/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   raw/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   deidentified/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   processed/\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 prompts/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   frozen/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   library/\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 runs/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   logs/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   metrics/\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 models/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   configs/\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 eval/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   metrics_utils.py\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   main_analysis.py\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 notebooks/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   rag_driver.ipynb\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   forecasting.ipynb\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 docs/\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2   protocol.md\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 11.\cf2 \strokec2  Full Pipeline Architecture\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Raw scanned PDFs\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR + image quality scoring\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Deidentification\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Chunking\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Embeddings\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Vector store\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Per-element RAG extraction\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Structured JSON output\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Validation comparison\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Metrics computation\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Run logging\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Forecasting + alerting\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 12.\cf2 \strokec2  Scientific Contributions\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 This project produces:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Feature-level fabrication analysis in clinical summarization\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Prompt-technique comparative effectiveness study\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR quality as performance confounder analysis\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Retrieval-based hallucination mitigation evaluation\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Reproducible monitoring framework\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 13.\cf2 \strokec2  Publication Alignment (npj Digital Medicine)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Study type:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Retrospective diagnostic accuracy evaluation\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Index test:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 LLM validation via structured RAG prompting\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Reference standard:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Human validation of source-document feature presence\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Primary endpoint:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Fabrication rate\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Secondary:\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Accuracy, omission, agreement, domain breakdown\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Required reporting:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Flow diagram\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Annotator training\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Error taxonomy\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 OCR quality adjustment\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Statistical analysis plan\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Data availability statement\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 ---\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ## Appendix A: Evaluation Framework \'97 Metric Definitions
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Confusion-matrix components are computed per element per annotator:\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 ```\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 TP = ((data[source_col] == 1) & (data[annotator_col] == 1)).sum()\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 FN = ((data[source_col] == 1) & (data[annotator_col] == 2)).sum()\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 FP = ((data[source_col] == 0) & (data[annotator_col] == 3)).sum()\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 TN = ((data[source_col] == 0) & (data[annotator_col] == "N/A")).sum()\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 ```\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 | Symbol | Interpretation |\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 |--------|----------------|\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 | TP | Correctly extracted feature present in source |\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 | FN | Omission \'97 source present, not extracted |\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 | FP | Fabrication \'97 source absent, extracted anyway |\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 | TN | Correctly not extracted |\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Primary safety outcome:**
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 ```\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 Fabrication rate = FP / (FP + TN)\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 ```\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Statistical tests: One-sided exact McNemar (binomial on discordant pairs, \cf4 \strokec4 `alternative="greater"`\cf2 \strokec2 ) testing H1: AI metric > Human metric for diagnostic metrics, and H1: AI fabrication rate > Human fabrication rate for fabrication.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ## Appendix B: Source Document Feature Analysis
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 For each case, the following document-level features should be computed from OCR-extracted text:\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Number of reports per case\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Total token count / average tokens per report\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Unique token ratio\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Lexical diversity (type-token ratio)\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Embedding variance (sentence-transformer or BERT)\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Negation frequency\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Uncertainty language frequency (e.g., "possible", "cannot exclude")\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Table density (structured vs free-text ratio)\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Cross-document semantic similarity (cosine similarity of document embeddings)\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 These features serve as predictors in downstream modeling of AI fabrication and omission.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ## Appendix C: Deidentification Pipeline for Scanned PDFs
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Purpose:**
+\f0\b0 \cf2 \strokec2  OCR-based bounding-box redaction with black rectangles, applied to both source PDFs and the validation Excel spreadsheet.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Dependencies:**
+\f0\b0 \cf2 \strokec2  \cf4 \strokec4 `pymupdf`\cf2 \strokec2 , \cf4 \strokec4 `pytesseract`\cf2 \strokec2 , \cf4 \strokec4 `opencv-python`\cf2 \strokec2 , \cf4 \strokec4 `pillow`\cf2 \strokec2 , \cf4 \strokec4 `pandas`\cf2 \strokec2 , \cf4 \strokec4 `tqdm`\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Redaction rules (HIPAA-aligned):**
+\f0\b0 \cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Email, phone, SSN, dates, ZIP codes, URLs, address patterns\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  MRN (context-based, with label lookahead)\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Contextual: if token matches a PHI label (Name, Patient, DOB, MRN), redact next N tokens on same line\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Key configuration:**
+\f0\b0 \cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 ```python\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec5 CONTEXT_LABELS = \{\cf6 \cb3 \strokec6 "name"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "patient"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "dob"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "dateofbirth"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "birth"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "mrn"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "acct"\cf2 \cb3 \strokec5 , \cf6 \cb3 \strokec6 "account"\cf2 \cb3 \strokec5 \}\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec5 redact_after_label_tokens = \cf9 \strokec9 6\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 ```\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Patient mapping requirement:**
+\f0\b0 \cf2 \strokec2  Deidentified outputs must retain a \cf4 \strokec4 `case_id \uc0\u8596  original_filename`\cf2 \strokec2  mapping table (stored separately in a secure location) to enable downstream observation-level linkage.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Outputs:**
+\f0\b0 \cf2 \strokec2  Redacted PDFs + CSV redaction log (file, page, status, redaction count, rules applied).\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ## Appendix D: Interpretability Framework (Molnar-Aligned)
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 This project operationalizes four levels of interpretability:\cf2 \cb1 \strokec2 \
+\
+\cf7 \cb3 \strokec7 1.\cf2 \strokec2  
+\f1\b \cf8 \strokec8 **Global interpretability**
+\f0\b0 \cf2 \strokec2  \'97 feature-level performance trends across all elements and domains\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 2.\cf2 \strokec2  
+\f1\b \cf8 \strokec8 **Local interpretability**
+\f0\b0 \cf2 \strokec2  \'97 per-element evidence citations from RAG retrieval chunks\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 3.\cf2 \strokec2  
+\f1\b \cf8 \strokec8 **Example-based explanations**
+\f0\b0 \cf2 \strokec2  \'97 retrieved source chunks that grounded each extraction\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 4.\cf2 \strokec2  
+\f1\b \cf8 \strokec8 **Post-hoc analysis**
+\f0\b0 \cf2 \strokec2  \'97 document-quality and text-complexity predictors of AI failure\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 Key analysis questions:\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Which elements are most fragile (highest fabrication rate)?\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Which document features predict fabrication?\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Does RAG reduce hallucination vs full-document prompting?\cf2 \cb1 \strokec2 \
+\cf7 \cb3 \strokec7 -\cf2 \strokec2  Does OCR quality predict omission rate?\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ## Appendix E: Predictive Modeling Layer
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ### E.1 Binary Classification
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Goal:**
+\f0\b0 \cf2 \strokec2  Predict probability of correct extraction (label = 1) per observation.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Models:**
+\f0\b0 \cf2 \strokec2  H2O AutoML, XGBoost, GBM, HistGradientBoostingClassifier\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Evaluation:**
+\f0\b0 \cf2 \strokec2  Brier score, calibration curves, ROC-AUC, feature importance (gain, SHAP)\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ### E.2 Regression
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Goal:**
+\f0\b0 \cf2 \strokec2  Predict mean AI metric (accuracy or fabrication rate) per prompt version / run.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Use cases:**
+\f0\b0 \cf2 \strokec2  Prompt optimization objective, loss monitoring, drift detection.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf4 \cb3 \strokec4 ### E.3 Feature Interaction Analysis
+\f0\b0 \cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Goal:**
+\f0\b0 \cf2 \strokec2  Identify which combinations of AI element-level correctness features best predict overall accuracy and fabrication outcomes.\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Method:**
+\f0\b0 \cf2 \strokec2  H2O XGBoost/GBM tree-based feature interaction extraction (gain, FScore, wFScore).\cf2 \cb1 \strokec2 \
+\
+
+\f1\b \cf8 \cb3 \strokec8 **Outputs:**
+\f0\b0 \cf2 \strokec2  \cf4 \strokec4 `feature_interactions_summary.csv`\cf2 \strokec2 , interaction visualizations, markdown report\cf2 \cb1 \strokec2 \
+\
+}

@@ -1,0 +1,14 @@
+pandas>=2.1
+numpy>=1.26
+statsmodels>=0.14
+plotly>=5.18
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+great-tables>=0.8
+scipy>=1.12
+openpyxl>=3.1
+selenium>=4.18
+deepeval>=0.20
+pydantic>=2.7
+h2o>=3.44

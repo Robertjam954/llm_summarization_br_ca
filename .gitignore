@@ -1,6 +1,7 @@
 # Python Cache Files
 __pycache__/
 *.py[cod]
+*.egg-info/
 
 # Virtual Environments
 .env/
@@ -11,9 +12,14 @@ venv/
 # IDE Files
 .vscode/
 .idea/
+*.code-workspace
 
 # Jupyter Checkpoints
 .ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
 
 # Private Data and Outputs
 outputs_private/
@@ -21,4 +27,18 @@ data_private/
 
 # Credentials
 *.env
-*.json
+!.env.example
+
+# Sensitive data (raw patient data — do not commit)
+data/raw/*.pdf
+data/deidentified/pdfs/
+
+# Large generated outputs (regenerable from notebooks)
+data/extracted_text/
+data/features/
+reports/*.png
+reports/**/*.png
+
+# Temp files
+~$*
+*.tmp
