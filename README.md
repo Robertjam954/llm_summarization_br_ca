@@ -149,6 +149,13 @@ Reference materials and external resources.
 - Python 3.8+
 - Dependencies listed in `pyproject.toml`
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/Robertjam954/llm_summarization_br_ca.git
+cd llm_summarization_br_ca
+```
+
 ### Installation
 
 ```bash
