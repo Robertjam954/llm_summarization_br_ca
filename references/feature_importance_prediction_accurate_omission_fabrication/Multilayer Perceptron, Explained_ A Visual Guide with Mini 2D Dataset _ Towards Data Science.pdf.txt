@@ -1,0 +1,310 @@
+MACHINE LEARNING
+LATEST
+Multilayer Perceptron, Explained: AEDITOR’S PICKS Visual Guide with Mini 2D DatasetDEEP DIVES
+Dissecting the math (with visuals) of a tiny neural netwNorEkWSLETTER
+Samy Baladram
+WRITE FOR TDS
+Oct 25, 2024	14 min read
+Submit an Article
+CLASSIFICATION ALGORITHM
+
+(https://medium.com/@samybaladram/list/classification-algorithmsb3586f0a772c), explained: · [Dummy Classifier] (https://towardsdatascience.com/dummy-classifier-explained-a-visualguide-with-code-examples-for-beginners-009ff95fc86e) · [K Nearest Neighbor Classifier](https://towardsdatascience.com/k-nearest-neighborclassifier-explained-a-visual-guide-with-code-examples-for-beginnersa3d85cad00e1) · [Bernoulli Naive Bayes]
+(https://towardsdatascience.com/bernoulli-naive-bayes-explained-a-visualguide-with-code-examples-for-beginners-aec39771ddd6) · [Gaussian Naive Bayes](https://towardsdatascience.com/gaussian-naive-bayes-explained-avisual-guide-with-code-examples-for-beginners-04949cef383c) · [Decision Tree Classifier](https://towardsdatascience.com/decision-tree-classifierexplained-a-visual-guide-with-code-examples-for-beginners-7c863f06a71e) · [Logistic Regression](https://towardsdatascience.com/logistic-regressionexplained-a-visual-guide-with-code-examples-for-beginners-81baf5871505) · LATEST
+[Support Vector Classifier](https://towardsdatascience.com/supportvector-classifier-explained-a-visual-guide-with-mini-2d-EdDaItTaOsRe’tS- PICKS
+62e831e7b9e9)  [Multilayer Perceptron]	DEEP DIVES
+(https://towardsdatascience.com/multilayer-perceptron-explained-a-visualNEWSLETTER
+guide-with-mini-2d-dataset-0ae8100c5d1c)
+                                                                  WRITE FOR TDS Ever feel like neural networks are showing up everywhere?
+They’re in the news, in your phone, even in your social mediSubmit an Articla e feed. But let’s be honest – most of us have no clue how they actually work. All that fancy math and strange terms like "backpropagation"?
+Here’s a thought: what if we made things super simple? Let’s explore a Multilayer Perceptron (MLP) – the most basic type of neural network – to classify a simple 2D dataset using a small network, working with just a handful of data points.
+Through clear visuals and step-by-step explanations, you’ll see the math come to life, watching exactly how numbers and equations flow through the network and how learning really happens!
+
+NEWSLETTER
+All visuals: Author-created using Canva Pro. Optimized for mobile; may appear oversized on desktop.
+WRITE FOR TDS
+Definition
+Submit an Article
+A Multilayer Perceptron (MLP) is a type of neural network that uses layers of connected nodes to learn patterns. It gets its name from having multiple layers – typically an input layer, one or more middle (hidden) layers, and an output layer.
+Each node connects to all nodes in the next layer. When the network learns, it adjusts the strength of these connections based on training examples. For instance, if certain connections lead to correct predictions, they become stronger. If they lead to mistakes, they become weaker.
+This way of learning through examples helps the network recognize patterns and make predictions about new situations it hasn’t seen before.
+
+MLPs are considered fundamental in the field of neural networks and deep learning because they can handle complex problems that simpler methods struggle with.
+ Dataset Used	LATEST
+EDITOR’S PICKS
+To understand how MLPs work, let’s start with a simple example:
+DEEP DIVES
+a mini 2D dataset with just a few samples. We’ll use the same dataset from our previous article to keep things mNaEnWaSgLeEaTTbEleR.
+
+Columns: Temperature (0–3), Humidity (0–3), Play Golf (Yes/No). The training dataset has 2 dimensions and 8 samples.
+Rather than jumping straight into training, let’s try to understand the key pieces that make up a neural network and how they work together.
+Step 0: Network Structure
+First, let’s look at the parts of our network:
+Node (Neuron)
+We begin with the basic structure of a neural network. This structure is composed of many individual units caLlAleTEdS Tnodes or neurons.
+EDITOR’S PICKS
+
+This neural network has 8 nodes.
+These nodes are organized into groups called layers to work together:
+Input layer
+The input layer is where we start. It takes in our raw data, and the number of nodes here matches how many features we have.
+
+The input layer has 2 nodes, one for each feature. NEWSLETTER
+Hidden layer	WRITE FOR TDS
+Submit an Article
+Next come the hidden layers. We can have one or more of these layers, and we can choose how many nodes each one has. Often, we use fewer nodes in each layer as we go deeper.
+
+This neural network has 2 hidden layers with 3 and 2 nodes, respectively.
+Output layer
+The last layer gives us our final answer. The number of nodes in our output layer depends on our task: for binary classification or regression, we might have just one output node, while for multiclass problems, we’d have one node per class.	LATEST
+EDITOR’S PICKS
+
+This neural network has output layer with only 1 node (because binary).
+Weights
+The nodes connect to each other using weights – numbers that control how much each piece of information matters. Each connection between nodes has its own weight. This means we need lots of weights: every node in one layer connects to every node in the next layer.
+
+	This neural network has total of 14 weights.	WRITE FOR TDS
+Biases	Submit an Article
+Along with weights, each node also has a bias – an extra number that helps it make better decisions. While weights control connections between nodes, biases help each node adjust its output.
+
+This neural network has 6 bias values.
+The Neural Network
+In summary, we will use and train this neural network:
+
+Our network consists of 4 layers: 1 input layer (2 nodes), 2 hidden layers (3 nodes & 2 nodes), and 1 output layer (1 node). This creates a 2–3–2–1 architecture.
+Let’s look at this new diagram that shows our network from top to bottom. I’ve updated it to make the math easier to follow: information starts at the top nodes and flows down through the layers until it reaches the final answer at the bottom.
+
+Now that we understand how our network is built, let’s see how information moves through it. This is called the forward pass.
+Step 1: Forward Pass
+Let’s see how our network turns input into output, step by step:
+Weight initialization
+Before our network can start learning, we need to give each weight a starting value. We choose small random numbers between -1 and 1. Starting with random numbers helps our network learn without any early preferences or patterns.
+
+All the weights are chosen randomly from a [-0.5, 0.5] range.
+Weighted sum
+Each node processes incoming data in two steps. First, it multiplies each input by its weight and adds all these numbers together. Then it adds one more number – the bias – to complete the calculation. The bias is essentially a weight with a constant input of 1.
+
+Activation function
+Each node takes its weighted sum and runs it through an activation function to produce its output. The activation function helps our network learn complicated patterns by introducing non-linear behavior.
+In our hidden layers, we use the ReLU function (Rectified Linear
+Unit). ReLU is straightforward: if a number is positive, it stays the
+same; if it’s negative, it becomes zero.	LATEST
+EDITOR’S PICKS
+
+Layer-by-layer computation
+This two-step process (weighted sums and activation) happens in every layer, one after another. Each layer’s calculations help transform our input data step by step into our final prediction.
+
+Output generation
+The last layer creates our network’s final answer. For our yes/no classification task, we use a special activation function called sigmoid in this layer.
+The sigmoid function turns any number into a value between 0 and 1. This makes it perfect for yes/no decisions, as we can treat the output like a probability: closer to 1 means more likely ‘yes’, closer to 0 means more likely ‘no’.
+LATEST
+EDITOR’S PICKS
+DEEP DIVES
+NEWSLETTER
+WRITE FOR TDS
+Submit an Article
+
+
+This process of forward pass turns our input into a prediction between 0 and 1. But how good are these predictions? Next, we’ll measure how close our predictions are to the correct answers.
+Step 2: Loss Calculation
+Loss function
+To check how well our network is doing, we measure the difference between its predictions and the correct answers. For binary classification, we use a method called binary crossentropy that shows us how far off our predictions are from the true values.
+LATEST
+
+Math Notation in Neural Network
+To improve our network’s performance, we’ll need to use some math symbols. Let’s define what each symbol means before we continue:
+Weights and Bias Weights are represented as matrices and biases as vectors (or 1-dimensional matrices). The bracket notation [1] indicates the layer number.
+LATEST
+EDITOR’S PICKS
+DEEP DIVES
+NEWSLETTER
+WRITE FOR TDS
+Submit an Article
+
+
+Input, Output, Weighted Sum, and Value after Activation The values within nodes can be represented as vectors, forming a consistent mathematical framework.
+
+All TogetherThese math symbols help us write exactly what our network does:
+
+Let’s look at a diagram that shows all the math happening in our network. Each layer has:
+ Weights (W) and biases (b) that connect layers
+
+Let’s see exactly what happens at each layer: First hidden layer: · Takes our input x, multiplies it by weights W[1], adds bias b[1] to get z[1] · Applies ReLU to z[1] to get output a[1]
+Second hidden layer: · Takes a[1], multiplies by weights W[2], adds bias b[2] to get z[2] · Applies ReLU to z[2] to get output a[2]
+Output layer: · Takes a[2], multiplies by weights W[3], adds bias b[3] to get z[3] · Applies sigmoid to z[3] to get our final prediction ?
+
+Now that we see all the math in our network, how do we improve these numbers to get better predictions? This is where backpropagation comes in – it shows us how to adjust our weights and biases to make fewer mistakes.
+Step 3: Backpropagation
+Before we see how to improve our network, let’s quickly review some math tools we’ll need:
+LATEST
+Derivative	EDITOR’S PICKS
+DEEP DIVES
+To optimize our neural network, we use gradients – a concept closely related to derivatives. Let’s review some fuNnEdWaSmLEeTnTEtRal derivative rules:
+WRITE FOR TDS
+
+Partial Derivative
+Let’s clarify the distinction between regular and partial derivatives: Regular Derivative:· Used when a function has only one variable · Shows how much the function changes when its only variable changes · Written as df/dx
+Partial Derivative: · Used when a function has more than one variable · Shows how much the function changes when one variable changes, while keeping the other variables the same (as constant). · Written as ?f/_?_x
+LATEST
+
+Some examples of partial derivatives
+Gradient Calculation and Backpropagation
+Returning to our neural network, we need to determine how to adjust each weight and bias to minimize the error. We can do this using a method called backpropagation, which shows us how changing each value affects our network’s errors.
+Since backpropagation works backwards through LoAuTrE SnTetwork, let’s flip our diagram upside down to see how this works.
+EDITOR’S PICKS
+
+Matrix Rules for Networks
+Since our network uses matrices (groups of weights and biases), we need special rules to calculate how changes affect our results. Here are two key matrix rules. For vectors v, u (size 1 × n) ** and matrices W, X** (size n × __ n):
+  1. Sum Rule: ?(W + X)/?W = I (Identity matrix, siLzAeT EnS T× n) ?(u +
+v)/?v = I (Identity matrix, size n × n)
+EDITOR’S PICKS
+  2. Matrix-Vector Product Rule: ?(vW)/?W = v? ?(vDWEE)P/ ?DvIV =ES W? NEWSLETTER Using these rules, we obtain:
+
+Activation Function DerivativesDerivatives of ReLUFor vectors a and z (size 1 × n), where a = ReLU(z):
+?a/?z = diag(z > 0)
+Creates a diagonal matrix that shows: 1 if input was positive, 0 if input was zero or negative.
+Derivatives of Sigmoid For a = ?(z), where ? is the sigmoid function:
+?a/?z = a  (1 – a)
+This multiplies elements directly ( means multiply each position).
+LATEST
+
+Binary Cross-Entropy Loss Derivative
+For a single example with loss L = -[y log(?) + (1-y) log(1-?)]:
+?L/?? = -(y–?) / [?(1-?)]
+
+Up to this point, we can summarized all the partial derivatives as follows:
+LATEST
+
+The following image shows all the partial derivatives that we’ve obtained so far:
+
+Chain Rule
+In our network, changes flow through multiple steps: a weight affects its layer’s output, which affects the next layer, and so on until the final error. The chain rule tells us to multiply these step-by-step changes together to find how each weight and bias affects the final error.
+
+
+Error Calculation
+Rather than directly computing weight and bias derivatives, we first calculate layer errors ?L/?z? (the gradient with respect to pre-activation outputs). This makes it easier to then calculate how we should adjust the weights and biases in earlier layers.
+
+Weight gradients and bias gradients
+Using these layer errors and the chain rule, we can express the weight and bias gradients as:
+
+The gradients show us how each value in our network affects our network’s error. We then make small changes to these values to help our network make better predictions
+Step 4: Weight Update
+Updating weights
+Once we know how each weight and bias affects the error (the gradients), we improve our network by adjusting these values in the opposite direction of their gradients. This reduces the network’s error step by step.
+
+Learning Rate and Optimization
+Instead of making big changes all at once, we make small, careful adjustments. We use a number called the learning rate (?) to control how much we change each value:
+ If ? is too big: The changes are too large and we might make things worse
+ If ? is too small: The changes are tiny and it takes too long to improve
+This way of making small, controlled changes is cLaAllTeEdS TStochastic Gradient Descent (SGD). We can write it as: EDITOR’S PICKS
+
+The value of ? (learning rate) is usually chosen to be small, typically ranging from 0.1 to 0.0001, to ensure stable learning.
+We just saw how our network learns from one example. The network repeats all these steps for each example in our dataset, getting better with each round of practice
+Summary of Steps	LATEST
+Here are all the steps we covered to train our netEwDoITrOkR o’Sn P aIC KsSingle
+example:	DEEP DIVES
+NEWSLETTER
+WRITE FOR TDS
+Submit an Article
+
+
+Scaling to Full Datasets
+Epoch
+Our network repeats these four steps – forward pass, loss calculation, backpropagation, and weight updates – for every example in our dataset. Going through all examples once is called an epoch.
+
+The network usually needs to see all examples many times to get good at its task, even up to 1000 times. Each time through helps it learn the patterns better.
+
+Batch
+Instead of learning from one example at a time, our network learns from small groups of examples (called batches) at once. This has several benefits:
+Works faster
+Learns better patterns
+Makes steadier improvements
+When working with batches, the network looks at all examples in the group before making changes. This gives better results than changing values after each single example.
+
+Testing Step
+Preparing Fully-trained Neural Network
+After training is done, our network is ready to make predictions on new examples it hasn’t seen before. It uses the same steps as training, but only needs to move forward through the network to
+
+make predictions.
+When processing new data:
+Input layer takes in the new valuesLATEST
+EDITOR’S PICKSMaking Predictions
+DEEP DIVES
+
+2. At each layer: · Multiplies by weights and adds biases ·
+	Applies the activation function	NEWSLETTER
+3. Output layer generates predictions (e.g., probaWbRiIlTitEi eFsOR TDS between 0 and 1 for binary classification)
+Submit an Article
+
+
+The prediction for ID 9 is 1 (YES).
+Deterministic Nature of Neural Network
+When our network sees the same input twice, it will give the same answer both times (as long as we haven’t changed its weights and biases). The network’s ability to handle new examples comes from its training, not from any randomness in making predictions.
+Final Remarks
+As our network practices with the examples again and again, it gets better at its task. It makes fewer mistakes over time, and its predictions get more accurate. This is how neural networks learn: look at examples, find mistakes, make small improvements, and repeat!
+LATEST
+ Multilayer Perceptron Classifier CEoDdITOeR’S PICKS
+Summary	DEEP DIVES
+Now let’s see our neural network in action. Here’sN sEoWmSLeE TPTyEtRhon code that builds the network we’ve been talking about, using the
+WRITE FOR TDS
+same structure and rules we just learned.
+Submit an Article
+import pandas as pd import numpy as np from sklearn.neural_network import MLPClassifier from sklearn.metrics import accuracy_score
+# Create our simple 2D dataset df = pd.DataFrame({
+    '   ': [0, 1, 1, 2, 3, 3, 2, 3, 0, 0, 1, 2, 3],
+    '   ': [0, 0, 1, 0, 1, 2, 3, 3, 1, 2, 3, 2, 1],
+    'y': [1, -1, -1, -1, 1, 1, 1, -1, -1, -1, 1, 1, 1]
+}, index=range(1, 14))
+# Split into training and test sets
+train_df, test_df = df.iloc[:8].copy(), df.iloc[8:].copy() X_train, y_train = train_df[['   ', '   ']], train_df['y']
+X_test, y_test = test_df[['   ', '   ']], test_df['y']
+# Create and configure our neural network mlp = MLPClassifier(
+    hidden_layer_sizes=(3, 2), # Creates a 2-3-2-1 architecture as discu     activation='relu',         # ReLU activation for hidden layers     solver='sgd',              # Stochastic Gradient Descent optimizer     learning_rate_init=0.1,    # Step size for weight updates     max_iter=1000,             # Maximum number of epochs     momentum=0,                # Disable momentum for pure SGD as discus     random_state=42            # For reproducible results
+)
+
+Regression Algorithms
+Ensemble Learning
+·	·	·
+
+Related Articles
+ARTIFICIAL INTELLIGENCE
+Implementing Convolutional
+Neural Networks in TensorFlow
+Step-by-step code guide to building a
+Convolutional Neural Network
+Shreya Rao
+August 20, 2024	6 min read
+ARTIFICIAL INTELLIGENNECWE SLETTER
+How to Forecast Hierarchical Time Series	WRITE FOR TDS
+A beginner’s guide to forecast reconciliation Submit an Article
+Dr. Robert Kübler
+August 20, 2024	13 min read
+
+DATA SCIENCE
+Hands-on Time Series Anomaly Detection using Autoencoders, with Python
+Here’s how to use Autoencoders to detect signals with anomalies in a few lines of…
+Piero Paialunga
+August 21, 2024	12 min read
+MACHINE LEARNING
+3 AI Use Cases (That Are Not a
+Chatbot)
+Feature engineering, structuring unstructured data, and lead scoring
+Shaw Talebi
+August 21, 2024	7 min read
+
+
+Your home for data science and Al. The world’s leading publication for data science, data analytics, data engineering, machine learning, and artificial intelligence professionals.
+© Insight Media Group, LLC 2025
+	Subscribe to Our Newsletter	LATEST
+EDITOR’S PICKS
+WRITE FOR TDS • ABOUT • ADVERTISE • PRIVACY POLICY • TERMS OF USE
+DEEP DIVES
+COOKIES SETTINGS
+NEWSLETTER
+WRITE FOR TDS
+Submit an Article
+
+
+
+
+
+

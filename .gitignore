@@ -30,8 +30,8 @@ data_private/
 !.env.example
 
 # Sensitive data (raw patient data — do not commit)
-data/raw/*.pdf
-data/deidentified/pdfs/
+data/raw/
+data/deidentified/
 
 # Large generated outputs (regenerable from notebooks)
 data/extracted_text/
