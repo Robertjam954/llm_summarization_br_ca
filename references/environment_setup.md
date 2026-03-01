@@ -70,8 +70,7 @@ To install (or reinstall) everything inside the active virtual environment:
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-PHOENIX_API_KEY=your-real-key-here
-PHOENIX_COLLECTOR_ENDPOINT=https://app.phoenix.arize.com/s/robertjam954
+
 ### When you need `arize-phoenix-otel` (or any package requiring <3.14)
 
 1. Remove or rename the existing `.venv` if it was built with Python 3.14:
