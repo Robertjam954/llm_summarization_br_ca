@@ -7,7 +7,7 @@ Annotated bibliography of reference materials used in the LLM Summarization BR/C
 ## Academic Papers
 
 ### 1. Framework to Assess Clinical Safety and Hallucination Rates of LLMs for Medical Text Summarisation
-- **File:** `framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation.pdf`
+- **File:** `_framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation.pdf`
 - **Relevance:** Core methodological reference. Provides a structured framework for evaluating hallucination (fabrication) rates in LLM-generated clinical summaries. Directly informs our fabrication rate metric design, safety outcome definitions, and the element-level evaluation approach used across Notebooks 03 and 07.
 - **Key Contributions:**
   - Taxonomy of hallucination types in medical summarisation (omission, fabrication, distortion)
@@ -166,6 +166,22 @@ Annotated bibliography of reference materials used in the LLM Summarization BR/C
   - Positional encoding and its role in sequence processing
   - Encoder-decoder vs. decoder-only architectures
 
+### 37. Attention Is All You Need (Vaswani et al., 2017)
+- **File:** `NIPS-2017-attention-is-all-you-need-Paper.pdf`
+- **Relevance:** The original Transformer architecture paper (NeurIPS 2017). Foundational reference for understanding the self-attention mechanism underlying GPT-4, Claude, and BERT — all models used in this project's extraction and evaluation pipelines.
+- **Key Contributions:**
+  - Introduced the Transformer: multi-head self-attention replacing recurrence and convolution
+  - Positional encoding, feed-forward sublayers, and layer normalisation
+  - Established encoder-decoder architecture now used in all modern LLMs
+
+### 38. Efficient Estimation of Word Representations in Vector Space (Word2Vec — Mikolov et al., 2013)
+- **File:** `1301.3781v3.pdf`
+- **Relevance:** The Word2Vec paper (arXiv 1301.3781). Foundational reference for dense word embeddings. Provides theoretical background for the text vectorisation approaches benchmarked in Notebook 07 and for understanding embedding-based feature representations.
+- **Key Contributions:**
+  - Skip-gram and CBOW architectures for learning word embeddings
+  - Semantic and syntactic relationships captured in vector space
+  - Basis for downstream embedding models (GloVe, FastText, BERT)
+
 ### 19. GLUE Benchmark
 - **File:** `glue_benchmark.pdf`
 - **Relevance:** The General Language Understanding Evaluation (GLUE) benchmark. Referenced when assessing model selection for the LLM evaluation layer — models are compared against GLUE tasks as a general NLP capability proxy.
@@ -244,6 +260,31 @@ Annotated bibliography of reference materials used in the LLM Summarization BR/C
 
 ---
 
+## Clinical NLP & Radiology/Pathology Informatics
+
+### 39. Natural Language Processing for Breast Imaging: A Systematic Review
+- **File:** `Natural Language Processing for Breast Imaging SR.pdf`
+- **Relevance:** Systematic review of NLP applied specifically to breast imaging reports. Directly situates the project within the clinical literature — provides a survey of what NLP tasks have been applied to mammography and breast MRI/US reports, accuracy benchmarks, and known challenges with unstructured radiology text.
+- **Key Contributions:**
+  - Survey of NLP tasks on breast imaging reports (classification, IE, summarisation)
+  - Accuracy benchmarks and failure modes in radiology NLP
+  - Methodological considerations specific to breast imaging report structure
+
+### 40. Natural Language Processing in Radiology: A Systematic Review (Pons et al., 2016)
+- **File:** `pons-et-al-2016-natural-language-processing-in-radiology-a-systematic-review.pdf`
+- **Relevance:** Broad systematic review of NLP methods applied to radiology reports. Directly relevant to Notebook 04's text extraction pipeline and the broader context of processing scanned radiology reports in breast cancer cases.
+- **Key Contributions:**
+  - Taxonomy of NLP approaches used in radiology (rule-based, ML, deep learning)
+  - Survey of radiology NLP tasks: IE, coding, summarisation, de-identification
+  - Benchmarks and limitations specific to radiology text processing
+
+### 41. Clinical Informatics Reference (JAMIA)
+- **File:** `amiajnl1560.pdf`
+- **Relevance:** Journal of the American Medical Informatics Association (JAMIA) paper (ID: amiajnl-1560). Likely addresses clinical NLP, EHR-based feature extraction, or informatics methods directly relevant to structured data extraction from clinical documents.
+- **Note:** Filename suggests JAMIA publication; exact title and authors unconfirmed without reading the PDF. Review and update this entry with full citation.
+
+---
+
 ## Oncology-Specific References
 
 ### 27. Large Language Models in Oncology
@@ -253,6 +294,26 @@ Annotated bibliography of reference materials used in the LLM Summarization BR/C
   - Survey of LLM use cases across cancer types (diagnosis, treatment planning, documentation)
   - Accuracy benchmarks in oncology-specific NLP tasks
   - Safety concerns and regulatory considerations in oncology AI deployment
+
+---
+
+## LLM Overview References
+
+### 42. Compact Guide to Large Language Models
+- **File:** `compact-guide-to-large-language-models.pdf`
+- **Relevance:** Concise reference guide covering the architecture, training, and deployment of LLMs. Useful as a background reference for the introduction and methods section of the manuscript, and for onboarding collaborators to the LLM extraction pipeline context.
+- **Key Contributions:**
+  - Overview of LLM architectures (GPT, Claude, open-source models)
+  - Pre-training, fine-tuning, and RLHF concepts
+  - Practical deployment and safety considerations
+
+### 43. NLP-Progress: English Summarization Benchmarks
+- **File:** `NLP-progress_english_summarization.md at master � sebastianruder_NLP-progress.pdf`
+- **Relevance:** Sebastian Ruder's NLP-Progress tracker for English summarization tasks. Provides a reference frame for state-of-the-art summarization performance across standard benchmarks (CNN/DailyMail, XSum, etc.), useful for contextualising the project's extraction accuracy metrics relative to the broader field.
+- **Key Contributions:**
+  - Benchmark leaderboard for abstractive and extractive summarization
+  - ROUGE and human evaluation scores across model families
+  - Links to datasets and evaluation protocols
 
 ---
 
@@ -318,9 +379,53 @@ Annotated bibliography of reference materials used in the LLM Summarization BR/C
 
 ---
 
+## Marginal / Background Only (Not Formally Citable)
+
+### 44. Deep Learning Neural Networks Explained (Medium — Sanjay Singh)
+- **File:** `Deep Learning Neural Networks Explained_ ANN, CNN, RNN, and Transformers (Basic Understanding) _ by Sanjay Singh _ Medium.pdf`
+- **Relevance:** General-audience Medium article covering ANN, CNN, RNN, and Transformer architectures. Background reading only — not formally citable in a manuscript. Useful for onboarding or explaining concepts to non-technical collaborators.
+- **Status:** 🟡 Background/tutorial — do not cite in manuscript
+
+### 45. RNN vs LSTM vs GRU vs Transformers (GeeksforGeeks)
+- **File:** `RNN vs LSTM vs GRU vs Transformers - GeeksforGeeks.pdf`
+- **Relevance:** GeeksforGeeks tutorial comparing sequential model architectures. Background reading only. Provides historical context for why transformer-based LLMs supersede earlier RNN/LSTM approaches for clinical text extraction.
+- **Status:** 🟡 Background/tutorial — do not cite in manuscript
+
+---
+
+## Future Value (Not Currently Needed)
+
+### 46. Semiparametric Accelerated Failure Time Partial Linear Model
+- **File:** `Semiparametric Accelerated Failure Time Partial Linear Model.pdf`
+- **Relevance:** Statistical methodology paper on semiparametric AFT models. Not relevant to the current extraction/evaluation pipeline. **Future value** if the project is extended to include time-to-event outcomes (e.g., survival analysis, treatment delay modelling) or causal inference framing.
+- **Status:** 🔵 Keep — future value only
+
+---
+
+## Internal Project Documents (Not References)
+
+### 47. Presentation Outline (Internal)
+- **File:** `presentation outline.docx`
+- **Relevance:** Internal project presentation draft/outline. Not a research reference. Consider moving to `docs/` or `conferences/` if relevant to a specific presentation.
+- **Status:** ❌ Not a reference — misplaced in references/
+
+---
+
+## Resolved Archives
+
+### 36. Windows Local References Archive (Extracted)
+- **File:** `references_from_windows_local_pending_sort.7z`
+- **Status:** ✅ **Extracted and indexed** — all 11 files have been extracted to `references/` and indexed as entries 37–47 above. The `.7z` archive may now be deleted or retained as a backup.
+
+---
+
 ## Notes
 
 - `How_can_artificial_intelligence_decrease_cognitive (1).pdf` is a duplicate of `How_can_artificial_intelligence_decrease_cognitive.pdf` — consider removing one.
 - All API keys in `environment_setup.md` have been redacted to placeholder values for repository safety.
 - `validaton/` directory from the source project references folder was **intentionally excluded** from this repository — it contains patient-identifiable data (MRNs, validation tables) and must not be committed to version control.
 - `complete guide to ann.pdf` and `Complete Guide to Artificial Neural Network Concepts & Models.pdf` appear to be duplicates — consider consolidating.
+- Entry 1 filename corrected: actual file on disk has a leading underscore (`_framework to assess...`); this differs from earlier versions of the index.
+- `ocr_deblur_metrics_prepost.py` is a **Python script** found in `references/` — this does not belong here and should be moved to `src/` or `tools/`. It is not a reference.
+- `presentation outline.docx` (entry 47) is an internal project document — consider moving to `docs/` or a `conferences/` subfolder.
+- Entries 44–45 (Medium, GeeksforGeeks) are background tutorials only — **do not cite in manuscript**.
