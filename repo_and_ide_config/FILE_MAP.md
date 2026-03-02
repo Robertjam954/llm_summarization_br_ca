@@ -34,15 +34,18 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 │   ├── 04_source_doc_text_extraction.ipynb            NB      Multi-method PDF text extraction: pytesseract
 │   │                                                          OCR, Claude Vision API, Claude Transcription API
 │   │                                                          Outputs .txt files → DATA_PRIVATE_DIR/extracted_text/
-│   ├── 05_feature_extraction_ocr_bert.ipynb           NB      OCR image quality scoring (BRISQUE, Laplacian),
-│   │                                                          BERT document embeddings (TF-Hub), text features
-│   │                                                          (TTR, negation freq, sentence length)
+│   ├── 05_feature_extraction_ocr_bert.ipynb           NB      OCR image quality scoring (Laplacian, Tenengrad),
+│   │                                                          BERT embeddings (all-mpnet-base-v2, 768-dim),
+│   │                                                          OpenAI embeddings via LangChain (text-embedding-
+│   │                                                          3-large, 3072-dim) — Part 2b, 6th vec method,
+│   │                                                          text features (TTR, negation freq, sentence length)
 │   │                                                          Outputs → data/features/
 │   ├── 06_metadata_data_dictionary.ipynb              NB      Auto-generates data_dictionary.xlsx (3 sheets,
 │   │                                                          styled) and variable_names.xlsx
-│   ├── 07_validation_methods_comparison.ipynb         NB      Vectorization benchmark (5 methods), XGBoost
-│   │                                                          5-fold CV, BERT fine-tuning 5-fold CV, SHAP
-│   │                                                          feature importance, stratified domain comparison
+│   ├── 07_validation_methods_comparison.ipynb         NB      Vectorization benchmark (6 methods — 5 sklearn +
+│   │                                                          OpenAI text-embedding-3-large via LangChain),
+│   │                                                          XGBoost 5-fold CV, BERT fine-tuning 5-fold CV,
+│   │                                                          SHAP feature importance, stratified domain comparison
 │   └── 08_ocr_image_quality_deblur.ipynb              NB      OCR image quality scan (Laplacian blur score),
 │                                                              deblur pipeline (hist-eq → contrast → resize →
 │                                                              Otsu+adaptive threshold → sharpen → morph ops),
@@ -127,6 +130,32 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 │       ├── ai_feature_interactions/                   DIR     H2O feature interaction outputs
 │       ├── ai_only_feature_importance/                DIR     AI-only feature importance analysis
 │       └── feature_importance_analysis/               DIR     Top-level feature importance summary
+│
+├── references/                                        ← Local research library (gitignored — not committed)
+│   ├── README.md                                      DOC     Top-level index of all reference materials
+│   ├── Prompts/                                       ← Prompt engineering guides and project extraction prompts
+│   │   ├── README.md                                  DOC     Index of all files in Prompts/ (see for details)
+│   │   ├── claude_sonnet_4.5_prompting_guide.txt      REF     Full Claude Sonnet 4.5 system prompt & behavior spec
+│   │   │                                                      (identity, tone, citation rules, artifact types,
+│   │   │                                                      search behavior, refusal handling) — from Anthropic
+│   │   ├── gpt-5_prompting_guide.ipynb                REF     GPT-5 agent coding guide — apply_patch CLI format,
+│   │   │                                                      coding guidelines, persistence/exploration/
+│   │   │                                                      verification behavioral sections — OpenAI Cookbook
+│   │   ├── pe-chatgpt-intro.ipynb                     REF     General ChatGPT API intro — basic call structure,
+│   │   │                                                      chat format (system/user/assistant roles),
+│   │   │                                                      conversation vs non-conversation patterns
+│   │   ├── Initial prompt for extraction.docx         DOC     Original zero-shot clinical extraction prompt (v1)
+│   │   ├── prompt_library (1).csv                     DATA    All prompt variants (zero-shot, few-shot, CoT,
+│   │   │                                                      RAG, ReAct, BFOP, 2pop-mcode, program-aided)
+│   │   ├── mcode gpt zeroshot extraction.pdf          REF     mCODE + GPT zero-shot extraction paper (benchmark)
+│   │   └── mcode_structure.xlsx                       DATA    mCODE oncology field schema reference
+│   ├── ios_app/                                       ← Frontend/mobile app reference (new)
+│   │   ├── README.md                                  DOC     iOS/mobile app scope, GPT-5 API patterns,
+│   │   │                                                      recommended stack (Next.js, React, Tailwind, shadcn)
+│   │   └── gpt-5_frontend.ipynb                       REF     GPT-5 frontend cookbook — one-shot full-stack
+│   │                                                          generation, multimodal image+text input, iterative
+│   │                                                          steering, interactive app examples — OpenAI Cookbook
+│   └── *.pdf / *.md / *.py                            REF     Academic papers, tutorials, misc reference scripts
 │
 ├── data/                                              ← Non-PHI committed data
 │   ├── processed/                                     DIR     Metrics CSVs, prompt library, analysis outputs
@@ -300,6 +329,8 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 | Git commands (Windows) | `repo_and_ide_config/05_git_commands_reference.md` |
 | GitHub auth + push | `repo_and_ide_config/06_github_integration.md` |
 | Run from Colab | `docs/colab_pipeline_guide.md` |
+| LangChain/LangGraph architecture | `docs/executive_summary.md` Appendix G |
+| LangGraph production pipeline design | `docs/executive_summary.md` §G.4 |
 
 ---
 

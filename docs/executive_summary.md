@@ -141,7 +141,7 @@ RecursiveCharacterTextSplitter(
 )
 3.3 Embedding Options
 
-OpenAI text-embedding-3-large
+OpenAI text-embedding-3-large (**prioritized** — demonstrated strong performance on clinical OCR text vectorization; see `references/ios_app/gpt-5_frontend.ipynb` for API pattern using `openai.OpenAI()` client)
 
 HuggingFace sentence-transformers/all-mpnet-base-v2
 
@@ -500,7 +500,7 @@ For each case, the following document-level features should be computed from OCR
 - Total token count / average tokens per report
 - Unique token ratio
 - Lexical diversity (type-token ratio)
-- Embedding variance (sentence-transformer or BERT)
+- Embedding variance (sentence-transformer, BERT, or OpenAI `text-embedding-3-large` — preferred for OCR text vectorization based on observed performance)
 - Negation frequency
 - Uncertainty language frequency (e.g., "possible", "cannot exclude")
 - Table density (structured vs free-text ratio)
@@ -665,8 +665,10 @@ notebooks/
     │   ├── FeatureHasher (hash trick → fixed-size vector)
     │   ├── CountVectorizer (built-in tokenizer + word counts)
     │   ├── HashingVectorizer (built-in tokenizer + hashing)
-    │   └── TfidfVectorizer (TF-IDF weighted features)
-    │   Vectorization method is a parameter — all five are benchmarked.
+    │   ├── TfidfVectorizer (TF-IDF weighted features)
+    │   └── OpenAI text-embedding-3-large (dense 3072-dim embeddings via API — planned 6th method;
+    │       demonstrated strong performance on clinical OCR text; requires OPENAI_API_KEY)
+    │   Vectorization method is a parameter — all six are benchmarked.
     ├── Part 2: ML Validation — XGBoost classifier per vectorization method
     │   ├── 5-fold stratified CV with early stopping
     │   ├── Accuracy, F1, precision, recall per fold × vec method
@@ -821,3 +823,139 @@ reports/
     ├── validation_methods_by_domain.csv     — domain-stratified comparison
     └── validation_by_domain_plot.png        — Radiology vs Pathology comparison
 ```
+
+---
+
+## Appendix G: LangChain / LangGraph Architecture
+
+### G.1 Rationale
+
+The pipeline uses **LangChain** as the unified model abstraction layer so that each task calls the best-performing model via a consistent interface (`ChatAnthropic`, `ChatOpenAI`, `OpenAIEmbeddings`). This decouples task logic from model vendor and enables model swapping without rewriting task code.
+
+In **production** (iOS app monitoring), the pipeline will be lifted into a **LangGraph** state machine where each task is a node and the best model (determined from NB03/NB07 benchmarks) is wired per node.
+
+---
+
+### G.2 Task → Model Mapping
+
+| Task | Notebook | LangChain Class | Planned Best Model |
+|------|----------|-----------------|-------------------|
+| PDF text extraction (native) | NB04 | `ChatAnthropic` | Claude Sonnet 4.5 (transcription) |
+| PDF text extraction (scanned OCR) | NB04 | `pytesseract` + `ChatAnthropic` vision | Claude Sonnet 4.5 vision |
+| Document embeddings | NB05 | `OpenAIEmbeddings` | `text-embedding-3-large` |
+| Clinical element extraction | NB04 / src/llm_eval_by_llm | `ChatAnthropic` / `ChatOpenAI` | TBD from NB07 benchmark |
+| Vectorization (ML validation) | NB07 | `OpenAIEmbeddings` + sklearn | `text-embedding-3-large` (6th method) |
+| Fabrication/omission prediction | NB07 | H2O AutoML / XGBoost | TBD from NB07 CV results |
+
+---
+
+### G.3 LangChain Integration Points (Current Notebooks)
+
+**NB04 — Text Extraction:**
+```python
+from langchain_anthropic import ChatAnthropic
+from langchain_core.messages import HumanMessage
+
+llm = ChatAnthropic(model="claude-sonnet-4-5-20250929")
+```
+
+**NB05 — Document Embeddings (Part 2b):**
+```python
+from langchain_openai import OpenAIEmbeddings
+
+embed_model = OpenAIEmbeddings(model="text-embedding-3-large")
+vectors = embed_model.embed_documents(texts)   # → list of 3072-dim floats
+```
+
+**NB07 — Vectorization Benchmark (6th method):**
+```python
+from langchain_openai import OpenAIEmbeddings
+import numpy as np
+
+embed_model = OpenAIEmbeddings(model="text-embedding-3-large")
+X_openai = np.array(embed_model.embed_documents(corpus))
+```
+
+---
+
+### G.4 LangGraph Production Pipeline Design
+
+```
+                  ┌─────────────────────────────────┐
+                  │   iOS App / REST API trigger     │
+                  └────────────────┬────────────────┘
+                                   │ PDF upload
+                                   ▼
+                  ┌────────────────────────────────────┐
+  Node 1          │  ocr_quality_check                 │
+                  │  pytesseract + OpenCV (NB08 logic) │
+                  │  → blur_score, contrast_score      │
+                  └────────────────┬───────────────────┘
+                                   │ source_type routing
+                        ┌──────────┴──────────┐
+                        ▼                     ▼
+           ┌────────────────────┐  ┌─────────────────────┐
+  Node 2a  │  native_extract    │  │  ocr_extract        │  Node 2b
+           │  PyMuPDF direct    │  │  pytesseract + deblur│
+           │  text extraction   │  │  (NB08 pipeline)    │
+           └────────┬───────────┘  └──────────┬──────────┘
+                    └──────────────┬───────────┘
+                                   ▼
+                  ┌────────────────────────────────────┐
+  Node 3          │  embed_document                    │
+                  │  OpenAIEmbeddings text-embedding-  │
+                  │  3-large → 3072-dim vector         │
+                  └────────────────┬───────────────────┘
+                                   ▼
+                  ┌────────────────────────────────────┐
+  Node 4          │  extract_elements                  │
+                  │  ChatAnthropic / ChatOpenAI        │
+                  │  Best model from NB07 benchmark    │
+                  │  → structured JSON per element     │
+                  └────────────────┬───────────────────┘
+                                   ▼
+                  ┌────────────────────────────────────┐
+  Node 5          │  validate_output                   │
+                  │  Rule-based schema check +         │
+                  │  fabrication risk score (NB07 model)│
+                  └────────────────┬───────────────────┘
+                                   ▼
+                  ┌────────────────────────────────────┐
+  Node 6          │  return_result                     │
+                  │  Structured JSON → iOS app display  │
+                  │  + log to monitoring dashboard      │
+                  └────────────────────────────────────┘
+```
+
+**State schema (TypedDict):**
+```python
+class PipelineState(TypedDict):
+    pdf_path: str
+    source_type: str          # native_pdf | scanned_pdf | native_docx_converted
+    raw_text: str
+    embedding: list[float]
+    extracted_elements: dict
+    validation_flags: dict
+    fabrication_risk_score: float
+    run_metadata: dict        # model used, prompt_id, timestamp, git_hash
+```
+
+**Key LangGraph packages:**
+```
+langgraph>=0.2
+langchain-anthropic>=0.3
+langchain-openai>=0.2
+langchain-core>=0.3
+```
+
+---
+
+### G.5 Model Selection Workflow
+
+1. Run NB07 with all 6 vectorization methods (including `text-embedding-3-large`)
+2. Run NB03 across all extraction methods (pytesseract, Claude Vision, Claude Transcription, GPT-5)
+3. Select best model per task based on:
+   - **Embedding task:** Highest XGBoost 5-fold CV accuracy in NB07
+   - **Extraction task:** Highest sensitivity for high-risk elements (receptor status, laterality) in NB03
+4. Hard-code winning model into each LangGraph node for production deploy
+5. Re-evaluate quarterly or on new prompt library version
