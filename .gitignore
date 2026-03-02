@@ -21,6 +21,9 @@ venv/
 .DS_Store
 Thumbs.db
 
+# References folder (PDFs, local research files — not for version control)
+references/
+
 # Private Data and Outputs
 outputs_private/
 data_private/
