@@ -1,0 +1,100 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red1\green22\blue40;\red10\green10\blue10;\red223\green232\blue255;
+\red13\green62\blue197;\red243\green246\blue255;\red240\green242\blue244;\red19\green0\blue155;}
+{\*\expandedcolortbl;;\cssrgb\c0\c11373\c20784;\cssrgb\c3922\c3922\c3922;\cssrgb\c89804\c92941\c100000;
+\cssrgb\c4314\c34118\c81569;\cssrgb\c96078\c97255\c100000\c50196;\cssrgb\c95294\c96078\c96471;\cssrgb\c10196\c5098\c67059;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww19620\viewh7520\viewkind1
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Setup and Configuration\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf3 The setup involves two main steps: installing a post-save hook with Jupyter and configuring the specific directory where your notebooks are located.\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Install the post-save hook with Jupyter\uc0\u8232 This only needs to be done once per machine (or environment).
+\fs40 \cb4 bash\cf5 \cb1 \uc0\u8232 
+\f1\fs28 \cf3 \cb6 nbautoexport install\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf3 \cb1 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\uc0\u8232 
+\f0 \cb6 \uc0\u8232 
+\fs32 \uc0\u8232 \cf2 \cb1 \uc0\u8232 \u8232 \cf3 If you have a Jupyter server already running, you will need to restart it for the changes to take effect.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Configure your notebook directory\uc0\u8232 Navigate to the directory containing your notebooks (e.g., a 
+\f1\fs28 \cb7 notebooks/
+\f0\fs32 \cb1  folder) and run the configure command. This creates a configuration file named 
+\f1\fs28 \cb7 .nbautoexport
+\f0\fs32 \cb1  in that specific directory.
+\fs40 \cb4 bash\cf5 \cb1 \uc0\u8232 
+\f1\fs28 \cf3 \cb6 cd path/to/your/notebooks/directory\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	4	}\expnd0\expndtw0\kerning0
+nbautoexport configure\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf3 \cb1 \kerning1\expnd0\expndtw0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\uc0\u8232 
+\f0 \cb6 \uc0\u8232 
+\fs32 \uc0\u8232 \cf2 \cb1 \uc0\u8232 \u8232 \cf3 By default, this will automatically export your notebooks to a 
+\f1\fs28 \cb7 script/
+\f0\fs32 \cb1  subdirectory within the same directory as the notebook every time you save the notebook.\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs40 \cf2 Usage\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf3 Once configured:\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Open your notebook in Jupyter Notebook or JupyterLab.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Make changes to the notebook and save it (e.g., using 
+\f1\fs28 \cb7 Ctrl + S
+\f0\fs32 \cb1  or 
+\f1\fs28 \cb7 Cmd + S
+\f0\fs32 \cb1 ).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f1\fs28 \cf3 \cb7 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+nbautoexport
+\f0\fs32 \cb1  will automatically generate a corresponding Python script in the configured output directory (by default, 
+\f1\fs28 \cb7 script/
+\f0\fs32 \cb1 ).\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+You can then commit both the 
+\f1\fs28 \cb7 .ipynb
+\f0\fs32 \cb1  and the 
+\f1\fs28 \cb7 .py
+\f0\fs32 \cb1  files to source control to facilitate code reviews.\'a0\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs40 \cf2 Manual Export\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf3 If you need to manually export a notebook at any time, you can use the 
+\f1\fs28 \cb7 export
+\f0\fs32 \cb1  command:\'a0\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs40 \cf3 \cb4 bash\cf5 \cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf3 \cb6 nbautoexport export path/to/your/notebook.ipynb\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf3 \cb1 This command also accepts a directory as input to export all notebooks within it.\'a0\
+For more details, refer to the {\field{\*\fldinst{HYPERLINK "https://github.com/drivendataorg/nbautoexport"}}{\fldrslt \cf8 \ul \ulc8 nbautoexport documentation on}}}

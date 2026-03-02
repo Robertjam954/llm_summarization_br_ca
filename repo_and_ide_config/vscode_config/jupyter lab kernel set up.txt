@@ -1,0 +1,34 @@
+Workspace VS Code setup for this project
+
+1) Confirm conda path (if different, update `python.condaPath` in `.vscode/settings.json`):
+
+   - Example path found on your machine:
+     C:\Users\jamesr4\AppData\Local\anaconda3\Scripts\conda.exe
+
+2) Register the project environment as a Jupyter kernel (PowerShell):
+
+   # Activate the env (conda prefix) from project folder:
+   conda activate ./envs
+
+   # Or activate the env directly in PowerShell (if conda is not desired):
+   & "${workspaceFolder}\\envs\\Scripts\\Activate.ps1"
+
+   # Install ipykernel if needed and register
+   python -m pip install --upgrade pip ipykernel
+   python -m ipykernel install --user --name=genie_bpc_env --display-name "Python (genie_bpc_env)"
+
+3) Select the workspace interpreter in VS Code
+
+   - Open Command Palette -> "Python: Select Interpreter" -> pick "Python (genie_bpc_env)" or
+   - Use the interpreter path: ${workspaceFolder}\\envs\\python.exe
+
+4) Verify kernel is available
+
+   jupyter kernelspec list
+
+5) Troubleshooting
+
+   - If the kernel doesn't appear: restart VS Code, ensure the Jupyter extension is installed, and run `python -m ipykernel install` while the project env is active.
+   - If your conda exe is in a different location, set the full path in `.vscode/settings.json` under `python.condaPath`.
+
+This file was generated to help ensure VS Code, Conda, and Jupyter use the correct project environment.

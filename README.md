@@ -55,6 +55,7 @@ This project provides a rigorous, reproducible framework for quantifying these f
 ```
 llm_summarization_br_ca/                          ← PROJECT_ROOT (OneDrive + GitHub)
 ├── notebooks/              7 Jupyter notebooks (01–07) with MSK | Goel Lab headers
+├── study_records/          Study protocol, hypothesis, aims (PI-reviewed documents)
 ├── data/
 │   ├── processed/          Non-PHI CSVs: metrics, prompt library, analysis outputs  ← committed
 │   ├── features/           BERT embeddings, OCR quality, text features (NB05)        ← committed
@@ -72,7 +73,15 @@ llm_summarization_br_ca/                          ← PROJECT_ROOT (OneDrive + G
 │   ├── library/                Frozen prompt templates
 │   └── generated/              Agent-derived prompts
 ├── references/             Academic papers, infographics, setup guide (see REFERENCES_INDEX.md)
-├── src/                    Source code scaffold (modeling, services, config)
+├── src/
+│   ├── llm_eval_by_human/  Primary analysis scripts (metrics_utils.py, main_analysis.py)
+│   ├── llm_eval_by_ml/     XGBoost/SHAP/vectorization scripts (NB07 templates)
+│   ├── llm_eval_by_llm/    LLM extraction pipeline (source_document_feature_extraction v1–v3)
+│   ├── classifier_models_prompt_optimization/  Classifier benchmarks (PCA, SVM, XGB, etc.)
+│   ├── data collection and processing/         Deidentification scripts (R + Python)
+│   ├── prompt_eng/         Prompt drafts, mCODE structure, developer prompt
+│   ├── misc_scripts/       Utility scripts (OCR, ROUGE/BLEU, vector store, Mistral)
+│   └── notebooks_legacy/   Pre-refactor notebooks and markdown analysis notes
 ├── eval/                   Evaluation schemas and metric definitions
 ├── models/                 Model configurations
 ├── experiments/            Run tracking (run_id, commit hash, prompt_id, results)

@@ -1,0 +1,27 @@
+Files Created:
+Phase 1 - Feature Extraction:
+source_document_feature_extraction.py - Original version
+source_document_feature_extraction_v2.py - With OCR support
+source_document_feature_extraction_v3.py - Text preservation + OCR
+source_document_feature_extraction_v3_simple.py - Text preservation, no OCR, with extraction success flag
+Phase 2 - Similarity Analysis:
+document_similarity_analysis.py - Uses Voyage AI embeddings to find similar cases with different outcomes
+test_similarity_analysis.py - Test version with mock embeddings
+Phase 3-5 Pipeline Components:
+deepeval_multi_model_pipeline.py - Multi-model, multi-prompt evaluation
+prompt_iteration_tracker.py - Tracks metrics and auto-refines prompts
+timeseries_prompt_forecasting.py - Forecasts accuracy trends
+Supporting Files:
+requirements_pipeline.txt - All dependencies
+text_extraction_issues_log.md - Documents the scanned PDF problem
+pipeline_files_summary.md - Complete overview of all files
+Key Findings:
+Text Extraction Issue: 18/57 matched cases contain scanned image PDFs that require OCR
+Solution Implemented: Added text_extraction_successful flag to identify which cases have extractable text
+Current Status: Ready to run Phase 1 (v3_simple) to get text-preserved data for analysis
+Next Steps:
+Run source_document_feature_extraction_v3_simple.py to extract features with text preservation
+Cases flagged as text_extraction_successful: false will be excluded from similarity analysis
+Set up Voyage AI API key for semantic similarity analysis
+Proceed with DeepEval pipeline using cases with successful text extraction
+The pipeline is modular and can handle the scanned PDF issue by simply excluding those cases from text-based analyses while still preserving their annotation data for other evaluations.
