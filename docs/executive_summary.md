@@ -464,6 +464,108 @@ Statistical analysis plan
 
 Data availability statement
 
+14. HCAT Framework Integration (Human-Calibrated Automated Testing)
+
+This project implements the HCAT framework (adapted from H2O.ai's banking GLM validation methodology) to address the unique challenges of validating open-ended LLM outputs in clinical summarization.
+
+14.1 The Challenge: Why Standard Testing Fails for Clinical LLMs
+
+Traditional ML models (e.g., classifiers) produce discrete outputs (0/1), making validation straightforward. Clinical LLM summarization is harder to validate because:
+
+- **Open-ended outputs**: No single "correct" answer to a clinical query
+- **Subjectivity**: "Quality" depends on clinical context and information completeness
+- **LLM-as-Judge risks**: Using one AI to grade another creates "circular bias" where the judge ignores the same errors it would make
+
+14.2 The HCAT Framework: Three Pillars Implemented
+
+**A. Automatic Test Generation (via Document Quality Stratification)**
+
+Rather than manually writing test questions, the system uses document quality metrics to stratify validation:
+
+- **Image/OCR Quality** (Laplacian variance, Tenengrad, RMS contrast) stratifies test cases by input clarity
+- **Text Structure** (section completeness, temporal markers) ensures coverage across document types
+- **Medical Content Density** (negation frequency, uncertainty language, term diversity) captures complexity variation
+
+This ensures the LLM is tested across the full spectrum of clinical document quality, not just high-quality cases.
+
+**B. Explainable Evaluation Metrics (4 Dimensions)**
+
+The framework replaces simple word-overlap scores (BLEU, ROUGE) with embedding-based metrics measuring four functionality dimensions:
+
+| Dimension | Metric | Description | Implementation |
+|-----------|--------|-------------|----------------|
+| **Context Relevancy** | `max_sim(query, retrieved_docs)` × 0.7 + `avg_sim()` × 0.3 | Does retrieved context actually help answer the query? | `embedding_evaluation_metrics.py:EmbeddingEvaluator.compute_context_relevancy()` |
+| **Groundedness** | % claims with similarity ≥ threshold to source | Is the LLM answer based only on provided documents? Prevents hallucinations. | `embedding_evaluation_metrics.py:compute_groundedness()` |
+| **Completeness** | 0.6 × key_phrase_coverage + 0.4 × semantic_sim | Did the LLM mention all key clinical points from the source? | `embedding_evaluation_metrics.py:compute_completeness()` |
+| **Answer Relevancy** | 0.7 × semantic_sim(query, answer) + 0.3 × term_coverage | Did the LLM actually answer the user's specific clinical question? | `embedding_evaluation_metrics.py:compute_answer_relevancy()` |
+
+**C. Human-Machine Calibration (Double-Calibration)**
+
+Two-stage calibration ensures machine "grades" align with clinical expert judgment:
+
+**Probability Calibration** (via `human_machine_calibration.py:ProbabilityCalibrator`)
+- Maps raw embedding similarity scores to 0–1 probability scale
+- Methods: Isotonic Regression (non-parametric) or Platt scaling (logistic)
+- Metrics: Expected Calibration Error (ECE), Maximum Calibration Error (MCE), Brier score
+
+**Conformal Prediction** (via `human_machine_calibration.py:ConformalPredictor`)
+- Provides prediction intervals with guaranteed coverage (1 − α)
+- Flags uncertain predictions where interval crosses decision threshold
+- Triggers human-in-the-loop review for low-confidence cases
+
+14.3 Risk, Safety, and Robustness (Healthcare-Specific Layer)
+
+Beyond the three HCAT pillars, clinical deployment requires additional safety checks (implemented in `patient_safety_metrics.py`):
+
+**Privacy Protection**
+- **PII Detection**: Regex patterns (SSN, MRN, phone, email, address) + Presidio NER + spaCy entity recognition
+- **PHI Risk Scoring**: Weighted by entity type criticality (SSN=1.0, date=0.3)
+- **Output**: Normalized 0–1 risk score + binary flag
+
+**Toxicity and Bias**
+- **Toxicity Detection**: `unitary/toxic-bert` for toxic, severe_toxic, obscene, threat categories
+- **Medical Bias Terms**: Race ("African American", "Caucasian"), Socioeconomic ("uninsured", "low income"), Stigma ("drug seeker", "noncompliant")
+- **Output**: Max toxicity score + bias category flags
+
+**Adversarial Robustness**
+- **Pattern Detection**: Instruction override, jailbreak attempts ("DAN"), role-play prompts, encoding tricks
+- **Contradiction Detection**: Negation flips and conflict markers ("however", "but", "contrary")
+- **Output**: Adversarial indicator list + contradiction boolean
+
+14.4 Unified Evaluation Pipeline
+
+The `hcat_evaluation_pipeline.py:HCATEvaluator` class provides a single interface:
+
+```python
+evaluator = HCATEvaluator(embedding_model="all-mpnet-base-v2")
+
+report = evaluator.evaluate(
+    case_id="CASE_001",
+    query="What is the patient's ER/PR status?",
+    answer="ER positive (90%), PR positive (80%)",
+    reference="ER positive, PR positive",
+    source_text="Full pathology report...",
+    source_documents=["pathology_report.txt"]
+)
+
+# Aggregated outputs
+report.overall_trust_score      # Weighted combination of all metrics
+report.overall_safety_score     # 1 - PII risk
+report.requires_human_review    # Boolean flag
+report.review_reasons           # List of concern categories
+```
+
+14.5 Integration with Existing Validation Framework
+
+The HCAT modules augment (not replace) the existing validation pipeline:
+
+| Notebook | HCAT Integration |
+|----------|-----------------|
+| 01_deidentification | Patient safety metrics validate deidentification completeness |
+| 04_source_doc_text_extraction | Document quality features flag low-quality OCR for exclusion |
+| 05_feature_extraction_ocr_bert | Embedding metrics computed alongside BERT embeddings |
+| 07_validation_methods_comparison | Calibration layer added to ML/DL validation comparison |
+
 ---
 
 ## Appendix A: Evaluation Framework — Metric Definitions
@@ -729,53 +831,58 @@ data/
 
 ```
 src/
-├── llm_eval_by_human/
-│   ├── main_analysis.py                     — primary analysis: element/domain metrics, bootstrap CIs,
-│   │                                          McNemar p-values, confusion matrices, all plots/tables
-│   ├── metric_utils.py                      — compute_confusion_counts, compute_metrics_from_counts,
-│   │                                          bootstrap_ci, element_metric_pvalue, mcnemar_exact_from_masks,
-│   │                                          metric_correct_masks, plot_confusion_heatmap
-│   ├── metrics_utils.py                     — duplicate of metric_utils.py (imported by some scripts)
-│   ├── human_judge_analysis_classification_metrics.py
-│   │                                        — extended classification analysis with inline p-value functions
-│   ├── add_observation_metrics.py           — add_observation_level_metrics, generate_observation_summary
-│   ├── create_comprehensive_enhanced_dataset.py — integrates obs/element/domain metrics into one CSV
-│   ├── observation_level_metrics.py         — per-row confusion status, row-level summary metrics
-│   ├── main analysis.py                     — older version of main_analysis.py (deprecated)
-│   └── modeling_feature_importance/
-│       ├── ai_feature_interaction_analysis.py      — H2O XGBoost/GBM feature interactions
-│       ├── ai_feature_interaction_clean.py         — cleaned version of interaction analysis
-│       ├── ai_element_accuracy_predictors_analysis.py
-│       ├── ai_fabrication_binary_analysis.py
-│       ├── ai_fabrication_comprehensive_analysis.py
-│       ├── ai_fabrication_predictors_analysis.py
-│       ├── h2o_ai_only_feature_importance.py
-│       ├── h2o_feature_importance_analysis.py
-│       └── h2o_model_selection_feature_importance.py
+├── modeling/                              # HCAT evaluation framework + ML models
+│   ├── patient_safety_metrics.py          # PII/toxicity/adversarial detection (HCAT Safety)
+│   │   ├── PIIDetector                    # NER + regex PHI detection
+│   │   ├── ToxicityDetector               # unitary/toxic-bert + bias term detection
+│   │   ├── AdversarialChecker             # Prompt injection pattern detection
+│   │   └── PatientSafetyEvaluator         # Unified safety evaluation interface
+│   │
+│   ├── embedding_evaluation_metrics.py    # HCAT 4-dimension evaluation metrics
+│   │   ├── EmbeddingEvaluator             # Context Relevancy, Groundedness, Completeness, Answer Relevancy
+│   │   ├── EmbeddingModelWrapper          # sentence-transformers with fallback encoding
+│   │   └── TextPreprocessor               # Key phrase extraction, sentence splitting
+│   │
+│   ├── document_quality_features.py       # Document quality assessment (HCAT input validation)
+│   │   ├── ImageQualityAnalyzer           # OCR quality: blur, contrast, skew detection
+│   │   ├── TextStructureAnalyzer          # Section completeness, temporal consistency
+│   │   ├── MedicalContentAnalyzer         # Information density, redundancy, negation clarity
+│   │   └── DocumentQualityEvaluator        # Unified quality scoring
+│   │
+│   ├── human_machine_calibration.py       # Double-calibration (HCAT calibration layer)
+│   │   ├── ProbabilityCalibrator          # Isotonic regression / Platt scaling
+│   │   ├── ConformalPredictor             # Conformal prediction intervals
+│   │   ├── HumanMachineCalibrator         # Combined calibration pipeline
+│   │   └── MultiMetricCalibrator          # Multi-dimensional calibration
+│   │
+│   └── hcat_evaluation_pipeline.py        # Unified HCAT evaluation interface
+│       ├── HCATEvaluator                  # Main entry point integrating all components
+│       ├── HCATEvaluationReport           # Complete evaluation results container
+│       └── HCATResultsAggregator          # Batch processing and summary statistics
 │
-├── classifier_models_prompt_optimization/
-│   ├── classifiers.py                       — sklearn classifiers (RF, SVM, Logistic, etc.)
-│   ├── PCA.py                               — PCA dimensionality reduction
-│   ├── decision tree classifier_importance.py
-│   ├── gaussian naive bayes.py
-│   ├── model selection.py
-│   ├── sgd_classifier.py
-│   └── tsne knn classifier.py
+├── data collection and processing/
+│   └── analyze missing_descriptive analysis_descriptive plots_tables.py
 │
-├── data collection and processing - fix/
-│   ├── analyze missing_descriptive analysis_descriptive plots_tables.py
-│   ├── h2o_automl_advanced.py
-│   ├── h2o_automl_example.py
-│   ├── h2o_automl_starter.py
-│   ├── h2o_local_automl.py
-│   └── h2o_simple_test.py
+├── data reports/
+│   └── (4 legacy analysis scripts)
 │
-└── llm_eval_by_llm/
-    ├── api.py                               — LLM API calls for extraction
-    ├── deep_eval_llm_judge_api.py           — DeepEval LLM-as-judge evaluation
-    ├── demo_extraction.py                   — demo extraction pipeline
-    └── xgb_aft_*.py                         — XGBoost AFT feature processing + training
+├── exploratory data analysis/
+│   └── (1 script)
+│
+├── services/
+│   └── (1 item)
+│
+├── __init__.py
+├── config.py
+└── placeholder.txt
 ```
+
+**HCAT Framework Alignment**: The `src/modeling/` modules implement the three HCAT pillars:
+- **Automatic Test Generation** → Document quality assessment stratifies test cases
+- **Explainable Evaluation** → 4-dimension embedding metrics (Context Relevancy, Groundedness, Completeness, Answer Relevancy)
+- **Human-Machine Calibration** → Probability calibration + conformal prediction for uncertainty quantification
+
+Plus **Risk, Safety, and Robustness**: Patient safety metrics (PII, toxicity, adversarial checks)
 
 ### F.4 Generated Reports (`reports/`)
 

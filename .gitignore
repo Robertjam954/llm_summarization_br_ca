@@ -19,6 +19,7 @@ venv/
 
 # OS Files
 .DS_Store
+.Rhistory
 Thumbs.db
 
 # Private Data and Outputs

@@ -66,13 +66,21 @@ llm_summarization_br_ca/
 │   ├── executive_summary.md    Full technical executive summary + code map
 │   ├── dataset_metadata.md     YAML front-matter dataset specification
 │   └── manuscript/             Project outline, methods, prompt documentation
-├── reports/                All generated CSVs, modeling reports (renamed from data reports/)
+├── reports/                All generated CSVs, modeling reports
 ├── prompts/
-│   ├── prompt_library.csv      9 prompt versions with metadata
-│   ├── library/                Frozen prompt templates
-│   └── generated/              Agent-derived prompts
-├── references/             Academic papers, infographics, setup guide (see REFERENCES_INDEX.md)
-├── src/                    Source code scaffold (modeling, services, config)
+│   └── prompt_library.csv      Prompt versions with metadata
+├── references/             Academic papers, infographics, setup guide
+├── src/                    Source code modules
+│   ├── modeling/           HCAT evaluation framework + ML models
+│   │   ├── patient_safety_metrics.py       # PII/toxicity/adversarial detection
+│   │   ├── embedding_evaluation_metrics.py # HCAT 4-dimension metrics
+│   │   ├── document_quality_features.py    # OCR quality + text structure
+│   │   ├── human_machine_calibration.py    # Probability calibration + conformal prediction
+│   │   └── hcat_evaluation_pipeline.py     # Unified evaluation interface
+│   ├── data collection and processing/
+│   ├── data reports/
+│   ├── exploratory data analysis/
+│   └── services/
 ├── eval/                   Evaluation schemas and metric definitions
 ├── models/                 Model configurations
 ├── experiments/            Run tracking (run_id, commit hash, prompt_id, results)
