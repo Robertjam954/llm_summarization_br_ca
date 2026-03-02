@@ -162,6 +162,7 @@ nohup ./tools/watch_repo.sh 60 &
 
 - **Executive Summary & Code Map:** [`docs/executive_summary.md`](docs/executive_summary.md)
 - **Dataset Specification:** [`docs/dataset_metadata.md`](docs/dataset_metadata.md)
+- **Colab Pipeline Guide:** [`docs/colab_pipeline_guide.md`](docs/colab_pipeline_guide.md)
 - **References Index:** [`references/REFERENCES_INDEX.md`](references/REFERENCES_INDEX.md)
 - **Environment Setup:** [`references/environment_setup.md`](references/environment_setup.md)
 
