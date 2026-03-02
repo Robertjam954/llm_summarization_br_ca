@@ -6,21 +6,44 @@ Prompt-technique evaluation for feature-level human vs. LLM validation of clinic
 
 ---
 
-## Motivation
+## Overview
 
-Large Language Models are increasingly used to extract structured clinical features from unstructured medical records. In breast cancer care, accurate feature extraction is critical for surgical planning, tumor board review, and multidisciplinary documentation. However, LLM-generated summaries may **fabricate** clinical features not present in the source documents or **omit** features that are present — both failure modes pose direct patient safety risks.
+Large Language Models are increasingly deployed to extract structured clinical features from unstructured medical records. In breast cancer care, accurate extraction of 14 key clinical elements is critical for surgical planning, tumor board review, and multidisciplinary documentation. This project provides a rigorous, reproducible framework for quantifying LLM performance compared to human expert annotation, with particular focus on **fabrication (hallucination) risks** that pose direct patient safety threats.
 
-This project provides a rigorous, reproducible framework for quantifying these failure modes and comparing validation approaches: **human annotator**, **LLM-as-judge**, **ML (XGBoost)**, and **deep learning (BERT)**.
+## Primary Outcomes (Classification Metrics)
+
+| Metric | Definition | Clinical Significance |
+|--------|------------|----------------------|
+| **Correct Rate** | TP / (TP + FN + FP) | Proportion of accurately extracted features |
+| **Omission Rate** | FN / (TP + FN) | Missed features present in source documents |
+| **Fabrication Rate** | FP / (FP + TN) | **Hallucinated features** not present in source (primary safety risk) |
+
+**Annotator coding:** 1 = Correct, 2 = Omission, 3 = Fabrication, N/A = Not applicable
+
+## Secondary Outcomes (Safety & Performance)
+
+| Metric | Domain | Application |
+|--------|--------|-------------|
+| **Sensitivity (Recall)** | Diagnostic | Ability to detect present features |
+| **Specificity** | Diagnostic | Ability to reject absent features |
+| **Positive Predictive Value** | Diagnostic | Reliability of positive extractions |
+| **Negative Predictive Value** | Diagnostic | Reliability of negative extractions |
+| **Cohen's κ** | Agreement | Human vs AI inter-rater reliability |
+| **Domain-stratified performance** | Safety | Radiology vs Pathology element comparison |
+| **Prompt technique impact** | Optimization | Effect of prompting strategies on outcomes |
 
 ## Key Questions
 
-1. Does the AI fabrication rate significantly exceed the human fabrication rate for any clinical element?
-2. Which clinical elements are most fragile (highest fabrication / omission rates)?
-3. Which document-level features (OCR quality, lexical diversity, negation frequency) best predict AI extraction errors?
-4. Does RAG-based retrieval reduce hallucination compared to full-document prompting?
-5. Are Radiology elements more or less fragile than Pathology elements?
-6. How do prompt iterations change diagnostic metrics across extraction runs?
-7. How do text vectorization methods affect ML-based validation performance?
+1. **Safety**: Does AI fabrication rate significantly exceed human fabrication rate for any clinical element?
+2. **Reliability**: Which elements are most fragile (highest fabrication/omission rates)?
+3. **Predictors**: Which document features (OCR quality, lexical diversity, negation frequency) predict AI errors?
+4. **Retrieval**: Does RAG-based retrieval reduce hallucination vs full-document prompting?
+5. **Domain**: Are radiology elements more/less fragile than pathology elements?
+6. **Optimization**: How do prompt iterations affect diagnostic metrics across runs?
+7. **Vectorization**: How do text vectorization methods affect ML-based validation performance?
+8. **Ontology**: Does mCodeGPT DAG extraction (RLS/BFOP/2POP) reduce fabrication vs flat prompting?
+9. **Method**: Which DAG-based prompt method achieves best completeness-accuracy balance?
+10. **Prediction**: Can embeddings + document quality predict extraction correctness/fabrication?
 
 ## Dataset
 
@@ -38,6 +61,10 @@ This project provides a rigorous, reproducible framework for quantifying these f
 
 **Primary safety outcome:** Fabrication rate = FP / (FP + TN)
 
+**Clinical Elements (14):**
+- *Radiology*: Lesion Size, Laterality, Location, Calcifications/Asymmetry, MRI Enhancement, Extent, Clip Placement, Workup Recommendation, Lymph Node Status
+- *Pathology*: Chronology Preservation, Biopsy Method, Invasive Component Size, Histologic Diagnosis, Receptor Status
+
 ## Notebooks
 
 | # | Notebook | Description |
@@ -49,12 +76,15 @@ This project provides a rigorous, reproducible framework for quantifying these f
 | 05 | `05_feature_extraction_ocr_bert.ipynb` | OCR image quality scoring, BERT embeddings, text features, H2O feature interactions |
 | 06 | `06_metadata_data_dictionary.ipynb` | Auto-generated data dictionary + variable names Excel with styled formatting |
 | 07 | `07_validation_methods_comparison.ipynb` | Vectorization benchmark (5 methods), XGBoost + BERT validation, SHAP importance, stratified comparison |
+| 08 | `08_ocr_image_quality_deblur.ipynb` | Blur detection scan, deblur pipeline, before/after OCR quality comparison |
+| 09 | `09_mcodegpt_dag_extraction.ipynb` | mCodeGPT DAG extraction with RLS/BFOP/2POP methods for 14 breast cancer elements |
+| 10 | `10_openai_predictive_model.ipynb` | OpenAI embeddings + document quality → predict extraction outcomes; multi-embedding (OpenAI, TF-IDF+SVD, Sentence-BERT) × multi-algorithm (Logistic Regression, Gradient Boosting, SVM, TabNet) comparison across correct/omission/fabrication |
 
 ## Repository Structure
 
 ```
 llm_summarization_br_ca/                          ← PROJECT_ROOT (OneDrive + GitHub)
-├── notebooks/              7 Jupyter notebooks (01–07) with MSK | Goel Lab headers
+├── notebooks/              10 Jupyter notebooks (01–10) with MSK | Goel Lab headers
 ├── study_records/          Study protocol, hypothesis, aims (PI-reviewed documents)
 ├── data/
 │   ├── processed/          Non-PHI CSVs: metrics, prompt library, analysis outputs  ← committed
@@ -68,6 +98,9 @@ llm_summarization_br_ca/                          ← PROJECT_ROOT (OneDrive + G
 ├── conferences/
 │   └── acs_clinical_congress/  ACS Clinical Congress abstract drafts
 ├── reports/                Exported figures and tables for manuscript/presentations   ← committed
+│   ├── comprehensive_model_comparison.csv    — 3 embeddings × 4 algorithms × 3 outcomes
+│   ├── model_comparison_*_auc.png            — AUC bar plots per outcome
+│   ├── model_comparison_*_heatmap.png        — AUC heatmaps (embedding × algorithm)
 ├── prompts/
 │   ├── prompt_library.csv      9 prompt versions with metadata
 │   ├── library/                Frozen prompt templates
@@ -123,6 +156,40 @@ C:\Users\jamesr4\loc\data_private\               ← DATA_PRIVATE_DIR (local onl
 - TfidfVectorizer — TF-IDF weighted features
 
 Results are stratified by **evaluation method × vectorization method × domain** (Radiology vs. Pathology).
+
+### Prompt Engineering Techniques
+
+Extraction prompts employ a multi-technique approach based on the Anthropic Prompt Engineering Tutorial:
+
+| Version | Label | Techniques |
+|---|---|---|
+| v1 | Initial extraction | Basic structured prompt, JSON output |
+| v2 | Zero-shot + CoT + anti-fabrication | Role assignment, 5-step chain-of-thought, 6 anti-fabrication rules, confidence scoring, strict JSON |
+| v3 | Few-shot enhanced | v2 + 2–3 clinical examples per modality (standard, conflict, missing data) |
+| v3+ | Few-shot + RAG + self-consistency | v3 + RAG verification loop + self-consistency on critical features (receptor status, invasive size) |
+
+**Core techniques:** Role assignment (Ch. 3), chain-of-thought reasoning (Ch. 6), avoiding hallucinations (Ch. 8), formatted output (Ch. 5), few-shot prompting (Ch. 7), data/instruction separation (Ch. 4), clear directives (Ch. 2).
+
+**Advanced methods:** RAG verification (re-query vector store to confirm traceability), self-consistency (3× extraction on safety-critical features), tree-of-thought (design phase for ambiguous edge cases), confidence calibration (0.0–1.0 per extraction).
+
+See [`docs/executive_summary.md` Appendix H](docs/executive_summary.md) for the full taxonomy.
+
+### Predictive Modeling (Notebook 10)
+
+| Embedding Method | Description |
+|---|---|
+| **OpenAI text-embedding-3-large** | 3072-dim dense embeddings → PCA(50) reduction |
+| **TF-IDF + SVD** | Sparse TF-IDF (5000 features, 1–2 grams) → TruncatedSVD(100) |
+| **Sentence-BERT** | all-MiniLM-L6-v2 dense sentence embeddings (384-dim) |
+
+| Algorithm | Key Parameters |
+|---|---|
+| **Logistic Regression** | C=0.1, balanced class weights, max_iter=1000 |
+| **Gradient Boosting** | 200 trees, depth=3, lr=0.05 |
+| **SVM (Linear)** | Calibrated LinearSVC, balanced weights |
+| **TabNet** | n_d=64, n_a=64, entmax masking (optional) |
+
+All combinations evaluated on three binary outcomes (correct, omission, fabrication) via 5-fold stratified CV with AUC, accuracy, and F1 metrics.
 
 ## Getting Started
 

@@ -1,6 +1,0 @@
-,tumor_invasive_dcis,complex_case_status,lesion_size_status_source,lesion_size_status_human,lesion_size_status_ai,Chronology Preserved_human_status,Histologic Diagnosis_ai_correct,Lesion Size_ai_status,Histologic_Diagnosis_human_npv,Accurate_Clip_Placement_specificity_diff,Lymph_Node_human_specificity,Radiology_human_TP,Pathology_human_specificity,Radiology_human_fabrication_rate
-0,1,0,1,1,1,TP,1.0,TP,0.0,0.33333333333333337,1.0,1613,0.9090909090909091,0.0030902348578491965
-1,1,1,1,1,1,TP,1.0,TP,0.0,0.33333333333333337,1.0,1613,0.9090909090909091,0.0030902348578491965
-2,1,0,1,1,1,TP,0.0,TP,0.0,0.33333333333333337,1.0,1613,0.9090909090909091,0.0030902348578491965
-3,1,0,1,1,1,TP,0.0,TP,0.0,0.33333333333333337,1.0,1613,0.9090909090909091,0.0030902348578491965
-4,1,0,1,1,1,TP,0.0,TP,0.0,0.33333333333333337,1.0,1613,0.9090909090909091,0.0030902348578491965
