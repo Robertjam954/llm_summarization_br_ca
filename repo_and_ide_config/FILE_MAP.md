@@ -40,9 +40,17 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 │   │                                                          Outputs → data/features/
 │   ├── 06_metadata_data_dictionary.ipynb              NB      Auto-generates data_dictionary.xlsx (3 sheets,
 │   │                                                          styled) and variable_names.xlsx
-│   └── 07_validation_methods_comparison.ipynb         NB      Vectorization benchmark (5 methods), XGBoost
-│                                                              5-fold CV, BERT fine-tuning 5-fold CV, SHAP
-│                                                              feature importance, stratified domain comparison
+│   ├── 07_validation_methods_comparison.ipynb         NB      Vectorization benchmark (5 methods), XGBoost
+│   │                                                          5-fold CV, BERT fine-tuning 5-fold CV, SHAP
+│   │                                                          feature importance, stratified domain comparison
+│   └── 08_ocr_image_quality_deblur.ipynb              NB      OCR image quality scan (Laplacian blur score),
+│                                                              deblur pipeline (hist-eq → contrast → resize →
+│                                                              Otsu+adaptive threshold → sharpen → morph ops),
+│                                                              before/after OCR comparison, word-level
+│                                                              precision/recall/F1 vs NB04 ground truth.
+│                                                              Adapted from references/ocr_deblur_metrics_prepost.py
+│                                                              Outputs → reports/ocr_blur_scan_results.csv,
+│                                                              ocr_deblur_comparison.csv, ocr_quality_summary.csv
 │
 ├── study_records/                                     ← IRB/Protocol documents (PI-reviewed)
 │   ├── Hypothesis and Aims.docx                       DOC     Original hypothesis and specific aims
