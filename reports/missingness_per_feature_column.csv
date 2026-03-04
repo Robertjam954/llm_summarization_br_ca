@@ -1,0 +1,43 @@
+Element,Column Role,Column Name,n_missing,pct_missing,n_present
+Additional Enhancement (MRI),ai,additional_enhancement_mri_status_ai,108,54.0,92
+Additional Enhancement (MRI),human,additional_enhancement_mri_status_human,108,54.0,92
+Extent,ai,extent_status_ai,76,38.0,124
+Extent,human,extent_status_human,76,38.0,124
+Calcifications / Asymmetry,ai,calcifications_asymmetry_status_ai,59,29.5,141
+Calcifications / Asymmetry,human,calcifications_asymmetry_status_human,59,29.5,141
+Workup Recommendation,ai,workup_recommendation_status_ai,38,19.0,162
+Workup Recommendation,human,workup_recommendation_status_human,38,19.0,162
+Invasive Component Size (Pathology),ai,invasive_component_size_pathology_status_ai,36,18.0,164
+Invasive Component Size (Pathology),human,invasive_component_size_pathology_status_human,36,18.0,164
+Lymph Node,human,Lymph node_status_human,22,11.0,178
+Lymph Node,ai,Lymph node_status_ai,22,11.0,178
+Accurate Clip Placement,ai,accurate_clip_placement_status_ai,18,9.0,182
+Accurate Clip Placement,human,accurate_clip_placement_status_human,16,8.0,184
+Receptor Status,human,receptor_status_human,13,6.5,187
+Receptor Status,ai,receptor_status_ai,13,6.5,187
+Lesion Size,ai,lesion_size_status_ai,2,1.0,198
+Lesion Size,human,lesion_size_status_human,2,1.0,198
+Biopsy Method,ai,biopsy_method_status_ai,1,0.5,199
+Chronology Preserved,human,chronology_preserved_status_human,1,0.5,199
+Chronology Preserved,ai,chronology_preserved_status_ai,1,0.5,199
+Biopsy Method,human,biopsy_method_status_human,1,0.5,199
+Lesion Location,human,lesion_location_status_human,1,0.5,199
+Lesion Location,ai,lesion_location_status_ai,1,0.5,199
+Lesion Laterality,source,laterality_status_source,0,0.0,200
+Lesion Size,source,lesion_size_status_source,0,0.0,200
+Calcifications / Asymmetry,source,calcifications_asymmetry_status_source,0,0.0,200
+Lesion Location,source,lesion_location_status_source,0,0.0,200
+Lesion Laterality,human,laterality_status_human,0,0.0,200
+Lesion Laterality,ai,laterality_status_ai,0,0.0,200
+Additional Enhancement (MRI),source,additional_enhancement_mri_status_source,0,0.0,200
+Workup Recommendation,source,workup_recommendation_status_source,0,0.0,200
+Accurate Clip Placement,source,accurate_clip_placement_status_source,0,0.0,200
+Extent,source,extent_status_source,0,0.0,200
+Lymph Node,source,Lymph node_status_source,0,0.0,200
+Invasive Component Size (Pathology),source,invasive_component_size_pathology_status_source,0,0.0,200
+Chronology Preserved,source,chronology_preserved_status_source,0,0.0,200
+Biopsy Method,source,biopsy_method_status_source,0,0.0,200
+Histologic Diagnosis,human,histologic_diagnosis_status_human,0,0.0,200
+Histologic Diagnosis,source,histologic_diagnosis_status_source,0,0.0,200
+Receptor Status,source,receptor_status_source,0,0.0,200
+Histologic Diagnosis,ai,histologic_diagnosis_status_ai,0,0.0,200

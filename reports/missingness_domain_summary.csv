@@ -1,0 +1,3 @@
+Domain,n_elements,avg_missing_rate_pct,max_missing_rate_pct,min_missing_rate_pct,total_missing_cells
+Radiology,11,9.848484848484846,36.0,0.0,650
+Pathology,4,4.166666666666667,12.0,0.0,100

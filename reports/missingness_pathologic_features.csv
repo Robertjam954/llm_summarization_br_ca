@@ -1,0 +1,5 @@
+Element,total_missing,avg_missing_rate,n_cells,avg_missing_rate_pct
+Invasive Component Size (Pathology),72,0.12,600,12.0
+Receptor Status,26,0.043333333333333335,600,4.333333333333334
+Biopsy Method,2,0.0033333333333333335,600,0.33333333333333337
+Histologic Diagnosis,0,0.0,600,0.0

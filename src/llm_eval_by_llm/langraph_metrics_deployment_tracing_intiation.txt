@@ -1,0 +1,1174 @@
+add to metrics from first LLM summary
+
+* **Context Relevancy:** Measures how well retrieved documents address the input query using sentence-level semantic similarity.
+* **Groundedness (Faithfulness):** Ensures the generated answer is supported by the retrieved context to prevent hallucinations. This is measured via sentence similarity and NLI (entailment probabilities).
+* **Completeness:** Evaluates if the answer covers all essential points from the context. It uses both **sentence similarity** and **Wasserstein Distance** (Earth Mover's Distance) to measure the alignment of information distribution.
+* **Answer Relevancy:** Quantifies how directly the response addresses the user's specific intent.
+
+--- establish hierachial team of agents for task divison
+# Hierarchical Agent Teams
+
+In our previous example ([Agent Supervisor](../agent_supervisor)), we introduced the concept of a single [supervisor node](https://langchain-ai.github.io/langgraph/concepts/multi_agent/#supervisor) to route work between different worker nodes.
+
+But what if the job for a single worker becomes too complex? What if the number of workers becomes too large?
+
+For some applications, the system may be more effective if work is distributed _hierarchically_.
+
+You can do this by composing different subgraphs and creating a top-level supervisor, along with mid-level supervisors.
+
+To do this, let's build a simple research assistant! The graph will look something like the following:
+
+![diagram](attachment:d98ed25c-51cb-441f-a6f4-016921d59fc3.png)
+
+This notebook is inspired by the paper [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155), by Wu, et. al. In the rest of this notebook, you will:
+
+1. Define the agents' tools to access the web and write files
+2. Define some utilities to help create the graph and agents
+3. Create and define each team (web research + doc writing)
+4. Compose everything together.
+
+## Setup
+
+First, let's install our required packages and set our API keys
+%%capture --no-stderr
+%pip install -U langgraph langchain_community langchain_anthropic langchain-tavily langchain_experimental
+import getpass
+import os
+
+
+def _set_if_undefined(var: str):
+    if not os.environ.get(var):
+        os.environ[var] = getpass.getpass(f"Please provide your {var}")
+
+
+_set_if_undefined("OPENAI_API_KEY")
+_set_if_undefined("TAVILY_API_KEY")
+<div class="admonition tip">
+    <p class="admonition-title">Set up <a href="https://smith.langchain.com">LangSmith</a> for LangGraph development</p>
+    <p style="padding-top: 5px;">
+        Sign up for LangSmith to quickly spot issues and improve the performance of your LangGraph projects. LangSmith lets you use trace data to debug, test, and monitor your LLM apps built with LangGraph — read more about how to get started <a href="https://docs.smith.langchain.com">here</a>. 
+    </p>
+</div>
+## Create Tools
+
+Each team will be composed of one or more agents each with one or more tools. Below, define all the tools to be used by your different teams.
+
+We'll start with the research team.
+
+**ResearchTeam tools**
+
+The research team can use a search engine and url scraper to find information on the web. Feel free to add additional functionality below to boost the team performance!
+from typing import Annotated, List
+
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_tavily import TavilySearch
+from langchain_core.tools import tool
+
+tavily_tool = TavilySearch(max_results=5)
+
+
+@tool
+def scrape_webpages(urls: List[str]) -> str:
+    """Use requests and bs4 to scrape the provided web pages for detailed information."""
+    loader = WebBaseLoader(urls)
+    docs = loader.load()
+    return "\n\n".join(
+        [
+            f'<Document name="{doc.metadata.get("title", "")}">\n{doc.page_content}\n</Document>'
+            for doc in docs
+        ]
+    )
+**Document writing team tools**
+
+Next up, we will give some tools for the doc writing team to use.
+We define some bare-bones file-access tools below.
+
+Note that this gives the agents access to your file-system, which can be unsafe. We also haven't optimized the tool descriptions for performance.
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from typing import Dict, Optional
+
+from langchain_experimental.utilities import PythonREPL
+from typing_extensions import TypedDict
+
+_TEMP_DIRECTORY = TemporaryDirectory()
+WORKING_DIRECTORY = Path(_TEMP_DIRECTORY.name)
+
+
+@tool
+def create_outline(
+    points: Annotated[List[str], "List of main points or sections."],
+    file_name: Annotated[str, "File path to save the outline."],
+) -> Annotated[str, "Path of the saved outline file."]:
+    """Create and save an outline."""
+    with (WORKING_DIRECTORY / file_name).open("w") as file:
+        for i, point in enumerate(points):
+            file.write(f"{i + 1}. {point}\n")
+    return f"Outline saved to {file_name}"
+
+
+@tool
+def read_document(
+    file_name: Annotated[str, "File path to read the document from."],
+    start: Annotated[Optional[int], "The start line. Default is 0"] = None,
+    end: Annotated[Optional[int], "The end line. Default is None"] = None,
+) -> str:
+    """Read the specified document."""
+    with (WORKING_DIRECTORY / file_name).open("r") as file:
+        lines = file.readlines()
+    if start is None:
+        start = 0
+    return "\n".join(lines[start:end])
+
+
+@tool
+def write_document(
+    content: Annotated[str, "Text content to be written into the document."],
+    file_name: Annotated[str, "File path to save the document."],
+) -> Annotated[str, "Path of the saved document file."]:
+    """Create and save a text document."""
+    with (WORKING_DIRECTORY / file_name).open("w") as file:
+        file.write(content)
+    return f"Document saved to {file_name}"
+
+
+@tool
+def edit_document(
+    file_name: Annotated[str, "Path of the document to be edited."],
+    inserts: Annotated[
+        Dict[int, str],
+        "Dictionary where key is the line number (1-indexed) and value is the text to be inserted at that line.",
+    ],
+) -> Annotated[str, "Path of the edited document file."]:
+    """Edit a document by inserting text at specific line numbers."""
+
+    with (WORKING_DIRECTORY / file_name).open("r") as file:
+        lines = file.readlines()
+
+    sorted_inserts = sorted(inserts.items())
+
+    for line_number, text in sorted_inserts:
+        if 1 <= line_number <= len(lines) + 1:
+            lines.insert(line_number - 1, text + "\n")
+        else:
+            return f"Error: Line number {line_number} is out of range."
+
+    with (WORKING_DIRECTORY / file_name).open("w") as file:
+        file.writelines(lines)
+
+    return f"Document edited and saved to {file_name}"
+
+
+# Warning: This executes code locally, which can be unsafe when not sandboxed
+
+repl = PythonREPL()
+
+
+@tool
+def python_repl_tool(
+    code: Annotated[str, "The python code to execute to generate your chart."],
+):
+    """Use this to execute python code. If you want to see the output of a value,
+    you should print it out with `print(...)`. This is visible to the user."""
+    try:
+        result = repl.run(code)
+    except BaseException as e:
+        return f"Failed to execute. Error: {repr(e)}"
+    return f"Successfully executed:\n```python\n{code}\n```\nStdout: {result}"
+## Helper Utilities
+
+We are going to create a few utility functions to make it more concise when we want to:
+
+## specify worker agents and supervisor ##@
+
+1. Create a worker agent.
+2. Create a supervisor for the sub-graph.
+
+These will simplify the graph compositional code at the end for us so it's easier to see what's going on.
+from typing import List, Optional, Literal
+from langchain_core.language_models.chat_models import BaseChatModel
+
+from langgraph.graph import StateGraph, MessagesState, START, END
+from langgraph.types import Command
+from langchain_core.messages import HumanMessage, trim_messages
+
+
+class State(MessagesState):
+    next: str
+
+
+def make_supervisor_node(llm: BaseChatModel, members: list[str]) -> str:
+    options = ["FINISH"] + members
+    system_prompt = (
+        "You are a supervisor tasked with managing a conversation between the"
+        f" following workers: {members}. Given the following user request,"
+        " respond with the worker to act next. Each worker will perform a"
+        " task and respond with their results and status. When finished,"
+        " respond with FINISH."
+    )
+
+    class Router(TypedDict):
+        """Worker to route to next. If no workers needed, route to FINISH."""
+
+        next: Literal[*options]
+
+    def supervisor_node(state: State) -> Command[Literal[*members, "__end__"]]:
+        """An LLM-based router."""
+        messages = [
+            {"role": "system", "content": system_prompt},
+        ] + state["messages"]
+        response = llm.with_structured_output(Router).invoke(messages)
+        goto = response["next"]
+        if goto == "FINISH":
+            goto = END
+
+        return Command(goto=goto, update={"next": goto})
+
+    return supervisor_node
+## Define Agent Teams
+
+Now we can get to define our hierarchical teams. "Choose your player!"
+
+### Research Team 
+
+The research team will have a search agent and a web scraping "research_agent" as the two worker nodes. Let's create those, as well as the team supervisor.
+from langchain_core.messages import HumanMessage
+from langchain_openai import ChatOpenAI
+from langgraph.prebuilt import create_react_agent
+
+llm = ChatOpenAI(model="gpt-4o")
+
+search_agent = create_react_agent(llm, tools=[tavily_tool])
+
+
+def search_node(state: State) -> Command[Literal["supervisor"]]:
+    result = search_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="search")
+            ]
+        },
+        # We want our workers to ALWAYS "report back" to the supervisor when done
+        goto="supervisor",
+    )
+
+
+web_scraper_agent = create_react_agent(llm, tools=[scrape_webpages])
+
+
+def web_scraper_node(state: State) -> Command[Literal["supervisor"]]:
+    result = web_scraper_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="web_scraper")
+            ]
+        },
+        # We want our workers to ALWAYS "report back" to the supervisor when done
+        goto="supervisor",
+    )
+
+
+research_supervisor_node = make_supervisor_node(llm, ["search", "web_scraper"])
+Now that we've created the necessary components, defining their interactions is easy. Add the nodes to the team graph, and define the edges, which determine the transition criteria.
+research_builder = StateGraph(State)
+research_builder.add_node("supervisor", research_supervisor_node)
+research_builder.add_node("search", search_node)
+research_builder.add_node("web_scraper", web_scraper_node)
+
+research_builder.add_edge(START, "supervisor")
+research_graph = research_builder.compile()
+from IPython.display import Image, display
+
+display(Image(research_graph.get_graph().draw_mermaid_png()))
+We can give this team work directly. Try it out below.
+for s in research_graph.stream(
+    {"messages": [("user", "when is Taylor Swift's next tour?")]},
+    {"recursion_limit": 100},
+):
+    print(s)
+    print("---")
+### Document Writing Team
+
+Create the document writing team below using a similar approach. This time, we will give each agent access to different file-writing tools.
+
+Note that we are giving file-system access to our agent here, which is not safe in all cases.
+llm = ChatOpenAI(model="gpt-4o")
+
+doc_writer_agent = create_react_agent(
+    llm,
+    tools=[write_document, edit_document, read_document],
+    prompt=(
+        "You can read, write and edit documents based on note-taker's outlines. "
+        "Don't ask follow-up questions."
+    ),
+)
+
+
+def doc_writing_node(state: State) -> Command[Literal["supervisor"]]:
+    result = doc_writer_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="doc_writer")
+            ]
+        },
+        # We want our workers to ALWAYS "report back" to the supervisor when done
+        goto="supervisor",
+    )
+
+
+note_taking_agent = create_react_agent(
+    llm,
+    tools=[create_outline, read_document],
+    prompt=(
+        "You can read documents and create outlines for the document writer. "
+        "Don't ask follow-up questions."
+    ),
+)
+
+
+def note_taking_node(state: State) -> Command[Literal["supervisor"]]:
+    result = note_taking_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="note_taker")
+            ]
+        },
+        # We want our workers to ALWAYS "report back" to the supervisor when done
+        goto="supervisor",
+    )
+
+
+chart_generating_agent = create_react_agent(
+    llm, tools=[read_document, python_repl_tool]
+)
+
+
+def chart_generating_node(state: State) -> Command[Literal["supervisor"]]:
+    result = chart_generating_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(
+                    content=result["messages"][-1].content, name="chart_generator"
+                )
+            ]
+        },
+        # We want our workers to ALWAYS "report back" to the supervisor when done
+        goto="supervisor",
+    )
+
+
+doc_writing_supervisor_node = make_supervisor_node(
+    llm, ["doc_writer", "note_taker", "chart_generator"]
+)
+With the objects themselves created, we can form the graph.
+# Create the graph here
+paper_writing_builder = StateGraph(State)
+paper_writing_builder.add_node("supervisor", doc_writing_supervisor_node)
+paper_writing_builder.add_node("doc_writer", doc_writing_node)
+paper_writing_builder.add_node("note_taker", note_taking_node)
+paper_writing_builder.add_node("chart_generator", chart_generating_node)
+
+paper_writing_builder.add_edge(START, "supervisor")
+paper_writing_graph = paper_writing_builder.compile()
+from IPython.display import Image, display
+
+display(Image(paper_writing_graph.get_graph().draw_mermaid_png()))
+for s in paper_writing_graph.stream(
+    {
+        "messages": [
+            (
+                "user",
+                "Write an outline for poem about cats and then write the poem to disk.",
+            )
+        ]
+    },
+    {"recursion_limit": 100},
+):
+    print(s)
+    print("---")
+## Add Layers
+
+In this design, we are enforcing a top-down planning policy. We've created two graphs already, but we have to decide how to route work between the two.
+
+We'll create a _third_ graph to orchestrate the previous two, and add some connectors to define how this top-level state is shared between the different graphs.
+from langchain_core.messages import BaseMessage
+
+llm = ChatOpenAI(model="gpt-4o")
+
+teams_supervisor_node = make_supervisor_node(llm, ["research_team", "writing_team"])
+def call_research_team(state: State) -> Command[Literal["supervisor"]]:
+    response = research_graph.invoke({"messages": state["messages"][-1]})
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(
+                    content=response["messages"][-1].content, name="research_team"
+                )
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+def call_paper_writing_team(state: State) -> Command[Literal["supervisor"]]:
+    response = paper_writing_graph.invoke({"messages": state["messages"][-1]})
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(
+                    content=response["messages"][-1].content, name="writing_team"
+                )
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+# Define the graph.
+super_builder = StateGraph(State)
+super_builder.add_node("supervisor", teams_supervisor_node)
+super_builder.add_node("research_team", call_research_team)
+super_builder.add_node("writing_team", call_paper_writing_team)
+
+super_builder.add_edge(START, "supervisor")
+super_graph = super_builder.compile()
+from IPython.display import Image, display
+
+display(Image(super_graph.get_graph().draw_mermaid_png()))
+for s in super_graph.stream(
+    {
+        "messages": [
+            ("user", "Research AI agents and write a brief report about them.")
+        ],
+    },
+    {"recursion_limit": 150},
+):
+    print(s)
+    print("---")
+
+
+
+#### make dataset for goldens ##
+from deepeval.dataset import EvaluationDataset, Golden
+
+dataset = EvaluationDataset(goldens=[Golden(input="What is your name?")])
+print(dataset._multi_turn) # prints False
+
+dataset.add_golden(Golden(input="Nice."))
+
+
+ ### eval agents e.g. summarizer, RAG retriever, text and safety ## 
+# LOAD GOLDENS
+from deepeval.dataset import EvaluationDataset
+
+dataset = EvaluationDataset()
+dataset.pull(alias="My Dataset") # replace with your alias
+print(dataset.goldens) # print to sanity check yourself
+
+### METRICS USED 
+
+
+--
+summary classification
+- correctness
+- precision
+- recall
+
+SUMARRY QUALITY
+* **Context Relevancy:** Measures how well retrieved documents address the input query using sentence-level semantic similarity.
+* **Groundedness (Faithfulness):** Ensures the generated answer is supported by the retrieved context to prevent hallucinations. This is measured via sentence similarity and NLI (entailment probabilities).
+* **Completeness:** Evaluates if the answer covers all essential points from the context. It uses both **sentence similarity** and **Wasserstein Distance** (Earth Mover's Distance) to measure the alignment of information distribution.
+* **Answer Relevancy:** Quantifies how directly the response addresses the user's specific intent.
+
+
+SEMANTIC based
+- rouge
+- bleu
+- exact match
+- bert
+- faithfulness
+
+RAG metrics
+Retriever:
+- Contextual Relevancy
+- Contextual Precision
+- Contextual Recall
+
+Generator:
+- Answer Relevancy
+- Faithfulness
+
+OTHER TASK agentic eval
+- Task Completion
+- Argument Correctness
+- Tool Correctness
+
+
+The task completion metric does not require a test case and will take an LLM trace to evaluate task completion (i.e. you'll have to setup LLM tracing).
+####
+
+## TEST CASE FOR METRICS, USE TO GET FABRICATED
+
+from deepeval.test_case import LLMTestCase
+...
+
+for golden in dataset.goldens:
+    test_case = LLMTestCase(
+        input=golden.input,
+        actual_output=your_llm_app(golden.input) # replace with your LLM app
+    )
+    dataset.add_test_case(test_case)
+
+print(dataset.test_cases) # print to santiy check yourself
+
+import pytest
+from deepeval.metrics import AnswerRelevancyMetric
+...
+
+@pytest.mark.parametrize("test_case", dataset.test_cases)
+def test_llm_app(test_case: LLMTestCase):
+    assert_test(test_case=test_case, metrics=[AnswerRelevancyMetric()])
+
+
+## REST OF METRIC EVAL
+
+from deepeval.test_case import LLMTestCase
+from deepeval.metrics import AnswerRelevancyMetric
+from deepeval import evaluate
+import pytest
+from deepeval import assert_test
+from deepeval.metrics import GEval
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+
+-- one off test case --
+def test_case():
+    correctness_metric = GEval(
+        name="Correctness",
+        criteria="Determine if the 'actual output' is correct based on the 'expected output'.",
+        evaluation_params=[LLMTestCaseParams.ACTUAL_OUTPUT, LLMTestCaseParams.EXPECTED_OUTPUT],
+        threshold=0.5
+    )
+    test_case = LLMTestCase(
+        input="What if these shoes don't fit?",
+        # Replace this with the actual output from your LLM application
+        actual_output="You have 30 days to get a full refund at no extra cost.",
+        expected_output="We offer a 30-day full refund at no extra costs.",
+        retrieval_context=["All customers are eligible for a 30 day full refund at no extra costs."]
+    )
+    assert_test(test_case, [correctness_metric])
+
+## Set your OPENAI_API_KEY as an environment variable if not done ##
+
+export OPENAI_API_KEY="..."
+
+
+## run test_chatbot.py in the CLI: ##
+
+
+deepeval test run test_chatbot.py
+
+-- end to end --
+## state metrics and test cases for others ##
+evaluate(
+    metrics=[AnswerRelevancyMetric()],
+    test_cases=[LLMTestCase(input="What's DeepEval?", actual_output="Your favorite eval framework's favorite evals framework.")]
+)
+
+## define metrics ##
+
+## human or llm judge metrics
+#define custom metrics (GEval)
+correctness_metric = GEval(
+    name="Correctness",
+    criteria="Determine whether the actual output is factually correct based on the expected output.",
+    # NOTE: you can only provide either criteria or evaluation_steps, and not both
+    evaluation_steps=[
+        "Check whether the facts in 'actual output' contradicts any facts in 'expected output'",
+        "You should also heavily penalize omission of detail",
+        "Vague language, or contradicting OPINIONS, are OK"
+    ],
+    evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT, LLMTestCaseParams.EXPECTED_OUTPUT],
+  rubric=[
+        Rubric(score_range=(0,2), expected_outcome="Factually incorrect."),
+        Rubric(score_range=(3,6), expected_outcome="Mostly correct."),
+        Rubric(score_range=(7,9), expected_outcome="Correct but missing minor details."),
+        Rubric(score_range=(10,10), expected_outcome="100% correct."),
+    ]
+)
+
+# provide a list of Rubrics through the rubric argument to confine your evaluation LLM to output in specific score ranges
+
+## text metrics 
+from typing import Union, List, Optional, Any
+import textwrap
+
+from deepeval.metrics.utils import trimAndLoadJson
+from deepeval.utils import normalize_text
+from deepeval.models import DeepEvalBaseLLM
+from deepeval.benchmarks.schema import NumberSchema
+
+
+# TODO: More scores are to be added
+class Scorer:
+    """This class calculates various Natural Language Processing (NLP) evaluation score.
+
+    The scoring logic can be a simple algorithm or any statistical formula. There are some scores
+    Which also uses an external model (BERTScore) in the scoring logic.
+    """
+
+    @classmethod
+    def rouge_score(
+        cls, target: str, prediction: str, score_type: str
+    ) -> float:
+        """Calculates the Rouge score for a given target and prediction.
+
+        Rouge (Recall-Oriented Understudy for Gisting Evaluation) is a metric used for evaluating the quality of generated text,
+        especially in tasks like text summarization.
+
+        To utilize the rouge_score scoring method, be sure to `pip install rouge-score` before calling this method.
+
+        Args:
+            target (str): The actual label or target text.
+            prediction (str): The generated text from the model or LLM.
+            score_type (str): The Rouge score type (Options: 'rouge1', 'rouge2', 'rougeL').
+
+        Returns:
+            float: The Rouge score for the given target and prediction, based on the specified score type.
+        """
+        try:
+            from rouge_score import rouge_scorer
+        except:
+            pass
+
+        assert score_type in [
+            "rouge1",
+            "rouge2",
+            "rougeL",
+        ], "score_type can be either rouge1, rouge2 or rougeL"
+        scorer = rouge_scorer.RougeScorer([score_type], use_stemmer=True)
+        scores = scorer.score(target, prediction)
+        return scores[score_type].fmeasure
+
+    @classmethod
+    def sentence_bleu_score(
+        cls,
+        references: Union[str, List[str]],
+        prediction: str,
+        bleu_type: Optional[str] = "bleu1",
+    ) -> float:
+        """Calculates the BLEU (Bilingual Evaluation Understudy) score for a given prediction compared to one or more reference sentences.
+
+        BLEU is a metric used to evaluate the quality of machine-generated text by comparing it to one or more reference sentences.
+        It measures the similarity of the generated text to the reference text based on n-grams.
+
+        Args:
+            references (Union[str, List[str]): A reference sentence or a list of reference sentences.
+            prediction (str): The generated text or sentence to be evaluated.
+            bleu_type (Optional[str]): The BLEU score type (Options: 'bleu1', 'bleu2', 'bleu3', 'bleu4'). Default is 'bleu1'.
+
+        Returns:
+            float: The BLEU score for the given prediction and references.
+        """
+        try:
+            from nltk.tokenize import word_tokenize
+            from nltk.translate.bleu_score import sentence_bleu
+        except ModuleNotFoundError as e:
+            print("Please install nltk module. Command: pip install nltk")
+
+        assert bleu_type in [
+            "bleu1",
+            "bleu2",
+            "bleu3",
+            "bleu4",
+        ], "Invalid bleu_type. Options: 'bleu1', 'bleu2', 'bleu3', 'bleu4'"
+        targets = [references] if isinstance(references, str) else references
+        tokenized_targets = [word_tokenize(target) for target in targets]
+        tokenized_prediction = word_tokenize(prediction)
+        bleu_weight_map = {
+            "bleu1": (1, 0, 0, 0),
+            "bleu2": (0, 1, 0, 0),
+            "bleu3": (0, 0, 1, 0),
+            "bleu4": (0, 0, 0, 1),
+        }
+        return sentence_bleu(
+            tokenized_targets,
+            tokenized_prediction,
+            weights=bleu_weight_map[bleu_type],
+        )
+
+    @classmethod
+    def exact_match_score(cls, target: str, prediction: str) -> int:
+        """Metrics that calculates whether two sequences matches exactly or not.
+
+        Args:
+            target (str): The target string.
+            prediction (str): The predicted string from the llm
+
+        Returns:
+            int: The exact match score.
+        """
+        if not prediction:
+            return 0
+        return 1 if prediction.strip() == target.strip() else 0
+
+    @classmethod
+    def quasi_exact_match_score(cls, target: str, prediction: str) -> int:
+        if not prediction:
+            return 0
+        return 1 if normalize_text(target) == normalize_text(prediction) else 0
+
+    @classmethod
+    def quasi_contains_score(cls, targets: List[str], prediction: str) -> int:
+        normalized_targets = [normalize_text(t) for t in targets]
+        if not prediction:
+            return 0
+        return 1 if normalize_text(prediction) in normalized_targets else 0
+
+    # Todo: More mode based metrics to be added
+
+    @classmethod
+    def bert_score(
+        cls,
+        references: Union[str, List[str]],
+        predictions: Union[str, List[str]],
+        model: Optional[str] = "microsoft/deberta-large-mnli",
+        lang: Optional[str] = "en",
+    ) -> float:
+        """
+        Calculate BERTScore for one or more reference sentences compared to one or more prediction sentences using a specified BERT model.
+
+        Args:
+            references (Union[str, List[str]]): A single reference sentence or a list of reference sentences.
+            predictions (Union[str, List[str]]): A single prediction sentence or a list of prediction sentences.
+            model (Optional[str], optional): The name of the BERT model to be used for scoring. Defaults to "microsoft/deberta-large-mnli".
+            lang (Optional[str], optional): The language code of the text, e.g., "en" for English. Defaults to "en".
+
+# bert dictionary #
+        Returns:
+            Dict[str, float]: A dictionary containing BERTScore metrics including precision, recall, and F1 score.
+                - 'bert-precision' (float): BERTScore precision.
+                - 'bert-recall' (float): BERTScore recall.
+                - 'bert-f1' (float): BERTScore F1 score.
+
+        Note:
+            Before using this function, make sure to install the 'bert_score' module by running the following command:
+            ```
+            pip install bert-score
+            ```
+        """
+        try:
+            from bert_score import BERTScorer
+        except ModuleNotFoundError as e:
+            print(
+                "Please install bert_score module. Command: pip install bert-score"
+            )
+
+        try:
+            import torch
+        except ModuleNotFoundError as e:
+            print("Please install torch module. Command: pip install torch")
+
+        # FIXME: Fix the case for mps
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        bert_scorer = BERTScorer(
+            model_type=model,
+            lang=lang,
+            rescale_with_baseline=True,
+            device=device,
+        )
+
+        if isinstance(predictions, str):
+            predictions = [predictions]
+
+        if isinstance(references, str):
+            references = [references]
+
+        if (
+            isinstance(predictions, list)
+            and isinstance(references, list)
+            and not isinstance(references[0], list)
+        ):
+            if len(predictions) != len(references):
+                references = [references]
+
+        precision, recall, f1 = bert_scorer.score(
+            cands=predictions, refs=references
+        )
+        return {
+            "bert-precision": precision.detach().numpy().tolist(),
+            "bert-recall": recall.detach().numpy().tolist(),
+            "bert-f1": f1.detach().numpy().tolist(),
+        }
+
+## RAG metric
+    @classmethod
+    def faithfulness_score(
+        cls,
+        target: str,
+        prediction: str,
+        model: Optional[str] = None,
+        granularity: Optional[str] = None,
+        device: Optional[str] = None,
+    ) -> float:
+        """Calculate the faithfulness score of a prediction compared to a target text using SummaCZS.
+
+        This method computes a faithfulness score, which measures the extent to which a generated prediction matches the provided target text.
+        The score is based on the SummaCZS (Summarization Competence with Zero-shot Supervision) model.
+
+        Args:
+            target (str): The reference target text for comparison.
+            prediction (str): The generated prediction to be evaluated.
+            model (Optional[str], optional): The SummaCZS model name to use. If not provided, the "vitc" model will be used by default.
+
+        Returns:
+            float: The computed faithfulness score. Higher values indicate greater faithfulness to the target text.
+
+        Right now we are using score_one method under the hood. Instead of scoring multiple predictions for faithfulness.
+        """
+        try:
+            from deepeval.models.summac_model import SummaCModels
+        except Exception as e:
+            print(f"SummaCZS model can not be loaded.\n{e}")
+
+        scorer = SummaCModels(
+            model_name=model, granularity=granularity, device=device
+        )
+        return scorer(target, prediction)["score"]
+
+## safety metrics ##
+
+    @classmethod
+    def PII_score(
+        cls, target: str, prediction: str, model: Optional[Any] = None
+    ) -> float:
+        raise NotImplementedError()
+
+    @classmethod
+    def neural_toxic_score(
+        cls, prediction: str, model: Optional[str] = None
+    ) -> Union[float, dict]:
+        """
+        Calculate the toxicity score of a given text prediction using the Detoxify model.
+
+        Args:
+            prediction (str): The text prediction to evaluate for toxicity.
+            model (Optional[str], optional): The variant of the Detoxify model to use.
+                Available variants: 'original', 'unbiased', 'multilingual'.
+                If not provided, the 'original' variant is used by default.
+
+        Returns:
+            Union[float, dict]: The mean toxicity score, ranging from 0 (non-toxic) to 1 (highly toxic),
+            and also a dictionary containing different types of toxicity score.
+
+        For each model, we get mean toxicity score and a dictionary containing different toxicity score types.
+        Examples:
+        If model is 'original', we get the a dict with the following keys:
+            - 'toxicity',
+            - 'severe_toxicity',
+            - 'obscene',
+            - 'threat'
+            - 'insult'
+            - 'identity_attack'
+
+        If model is 'unbiased', we get a dict with the same as keys as 'original', but
+        along with `sexual_explicit`.
+
+        If the model is 'multilingual', we get a dict same as the unbiased one.
+        """
+        try:
+            from deepeval.models.detoxify_model import DetoxifyModel
+        except ImportError as e:
+            print(f"Unable to import.\n {e}")
+        scorer = DetoxifyModel(model_name=model)
+        return scorer(prediction)
+
+    @classmethod
+    def answer_relevancy_score(
+        cls,
+        predictions: Union[str, List[str]],
+        target: str,
+        model_type: Optional[str] = None,
+        model_name: Optional[str] = None,
+    ) -> float:
+        """Calculates the Answer relevancy score.
+
+        Args:
+            predictions (Union[str, List[str]]): The predictions from the model.
+            target (str): The target on which we need to check relevancy.
+            model_name (str): The type of the answer relevancy model. This can be either an self_encoder or a cross_encoder. By default it is cross_encoder.
+            model_name (Optional[str], optional): The name of the model. Defaults to None.
+
+        Returns:
+            float: Answer relevancy score.
+        """
+        from sentence_transformers import util
+
+        try:
+            from deepeval.models.answer_relevancy_model import (
+                AnswerRelevancyModel,
+                CrossEncoderAnswerRelevancyModel,
+            )
+        except Exception as e:
+            print(f"Unable to load AnswerRelevancyModel model.\n{e}")
+
+        if model_type is not None:
+            assert model_type in [
+                "self_encoder",
+                "cross_encoder",
+            ], "model_type can be either 'self_encoder' or 'cross_encoder'"
+
+        model_type = "cross_encoder" if model_type is None else model_type
+
+        if model_type == "cross_encoder":
+            assert isinstance(
+                predictions, str
+            ), "When model_type is 'cross_encoder', you can compare with one prediction and one target."
+            answer_relevancy_model = CrossEncoderAnswerRelevancyModel(
+                model_name=model_name
+            )
+            score = answer_relevancy_model(predictions, target)
+        else:
+            answer_relevancy_model = AnswerRelevancyModel(model_name=model_name)
+            docs = (
+                [predictions] if isinstance(predictions, str) else predictions
+            )
+            query_embedding = answer_relevancy_model(target)
+            document_embedding = answer_relevancy_model(docs)
+            scores = (
+                util.dot_score(query_embedding, document_embedding)[0]
+                .cpu()
+                .tolist()
+            )
+            score = scores[0]
+        return score
+
+    @classmethod
+    def neural_bias_score(cls, text: str, model: Optional[str] = None) -> float:
+        try:
+            from deepeval.models.unbias_model import UnBiasedModel
+        except Exception as e:
+            print(f"Unable to load UnBiasedModel.\n{e}")
+        scorer = UnBiasedModel(model_name=model)
+        return scorer(text)
+
+    @classmethod
+    def truth_identification_score(cls, target: str, prediction: str) -> int:
+        """
+        Metrics that calculates the number of correct true answers identified in the prediction.
+
+        This method assumes both target and prediction are strings representing lists of integers,
+        formatted like '1,2,3'. It converts these strings to lists of integers, counts how many items
+        in the prediction list are also in the target list, and returns this count as the score.
+
+        Args:
+            target (str): The target string representing the list of correct answers.
+            prediction (str): The predicted string from the LLM, representing the guessed answers.
+
+        Returns:
+            int: The number of correct answers identified.
+        """
+        try:
+            if not prediction or not target:
+                return 0  # Return score as 0 if prediction or target is empty
+
+            # Convert strings to sorted lists of integers
+            target_list = sorted(
+                [int(item) for item in target.strip("[]").split(",") if item]
+            )
+            prediction_list = sorted(
+                [
+                    int(item)
+                    for item in prediction.strip("[]").split(",")
+                    if item
+                ]
+            )
+
+            if not target_list:
+                return 0  # Return 0 if target list is empty to avoid division by zero
+
+            # Count the number of correct matches
+            correct_matches = sum(
+                1 for item in prediction_list if item in target_list
+            )
+
+            # Calculate percentage
+            score_percentage = (correct_matches / len(target_list)) * 100
+
+            return round(score_percentage)  # Return rounded percentage
+        except Exception as e:
+            return 0  # Return score as 0 in case of any exception
+
+    def pass_at_k(self, n, c, k):
+        import numpy as np
+
+        """
+        :param n: total number of samples
+        :param c: number of correct samples
+        :param k: k in pass@$k$
+        """
+        if n - c < k:
+            return 1.0
+        return 1.0 - np.prod(1.0 - k / np.arange(n - c + 1, n + 1))
+
+    def squad_score(
+        self,
+        input: str,
+        prediction: str,
+        expected_output: str,
+        evaluation_model: DeepEvalBaseLLM,
+        using_native_evaluation_model: bool,
+    ):
+        prompt = textwrap.dedent(
+            f"""
+            Given the question and context, evaluate if the prediction is correct based on the expected output.
+            Ensure to account for cases where the prediction and expected output might differ in form, such as '2' versus 'two'.
+
+            {input} 
+            Prediction: {prediction}
+            Expected Output: {expected_output}
+
+            IMPORTANT:
+            1. Make sure to output 1 if the prediction is correct and 0 if it's not.
+            2. Respond in JSON format with the following structure:
+            {{
+                "answer": <number>
+            }}
+        """
+        )
+
+        # Generate the score using the model
+        if using_native_evaluation_model:
+            res, _ = evaluation_model.generate(prompt, schema=NumberSchema)
+            return res.answer
+        else:
+            try:
+                res: NumberSchema = evaluation_model.generate(
+                    prompt, schema=NumberSchema
+                )
+                return res.answer
+            except TypeError:
+                res = evaluation_model.generate(prompt)
+                data = trimAndLoadJson(res)
+                return int(data["answer"])
+
+## RAG retriever agent eval
+evaluate(
+    metrics=[AnswerRelevancyMetric()],
+    test_cases=[LLMTestCase(input="What's DeepEval?", actual_output="Your favorite eval framework's favorite evals framework.")]
+)
+from deepeval.test_case import LLMTestCase
+from deepeval.metrics import AnswerRelevancyMetric
+
+test_case = LLMTestCase(input="...", actual_output="...")
+relevancy = AnswerRelevancyMetric(threshold=0.5)
+
+relevancy.measure(test_case)
+print(relevancy.score, relevancy.reason)
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+from deepeval.metrics import GEval
+
+# run multiple metrics without stopping and not block main thread with a_measure()
+import asyncio
+...
+
+# Remember to use async
+async def long_running_function():
+    # These will all run at the same time
+    await asyncio.gather(
+        metric1.a_measure(test_case),
+        metric2.a_measure(test_case),
+        metric3.a_measure(test_case),
+        metric4.a_measure(test_case)
+    )
+    print("Metrics finished!")
+
+asyncio.run(long_running_function())
+
+
+-- 
+
+## making template for custom metrics
+from deepeval.metrics import AnswerRelevancyMetric
+from deepeval.metrics.answer_relevancy import AnswerRelevancyTemplate
+
+# Define custom template
+class CustomTemplate(AnswerRelevancyTemplate):
+    @staticmethod
+    def generate_statements(actual_output: str):
+        return f"""Given the text, breakdown and generate a list of statements presented.
+
+Example:
+Our new laptop model features a high-resolution Retina display for crystal-clear visuals.
+
+{{
+    "statements": [
+        "The new laptop model has a high-resolution Retina display."
+    ]
+}}
+===== END OF EXAMPLE ======
+
+## begin tracing ##
+
+
+## production agent scorer 
+ from deepeval.metrics import ToolCorrectnessMetric, ArgumentCorrectnessMetric
+
+tool_correctness = ToolCorrectnessMetric()
+argument_correctness = ArgumentCorrectnessMetric()
+
+# Add metrics=[...] to @observe
+@observe(type="llm", metrics=[tool_correctness, argument_correctness])
+def call_openai(messages):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=messages,
+        tools=tools
+    )
+    return response
+--
+
+## sets up tracing and routes response to route to deepeval app or elsewhere##
+# 1. observe() decorator traces LLM components
+from openai import OpenAI
+from deepeval.tracing import observe
+
+client = OpenAI()
+
+@observe()
+def get_res(query: str):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": query}]
+    ).choices[0].message.content
+
+    return response
+
+## add test cases inside components e.g. just classification or just scorer ##
+from openai import OpenAI
+from deepeval.tracing import observe, update_current_span
+from deepeval.test_case import LLMTestCase
+
+client = OpenAI()
+
+@observe()
+def get_res(query: str):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": query}]
+    ).choices[0].message.content
+
+    update_current_span(input=query, output=response)
+    return response
+
+# 4. Create dataset
+dataset = EvaluationDataset(goldens=[Golden(input="Test input")])
+
+# 5. Loop through dataset
+for goldens in dataset.evals_iterator():
+    # Call LLM app
+    llm_app(golden.input)

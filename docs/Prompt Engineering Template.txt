@@ -1,0 +1,22 @@
+Prompt Engineering Template
+Step 1: Task (The Goal)
+
+What exactly do you want the AI to do? (e.g., Write an email, debug code, create a meal plan)
+
+Step 2: Context & Persona (The "Who" and "Why")
+
+Who should the AI be? (e.g., "Senior Software Engineer" or "Empathetic Career Coach")
+
+What is the background? (e.g., "I'm speaking to a non-technical client.")
+
+Step 3: References (The Guide)
+
+Do you have an example of the style or data it should use?
+
+Step 4: Constraints (The Guardrails)
+
+How long should it be? What should it avoid? (e.g., "Max 200 words," "No jargon.")
+
+Step 5: Output Format (The Final Look)
+
+Should it be a table, bullet points, a JSON object, or a poem?

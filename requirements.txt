@@ -12,3 +12,7 @@ selenium>=4.18
 deepeval>=0.20
 pydantic>=2.7
 h2o>=3.44
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+langgraph>=0.2

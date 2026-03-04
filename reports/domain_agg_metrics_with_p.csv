@@ -1,9 +1,0 @@
-,Domain,Metric,MetricLabel,HumanMean,HumanCI_L,HumanCI_H,AIMean,AICI_L,AICI_H,DiffMean_HminusAI,DiffCI_L,DiffCI_H,Star,n_elements,HumanMean_Pct,HumanCI_L_Pct,HumanCI_H_Pct,AIMean_Pct,AICI_L_Pct,AICI_H_Pct,DiffMean_HminusAI_Pct,DiffCI_L_Pct,DiffCI_H_Pct,p_value_agg
-0,Radiology,accuracy,Accuracy,,,,,,,,,,,0,,,,,,,,,,
-1,Radiology,precision,Precision,,,,,,,,,,,0,,,,,,,,,,
-2,Radiology,recall,Recall,,,,,,,,,,,0,,,,,,,,,,
-3,Radiology,f1,F1,,,,,,,,,,,0,,,,,,,,,,
-4,Pathology,accuracy,Accuracy,,,,,,,,,,,0,,,,,,,,,,
-5,Pathology,precision,Precision,,,,,,,,,,,0,,,,,,,,,,
-6,Pathology,recall,Recall,,,,,,,,,,,0,,,,,,,,,,
-7,Pathology,f1,F1,,,,,,,,,,,0,,,,,,,,,,

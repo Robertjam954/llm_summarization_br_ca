@@ -1,0 +1,36 @@
+ "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
+{
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/awesomeEnv/python.exe",
+    "workbench.colorCustomizations": {},
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "workbench.colorTheme": "Red",
+    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+    "workbench.iconTheme": "vscode-great-icons",
+    "terminal.integrated.enableImages": true,
+    "dataWrangler.experiments.autoDetectCsvDelimiter": true,
+    "dataWrangler.debug": true,
+    "workbench.settings.applyToAllProfiles": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

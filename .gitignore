@@ -22,6 +22,9 @@ venv/
 .Rhistory
 Thumbs.db
 
+# References folder (PDFs, local research files — not for version control)
+references/
+
 # Private Data and Outputs
 outputs_private/
 data_private/
@@ -30,15 +33,13 @@ data_private/
 *.env
 !.env.example
 
-# Sensitive data (raw patient data — do not commit)
+# Sensitive data directories (safety net — these live in DATA_PRIVATE_DIR, not the repo)
 data/raw/
 data/deidentified/
-
-# Large generated outputs (regenerable from notebooks)
 data/extracted_text/
-data/features/
-reports/*.png
-reports/**/*.png
+data/extracted_text_comparison/
+
+# data/features/ and reports/ are NON-PHI and intentionally committed
 
 # Temp files
 ~$*

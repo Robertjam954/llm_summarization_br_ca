@@ -1,0 +1,32 @@
+# Requirements for the LLM evaluation pipeline
+# Install with: pip install -r requirements_pipeline.txt
+
+# Core data
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+
+# PDF/DOCX extraction
+pypdf>=3.0
+python-docx>=0.8
+
+# LLM SDKs (install the ones you need)
+openai>=1.0
+anthropic>=0.20
+mistralai>=0.1
+
+# DeepEval (Confident AI)
+deepeval>=1.0
+
+# Statistics & forecasting
+scipy>=1.10
+statsmodels>=0.14
+
+# Visualization
+matplotlib>=3.7
+plotly>=5.15
+kaleido>=0.2
+
+# Optional: embeddings
+# sentence-transformers>=2.2
+# faiss-cpu>=1.7
