@@ -46,14 +46,18 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 │   │                                                          OpenAI text-embedding-3-large via LangChain),
 │   │                                                          XGBoost 5-fold CV, BERT fine-tuning 5-fold CV,
 │   │                                                          SHAP feature importance, stratified domain comparison
-│   └── 08_ocr_image_quality_deblur.ipynb              NB      OCR image quality scan (Laplacian blur score),
-│                                                              deblur pipeline (hist-eq → contrast → resize →
-│                                                              Otsu+adaptive threshold → sharpen → morph ops),
-│                                                              before/after OCR comparison, word-level
-│                                                              precision/recall/F1 vs NB04 ground truth.
-│                                                              Adapted from references/ocr_deblur_metrics_prepost.py
-│                                                              Outputs → reports/ocr_blur_scan_results.csv,
-│                                                              ocr_deblur_comparison.csv, ocr_quality_summary.csv
+│   ├── 08_ocr_image_quality_deblur.ipynb              NB      OCR image quality scan (Laplacian blur score),
+│   │                                                          deblur pipeline (hist-eq → contrast → resize →
+│   │                                                          Otsu+adaptive threshold → sharpen → morph ops),
+│   │                                                          before/after OCR comparison, word-level
+│   │                                                          precision/recall/F1 vs NB04 ground truth.
+│   │                                                          Adapted from references/ocr_deblur_metrics_prepost.py
+│   │                                                          Outputs → reports/ocr_blur_scan_results.csv,
+│   │                                                          ocr_deblur_comparison.csv, ocr_quality_summary.csv
+│   ├── 09_mcodegpt_dag_extraction.ipynb               NB      MCodeGPT DAG visualization and extraction
+│   └── 10_openai_predictive_model.ipynb               NB      Multi-embedding × multi-algorithm predictive
+│                                                              model comparison (3 embeddings × 4 algorithms
+│                                                              × 3 outcomes). Outputs → reports/
 │
 ├── study_records/                                     ← IRB/Protocol documents (PI-reviewed)
 │   ├── Hypothesis and Aims.docx                       DOC     Original hypothesis and specific aims
@@ -85,7 +89,33 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 │       └── acs_clincal_congress_abstract_draft.docx   DOC     ACS Clinical Congress abstract submission
 │
 ├── reports/                                           ← Committed analysis outputs (non-PHI)
-│   ├── ── Diagnostic Metrics ──
+│   ├── ── NB02: Missing Data Analysis ──
+│   ├── missingness_per_feature_column.csv              OUT     Per-feature/column missingness counts
+│   ├── missingness_avg_by_feature.csv                  OUT     Average missingness rate per feature
+│   ├── missingness_radiologic_features.csv             OUT     Radiologic domain missing rates
+│   ├── missingness_pathologic_features.csv             OUT     Pathologic domain missing rates
+│   ├── missingness_domain_summary.csv                  OUT     Domain-level missingness summary
+│   ├── missingness_heatmap_by_feature_annotator.png    FIG     Heatmap: feature × annotator missingness
+│   ├── missingness_bar_human_vs_ai.png                 FIG     Bar chart: human vs AI missing rates
+│   ├── missingness_per_observation_distribution.png    FIG     Distribution of missing features per obs
+│   ├── ── NB03: EDA & Diagnostic Metrics (new) ──
+│   ├── element_pvalues_one_sided.csv                   OUT     McNemar one-sided p-values per element
+│   ├── fabrication_rate_element_level.csv               OUT     Fabrication rates per element
+│   ├── overall_mean_metric_paired_tests.csv            OUT     Overall mean metric paired tests
+│   ├── accuracy_vs_balanced_accuracy.csv               OUT     Accuracy vs balanced accuracy comparison
+│   ├── case_accuracy_by_complexity.csv                 OUT     Case accuracy stratified by complexity
+│   ├── eda_counts_radiology_human_vs_ai.png            FIG     EDA counts: radiology human vs AI
+│   ├── eda_counts_pathology_human_vs_ai.png            FIG     EDA counts: pathology human vs AI
+│   ├── eda_radiology_correct_omitted_fabricated.png    FIG     Radiology correct/omitted/fabricated
+│   ├── eda_pathology_correct_omitted_fabricated.png    FIG     Pathology correct/omitted/fabricated
+│   ├── eda_obs_histogram_human.png                     FIG     Observation histogram (human)
+│   ├── eda_obs_histogram_ai.png                        FIG     Observation histogram (AI)
+│   ├── accuracy_vs_balanced_accuracy_scatter.png       FIG     Scatter: accuracy vs balanced accuracy
+│   ├── case_accuracy_by_complexity.png                 FIG     Complexity stratification plot
+│   ├── ── NB06: Data Dictionary ──
+│   ├── data_dictionary.xlsx                            OUT     Full data dictionary (3 sheets: dict, elem, meta)
+│   ├── variable_names.xlsx                             OUT     Concise variable name lookup
+│   ├── ── Diagnostic Metrics (legacy + NB03) ──
 │   ├── diagnostic_tests.csv                           OUT     Element-level sensitivity/specificity/PPV/NPV
 │   ├── diagnostic_tests_with_p.csv                    OUT     + McNemar p-values (one-sided)
 │   ├── element_level_metrics.csv                      OUT     Full element-level diagnostic + classification
@@ -304,6 +334,10 @@ llm_summarization_br_ca/                              ← PROJECT_ROOT
 ├── experiments/                                       ← Run tracking (run_id, commit, prompt_id, metrics)
 │
 └── tools/
+    ├── run_nb01_full.py                               PY      NB01 full runner: deidentification of all PDFs +
+    │                                                          validation Excel, with timing, resume support,
+    │                                                          memory-safe DPI fallback for oversized pages
+    ├── check_nb_errors.py                             PY      Check executed notebooks for cell-level errors
     ├── colab/
     │   └── bert_finetuning_with_cloud_tpus.ipynb      NB      BERT fine-tuning on Google TPUs
     └── watch_repo.sh                                  SCRIPT  macOS: poll remote + send notification on changes

@@ -1,0 +1,9 @@
+Metric,Direction,N_elements,Human_mean,AI_mean,Mean_diff_AI_minus_Human,Shapiro_p_on_diffs,Normal_diffs,Test,Stat,P_one_sided,Sig
+accuracy,↑ higher better,14,0.8832855692794396,0.9615543053612992,0.0782687360818596,0.0005,False,Wilcoxon signed-rank,75.0,0.0196,*
+balanced_accuracy,↑ higher better,11,0.7898835976604149,0.7843325955067477,-0.005551002153667293,0.8208,True,Paired t-test,-0.1262,0.549,ns
+sensitivity,↑ higher better,14,0.8713196344825584,0.964611467183412,0.09329183270085353,0.0004,False,Wilcoxon signed-rank,76.0,0.0165,*
+specificity,↑ higher better,11,0.73989898989899,0.6095959595959596,-0.13030303030303028,0.0005,False,Wilcoxon signed-rank,0.0,1.0,ns
+ppv,↑ higher better,14,0.9971750458165362,0.993304053267215,-0.003870992549321114,0.0043,False,Wilcoxon signed-rank,6.0,0.9747,ns
+npv,↑ higher better,13,0.25019930575384836,0.3687989910783122,0.11859968532446388,0.0944,True,Paired t-test,2.1788,0.025,*
+f1,↑ higher better,14,0.9174791699407718,0.9784992060553568,0.06102003611458491,0.0,False,Wilcoxon signed-rank,76.0,0.0165,*
+fabrication_rate,↓ lower better,14,0.002824954183463732,0.006695946732784852,0.00387099254932112,0.0043,False,Wilcoxon signed-rank,39.0,0.9747,ns

@@ -257,6 +257,13 @@ def metric_correct_masks(
             (data.loc[common, source_col] == 0) & (data.loc[common, ai_col] == "N/A")
         ).reindex(data.index, fill_value=False)
 
+    elif metric_name == "fabrication_rate":
+        mask = data[source_col] == 1
+        human_ok = (data.loc[mask, human_col] != 3).reindex(
+            data.index, fill_value=False
+        )
+        ai_ok = (data.loc[mask, ai_col] != 3).reindex(data.index, fill_value=False)
+
     else:
         raise ValueError(f"Unsupported metric_name for McNemar: {metric_name}")
 

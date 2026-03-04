@@ -1,0 +1,29 @@
+Element,Annotator,FP,TN,fabrication_rate,fabrication_rate_ci_low,fabrication_rate_ci_high,p_mcnemar_fabrication_rate
+Lesion Size,Human,2,2,0.010471204188481676,0.0,0.02631578947368421,0.890625
+Lesion Size,AI,4,2,0.020942408376963352,0.005154639175257732,0.041884816753926704,0.890625
+Lesion Laterality,Human,0,0,0.0,0.0,0.0,
+Lesion Laterality,AI,0,0,0.0,0.0,0.0,
+Lesion Location,Human,0,0,0.0,0.0,0.0,
+Lesion Location,AI,0,0,0.0,0.0,0.0,
+Calcifications / Asymmetry,Human,0,14,0.0,0.0,0.0,
+Calcifications / Asymmetry,AI,0,14,0.0,0.0,0.0,
+Additional Enhancement (MRI),Human,0,35,0.0,0.0,0.0,
+Additional Enhancement (MRI),AI,0,35,0.0,0.0,0.0,
+Extent,Human,1,35,0.012987012987012988,0.0,0.04226861167002004,0.75
+Extent,AI,1,35,0.011764705882352941,0.0,0.04,0.75
+Accurate Clip Placement,Human,0,2,0.0,0.0,0.0,1.0
+Accurate Clip Placement,AI,1,2,0.005714285714285714,0.0,0.017543859649122806,1.0
+Workup Recommendation,Human,0,1,0.0,0.0,0.0,1.0
+Workup Recommendation,AI,2,1,0.013333333333333334,0.0,0.034013605442176874,1.0
+Lymph Node,Human,0,15,0.0,0.0,0.0,
+Lymph Node,AI,0,15,0.0,0.0,0.0,
+Chronology Preserved,Human,1,0,0.005128205128205128,0.0,0.015544041450777202,0.75
+Chronology Preserved,AI,1,0,0.005050505050505051,0.0,0.015230368797265088,0.75
+Biopsy Method,Human,1,0,0.005376344086021506,0.0,0.01639344262295082,0.75
+Biopsy Method,AI,1,0,0.005025125628140704,0.0,0.01507537688442211,0.75
+Invasive Component Size (Pathology),Human,0,18,0.0,0.0,0.0,1.0
+Invasive Component Size (Pathology),AI,2,18,0.014388489208633094,0.0,0.036231884057971016,1.0
+Histologic Diagnosis,Human,0,0,0.0,0.0,0.0,1.0
+Histologic Diagnosis,AI,1,0,0.00510204081632653,0.0,0.015548110571575813,1.0
+Receptor Status,Human,1,2,0.00558659217877095,0.0,0.017045454545454544,0.875
+Receptor Status,AI,2,2,0.012422360248447204,0.0,0.031446540880503145,0.875

@@ -1,0 +1,29 @@
+Element,Annotator,N_positive,N_negative,imbalance_flag,accuracy,balanced_accuracy,acc_vs_balanced,recommendation
+Accurate Clip Placement,AI,179,3,Pos >> Neg (>3:1),0.967032967032967,0.819366852886406,0.14766611414656106,Unreliable Sp (TN<5) — use Se+PPV
+Accurate Clip Placement,Human,180,2,Pos >> Neg (>3:1),0.8626373626373627,0.9305555555555556,-0.0679181929181929,Unreliable Sp (TN<5) — use Se+PPV
+Additional Enhancement (MRI),AI,57,35,Balanced (≤3:1),0.9782608695652174,0.9824561403508771,-0.004195270785659733,Both similar
+Additional Enhancement (MRI),Human,57,35,Balanced (≤3:1),0.9130434782608695,0.9298245614035088,-0.016781083142639264,Both similar
+Biopsy Method,AI,198,1,Pos >> Neg (>3:1),0.9949748743718593,0.5,0.4949748743718593,Unreliable Sp (TN<5) — use Se+PPV
+Biopsy Method,Human,198,1,Pos >> Neg (>3:1),0.9296482412060302,0.4671717171717172,0.462476524034313,Unreliable Sp (TN<5) — use Se+PPV
+Calcifications / Asymmetry,AI,127,14,Pos >> Neg (>3:1),0.9787234042553191,0.9881889763779528,-0.009465572122633659,Use balanced_accuracy
+Calcifications / Asymmetry,Human,127,14,Pos >> Neg (>3:1),0.9432624113475178,0.9685039370078741,-0.025241525660356312,Use balanced_accuracy
+Chronology Preserved,AI,198,1,Pos >> Neg (>3:1),0.9899497487437185,0.49747474747474746,0.4924750012689711,Unreliable Sp (TN<5) — use Se+PPV
+Chronology Preserved,Human,198,1,Pos >> Neg (>3:1),0.9748743718592965,0.4898989898989899,0.4849753819603066,Unreliable Sp (TN<5) — use Se+PPV
+Extent,AI,87,36,Balanced (≤3:1),0.967479674796748,0.9688697318007663,-0.0013900570040182858,Both similar
+Extent,Human,87,36,Balanced (≤3:1),0.9024390243902439,0.9228927203065134,-0.020453695916269443,Both similar
+Histologic Diagnosis,AI,199,1,Pos >> Neg (>3:1),0.975,0.4899497487437186,0.4850502512562814,Unreliable Sp (TN<5) — use Se+PPV
+Histologic Diagnosis,Human,200,0,Balanced (≤3:1),0.98,,,Unreliable Sp (TN<5) — use Se+PPV
+Invasive Component Size (Pathology),AI,144,20,Pos >> Neg (>3:1),0.9451219512195121,0.9256944444444444,0.01942750677506777,Use balanced_accuracy
+Invasive Component Size (Pathology),Human,146,18,Pos >> Neg (>3:1),0.3780487804878049,0.6506849315068493,-0.27263615101904437,Use balanced_accuracy
+Lesion Laterality,AI,200,0,Balanced (≤3:1),0.995,,,Unreliable Sp (TN<5) — use Se+PPV
+Lesion Laterality,Human,200,0,Balanced (≤3:1),0.995,,,Unreliable Sp (TN<5) — use Se+PPV
+Lesion Location,AI,199,0,Balanced (≤3:1),0.9798994974874372,,,Unreliable Sp (TN<5) — use Se+PPV
+Lesion Location,Human,199,0,Balanced (≤3:1),0.9849246231155779,,,Unreliable Sp (TN<5) — use Se+PPV
+Lesion Size,AI,192,6,Pos >> Neg (>3:1),0.9545454545454546,0.6536458333333334,0.3008996212121212,Use balanced_accuracy
+Lesion Size,Human,194,4,Pos >> Neg (>3:1),0.9646464646464646,0.7371134020618557,0.22753306258460892,Unreliable Sp (TN<5) — use Se+PPV
+Lymph Node,AI,163,15,Pos >> Neg (>3:1),0.9550561797752809,0.9754601226993864,-0.020403942924105523,Use balanced_accuracy
+Lymph Node,Human,163,15,Pos >> Neg (>3:1),0.7415730337078652,0.8588957055214723,-0.11732267181360712,Use balanced_accuracy
+Receptor Status,AI,183,4,Pos >> Neg (>3:1),0.8609625668449198,0.6844262295081966,0.17653633733672314,Unreliable Sp (TN<5) — use Se+PPV
+Receptor Status,Human,184,3,Pos >> Neg (>3:1),0.9625668449197861,0.8170289855072463,0.14553785941253972,Unreliable Sp (TN<5) — use Se+PPV
+Workup Recommendation,AI,159,3,Pos >> Neg (>3:1),0.9197530864197531,0.6320754716981132,0.2876776147216399,Unreliable Sp (TN<5) — use Se+PPV
+Workup Recommendation,Human,161,1,Pos >> Neg (>3:1),0.8333333333333334,0.9161490683229814,-0.082815734989648,Unreliable Sp (TN<5) — use Se+PPV
