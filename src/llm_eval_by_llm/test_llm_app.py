@@ -29,7 +29,7 @@ from deepeval import evaluate
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from deepeval.metrics import FaithfulnessMetric, HallucinationMetric, GEval
 
-load_dotenv()
+load_dotenv(override=True)  # Override system env vars with .env file
 
 # ---------------------------------------------------------------------------
 # Paths
