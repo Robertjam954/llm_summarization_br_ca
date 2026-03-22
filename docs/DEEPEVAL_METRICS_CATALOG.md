@@ -30,7 +30,7 @@ This document catalogs all available DeepEval metrics from the local repository.
 - **Use Case:** Multi-step validation workflows, conditional evaluation logic
 - **Required Params:** DAG structure with nodes, input, actual_output
 - **LLM-based:** Yes (configurable per node)
-- **Special Features:**
+- **Special Features:**wh
   - Supports decision tree logic
   - Exportable graph structure
   - Async execution

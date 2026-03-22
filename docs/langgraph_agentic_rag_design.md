@@ -1,4 +1,4 @@
-# LangGraph Agentic RAG Pipeline Design
+LangGraph Agentic RAG Pipeline Design with HCAT Safety Framework
 **Memorial Sloan Kettering | Goel Lab**  
 **Date:** March 2026
 
