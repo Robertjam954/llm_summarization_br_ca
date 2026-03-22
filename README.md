@@ -86,10 +86,6 @@ Large Language Models are increasingly deployed to extract structured clinical f
 llm_summarization_br_ca/                          ← PROJECT_ROOT (OneDrive + GitHub)
 ├── notebooks/              10 Jupyter notebooks (01–10) with MSK | Goel Lab headers
 ├── study_records/          Study protocol, hypothesis, aims (PI-reviewed documents)
-├── data/
-│   ├── processed/          Non-PHI CSVs: metrics, prompt library, analysis outputs  ← committed
-│   ├── features/           BERT embeddings, OCR quality, text features (NB05)        ← committed
-│   └── splits/             Train/test definitions                                     ← committed
 ├── docs/
 │   ├── executive_summary.md    Full technical executive summary + code map
 │   ├── dataset_metadata.md     YAML front-matter dataset specification
@@ -134,7 +130,7 @@ C:\Users\jamesr4\loc\data_private\               ← DATA_PRIVATE_DIR (local onl
 ```
 
 > **Path model:** All notebooks load `PROJECT_ROOT` and `DATA_PRIVATE_DIR` from `.env` via `python-dotenv`.
-> Non-PHI processed data → `data/processed/` (committed). Sensitive/raw data → `data_private/` (local only).
+> All data (raw, processed, and intermediate) lives in `DATA_PRIVATE_DIR` (local only — never committed). Run notebooks 01–10 in sequence with `DATA_PRIVATE_DIR` configured to regenerate all processed outputs.
 
 ## Methods Overview
 
