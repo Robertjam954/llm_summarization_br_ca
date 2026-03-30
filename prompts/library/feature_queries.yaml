@@ -1,0 +1,90 @@
+feature_1_lesion_size:
+  query: >
+    What is the lesion size, mass size, tumor size, or dimensions?
+    Look for measurements in cm, mm, or any size descriptor.
+  k: 3
+  k_second_pass: 7
+
+feature_2_lesion_location:
+  query: >
+    Where is the lesion located? Laterality (left/right), quadrant,
+    clock-face position, depth, distance from nipple.
+  k: 3
+  k_second_pass: 5
+
+feature_3_calcifications_asymmetry:
+  query: >
+    Are there calcifications or asymmetry? Morphology (pleomorphic,
+    amorphous, punctate), distribution (grouped, linear, segmental).
+  k: 3
+  k_second_pass: 5
+
+feature_4_additional_enhancement_mri:
+  query: >
+    What additional MRI enhancement is present beyond the primary lesion?
+    Mass or non-mass enhancement, distribution, characteristics.
+  k: 3
+  k_second_pass: 5
+
+feature_5_extent:
+  query: >
+    What is the explicitly stated disease extent?
+    Multifocal, multicentric, bilateral, or localized?
+  k: 3
+  k_second_pass: 5
+
+feature_6_accurate_clip_placement:
+  query: >
+    Was a biopsy clip or marker placed?
+    What shape? Where is it located relative to the lesion?
+  k: 3
+  k_second_pass: 5
+
+feature_7_workup_recommendation:
+  query: >
+    What follow-up or workup is recommended?
+    Biopsy, imaging follow-up, surgical evaluation, surveillance.
+  k: 3
+  k_second_pass: 5
+
+feature_8_lymph_node:
+  query: >
+    Are there lymph node findings, axillary adenopathy, or lymphadenopathy?
+    Side-specific findings or explicit 'no lymphadenopathy'.
+  k: 3
+  k_second_pass: 5
+
+feature_9_chronology_preserved:
+  query: >
+    Are radiologic studies ordered chronologically oldest to most recent?
+    Mammogram, ultrasound, MRI, PET-CT dates.
+  k: 3
+  k_second_pass: 5
+
+feature_10_biopsy_method:
+  query: >
+    What biopsy technique was performed? Core needle biopsy, stereotactic,
+    US-guided, MRI-guided, FNA, excisional biopsy, surgical.
+  k: 3
+  k_second_pass: 5
+
+feature_11_invasive_component_size_pathology:
+  query: >
+    What is the invasive component size in the pathology report?
+    Invasive carcinoma size, invasive tumor dimensions in cm or mm.
+  k: 5
+  k_second_pass: 7
+
+feature_12_histologic_diagnosis:
+  query: >
+    What is the histologic subtype or diagnosis?
+    Invasive ductal, lobular, DCIS, mucinous, metaplastic, other histology.
+  k: 3
+  k_second_pass: 5
+
+feature_13_receptor_status:
+  query: >
+    What are the ER, PR, HER2 IHC, HER2 ISH, and FISH results?
+    Include category, percentage, intensity, controls, scoring, comments.
+  k: 5
+  k_second_pass: 7

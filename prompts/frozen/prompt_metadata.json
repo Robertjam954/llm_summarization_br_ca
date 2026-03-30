@@ -1,0 +1,54 @@
+{
+  "prompts": [
+    {
+      "prompt_id": "P1_zero_shot",
+      "version": 1,
+      "filename": "zero_shot_structured_extraction_prod.txt",
+      "description": "Zero-shot baseline — no CoT, no RAG, no few-shot",
+      "technique": "zero_shot",
+      "use_rag": false,
+      "use_cot": false,
+      "use_few_shot": false,
+      "frozen": true,
+      "created": "2024-01-01"
+    },
+    {
+      "prompt_id": "P2_cot",
+      "version": 1,
+      "filename": "chain_of_thought_3.txt",
+      "description": "Chain-of-thought structured extraction, no RAG",
+      "technique": "chain_of_thought",
+      "use_rag": false,
+      "use_cot": true,
+      "use_few_shot": false,
+      "frozen": true,
+      "created": "2024-02-01"
+    },
+    {
+      "prompt_id": "P3_rag_verify_v1",
+      "version": 1,
+      "filename": "rag_1.txt",
+      "description": "RAG extraction with verification loop — v1 production candidate",
+      "technique": "rag_verify",
+      "use_rag": true,
+      "use_cot": true,
+      "use_few_shot": true,
+      "use_verification": true,
+      "frozen": true,
+      "created": "2024-03-01"
+    },
+    {
+      "prompt_id": "P4_developer_v2",
+      "version": 2,
+      "filename": "updated_developer_prompt_v2.txt",
+      "description": "Full developer prompt v2 with anti-fabrication hard constraints",
+      "technique": "structured_developer",
+      "use_rag": false,
+      "use_cot": true,
+      "use_few_shot": false,
+      "use_verification": false,
+      "frozen": true,
+      "created": "2024-04-01"
+    }
+  ]
+}

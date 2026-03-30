@@ -1,0 +1,31 @@
+knowledge_graph:
+  backend: networkx
+  export_format: graphml
+  graphml_path: data/knowledge_graph/clinical_kg.graphml
+  nodes_parquet: data/knowledge_graph/nodes.parquet
+  edges_parquet: data/knowledge_graph/edges.parquet
+
+neo4j:
+  enabled: false
+  uri: bolt://localhost:7687
+  user: neo4j
+  password_env_var: NEO4J_PASSWORD
+
+node_types:
+  - Patient
+  - SourceDocument
+  - Observation
+  - ClinicalFeature
+  - EvidenceChunk
+  - ExtractionClaim
+  - ValidationVerdict
+
+edge_types:
+  - HAS_DOCUMENT
+  - HAS_OBSERVATION
+  - CONTAINS_FEATURE
+  - HAS_CHUNK
+  - SUPPORTED_BY
+  - HAS_CLAIM
+  - VALIDATED_AS
+  - EXTRACTED_FROM

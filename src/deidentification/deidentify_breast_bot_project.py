@@ -468,6 +468,19 @@ def process_breast_bot_project():
         # Create output path maintaining folder structure
         output_path = OUTPUT_ROOT / surgeon / case / f"{case_id}.pdf"
         
+        # Skip if already processed
+        if output_path.exists():
+            mapping_rows.append({
+                "case_id": case_id,
+                "surgeon": surgeon,
+                "case_folder": case,
+                "original_filename": filename,
+                "original_path": str(source_path),
+                "deidentified_path": str(output_path),
+                "status": "SKIPPED"
+            })
+            continue
+
         # Deidentify
         result = deidentify_pdf(
             pdf_path=source_path,
@@ -517,13 +530,13 @@ def process_breast_bot_project():
     # Save mapping CSV
     mapping_df = pd.DataFrame(mapping_rows)
     mapping_df.to_csv(MAPPING_CSV, index=False)
-    print(f"\n✅ Mapping saved: {MAPPING_CSV}")
+    print(f"\n[OK] Mapping saved: {MAPPING_CSV}")
     print(f"   Total cases: {len(mapping_df)}")
     
     # Save log CSV
     log_df = pd.DataFrame(log_rows)
     log_df.to_csv(LOG_CSV, index=False)
-    print(f"✅ Log saved: {LOG_CSV}")
+    print(f"[OK] Log saved: {LOG_CSV}")
     
     # Summary statistics
     print("\n" + "=" * 80)
@@ -535,8 +548,8 @@ def process_breast_bot_project():
     total_redactions = log_df[log_df["status"] == "SUCCESS"]["total_redactions"].sum()
     
     print(f"Total PDFs processed: {len(mapping_df)}")
-    print(f"  ✅ Successful: {success_count}")
-    print(f"  ❌ Errors: {error_count}")
+    print(f"  Successful: {success_count}")
+    print(f"  Errors:     {error_count}")
     print(f"Total redactions applied: {total_redactions:,.0f}")
     
     # Surgeon breakdown

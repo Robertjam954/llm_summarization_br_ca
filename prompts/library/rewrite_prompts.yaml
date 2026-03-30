@@ -1,0 +1,26 @@
+default: |
+  Rewrite this clinical retrieval query for a dense medical PDF.
+  Add synonyms, modality context, and alternate medical terminology.
+  Do not add clinical interpretation — only expand the search terms.
+
+  Original query: {{original_query}}
+  Feature: {{feature_name}}
+  Helpful synonyms: {{synonym_hints}}
+
+  Return ONLY the rewritten query string. No explanation.
+
+synonym_expand: |
+  You are a clinical information retrieval specialist.
+  Expand this query with all relevant synonyms and abbreviations
+  used in radiology reports and pathology reports.
+
+  Query: {{original_query}}
+  Feature: {{feature_name}}
+
+  Examples of expansions:
+  - "tumor size" → "lesion size mass dimensions invasive component size cm mm"
+  - "receptor status" → "ER PR HER2 IHC ISH FISH Allred score immunohistochemistry"
+  - "lymph node" → "axillary node adenopathy lymphadenopathy nodal sentinel"
+  - "biopsy method" → "core needle CNB stereotactic US-guided FNA excision surgical"
+
+  Return ONLY the expanded query string.

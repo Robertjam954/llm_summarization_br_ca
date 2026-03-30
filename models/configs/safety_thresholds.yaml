@@ -1,0 +1,35 @@
+verification:
+  default_threshold: 0.75
+  feature_thresholds:
+    feature_1_lesion_size: 0.8
+    feature_2_lesion_location: 0.75
+    feature_3_calcifications_asymmetry: 0.75
+    feature_4_additional_enhancement_mri: 0.7
+    feature_5_extent: 0.75
+    feature_6_accurate_clip_placement: 0.7
+    feature_7_workup_recommendation: 0.7
+    feature_8_lymph_node: 0.75
+    feature_9_chronology_preserved: 0.7
+    feature_10_biopsy_method: 0.75
+    feature_11_invasive_component_size_pathology: 0.85
+    feature_12_histologic_diagnosis: 0.8
+    feature_13_receptor_status: 0.9
+
+confidence_rubric:
+  explicit_exact: 1.0
+  explicit_minor_ambiguity: 0.8
+  fragmented_support: 0.6
+  conflict_indirect: 0.4
+  not_verifiable: 0.0
+
+adjudication:
+  fabrication_requires_supported_false: true
+  uncertain_on_none_support: true
+  min_confidence_for_correct: 0.75
+
+safety:
+  primary_endpoint: fabrication_rate
+  acceptable_fabrication_rate: 0.05
+  critical_features_zero_tolerance:
+    - feature_13_receptor_status
+    - feature_11_invasive_component_size_pathology

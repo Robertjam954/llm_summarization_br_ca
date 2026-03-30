@@ -1,0 +1,108 @@
+feature_1_lesion_size:
+  - pattern: standard
+    input: "A 1.2 cm irregular mass is identified in the left breast at the 10 o'clock position."
+    output:
+      value: "1.2 cm"
+      evidence: "A 1.2 cm irregular mass is identified in the left breast at the 10 o'clock position."
+      page_refs: [3]
+      confidence: 1.0
+      reasoning_for_confidence: "Exact measurement stated explicitly."
+  - pattern: not_reported
+    input: "No lesion size was reported in this examination."
+    output:
+      value: "Not reported"
+      evidence: ""
+      page_refs: []
+      confidence: 1.0
+      reasoning_for_confidence: "No size measurement found in any chunk."
+  - pattern: conflict
+    input: "Initial report: '3 cm mass'. Later addendum: 'small 2 cm lesion'."
+    output:
+      value: "Indeterminate"
+      evidence: "Conflicting: '3 cm mass' vs 'small 2 cm lesion'."
+      page_refs: [2, 4]
+      confidence: 0.4
+      reasoning_for_confidence: >-
+        Two contradictory measurements present across documents;
+        cannot resolve without additional context. Both snippets preserved verbatim.
+
+feature_11_invasive_component_size_pathology:
+  - pattern: standard
+    input: "Invasive ductal carcinoma, grade 2, measuring 1.8 cm in greatest dimension."
+    output:
+      value: "1.8 cm"
+      evidence: "Invasive ductal carcinoma, grade 2, measuring 1.8 cm in greatest dimension."
+      page_refs: [6]
+      confidence: 1.0
+      reasoning_for_confidence: "Invasive component size explicitly stated."
+  - pattern: standard
+    input: "DCIS with focal microinvasion. Invasive focus 0.3 mm."
+    output:
+      value: "0.3 mm"
+      evidence: "DCIS with focal microinvasion. Invasive focus 0.3 mm."
+      page_refs: [5]
+      confidence: 1.0
+      reasoning_for_confidence: "Invasive focus size stated explicitly."
+  - pattern: not_reported
+    input: "DCIS, high grade, spanning 2.5 cm. No invasive carcinoma identified."
+    output:
+      value: "Not reported"
+      evidence: "No invasive carcinoma identified."
+      page_refs: [5]
+      confidence: 1.0
+      reasoning_for_confidence: >-
+        Pathology report confirms pure DCIS; invasive component size is
+        absent by explicit statement, not omitted by error.
+
+feature_13_receptor_status:
+  - pattern: standard
+    input: "ER: Positive (95%, strong). PR: Positive (80%). HER2 IHC: 1+. HER2 ISH: Not performed."
+    output:
+      value: "ER positive 95% strong; PR positive 80%; HER2 IHC 1+; HER2 ISH not performed"
+      evidence: "ER: Positive (95%, strong). PR: Positive (80%). HER2 IHC: 1+. HER2 ISH: Not performed."
+      page_refs: [5]
+      confidence: 1.0
+      reasoning_for_confidence: "All receptor results stated explicitly."
+  - pattern: standard
+    input: "ER: Negative. PR: Negative. HER2: 2+ (equivocal). FISH ratio 1.8, not amplified."
+    output:
+      value: "ER negative; PR negative; HER2 IHC 2+ equivocal; HER2 ISH FISH ratio 1.8 not amplified"
+      evidence: "ER: Negative. PR: Negative. HER2: 2+ (equivocal). FISH ratio 1.8, not amplified."
+      page_refs: [7]
+      confidence: 1.0
+      reasoning_for_confidence: "Complete receptor panel with FISH stated explicitly."
+  - pattern: not_reported
+    input: "Biopsy: invasive ductal carcinoma, grade 2. Margins: negative. [No receptor testing section.]"
+    output:
+      value: "Not reported"
+      evidence: ""
+      page_refs: []
+      confidence: 1.0
+      reasoning_for_confidence: >-
+        No ER, PR, or HER2 results found in any retrieved chunk.
+        Receptor testing section is absent from the pathology report.
+
+feature_6_accurate_clip_placement:
+  - input: "A Tumark clip was deployed at the biopsy site and confirmed in good position relative to the mass."
+    output:
+      value: "Tumark clip placed, confirmed in good position relative to mass"
+      evidence: "A Tumark clip was deployed at the biopsy site and confirmed in good position relative to the mass."
+      page_refs: [4]
+      confidence: 1.0
+      reasoning_for_confidence: "Clip placement and position explicitly stated."
+  - input: "No clip placement was described in the report."
+    output:
+      value: "Not reported"
+      evidence: ""
+      page_refs: []
+      confidence: 1.0
+      reasoning_for_confidence: "No clip or marker mentioned in any retrieved chunk."
+
+feature_10_biopsy_method:
+  - input: "Ultrasound-guided core needle biopsy was performed using a 14-gauge needle."
+    output:
+      value: "Ultrasound-guided core needle biopsy (14-gauge)"
+      evidence: "Ultrasound-guided core needle biopsy was performed using a 14-gauge needle."
+      page_refs: [2]
+      confidence: 1.0
+      reasoning_for_confidence: "Biopsy method and gauge explicitly stated."

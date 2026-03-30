@@ -1,0 +1,51 @@
+default: |
+  I claimed:
+  Feature: {{feature_name}}
+  Value: {{claimed_value}}
+
+  Using ONLY the retrieved chunks below, determine whether this claim
+  is DIRECTLY supported by explicit source text.
+
+  Rules:
+  - SUPPORTED = exact or near-exact phrase present in source text.
+  - NOT_VERIFIABLE = no direct source statement found.
+  - Do not infer. Do not use general knowledge.
+
+  If SUPPORTED:
+  - return supported: true
+  - quote the exact supporting sentence
+  - provide page reference
+  - set verification_confidence = 1.0
+
+  If NOT_VERIFIABLE:
+  - return supported: false
+  - explain why
+  - set verification_confidence = 0.0
+
+  RETRIEVED CHUNKS:
+  {{chunks}}
+
+  OUTPUT (strict JSON only):
+  {
+    "supported": true/false,
+    "exact_support_quote": "",
+    "page_ref": null,
+    "support_strength": "direct",
+    "verification_confidence": 1.0,
+    "reason": ""
+  }
+
+strict: |
+  Verification task.
+  Claimed feature: {{feature_name}} = {{claimed_value}}
+
+  Your task is ONLY to find whether this exact value appears in the
+  source text. You may not use any general medical knowledge.
+  Search the retrieved chunks for the exact claim.
+
+  RETRIEVED CHUNKS:
+  {{chunks}}
+
+  If found verbatim: return supported=true with exact_support_quote.
+  If not found: return supported=false.
+  OUTPUT strict JSON only.

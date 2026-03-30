@@ -1,0 +1,23 @@
+chunk_size: 1000
+chunk_overlap: 200
+embedding_model: "sentence-transformers/all-mpnet-base-v2"
+vector_store: "faiss"
+
+retrieval:
+  default_k: 3
+  high_complexity_k: 5
+  second_pass_k: 7
+  similarity_threshold: 0.5
+
+high_complexity_features:
+  - feature_11_invasive_component_size_pathology
+  - feature_13_receptor_status
+
+self_consistency:
+  enabled: true
+  n_runs: 3
+  features:
+    - feature_11_invasive_component_size_pathology
+    - feature_13_receptor_status
+
+max_retrieval_attempts: 2

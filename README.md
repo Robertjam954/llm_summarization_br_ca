@@ -191,6 +191,61 @@ See [`docs/executive_summary.md` Appendix H](docs/executive_summary.md) for the 
 
 All combinations evaluated on three binary outcomes (correct, omission, fabrication) via 5-fold stratified CV with AUC, accuracy, and F1 metrics.
 
+## LangGraph RAG Extraction Pipeline (v2)
+
+A multi-agent agentic system that replaces single-pass LLM extraction with stateful, evidence-grounded retrieval-augmented generation. Each of the 13 clinical features is retrieved, extracted, verified against source chunks, rewritten if needed, and adjudicated to a final verdict.
+
+**Full documentation:** [`docs/LANGGRAPH_PIPELINE.md`](docs/LANGGRAPH_PIPELINE.md)
+
+### Pipeline Modules
+
+| Layer | Files | Description |
+|-------|-------|-------------|
+| **State** | `src/workflows/extraction_state.py` | TypedDict schemas (`ExtractionState`, `FeatureResult`, `Chunk`) |
+| **Graph** | `src/workflows/extraction_graph.py` | LangGraph `StateGraph`: load → index → retrieve → extract → verify → adjudicate |
+| **Orchestration** | `src/workflows/orchestration.py` | `run_single_case()`, `run_batch()` with incremental JSON saving |
+| **RAG** | `src/rag/` | Feature registry, FAISS embedding, vector store cache, feature-specific retrievers |
+| **Preprocessing** | `src/preprocessing/chunk_text.py` | OCR text → overlapping chunks with modality labels |
+| **Prompts** | `src/prompts/` | Extraction + verification prompt builders, YAML renderer, LCP optimizer |
+| **Agents** | `src/agents/` | 5 LangGraph nodes: extract, verify, rewrite, adjudicate, self-consistency |
+| **Knowledge Graph** | `src/graph/` | NetworkX evidence graph, GraphML export, optional Neo4j |
+| **Eval Schemas** | `eval/schemas/` | Pydantic validation for all output types + HCAT safety schema |
+| **Eval Metrics** | `eval/metrics/` | Fabrication rate, accuracy, retrieval quality, self-consistency, HCAT report |
+| **Configs** | `models/configs/` | RAG, model registry, safety thresholds, graph config (YAML) |
+| **Prompt Library** | `prompts/library/` | Feature queries, extraction/verification/rewrite templates, few-shot examples |
+
+### Fabrication & Omission Analysis
+
+| Notebook | Description |
+|----------|-------------|
+| `fabrication_analysis/01_langgraph_extraction_pipeline.ipynb` | End-to-end pipeline demo, single case, HCAT scoring |
+| `fabrication_analysis/02_document_text_metrics.ipynb` | OCR quality, fabrication heatmaps, confidence distributions |
+| `fabrication_analysis/03_fabrication_omission_pipeline.ipynb` | Re-run pipeline on 63 AI-error cases; recovery analysis vs human labels |
+
+```
+Validation sheet (200 cases) → find fab/omission errors (n=63)
+  → OCR all PDFs with caching (~453 PDFs, ~43 min, 4-thread parallel)
+  → LangGraph RAG pipeline (targeted error features only)
+  → compare pipeline verdicts vs human labels
+  → audit_table.csv + run_summary.json + recovery figures
+```
+
+### Quick Start
+
+```bash
+# Run sanity check on fab/omission mapping
+python tools/check_fab_pipeline.py
+
+# Single-case extraction
+from src.workflows.orchestration import run_single_case
+result = run_single_case(case_id="CASE_001", ocr_text="...", prompt_id="rag_verify_v1")
+
+# Full batch analysis — open in Jupyter
+fabrication_analysis/03_fabrication_omission_pipeline.ipynb
+```
+
+---
+
 ## Getting Started
 
 ### Prerequisites
