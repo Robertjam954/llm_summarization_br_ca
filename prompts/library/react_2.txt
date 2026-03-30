@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Internal tool-style reasoning allowed; final output JSON only for lesion size. No inference beyond text.
+
+Tool reasoning allowed internally; final output JSON only for lesion location.
+
+ReAct-style reasoning allowed internally; final output JSON only for abnormality.
+
+ReAct-style internal reasoning allowed; output JSON only for additional enhancement.
+
+ReAct-style reasoning allowed internally; final output JSON for extent only.
+
+Internal tool-style reasoning allowed; final output JSON for clip placement.
+
+Internal tool-style reasoning allowed; final output JSON for recommendation.
+
+Internal tool-style reasoning allowed; final output JSON for lymph_nodes.
+
+Internal tool-style reasoning allowed; final output JSON for chronology_preserved.
+
+Internal tool-style reasoning allowed; final output JSON for biopsy_method.
+
+Internal tool-style reasoning allowed; final output JSON for invasive_component_size_cm.
+
+Internal tool-style reasoning allowed; final output JSON for histologic_diagnosis.
+
+Internal tool-style reasoning allowed; final output JSON only for receptor status with ER/PR thresholds and HER2 equivocal FISH rule.

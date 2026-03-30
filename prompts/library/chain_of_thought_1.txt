@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Think step by step internally, but output only JSON: {"lesion_size_cm":"..."}. No inference; use "Not reported"/"Unclear (illegible)".
+
+Think step by step internally; output only {"lesion_location":"..."}. If missing or unclear, use "Not reported"/"Unclear (illegible)".
+
+Think step by step internally; output only {"abnormality":"..."}. If missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Think step by step internally; output only JSON {"additional_enhancement_mri":"..."}. Use "Not reported"/"Unclear (illegible)".
+
+Think step by step internally; output only {"extent":"..."}. No inference.
+
+Think step by step internally; output only JSON {"clip_placement":"..."}. No inference.
+
+Think step by step internally; output only {"recommendation":"..."}. No inference.
+
+Think step by step internally; output only {"lymph_nodes":"..."}. No inference.
+
+Think step by step internally; output only {"chronology_preserved":"..."}. No inference.
+
+Think step by step internally; output only {"biopsy_method":"..."}. No inference.
+
+Think step by step internally; output only {"invasive_component_size_cm":"..."}. No inference.
+
+Think step by step internally; output only {"histologic_diagnosis":"..."}. No inference.
+
+Think step by step internally; output only the receptor_status JSON. ER positive if ER ≥1%; PR positive if PR ≥1%. HER2 equivocal -> FISH required. No inference.

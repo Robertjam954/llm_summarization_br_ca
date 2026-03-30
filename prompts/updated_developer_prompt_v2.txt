@@ -168,7 +168,7 @@ Feature 4 – additional_enhancement_mri
 MRI enhancement beyond primary lesion (mass or non-mass), including characteristics if stated.
 
 Feature 5 – extent
-Explicitly stated disease extent only. No inference.
+Explicitly stated disease extent.
 
 Feature 6 – accurate_clip_placement
 Whether a clip/marker was placed, shape if stated, location relative to lesion.

@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Find any lesion measurements and return JSON: {"lesion_size_cm":"..."}. Include 3D sizes if reported. Use "Not reported" or "Unclear (illegible)" as needed.
+
+Find lesion location details and output JSON {"lesion_location":"..."}. Include laterality and clock-face if present. No inference.
+
+Identify stated abnormality types and output JSON {"abnormality":"..."}. Include multiple if listed. No inference.
+
+Find statements about additional MRI enhancement and output JSON {"additional_enhancement_mri":"..."}. No inference.
+
+Identify explicit extent statements (e.g., 3 cm span, multicentric) and output JSON {"extent":"..."}.
+
+Find post-procedure clip placement statements and output JSON {"clip_placement":"..."}.
+
+Identify explicit recommendation statements and output JSON {"recommendation":"..."}.
+
+Identify any lymph node statements and output JSON {"lymph_nodes":"..."}.
+
+Identify any explicit statement about chronology/timeline preservation and output JSON {"chronology_preserved":"..."}.
+
+Identify explicit biopsy method terms and output JSON {"biopsy_method":"..."}.
+
+Find explicit invasive component size and output JSON {"invasive_component_size_cm":"..."}.
+
+Identify explicit histology terms and output JSON {"histologic_diagnosis":"..."}.
+
+Extract ER%, PR%, HER2 (IHC/FISH), Ki-67. ER positive if ER ≥1%. PR positive if PR ≥1%. HER2 equivocal -> FISH required. Output JSON only. Use "Not reported"/"Unclear (illegible)" as needed.

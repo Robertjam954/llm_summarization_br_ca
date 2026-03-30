@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Example input: 'MRI: lesion size 2.1 cm.' Example output: {"lesion_size_cm":"2.1"}. Now extract lesion size from: <<<PDF_TEXT>>>.
+
+Example input: 'Left upper outer quadrant lesion, posterior depth.' Example output: {"lesion_location":"left, upper outer quadrant, posterior"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Diagnostic MMG: focal asymmetry and architectural distortion.' Example output: {"abnormality":"asymmetry; distortion"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'No additional enhancement identified on MRI.' Example output: {"additional_enhancement_mri":"no additional enhancement"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Multifocal disease with total extent 6 cm.' Example output: {"extent":"multifocal, total extent 6 cm"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Clip migrated 2 cm laterally.' Example output: {"clip_placement":"clip migrated 2 cm laterally"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Recommend 6-month follow-up mammogram.' Example output: {"recommendation":"6-month follow-up mammogram"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Enlarged right axillary node with cortical thickening.' Example output: {"lymph_nodes":"enlarged right axillary node with cortical thickening"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Chronology not preserved; dates inconsistent.' Example output: {"chronology_preserved":"no - dates inconsistent"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Stereotactic biopsy of calcifications.' Example output: {"biopsy_method":"stereotactic"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Invasive carcinoma size 0.8 cm.' Example output: {"invasive_component_size_cm":"0.8"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Pathology: DCIS, high grade.' Example output: {"histologic_diagnosis":"DCIS, high grade"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'ER <1%, PR 0%, HER2 negative by FISH, Ki-67 10%.' Example output: {"er_percent":"<1","pr_percent":"0","her2_result":"negative","her2_method":"FISH","ki67_percent":"10","er_positive":"0","pr_positive":"0","her2_equivocal_requires_fish":"No"}. Now extract from: <<<PDF_TEXT>>>.

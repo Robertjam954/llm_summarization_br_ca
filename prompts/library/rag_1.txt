@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Use only the provided context to fill {"lesion_size_cm":"..."}. If absent -> "Not reported"; if illegible -> "Unclear (illegible)". Context: <<<CONTEXT>>>.
+
+Use only provided context. Return JSON {"lesion_location":"..."}. If not in context -> "Not reported".
+
+Use only provided context to fill {"abnormality":"..."}. If absent -> "Not reported". Context: <<<CONTEXT>>>.
+
+Use only provided context. Return JSON {"additional_enhancement_mri":"..."}. If absent -> "Not reported". Context: <<<CONTEXT>>>.
+
+Use only provided context. Return {"extent":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"clip_placement":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"recommendation":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"lymph_nodes":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"chronology_preserved":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"biopsy_method":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"invasive_component_size_cm":"..."}. If absent -> "Not reported".
+
+Use only provided context. Return {"histologic_diagnosis":"..."}. If absent -> "Not reported".
+
+Use only provided context. Output receptor_status JSON. ER≥1% and PR≥1% are positive. HER2 equivocal -> FISH required. If missing -> "Not reported". Context: <<<CONTEXT>>>.

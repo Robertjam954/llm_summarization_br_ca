@@ -1,0 +1,39 @@
+Based on the provided document, here is a summary of the key components and evaluation areas of the **Human-Calibrated Automated Testing (HCAT)** framework:
+
+### **1. Key Components of the HCAT Framework**
+
+The framework is designed to provide a scalable and transparent solution for validating Generative Language Models (GLMs), particularly **Retrieval-Augmented Generation (RAG)** systems:
+
+* **Automatic Test Generation:** Uses topic modeling and stratified sampling to create a diverse set of queries that cover the entire document collection. This ensures comprehensive testing across all themes in the knowledge base.
+* **Explainable Evaluation Metrics:** Prioritizes embedding-based metrics and Natural Language Inference (NLI) over "black-box" methods to provide interpretable insights.
+* **Human-Calibrated Calibration:** A two-stage process (probability calibration and conformal prediction) that aligns machine-generated scores with human judgments to ensure the evaluations reflect real-world expectations.
+
+### **2. Areas of Evaluation**
+
+The framework evaluates model performance across several critical dimensions:
+
+#### **RAG & Summary Quality (Functionality Metrics)**
+
+* **Context Relevancy:** Measures how well retrieved documents address the input query using sentence-level semantic similarity.
+* **Groundedness (Faithfulness):** Ensures the generated answer is supported by the retrieved context to prevent hallucinations. This is measured via sentence similarity and NLI (entailment probabilities).
+* **Completeness:** Evaluates if the answer covers all essential points from the context. It uses both **sentence similarity** and **Wasserstein Distance** (Earth Mover's Distance) to measure the alignment of information distribution.
+* **Answer Relevancy:** Quantifies how directly the response addresses the user's specific intent.
+
+#### **Safety & Risk Metrics**
+
+* **Toxicity:** Assesses the likelihood of generating harmful or offensive content, which is critical for maintaining professional standards in regulated industries like banking.
+* **Bias Evaluation:** Tests for demographic or sentiment bias (race, gender, etc.) through counterfactual evaluation to ensure equitable treatment.
+* **Privacy Protection:** Uses Named Entity Recognition (NER) and adversarial testing to ensure the model does not disclose sensitive personal or financial information.
+
+#### **Embedding & Mathematical Metrics**
+
+* **Semantic Similarity:** Utilizes models like BERTScore, SimCSE, and Sentence-BERT to capture fine-grained meaning rather than simple word overlap.
+* **NLI-Based Metrics:** Employs specialized Natural Language Inference models to determine logical consistency and detect contradictions.
+* **Optimal Transport:** Specifically uses the **Wasserstein distance** to assess the global alignment of ideas between the source context and the model's output.
+
+#### **Robustness & Weakness Analysis**
+
+* **Robustness Testing:** Evaluates model stability against **Adversarial Inputs** (misleading info), **Out-of-Distribution Queries** (unfamiliar topics), and **Input Variations** (typos and colloquialisms).
+* **Weakness Identification:** Uses **Marginal Analysis** (performance by topic) and **Bivariate Analysis** (interactions between topic and query complexity) to pinpoint specific areas where the model struggles, guiding targeted improvements.
+
+The full details of these methodologies can be found in the paper [Human-Calibrated Automated Testing and Validation of Generative Language Models: An Overview](https://www.google.com/search?q=https://arxiv.org/pdf/2411.16391).

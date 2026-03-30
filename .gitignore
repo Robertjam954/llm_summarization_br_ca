@@ -43,3 +43,19 @@ data/extracted_text_comparison/
 # Temp files
 ~$*
 *.tmp
+.conda/api-ms-win-crt-string-l1-1-0.dll
+.conda/api-ms-win-crt-stdio-l1-1-0.dll
+.conda/api-ms-win-crt-runtime-l1-1-0.dll
+.conda/api-ms-win-crt-process-l1-1-0.dll
+.conda/api-ms-win-crt-private-l1-1-0.dll
+.conda/api-ms-win-crt-multibyte-l1-1-0.dll
+.conda/api-ms-win-crt-math-l1-1-0.dll
+.conda/api-ms-win-crt-locale-l1-1-0.dll
+.conda/api-ms-win-crt-heap-l1-1-0.dll
+.conda/api-ms-win-crt-filesystem-l1-1-0.dll
+.conda/api-ms-win-crt-environment-l1-1-0.dll
+.conda/api-ms-win-crt-convert-l1-1-0.dll
+.conda/api-ms-win-crt-conio-l1-1-0.dll
+.conda/api-ms-win-core-util-l1-1-0.dll
+.conda/api-ms-win-core-timezone-l1-1-0.dll
+.conda/api-ms-win-core-sysinfo-l1-1-0.dll

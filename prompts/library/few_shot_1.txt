@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Example input: 'US: mass 1.2 x 0.9 x 0.8 cm.' Example output: {"lesion_size_cm":"1.2 x 0.9 x 0.8"}. Now extract lesion size from: <<<PDF_TEXT>>>.
+
+Example input: 'Right breast mass at 10:00, 5 cm from nipple.' Example output: {"lesion_location":"right, 10:00, 5 cm from nipple"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Mammogram shows grouped calcifications.' Example output: {"abnormality":"calcifications"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'MRI shows additional non-mass enhancement in right breast.' Example output: {"additional_enhancement_mri":"yes - non-mass enhancement in right breast"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Extent of disease spans 4.5 cm.' Example output: {"extent":"4.5 cm"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Post-biopsy mammogram shows clip in expected location.' Example output: {"clip_placement":"clip in expected location"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Recommend ultrasound-guided biopsy.' Example output: {"recommendation":"ultrasound-guided biopsy"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'No abnormal axillary lymph nodes.' Example output: {"lymph_nodes":"no abnormal axillary nodes"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Chronology preserved in report.' Example output: {"chronology_preserved":"yes"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'US-guided core biopsy performed.' Example output: {"biopsy_method":"US-guided core"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Invasive component measures 1.6 cm.' Example output: {"invasive_component_size_cm":"1.6"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'Diagnosis: invasive ductal carcinoma.' Example output: {"histologic_diagnosis":"invasive ductal carcinoma"}. Now extract from: <<<PDF_TEXT>>>.
+
+Example input: 'ER 80%, PR 5%, HER2 equivocal (IHC 2+), Ki-67 20%.' Example output: {"er_percent":"80","pr_percent":"5","her2_result":"equivocal","her2_method":"IHC","ki67_percent":"20","er_positive":"1","pr_positive":"1","her2_equivocal_requires_fish":"Yes"}. Now extract from: <<<PDF_TEXT>>>.

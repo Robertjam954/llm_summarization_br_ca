@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Procedure: Identify size expressions (e.g., 1.2 x 0.9 x 0.8 cm). Normalize to cm if stated. Output JSON only. No inference.
+
+Procedure: Parse location tokens (e.g., 2:00, UOQ, retroareolar). Output {"lesion_location":"..."}. If unclear -> "Unclear (illegible)".
+
+Procedure: Extract abnormality descriptors exactly as written and output JSON. If unclear -> "Unclear (illegible)".
+
+Procedure: Extract enhancement statements exactly; output JSON only. If unclear -> "Unclear (illegible)".
+
+Procedure: Extract extent statements exactly as written; output JSON only.
+
+Procedure: Extract clip placement statements verbatim; output JSON only.
+
+Procedure: Extract recommendation statements exactly; output JSON only.
+
+Procedure: Extract lymph node findings verbatim; output JSON only.
+
+Procedure: Extract chronology statements verbatim; output JSON only.
+
+Procedure: Extract method verbatim; output JSON only.
+
+Procedure: Extract invasive size verbatim; output JSON only.
+
+Procedure: Extract histology verbatim; output JSON only.
+
+Procedure: Parse receptor lines exactly; output JSON only. Apply ER≥1%, PR≥1% positivity rule. If HER2 equivocal, note FISH required. No inference.

@@ -1,0 +1,362 @@
+Chapter Breakdown (9 Chapters)
+BEGINNER (Chapters 1–3)
+Chapter 1: Basic Prompt Structure
+What you learn:
+
+The foundational anatomy of a prompt
+Proper role assignment (user, assistant, system)
+Message format requirements (what Claude expects)
+Role alternation rules (user → assistant → user pattern)
+Introduction to system prompts and how they guide Claude's behavior
+How to avoid API errors from invalid message sequences
+Key Concept:
+
+Code
+Every prompt needs:
+1. A system message (optional but recommended) — sets context/instructions
+2. User messages (required) — the actual task
+3. Claude's response — assistant message
+Example:
+
+Code
+SYSTEM: "You are a clinical data analyst specializing in oncology."
+
+USER: "Extract the ER status from this pathology report..."
+
+ASSISTANT: "Based on the pathology report, ER status is positive..."
+Chapter 2: Being Clear and Direct
+What you learn:
+
+How to write precise, unambiguous instructions
+Removing vague language ("please help me" → "Extract the following 14 clinical elements")
+Direct instructions reduce guesswork and improve Claude's output quality
+Specificity vs. brevity trade-offs
+Key Concept:
+
+Code
+❌ Vague: "Can you look at this and tell me what's important?"
+✅ Clear: "Extract ER status, HER2 status, and tumor grade from the pathology report. Return as JSON."
+Why this matters for your project: Your extraction prompts (P1, P2, P3) MUST be explicit about:
+
+Which 14 elements to extract
+Expected output format (JSON)
+What counts as "found" vs. "not found"
+Chapter 3: Assigning Roles
+What you learn:
+
+How to give Claude a specific persona or role (e.g., "You are a senior pathologist")
+Role assignment narrows Claude's perspective and improves response relevance
+Roles help Claude make context-aware decisions
+How to combine roles with tasks
+Key Concept:
+
+Code
+Without role: "Analyze this tissue sample"
+→ Generic response
+
+With role: "You are an expert surgical oncologist. Analyze this tissue sample for hormone receptor status."
+→ More medically precise, uses oncology terminology
+For your oncology project:
+
+Code
+SYSTEM: "You are an expert surgical oncologist with 20 years of experience in 
+breast cancer diagnosis and feature extraction. Your task is to extract 
+clinical features from source documents with high accuracy."
+INTERMEDIATE (Chapters 4–7)
+Chapter 4: Separating Data from Instructions
+What you learn:
+
+How to structurally separate your instructions from the task data
+Using XML-style tags to prevent confusion (e.g., <DOCUMENT>, <INSTRUCTIONS>)
+Why this matters: prevents Claude from confusing the data with instructions
+Improves reliability for complex tasks
+Key Concept:
+
+Code
+❌ Mixed (confusing):
+"Extract ER status from this report: Patient: Jane Doe, Age: 52, ER: Positive"
+
+✅ Separated (clear):
+<INSTRUCTIONS>
+Extract the following clinical features from the document:
+- ER status (positive/negative/unknown)
+- HER2 status (positive/negative/unknown)
+Return as JSON.
+</INSTRUCTIONS>
+
+<DOCUMENT>
+Pathology Report
+Patient: Jane Doe
+Age: 52
+Estrogen Receptor (ER): Positive (90%)
+HER2: Negative
+</DOCUMENT>
+For your RAG pipeline:
+
+Code
+<INSTRUCTIONS>
+Analyze the retrieved chunks below. Extract only the ER status value.
+If ER status is not mentioned or is ambiguous, return "unknown".
+</INSTRUCTIONS>
+
+<RETRIEVED_CHUNKS>
+[Chunk 1: "Estrogen receptor immunohistochemistry: Positive (90%+)"]
+[Chunk 2: "PR negative, ER positive in >50% of cells"]
+</RETRIEVED_CHUNKS>
+
+<EXTRACTION_SCHEMA>
+{
+  "element_name": "ER_status",
+  "value": "positive",
+  "evidence": "...",
+  "confidence": 0.92
+}
+</EXTRACTION_SCHEMA>
+Why critical for your project:
+
+Prevents hallucinations (Claude won't confuse source data with instructions)
+Improves consistency across 200 cases
+Enables reliable per-element extraction
+Chapter 5: Formatting Output & Speaking for Claude
+What you learn:
+
+How to specify the exact format Claude should use (JSON, CSV, bullet points, etc.)
+Using "meta prompts" to control output structure
+Why structured output matters (easier to parse, validate, store)
+Handling special cases (empty values, null, "not found")
+Key Concept:
+
+Code
+REQUEST: "Return the results as structured JSON"
+INSTRUCTION: "Format your response as valid JSON with the following schema:
+{
+  "element_name": string,
+  "value": string,
+  "evidence": string,
+  "confidence": float (0-1)
+}"
+For your 14 clinical elements:
+
+Code
+SYSTEM MESSAGE:
+"You MUST return your extraction as valid JSON. Do not return markdown code blocks.
+Do not return trailing commas. The JSON must be parseable by standard JSON libraries."
+
+EXPECTED OUTPUT:
+{
+  "ER_status": {
+    "value": "positive",
+    "evidence": "Immunohistochemistry shows >90% positive nuclei",
+    "confidence": 0.95,
+    "page_refs": [2]
+  },
+  "HER2_status": {
+    "value": "negative",
+    "evidence": "HER2 score 0-1+ by IHC, FISH negative",
+    "confidence": 0.92,
+    "page_refs": [2]
+  }
+  ... (12 more elements)
+}
+Why this matters:
+
+You need to parse 200 × 14 × 5 prompts worth of outputs
+Structured format makes validation and metrics computation automatic
+Enables comparison with human annotations
+Chapter 6: Precognition (Thinking Step by Step)
+What you learn:
+
+"Chain of thought" reasoning: ask Claude to show its work
+Why this matters: more accurate, more reliable, better for complex problems
+How step-by-step reduces hallucination
+Trade-off: uses more tokens (costs more, slower)
+Key Concept:
+
+Code
+❌ Direct extraction:
+"What is the ER status?"
+Response: "Positive"
+(We don't know HOW Claude decided this)
+
+✅ Chain of thought:
+"Walk me through your reasoning:
+1. Find all statements about ER status
+2. Identify the most authoritative source
+3. Note any conflicting information
+4. Conclude with your final answer"
+
+Response:
+1. I found three mentions:
+   - Line 5: "ER staining is positive"
+   - Line 12: "Initial ER test was inconclusive"
+   - Line 18: "Confirmatory ER test: >90% positive"
+2. The most authoritative is the confirmatory test (line 18)
+3. No significant conflicts (initial inconclusive result superseded)
+4. Final answer: POSITIVE
+For your fabrication detection: If you use CoT (your P2 prompt), you can:
+
+Ask Claude to cite each evidence chunk it used
+Request explicit reasoning for confidence scores
+Detect hallucinations by checking if evidence actually supports the conclusion
+LangGraph integration:
+
+Python
+def node_chain_of_thought(state: ExtractionState) -> ExtractionState:
+    prompt = """
+    Step 1: Find all mentions of {element} in the document
+    Step 2: Identify the most authoritative statement
+    Step 3: Note any conflicting information
+    Step 4: Return JSON with:
+      - value: your conclusion
+      - reasoning: your step-by-step logic
+      - confidence: 0-1 based on clarity and agreement
+    """
+    result = call_claude(state['text'], prompt)
+    return state
+Chapter 7: Using Examples (Few-Shot Prompting)
+What you learn:
+
+How to include examples within your prompt (few-shot learning)
+Why examples clarify exactly what you want
+How well-crafted examples dramatically improve consistency
+Trade-offs: more tokens used, but better quality
+Key Concept:
+
+Code
+❌ Zero-shot (no examples):
+"Extract ER status"
+
+✅ Few-shot (with examples):
+"Extract ER status. Here are examples of correct extraction:
+
+EXAMPLE 1:
+Source: 'ER immunohistochemistry: Positive (95%)'
+Output: {"value": "positive", "evidence": "Immunohistochemistry shows 95% positive", "confidence": 0.96}
+
+EXAMPLE 2:
+Source: 'Estrogen receptor testing was not performed on this specimen'
+Output: {"value": "unknown", "evidence": "ER testing not performed", "confidence": 1.0}
+
+EXAMPLE 3:
+Source: 'ER status unclear; initial test equivocal, confirmatory test pending'
+Output: {"value": "unknown", "evidence": "Initial test equivocal, confirmatory test pending", "confidence": 0.4}
+
+Now extract ER status from: [NEW DOCUMENT]"
+For your project: Your few-shot prompts (P4) would include:
+
+Code
+- 2–3 examples of correct extraction per element
+- Handling of edge cases (missing data, conflicting info, equivocal results)
+- Examples of both positive and negative extractions
+Why effective for clinical extraction:
+
+Medical terminology is precise; examples help Claude use it correctly
+Edge cases (equivocal results) need to be shown, not described
+Improves consistency across all 200 cases
+ADVANCED (Chapters 8–9)
+Chapter 8: Avoiding Hallucinations
+What you learn:
+
+Why Claude hallucinates (generates plausible-sounding but false information)
+Practical mitigation strategies:
+Demand citations — "Quote the exact source text"
+Restrict to retrieved context — "Only use the provided chunks"
+Set boundaries — "Return 'unknown' if not found, never guess"
+Check answers — "Does your answer match the source text?"
+How RAG reduces hallucination by limiting context
+Key Concept:
+
+Code
+Hallucination example:
+Source: "ER testing: Positive"
+(No mention of specific percentage)
+
+Hallucinated response: "ER status is positive (92%)"
+(Claude invented the 92% because it's plausible)
+
+Prevention:
+"Return ONLY information explicitly stated in the source.
+If you invent any data point, return null/unknown instead."
+For your oncology project (CRITICAL): Your primary safety outcome is fabrication rate. Strategies from Chapter 8:
+
+Use RAG (your P3 prompt)
+
+Retrieved chunks limit hallucination space
+Claude can't fabricate what isn't there
+Require citations
+
+Code
+"For each extracted element, provide:
+- value: the finding
+- evidence: the exact text from the document
+- page_refs: which page(s) this came from"
+Confidence scoring with citation validation
+
+Code
+"Low confidence (< 0.5) if:
+- The evidence is indirect or inferred
+- Multiple conflicting statements exist
+- The extraction requires interpretation beyond literal text"
+Post-extraction validation
+
+Python
+# In your LangGraph validation node:
+def node_validate(state):
+    for element, extraction in state['extracted_elements'].items():
+        # Check: does the evidence actually support the value?
+        if not validate_evidence_matches_value(extraction):
+            state['fabrication_flags'].append(element)
+    return state
+Measurement for your paper:
+
+Code
+Fabrication rate = FP / (FP + TN)
+
+Where:
+FP = Claude said "present" (fabricated)
+TN = Claude correctly said "not found/unknown"
+
+Example: If source has 50 elements marked "not present":
+- Claude correctly returned "unknown": 45 (TN)
+- Claude hallucinated a value: 5 (FP)
+- Fabrication rate = 5 / 50 = 0.10 (10%)
+Chapter 9: Building Complex Prompts (Industry Use Cases)
+What you learn:
+
+How to combine all previous techniques into production-grade prompts
+Real-world examples:
+Chatbot — maintaining conversation context
+Legal Services — handling long documents, precise language
+Financial Services — numerical accuracy, risk assessment
+Coding — generating correct, testable code
+For your clinical feature extraction: Your complex prompt (P9) would combine:
+
+Code
+1. Basic Structure (Ch 1)
+   - System message defining role (expert oncologist)
+   - Proper message formatting
+
+2. Clarity (Ch 2)
+   - Explicit list of 14 elements
+   - Unambiguous extraction rules
+
+3. Role (Ch 3)
+   - "You are a surgical oncologist"
+
+4. Separating Data (Ch 4)
+   - <INSTRUCTIONS> ... </INSTRUCTIONS>
+   - <RETRIEVED_CHUNKS> ... </RETRIEVED_CHUNKS>
+
+5. Output Format (Ch 5)
+   - "Return valid JSON with this schema"
+
+6. Precognition (Ch 6)
+   - "Show your reasoning for confidence scores"
+
+7. Examples (Ch 7)
+   - 2–3 per-element examples
+
+8. Avoiding Hallucinations (Ch 8)
+   - "Cite exact evidence"
+   - "Return unknown if not present"
+   - Confidence penalty for inferences

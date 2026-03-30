@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Steps: 1) Scan for numeric sizes with cm/mm. 2) Select lesion size for the target report section. 3) Output {"lesion_size_cm":"..."}. If missing -> "Not reported"; if unclear -> "Unclear (illegible)".
+
+Steps: 1) Locate laterality and anatomic descriptors (quadrant/clock-face/depth/distance). 2) Concatenate as a single string. 3) Output JSON. If missing -> "Not reported".
+
+Steps: 1) Scan for keywords: calcification, asymmetry, distortion, mass. 2) List stated items. 3) Output JSON. Missing -> "Not reported".
+
+Steps: 1) Locate MRI section. 2) Capture any statement about additional enhancement. 3) Output JSON. Missing -> "Not reported".
+
+Steps: 1) Find explicit extent/aggregate size phrases. 2) Copy verbatim. 3) Output JSON. Missing -> "Not reported".
+
+Steps: 1) Locate post-procedure mammogram section. 2) Extract clip placement details. 3) Output JSON.
+
+Steps: 1) Find recommendation section. 2) Copy recommendation text. 3) Output JSON.
+
+Steps: 1) Scan for lymph node descriptors. 2) Copy exact statement. 3) Output JSON.
+
+Steps: 1) Scan for chronology/timeline statements. 2) Copy exact text. 3) Output JSON.
+
+Steps: 1) Scan pathology/biopsy section. 2) Extract method phrase. 3) Output JSON.
+
+Steps: 1) Locate invasive component size phrase. 2) Extract value. 3) Output JSON.
+
+Steps: 1) Locate diagnosis line. 2) Extract histology text. 3) Output JSON.
+
+Steps: 1) Extract ER%, PR%, HER2 result/method, Ki-67%. 2) Set er_positive=1 if ER≥1%, else 0. 3) Set pr_positive=1 if PR≥1%, else 0. 4) If HER2 equivocal, set her2_equivocal_requires_fish=Yes. 5) Output JSON.

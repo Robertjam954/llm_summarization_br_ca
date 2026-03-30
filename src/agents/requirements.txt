@@ -1,0 +1,53 @@
+# Core Dependencies
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+langchain-community>=0.3.0
+langchain-tavily>=0.2.0
+langchain-experimental>=0.3.0
+
+# Evaluation and Testing
+deepeval>=1.0.0
+pytest>=8.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# NLP Metrics
+rouge-score>=0.1.2
+nltk>=3.8.0
+bert-score>=0.3.13
+
+# Safety and Bias Detection
+detoxify>=0.5.0
+
+# Google Cloud
+google-cloud-run>=0.10.0
+google-cloud-logging>=3.0.0
+google-cloud-trace>=1.0.0
+google-cloud-storage>=2.0.0
+
+# Web Framework (for API endpoints)
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# Monitoring
+prometheus-client>=0.20.0
+
+# Document Processing
+pdf2image>=1.16.0
+pillow>=10.0.0
+
+# Optional: Anthropic (if using Claude)
+anthropic>=0.25.0
+
+# Optional: Transformers (for advanced metrics)
+transformers>=4.40.0
+torch>=2.0.0

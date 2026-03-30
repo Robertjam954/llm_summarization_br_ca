@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Reason silently and output only {"lesion_size_cm":"..."}. If measurement is missing or unreadable, return "Not reported" or "Unclear (illegible)".
+
+Reason silently and output only JSON for lesion location. Do not infer if missing or illegible.
+
+Reason silently and return JSON for abnormality type only. No inference beyond text.
+
+Reason silently and output only the MRI enhancement field as JSON. Do not infer.
+
+Reason silently and output JSON for extent only. If missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output only the clip placement JSON. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for recommendation only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for lymph nodes only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for chronology only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for biopsy method only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for invasive size only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output JSON for histology only. Missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+Reason silently and output only receptor_status JSON. Use "Not reported"/"Unclear (illegible)" where needed. ER≥1% and PR≥1% are positive.

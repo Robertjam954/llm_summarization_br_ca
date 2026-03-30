@@ -1,0 +1,56 @@
+
+Console Logo
+
+Google Cloud Setup
+/
+Organization
+Your current account, robertjam954@gmail.com, is not an administrator of an organization on Google Cloud. If you are a company administrator trusted with complete control over a company’s Google Cloud resources, proceed with this task to create an administrator account. Otherwise, ask your company administrator to start this checklist.
+To use Google Cloud, you must use a Google identity service (either Cloud Identity  or Workspace ) to administer credentials for users of your Google Cloud resources. Both Cloud Identity and Workspace provide authentication credentials allowing others to access your cloud resources. Workspace offers additional consumer services like Gmail, Google Drive, and other services.
+
+If you are already using a non-Google identity provider, you still need a Google identity account using Cloud Identity or Workspace. You can federate your current identity provider to your Google identity account, enabling your employees to access Google Cloud with their existing credentials.
+
+Because Workspace offers more features than Cloud Identity, it is also more costly per license. For this reason, you may use Cloud Identity selectively, only for those users who do not need access to the more expensive Workspace features.
+
+After establishing the Google identity service, you will use it to verify your domain. Verifying your domain automatically creates an organization resource , which is the root node of your Google Cloud resource hierarchy.
+
+Who performs this task?
+An identity administrator responsible for assigning role-based access to individuals or groups within your organization. This individual needs to be a Super Administrator for Cloud Identity or Workspace.
+A domain administrator with access to the company's domain host, to see and edit domain settings such as DNS configurations.
+What you do in this task?
+Ensure you have a Google identity service linked to your domain, so you can administer authentication to your Google Cloud organization.
+Associate your Google identity service with your domain, which creates an organization resource as the root node in your Google Cloud resource hierarchy.
+Verify that your organization resource was created correctly.
+Why we recommend this task?
+Using the Google Cloud setup checklist requires a Google identity service linked to your domain, and an organizational resource to house your projects. This foundation is necessary for organizing your resource hierarchy and centrally managing your teams’ account identities and access controls.
+
+Select an option to view detailed steps
+
+I’m a new customer
+You’ll set up Cloud Identity, verify your domain, and create your organization.
+
+I’m a current Workspace customer
+You can optionally enable Cloud Identity.
+
+I’m a current Cloud Identity customer
+You’ll review that Cloud Identity is enabled for your organization.
+1
+Set up Cloud Identity and verify your domain
+Cloud Identity is an “Identity as a Service” solution allowing you to centrally manage users and groups for your Google Cloud organization. It offers a free edition and a premium edition with more features (compare the two editions ). This checklist shows steps for the free edition, but you can upgrade any time.
+
+To complete this process, your domain needs to be registered, and you need access to the domain host.
+
+Click below to set up your free Cloud Identity account, first administrator user, and Super Administrator username for your domain.
+
+When asked to specify a username, we recommend using admin-[person] as the username (e.g., admin-maria).
+
+Verify your domain by following these steps . If you run into issues, scroll down below and expand the Troubleshooting section. Verifying your domain triggers GCP to automatically create the organization resource  for your domain.
+
+After the verification completes, you receive a prompt to Create new users, but skip that for now, as we’ll add users later on. Do not click Create new users. Instead, click Set up GCP Cloud Console now at the bottom of the Getting started page of the Google Admin console. We will add new users in Task 2: Users & groups.
+
+2
+Sign in to your new account
+
+
+
+
+

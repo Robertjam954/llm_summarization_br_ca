@@ -1,0 +1,5 @@
+﻿File name,Prompting technique
+claude_specific_extraction_prompt_v1.txt,"Zero-shot structured extraction, Claude-specific"
+openai_specific_extraction_prompt_v1.txt,"Zero-shot structured extraction, OpenAI-specific"
+metaprompt_prompt_generator_v1.txt,Meta-prompt / prompt generation
+mcode_gpt_zero_shot_prompt_v1.txt,"Zero-shot structured extraction, mCODE-specific"

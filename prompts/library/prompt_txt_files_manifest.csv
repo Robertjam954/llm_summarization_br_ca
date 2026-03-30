@@ -1,0 +1,17 @@
+﻿Prompting technique,Column name,TXT file
+Baseline structured,baseline_structured_prompt_initial,baseline_structured_prompt_initial.txt
+Chain-of-thought,chain_of_thought_1,chain_of_thought_1.txt
+Chain-of-thought,chain_of_thought_2,chain_of_thought_2.txt
+Chain-of-thought,chain_of_thought_3,chain_of_thought_3.txt
+Few-shot,few_shot_1,few_shot_1.txt
+Few-shot,few_shot_2,few_shot_2.txt
+Program-aided,program_aided_1,program_aided_1.txt
+Program-aided,program_aided_2,program_aided_2.txt
+RAG,rag_1,rag_1.txt
+RAG,rag_2,rag_2.txt
+ReAct,react_1,react_1.txt
+ReAct,react_2,react_2.txt
+Zero-shot,zero_shot_1,zero_shot_1.txt
+Zero-shot,zero_shot_2,zero_shot_2.txt
+Zero-shot structured extraction,zero_shot_structured_extraction_legacy,zero_shot_structured_extraction_legacy.txt
+Zero-shot structured extraction,zero_shot_structured_extraction_prod,zero_shot_structured_extraction_prod.txt

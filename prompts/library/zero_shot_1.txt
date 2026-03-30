@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Extract lesion size(s) in cm from the PDF text. Return JSON: {"lesion_size_cm":"..."}. If not stated -> "Not reported"; if unclear -> "Unclear (illegible)". Do not infer.
+
+Extract lesion location (laterality, quadrant, clock-face, depth, distance from nipple) from PDF text. Return JSON: {"lesion_location":"..."}. Use "Not reported" or "Unclear (illegible)". Do not infer.
+
+Extract abnormality type (calcifications/asymmetry/distortion/mass) from PDF text. Return JSON: {"abnormality":"..."}. Use "Not reported" or "Unclear (illegible)". Do not infer.
+
+Extract MRI additional enhancement details (yes/no + description) from PDF text. Return JSON: {"additional_enhancement_mri":"..."}. Use "Not reported" or "Unclear (illegible)".
+
+Extract extent of disease (size/extent statements) from PDF text. Return JSON: {"extent":"..."}. Use "Not reported" or "Unclear (illegible)". Do not infer.
+
+Extract clip placement accuracy/location from PDF text. Return JSON: {"clip_placement":"..."}. Use "Not reported" or "Unclear (illegible)". Do not infer.
+
+Extract workup recommendations (biopsy, follow-up, MRI, etc.) from PDF text. Return JSON: {"recommendation":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract lymph node findings (axillary/internal mammary; normal/abnormal) from PDF text. Return JSON: {"lymph_nodes":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract whether chronology is preserved or report notes timeline consistency. Return JSON: {"chronology_preserved":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract biopsy method (core, stereotactic, US-guided, MRI-guided, FNA, excision) from PDF text. Return JSON: {"biopsy_method":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract invasive component size from pathology text. Return JSON: {"invasive_component_size_cm":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract histologic diagnosis (benign, atypical, DCIS, invasive subtype) from pathology text. Return JSON: {"histologic_diagnosis":"..."}. Use "Not reported"/"Unclear (illegible)". Do not infer.
+
+Extract receptor status. Return JSON: {"er_percent":"...","pr_percent":"...","her2_result":"...","her2_method":"...","ki67_percent":"...","er_positive":"0/1","pr_positive":"0/1","her2_equivocal_requires_fish":"Yes/No"}. ER positive if ER ≥1%. PR positive if PR ≥1%. If HER2 equivocal, note reflex FISH required. If missing -> "Not reported"; if unclear -> "Unclear (illegible)". Do not infer.

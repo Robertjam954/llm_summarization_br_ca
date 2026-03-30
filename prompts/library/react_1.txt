@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+You may reason internally with Thought/Action/Observation, but output only JSON {"lesion_size_cm":"..."}. If missing/unclear -> "Not reported"/"Unclear (illegible)".
+
+ReAct-style internal reasoning allowed; output only JSON {"lesion_location":"..."}. No inference.
+
+Internal Thought/Action/Observation allowed; output only JSON abnormality field. No inference.
+
+Internal tool-style reasoning allowed; final output JSON only for MRI enhancement. No inference.
+
+Internal Thought/Action/Observation allowed; output only JSON extent field.
+
+ReAct-style reasoning allowed internally; output only JSON clip placement.
+
+ReAct-style reasoning allowed internally; output only JSON recommendation.
+
+ReAct-style reasoning allowed internally; output only JSON lymph_nodes.
+
+ReAct-style reasoning allowed internally; output only JSON chronology_preserved.
+
+ReAct-style reasoning allowed internally; output only JSON biopsy_method.
+
+ReAct-style reasoning allowed internally; output only JSON invasive_component_size_cm.
+
+ReAct-style reasoning allowed internally; output only JSON histologic_diagnosis.
+
+ReAct-style internal reasoning allowed; output only receptor_status JSON. Apply ER≥1% and PR≥1% rules; HER2 equivocal -> FISH required.

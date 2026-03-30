@@ -1,0 +1,27 @@
+SYSTEM / DEVELOPER PROMPT
+
+Context-only extraction: return lesion size in cm as JSON. Do not infer beyond context. Context: <<<CONTEXT>>>.
+
+Context-only location extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only abnormality extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only MRI enhancement extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only extent extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only clip placement extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only recommendation extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only lymph node extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only chronology extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only biopsy method extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only invasive size extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only histology extraction. Output JSON only. Context: <<<CONTEXT>>>.
+
+Context-only receptor extraction. Output JSON only; do not infer. ER≥1% and PR≥1% are positive. HER2 equivocal -> FISH required.
