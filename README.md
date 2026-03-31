@@ -7,7 +7,7 @@ author: "Robertjam954"
 
 ## Context
 
-Large Language Models (LLMs) are increasingly used to extract structured clinical features from unstructured medical records — radiology reports, pathology reports, and operative notes. In breast cancer care, accurate feature extraction is critical for surgical planning, tumor board review, and multidisciplinary documentation. However, LLM-generated summaries may **fabricate** clinical features not present in the source documents or **omit** features that are present. Both failure modes pose direct patient safety risks.
+Large Language Models (LLMs) are increasingly used to extract structured clinical features from unstructured medical records — radiology reports, pathology reports, and operative notes. In breast cancer care, accurate feature extraction is critical for surgical planning, tumor board review, and multidisciplinary documentation. However, LLM-generated summaries may fabricate clinical features not present in the source documents or omit features that are present. Both failure modes pose direct patient safety risks.
 
 As the volume of scanned clinical documents grows, manual validation by human annotators becomes a bottleneck. Understanding where, why, and how often the AI fails — and whether prompt engineering can mitigate these failures — is essential to safely deploying LLM-based extraction in clinical workflows.
 
