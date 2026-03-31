@@ -13,6 +13,11 @@ venv/
 .vscode/
 .idea/
 *.code-workspace
+.windsurf/
+
+# Course materials and conference files
+Document AI course OCR notebooks and notes/
+conferences/
 
 # Jupyter Checkpoints
 .ipynb_checkpoints/
