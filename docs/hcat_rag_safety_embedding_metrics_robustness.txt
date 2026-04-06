@@ -37,3 +37,325 @@ The framework evaluates model performance across several critical dimensions:
 * **Weakness Identification:** Uses **Marginal Analysis** (performance by topic) and **Bivariate Analysis** (interactions between topic and query complexity) to pinpoint specific areas where the model struggles, guiding targeted improvements.
 
 The full details of these methodologies can be found in the paper [Human-Calibrated Automated Testing and Validation of Generative Language Models: An Overview](https://www.google.com/search?q=https://arxiv.org/pdf/2411.16391).
+
+Chain-of-Thought (CoT) — v2
+
+Code
+STEP 1: LOCATE THE CLAIM
+STEP 2: VERIFY EXPLICITNESS
+STEP 3: CHECK FOR CONFLICTS
+STEP 4: PRESERVE EXACT WORDING
+STEP 5: CITE EVIDENCE
+What CoT does:
+
+Forces Claude to show reasoning before outputting
+Reduces hallucination by ~20–30% (studies show)
+Token cost: Higher (more tokens = slower, more expensive)
+For your use case: CoT is essential because you're measuring fabrication rate. Without it, Claude rushes to answers and invents details.
+
+Other Advanced Methods Worth Considering
+1. Self-Consistency (Ensemble Reasoning)
+What it does: Run the same extraction 3× independently; if all 3 agree → high confidence; if they differ → "Indeterminate"
+
+Pseudocode:
+
+Python
+def self_consistency_extract(case_text, feature):
+    """Run extraction 3 times; compare"""
+    results = []
+    for i in range(3):
+        result = call_claude(case_text, feature, temperature=0.7)  # Higher temp = more variation
+        results.append(result)
+    
+    if all(r['value'] == results[0]['value'] for r in results):
+        # All 3 agree
+        return results[0] | {"confidence": 1.0, "method": "self_consistency"}
+    else:
+        # Disagreement = flag for human review
+        return {
+            "value": "Indeterminate",
+            "evidence": f"Disagreement across runs: {results}",
+            "confidence": 0.0,
+            "method": "self_consistency"
+        }
+Trade-off:
+
+✓ Catches hallucinations (if Claude invents data, all 3 runs won't agree)
+✗ 3× token cost (expensive; 3 API calls per feature)
+✓ Good for safety-critical features (receptor_status, invasive_component_size)
+For your study: Run self-consistency on high-risk features only (FEATURE 13: receptor status; FEATURE 11: invasive component size). These are clinically critical.
+
+2. Retrieval-Augmented Verification (RAG + Verification Loop)
+What it does: After extraction, Claude searches document again to verify its own answer.
+
+Example:
+
+Code
+STEP 1 (Initial extraction):
+"Based on the report, ER status is Positive"
+
+STEP 2 (Verification prompt):
+"You said ER is Positive. Find the exact sentence in the report that proves this.
+If you cannot find it, output 'Not verifiable'."
+
+STEP 3 (Confidence adjustment):
+If Claude finds exact sentence → confidence = 1.0
+If Claude cannot find it → confidence = 0.0; output "Not reported"
+Pseudocode:
+
+Python
+def rag_verify_extraction(vector_store, feature_value, feature_name):
+    """Verify extraction by searching for supporting evidence"""
+    
+    query = f"Find the exact statement about {feature_name} being '{feature_value}'"
+    chunks = vector_store.similarity_search(query, k=5)
+    
+    verify_prompt = f"""
+    I claimed: {feature_name} = {feature_value}
+    
+    Retrieved chunks:
+    {chunks}
+    
+    Is my claim supported by these chunks? 
+    If yes, quote the exact sentence.
+    If no, output: NOT_VERIFIABLE
+    """
+    
+    verification = call_claude(verify_prompt)
+    
+    if "NOT_VERIFIABLE" in verification:
+        return {"value": "Not reported", "confidence": 0.0}
+    else:
+        return {"value": feature_value, "confidence": 1.0, "verification": verification}
+Trade-off:
+
+✓ Catches unsubstantiated claims (fabrications)
+✓ Provides explicit evidence link
+✗ 2× API calls per feature (costly)
+✓ Directly measures fabrication (if Claude can't verify → it fabricated)
+For your study: This is highly relevant. Your primary outcome is fabrication rate. RAG verification directly measures whether Claude's output is traceable to source.
+
+3. Tree-of-Thought (ToT) — Multi-Path Reasoning
+What it does: Explore multiple interpretation paths; pick the most confident one.
+
+Example (receptor status edge case):
+
+Code
+Scenario: "ER testing not performed, but ER+ found in prior biopsy."
+
+PATH 1: Interpret as "ER+ from prior biopsy"
+  → value: "Positive"
+  → evidence: "prior biopsy"
+  → confidence: 0.6 (inferred, not current testing)
+
+PATH 2: Interpret as "current testing not done"
+  → value: "Not reported"
+  → evidence: "ER testing not performed"
+  → confidence: 1.0 (explicit)
+
+DECISION: Pick PATH 2 (higher confidence; aligns with anti-inference rule)
+Pseudocode:
+
+Python
+def tree_of_thought_extract(case_text, feature, possible_interpretations):
+    """Explore multiple reasoning paths"""
+    
+    results = []
+    for interpretation in possible_interpretations:
+        prompt = f"""
+        Interpretation: {interpretation}
+        
+        Does the source document support this interpretation?
+        Rate confidence 0.0–1.0 based on:
+        - Explicit statement (1.0)
+        - Clearly implied (0.7)
+        - Inferred (0.4)
+        - Not supported (0.0)
+        """
+        
+        result = call_claude(prompt)
+        results.append(result)
+    
+    # Pick highest-confidence path
+    best = max(results, key=lambda r: r['confidence'])
+    return best
+Trade-off:
+
+✓ Handles ambiguous cases systematically
+✓ Picks most defensible interpretation
+✗ Requires pre-defining interpretation paths (domain expertise needed)
+✗ 3–5× token cost
+For your study: Not recommended for routine extraction, but useful for designing few-shot examples. Use ToT to figure out "what's the right way to interpret this ambiguous case?" then codify it as an example.
+
+4. Meta-Reasoning (Confidence Calibration)
+What it does: Ask Claude to rate its own confidence; use that as quality signal.
+
+Already in v2 as:
+
+JSON
+"confidence": <0.0-1.0>
+Enhanced version:
+
+Python
+def calibrated_extraction(case_text, feature):
+    """Extract + ask Claude why it's confident/uncertain"""
+    
+    extraction_prompt = f"""
+    Extract {feature}.
+    Return JSON with:
+    - value
+    - evidence
+    - confidence (0.0–1.0)
+    - reasoning_for_confidence (why you're confident or uncertain)
+    """
+    
+    result = call_claude(extraction_prompt)
+    
+    # Flag low-confidence for human review
+    if result['confidence'] < 0.5:
+        result['flag_for_review'] = True
+        result['reason'] = "Low confidence; may need human verification"
+    
+    return result
+Example output:
+
+JSON
+{
+  "feature_13_receptor_status_ER": {
+    "value": "Indeterminate",
+    "evidence": "Report mentions 'ER testing inconclusive'",
+    "confidence": 0.4,
+    "reasoning_for_confidence": "The source uses vague language; inconclusive ≠ positive or negative",
+    "flag_for_review": true
+  }
+}
+Trade-off:
+
+✓ Confidence scores enable quality filtering
+✓ Reasoning helps auditing (why did Claude pick this?)
+✗ Slightly higher token cost
+✓ You already have this in v2
+Recommended Method Stack for Your Study
+Based on your fabrication rate measurement objective:
+
+Tier 1: Core (Already in v2)
+✓ Chain-of-Thought (5-step reasoning)
+✓ Few-Shot Examples (v3)
+✓ Anti-Hallucination Rules
+✓ Confidence Scoring
+✓ RAG (context restriction)
+Tier 2: High-Value Additions
+For all 200 cases:
+
+RAG Verification (feature-specific)
+
+After Claude extracts, verify claim is in retrieved chunks
+If not verifiable → "Not reported"
+Cost: ~1.5× baseline tokens; High value: direct fabrication measurement
+Self-Consistency on Critical Features Only
+
+Run 3× on: FEATURE 11 (invasive size), FEATURE 13 (receptors)
+If all 3 agree → confidence 1.0; if disagree → "Indeterminate"
+Cost: 3× for 2/13 features (~15% token increase); High value: safety-critical
+For subset (10–20 cases) for validation: 3. Tree-of-Thought for Edge Cases
+
+Use during prompt design phase to figure out ambiguous interpretations
+Codify as few-shot examples
+Cost: High during design; zero cost in deployment
+Tier 3: Optional (Lower ROI for your study)
+Self-consistency on all features (too expensive; 3× tokens for marginal gain)
+Multi-model voting (Claude + GPT-4o + Sonnet; expensive, probably not needed)
+Recommended v3+ Architecture
+Python
+from langgraph.graph import StateGraph
+
+# Node 1: Standard extraction (CoT + Few-Shot + RAG)
+def node_extract(state) -> state:
+    """Standard extraction pipeline"""
+    vector_store = setup_rag(state['ocr_text'])
+    
+    for feature in FEATURES_TO_EXTRACT:
+        # CoT + Few-Shot + RAG
+        result = call_claude_with_few_shot_rag(
+            vector_store=vector_store,
+            feature=feature,
+            few_shot_examples=EXAMPLES,
+            temperature=0.0  # Deterministic; no sampling
+        )
+        state['extracted_elements'][feature] = result
+    
+    return state
+
+# Node 2: RAG Verification (only on low-confidence or critical features)
+def node_verify(state) -> state:
+    """Verify extraction by searching chunks"""
+    vector_store = setup_rag(state['ocr_text'])
+    
+    critical_features = ['feature_11_invasive_size', 'feature_13_receptor_status']
+    
+    for feature in critical_features:
+        if state['extracted_elements'][feature]['confidence'] < 0.8:
+            # Re-verify this feature
+            verification = rag_verify_extraction(
+                vector_store,
+                state['extracted_elements'][feature]['value'],
+                feature
+            )
+            state['extracted_elements'][feature].update(verification)
+    
+    return state
+
+# Node 3: Self-Consistency on high-risk features
+def node_self_consistency_check(state) -> state:
+    """Run 3× on critical features if verification confidence still low"""
+    
+    critical_features = ['feature_13_receptor_status']
+    
+    for feature in critical_features:
+        if state['extracted_elements'][feature]['confidence'] < 0.6:
+            # Run 3 times
+            results = [
+                call_claude_extract(state['ocr_text'], feature)
+                for _ in range(3)
+            ]
+            
+            if all(r['value'] == results[0]['value'] for r in results):
+                # All agree; boost confidence
+                state['extracted_elements'][feature]['confidence'] = 1.0
+                state['extracted_elements'][feature]['verification_method'] = 'self_consistency_passed'
+            else:
+                # Disagree; mark indeterminate
+                state['extracted_elements'][feature]['value'] = 'Indeterminate'
+                state['extracted_elements'][feature]['confidence'] = 0.0
+                state['extracted_elements'][feature]['verification_method'] = 'self_consistency_failed'
+    
+    return state
+
+# LangGraph assembly
+workflow = StateGraph(ExtractionState)
+workflow.add_node("extract", node_extract)
+workflow.add_node("verify", node_verify)
+workflow.add_node("self_consistency", node_self_consistency_check)
+
+workflow.add_edge("START", "extract")
+workflow.add_edge("extract", "verify")
+workflow.add_edge("verify", "self_consistency")
+workflow.add_edge("self_consistency", END)
+
+app = workflow.compile()
+Summary: Recommended Methods
+Method	v2	v3	v3+ (Recommended)	Cost	Value
+Chain-of-Thought	✓	✓	✓	+10% tokens	High (core)
+Few-Shot	✗	✓	✓	+5% tokens	High (consistency)
+RAG	✗	✓	✓	+20% tokens	High (traceability)
+RAG Verification	✗	✗	✓	+20% tokens	Very High (fabrication measure)
+Self-Consistency (critical only)	✗	✗	✓	+50% for 2 features	High (safety-critical)
+Tree-of-Thought (design phase)	✗	✗	Design only	N/A	High (for prompt design)
+Confidence Calibration	✓	✓	✓	<1% tokens	High (quality signal)
+Bottom line: Go with v3 + RAG Verification + Self-Consistency on critical features. This gives you:
+
+✓ High accuracy (few-shot + CoT)
+✓ Low fabrication (RAG verification)
+✓ Traceability (every claim tied to chunk)
+✓ Safety (self-consistency on receptors/invasive size)
+✓ Reasonable cost (~1.8× baseline tokens)

@@ -49,6 +49,52 @@
       "use_verification": false,
       "frozen": true,
       "created": "2024-04-01"
+    },
+    {
+      "prompt_id": "P_v1_initial_extraction",
+      "version": 1,
+      "filename": "initial_prompt_for_extraction_v1.txt",
+      "original_filename": "Initial prompt for extraction.docx",
+      "original_path": "Documents/Research/Projects/moo/llm_summary/src/prompt_eng/Initial prompt for extraction.docx",
+      "description": "Template-style narrative summary prompt — no anti-fabrication constraints. Guides LLM to produce free-text chronological summary organized by modality (radiology, pathology). Used to generate v1 summaries (BSA *.docx / Bot summary *.docx files).",
+      "technique": "template_narrative",
+      "output_format": "narrative_docx",
+      "use_rag": false,
+      "use_cot": false,
+      "use_few_shot": false,
+      "use_anti_fabrication_constraints": false,
+      "frozen": true,
+      "used_for_fabrication_analysis": true,
+      "summary_version": "v1",
+      "created": "2024-01-01",
+      "char_count": 2162
+    },
+    {
+      "prompt_id": "P_v2_developer_extraction",
+      "version": 2,
+      "filename": "updated_developer_prompt_feature_extraction_v2.txt",
+      "original_filename": "updated_developer_prompt_feature_extraction.txt",
+      "original_path": "Documents/Research/Projects/moo/llm_summary/src/prompt_eng/updated_developer_prompt_feature_extraction.txt",
+      "description": "Formal developer/system prompt with explicit anti-fabrication hard constraints. Requires verbatim fidelity, structured JSON output per feature with value+evidence fields, 'Not reported' for missing data, 'Indeterminate' for conflicts. Includes per-modality extraction rules (mammogram, ultrasound, MRI, pathology). Used to generate v2 summaries (*_hpi_ai_2.txt JSON files).",
+      "technique": "structured_developer_json",
+      "output_format": "structured_json_txt",
+      "use_rag": false,
+      "use_cot": true,
+      "use_few_shot": false,
+      "use_anti_fabrication_constraints": true,
+      "anti_fabrication_features": [
+        "verbatim_fidelity",
+        "no_inference",
+        "not_reported_for_missing",
+        "indeterminate_for_conflicts",
+        "no_unit_conversion",
+        "chronology_preservation"
+      ],
+      "frozen": true,
+      "used_for_fabrication_analysis": true,
+      "summary_version": "v2",
+      "created": "2024-04-01",
+      "char_count": 6440
     }
   ]
 }

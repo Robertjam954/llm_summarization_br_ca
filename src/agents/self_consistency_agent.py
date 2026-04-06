@@ -7,10 +7,7 @@ disagreement marks as Indeterminate.
 
 from __future__ import annotations
 
-import os
-
-from langchain_anthropic import ChatAnthropic
-
+from src.agents.llm_factory import get_llm
 from src.prompts.extraction_prompt_builder import build_extraction_prompt
 from src.rag.feature_queries import HIGH_RISK_SELF_CONSISTENCY, FEATURES
 from src.utils.json_utils import safe_parse_json
@@ -21,14 +18,6 @@ logger = get_logger(__name__)
 
 N_CONSISTENCY_RUNS = 3
 
-
-def _get_llm(model_id: str = "claude-3-5-sonnet-20241022") -> ChatAnthropic:
-    return ChatAnthropic(
-        model=model_id,
-        temperature=0.0,
-        max_tokens=2048,
-        api_key=os.getenv("ANTHROPIC_API_KEY"),
-    )
 
 
 def self_consistency_check(state: ExtractionState) -> ExtractionState:
@@ -67,7 +56,7 @@ def self_consistency_check(state: ExtractionState) -> ExtractionState:
         use_cot=True,
     )
 
-    llm = _get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
+    llm = get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
     values = []
     for _ in range(N_CONSISTENCY_RUNS):
         response = llm.invoke(messages)

@@ -13,7 +13,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 from src.workflows.extraction_state import Chunk
 
-DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
+DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 def get_embedder(model_name: str = DEFAULT_EMBEDDING_MODEL) -> HuggingFaceEmbeddings:

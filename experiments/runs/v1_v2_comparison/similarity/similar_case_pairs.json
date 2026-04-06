@@ -1,0 +1,72 @@
+[
+  {
+    "idx_a": 5,
+    "idx_b": 7,
+    "label_a": "Kirste/SW-v2",
+    "label_b": "Tadros/RW-v2",
+    "similarity": 0.9209766983985901
+  },
+  {
+    "idx_a": 7,
+    "idx_b": 21,
+    "label_a": "Tadros/RW-v2",
+    "label_b": "El-Tam/MW-v2",
+    "similarity": 0.9196505546569824
+  },
+  {
+    "idx_a": 7,
+    "idx_b": 13,
+    "label_a": "Tadros/RW-v2",
+    "label_b": "Lee/WY-v2",
+    "similarity": 0.9103841185569763
+  },
+  {
+    "idx_a": 15,
+    "idx_b": 25,
+    "label_a": "Montag/DR-v2",
+    "label_b": "El-Tam/DM-v2",
+    "similarity": 0.9050467014312744
+  },
+  {
+    "idx_a": 1,
+    "idx_b": 27,
+    "label_a": "Montag/XM-v2",
+    "label_b": "Moo/FS-v2",
+    "similarity": 0.9046121835708618
+  },
+  {
+    "idx_a": 2,
+    "idx_b": 8,
+    "label_a": "Capko/BF-v1",
+    "label_b": "El-Tam/KS-v1",
+    "similarity": 0.8994628190994263
+  },
+  {
+    "idx_a": 1,
+    "idx_b": 17,
+    "label_a": "Montag/XM-v2",
+    "label_b": "Pawlos/MM-v2",
+    "similarity": 0.8986269235610962
+  },
+  {
+    "idx_a": 5,
+    "idx_b": 13,
+    "label_a": "Kirste/SW-v2",
+    "label_b": "Lee/WY-v2",
+    "similarity": 0.893128514289856
+  },
+  {
+    "idx_a": 7,
+    "idx_b": 11,
+    "label_a": "Tadros/RW-v2",
+    "label_b": "Heerdt/UD-v2",
+    "similarity": 0.8895096778869629
+  },
+  {
+    "idx_a": 5,
+    "idx_b": 21,
+    "label_a": "Kirste/SW-v2",
+    "label_b": "El-Tam/MW-v2",
+    "similarity": 0.8888183832168579
+  }
+]

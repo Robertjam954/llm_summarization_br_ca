@@ -1,0 +1,15 @@
+mrn,case_folder,fab_features,invasive_component_size_src,invasive_component_size_v1_ann,invasive_component_size_v2_ann,invasive_component_size_v1_conf,invasive_component_size_v2_conf,histologic_diagnosis_src,histologic_diagnosis_v1_ann,histologic_diagnosis_v2_ann,histologic_diagnosis_v1_conf,histologic_diagnosis_v2_conf,lesion_size_src,lesion_size_v1_ann,lesion_size_v2_ann,lesion_size_v1_conf,lesion_size_v2_conf,receptor_status_src,receptor_status_v1_ann,receptor_status_v2_ann,receptor_status_v1_conf,receptor_status_v2_conf,chronology_preserved_src,chronology_preserved_v1_ann,chronology_preserved_v2_ann,chronology_preserved_v1_conf,chronology_preserved_v2_conf,biopsy_method_src,biopsy_method_v1_ann,biopsy_method_v2_ann,biopsy_method_v1_conf,biopsy_method_v2_conf,workup_recommendation_src,workup_recommendation_v1_ann,workup_recommendation_v2_ann,workup_recommendation_v1_conf,workup_recommendation_v2_conf,extent_src,extent_v1_ann,extent_v2_ann,extent_v1_conf,extent_v2_conf
+39089057,GM_XM_INV,['invasive_component_size_pathology'],1.0,2.0,2.0,0.9,0.95,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38138814,DC_BF_invasive,['histologic_diagnosis'],,,,,,1.0,2.0,N/A,0.95,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39100822,LK_SW_INV,['lesion_size'],,,,,,,,,,,1.0,3.0,2.0,0.9,1.0,,,,,,,,,,,,,,,,,,,,,,,,,
+39091629,AT_RW_INV,['receptor'],,,,,,,,,,,,,,,,1.0,2.0,2.0,0.9,0.9,,,,,,,,,,,,,,,,,,,,
+39111396,MET_KS,['lesion_size'],,,,,,,,,,,1.0,3.0,2.0,0.9,1.0,,,,,,,,,,,,,,,,,,,,,,,,,
+39095007,AH_UD_INV,['lesion_size'],,,,,,,,,,,1.0,1.0,2.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,
+39094834,ML_WY_INV,['invasive_component_size_pathology'],1.0,2.0,2.0,0.9,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39092180,GM_DR_INV,['receptor'],,,,,,,,,,,,,,,,1.0,2.0,2.0,0.9,1.0,,,,,,,,,,,,,,,,,,,,
+39089385,KP_MM_INV,['chronology_preserved'],,,,,,,,,,,,,,,,,,,,,1.0,1.0,1.0,0.9,0.9,,,,,,,,,,,,,,,
+39102467,GP_MC_INV,['biopsy_method'],,,,,,,,,,,,,,,,,,,,,,,,,,1.0,2.0,2.0,0.9,1.0,,,,,,,,,,
+39106459,MET_MW,['workup_recommendation'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,2.0,1.0,1.0,,,,,
+39103258,MET_MM,['extent'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,2.0,0.9,1.0
+39100321,MET_DM,['workup_recommendation'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,2.0,2.0,0.9,1.0,,,,,
+38307961,TM_FS_DCIS,['lesion_size'],,,,,,,,,,,1.0,3.0,2.0,0.9,1.0,,,,,,,,,,,,,,,,,,,,,,,,,

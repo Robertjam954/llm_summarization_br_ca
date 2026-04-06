@@ -6,10 +6,7 @@ Checks whether the extracted value is directly supported by source chunks.
 
 from __future__ import annotations
 
-import os
-
-from langchain_anthropic import ChatAnthropic
-
+from src.agents.llm_factory import get_llm
 from src.prompts.verification_prompt_builder import build_verification_prompt
 from src.utils.json_utils import coerce_confidence, safe_parse_json
 from src.utils.logging_utils import get_logger, log_fabrication_flag
@@ -17,14 +14,6 @@ from src.workflows.extraction_state import ExtractionState
 
 logger = get_logger(__name__)
 
-
-def _get_llm(model_id: str = "claude-3-5-sonnet-20241022") -> ChatAnthropic:
-    return ChatAnthropic(
-        model=model_id,
-        temperature=0.0,
-        max_tokens=1024,
-        api_key=os.getenv("ANTHROPIC_API_KEY"),
-    )
 
 
 def verify_feature(state: ExtractionState) -> ExtractionState:
@@ -57,7 +46,7 @@ def verify_feature(state: ExtractionState) -> ExtractionState:
         retrieved_chunks=state["retrieved_chunks"],
     )
 
-    llm = _get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
+    llm = get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
     response = llm.invoke(messages)
     raw = response.content if hasattr(response, "content") else str(response)
 

@@ -1,0 +1,118 @@
+{
+  "mrn": 39103258,
+  "case_folder": "MET_MM",
+  "fab_features": [
+    "extent"
+  ],
+  "text_features": {
+    "char_count": 27109,
+    "word_count": 4594,
+    "line_count": 658,
+    "sentence_count": 259,
+    "avg_word_length": 4.88,
+    "numeric_token_count": 462,
+    "unique_word_count": 1386,
+    "lexical_diversity": 0.3017
+  },
+  "n_docs_cached": 5,
+  "elements": {
+    "Lesion Size": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Lesion Laterality": {
+      "source_present": 1,
+      "ai_annotation": "1",
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Lesion Location": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Calcifications / Asymmetry": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Additional Enhancement (MRI)": {
+      "source_present": 0,
+      "ai_annotation": "na",
+      "ai_outcome": "unknown",
+      "ai_correct": null,
+      "ai_fabrication": false
+    },
+    "Extent": {
+      "source_present": 1,
+      "ai_annotation": 3,
+      "ai_outcome": "unknown",
+      "ai_correct": null,
+      "ai_fabrication": false
+    },
+    "Accurate Clip Placement": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Workup Recommendation": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Lymph Node": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Chronology Preserved": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Biopsy Method": {
+      "source_present": 1,
+      "ai_annotation": 1,
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Invasive Component Size (Pathology)": {
+      "source_present": 0,
+      "ai_annotation": "na",
+      "ai_outcome": "unknown",
+      "ai_correct": null,
+      "ai_fabrication": false
+    },
+    "Histologic Diagnosis": {
+      "source_present": 1,
+      "ai_annotation": "1",
+      "ai_outcome": "TP",
+      "ai_correct": true,
+      "ai_fabrication": false
+    },
+    "Receptor Status": {
+      "source_present": 0,
+      "ai_annotation": "na",
+      "ai_outcome": "unknown",
+      "ai_correct": null,
+      "ai_fabrication": false
+    }
+  }
+}

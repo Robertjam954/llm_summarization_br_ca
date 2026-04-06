@@ -7,10 +7,9 @@ or failed verification.
 
 from __future__ import annotations
 
-import os
-
-from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import HumanMessage, SystemMessage
+
+from src.agents.llm_factory import get_llm
 
 from src.utils.logging_utils import get_logger
 from src.workflows.extraction_state import ExtractionState
@@ -46,14 +45,6 @@ SYNONYM_HINTS = {
 }
 
 
-def _get_llm(model_id: str = "claude-3-5-sonnet-20241022") -> ChatAnthropic:
-    return ChatAnthropic(
-        model=model_id,
-        temperature=0.2,
-        max_tokens=256,
-        api_key=os.getenv("ANTHROPIC_API_KEY"),
-    )
-
 
 def rewrite_query(state: ExtractionState) -> ExtractionState:
     feature = state["current_feature"]
@@ -73,7 +64,7 @@ def rewrite_query(state: ExtractionState) -> ExtractionState:
         f"Return ONLY the rewritten query string, no explanation."
     )
 
-    llm = _get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
+    llm = get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"), temperature=0.2, max_tokens=256)
     response = llm.invoke(
         [SystemMessage(content=REWRITER_SYSTEM), HumanMessage(content=human_msg)]
     )

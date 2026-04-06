@@ -1,0 +1,212 @@
+{
+  "v1_39089057_invasive_component_size": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document mentions a right breast ultrasound core biopsy at 6:00, 4 cm from the nipple, showing invasive ductal carcinoma with a size of approximately 1.2 cm in its entirety. However, the summary does not report the invasive component size from the pathology report, which is an omission."
+  },
+  "v2_39089057_invasive_component_size": {
+    "annotation": 2,
+    "confidence": 0.95,
+    "reasoning": "The source document indicates the presence of an invasive ductal carcinoma with a size of 1.2 cm, which is a relevant invasive component size. However, the summary does not report this information, resulting in an omission."
+  },
+  "v1_38138814_histologic_diagnosis": {
+    "annotation": 2,
+    "confidence": 0.95,
+    "reasoning": "The source document does not provide any histologic diagnosis information, while the summary text reports 'Invasive lobular carcinoma (moderately to poorly differentiated)' from a core biopsy. Since the source document does not contain this information, it indicates an omission in the source document, not a fabrication in the summary."
+  },
+  "v2_38138814_histologic_diagnosis": {
+    "annotation": "N/A",
+    "confidence": 1.0,
+    "reasoning": "The source document does not contain any information about a histologic diagnosis. The summary correctly does not report a histologic diagnosis, as it is absent from the source."
+  },
+  "v1_39100822_lesion_size": {
+    "annotation": 3,
+    "confidence": 0.9,
+    "reasoning": "The summary reports a lesion size of 1.5 \u00d7 0.2 \u00d7 0.3 cm on ultrasound, which does not match the source document that states a 5 x 2 x 3 mm irregular mass. This discrepancy indicates a fabrication in the summary."
+  },
+  "v2_39100822_lesion_size": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document clearly states the lesion size as a 7 mm enhancing mass correlating to the area of asymmetry, which was confirmed by MRI and biopsy. The summary omits this information, resulting in an omission error."
+  },
+  "v1_39091629_receptor_status": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document does not provide any information about the receptor status of the breast cancer, and the summary also does not mention receptor status. However, since the clinical element 'Receptor Status' is marked as present in the source, it indicates that this information should have been included in the summary. Therefore, the omission of receptor status in the summary is an error."
+  },
+  "v2_39091629_receptor_status": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document indicates the presence of a breast mass highly suggestive of malignancy, which implies that receptor status is relevant and likely assessed, but the summary does not mention receptor status at all. This constitutes an omission."
+  },
+  "v1_39111396_lesion_size": {
+    "annotation": 3,
+    "confidence": 0.9,
+    "reasoning": "The source document reports the lesion size as 0.4 x 0.3 x 0.4 cm on ultrasound and 0.7 cm on mammography. The summary incorrectly reports the ultrasound lesion size as 1.4 x 0.3 x 0.4 cm, which is a fabrication as it does not match the source document."
+  },
+  "v2_39111396_lesion_size": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document clearly states the presence of a lesion in the left breast with a size of 0.4 cm. However, the summary text does not mention the lesion size at all, indicating an omission of this feature."
+  },
+  "v1_39095007_lesion_size": {
+    "annotation": 1,
+    "confidence": 1.0,
+    "reasoning": "The source document reports the lesion size as 1 x 0.6 x 1.6 cm, and the summary correctly reports the lesion size as 1.3 \u00d7 0.6 \u00d7 1.6 cm. The slight discrepancy in the first dimension (1 cm vs 1.3 cm) is within acceptable variation for clinical reporting, and the other dimensions match exactly. Therefore, the summary correctly reports the lesion size."
+  },
+  "v2_39095007_lesion_size": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document clearly states the lesion size as '1 x 0.6 x 1.6cm suspicious irregular mass' in the left breast. However, the summary does not report this lesion size, resulting in an omission."
+  },
+  "v1_39094834_invasive_component_size": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document indicates the presence of an invasive ductal carcinoma (IDC) but does not specify the size of the invasive component. The summary does not mention the size of the invasive component either, which constitutes an omission since the clinical element 'Invasive Component Size' is expected to be reported if present in the source."
+  },
+  "v2_39094834_invasive_component_size": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document indicates the presence of an invasive ductal carcinoma (IDC) diagnosis, but the specific size of the invasive component is not mentioned in the provided text. The summary correctly does not report an invasive component size, but since the clinical element is marked as present in the source, it suggests that the size might be mentioned elsewhere in the full document. Therefore, the summary omits this feature."
+  },
+  "v1_39092180_receptor_status": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document does not provide any information about the receptor status of the breast mass, and the summary also does not mention receptor status. However, since the clinical element 'Receptor Status' is marked as present in the source, it indicates that this information should have been included in the summary. Therefore, the omission of receptor status in the summary is an error."
+  },
+  "v2_39092180_receptor_status": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document indicates that receptor status information is present (1=yes), but the summary does not report it. This constitutes an omission."
+  },
+  "v1_39089385_chronology_preserved": {
+    "annotation": 1,
+    "confidence": 0.9,
+    "reasoning": "The chronology of events related to the breast cancer workup is preserved in the summary. The source document describes the sequence of events, including the initial presentation, imaging findings, and recommendations for biopsy and MRI. The summary accurately reflects this sequence, maintaining the order of events and findings as presented in the source."
+  },
+  "v2_39089385_chronology_preserved": {
+    "annotation": 1,
+    "confidence": 0.9,
+    "reasoning": "The source document provides a clear chronological sequence of events related to the patient's breast cancer diagnosis and symptoms, including the onset of tenderness, appearance of a lump, and subsequent changes. The summary correctly reports that chronology is preserved."
+  },
+  "v1_39102467_biopsy_method": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document indicates that the biopsy method was changed to stereotactic biopsy due to the inability to reproduce the finding with certainty during ultrasound. The summary text does not mention the biopsy method at all, resulting in an omission of this specific detail."
+  },
+  "v2_39102467_biopsy_method": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document clearly states that a 'stereo bx' (stereotactic biopsy) was performed, which is a specific biopsy method. The summary does not mention the biopsy method, resulting in an omission."
+  },
+  "v1_39106459_workup_recommendation": {
+    "annotation": 1,
+    "confidence": 1.0,
+    "reasoning": "The source document explicitly recommends an ultrasound-guided biopsy for the indeterminate ultrasound finding in the right breast. The summary correctly reports this recommendation, matching the source document."
+  },
+  "v2_39106459_workup_recommendation": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document clearly recommends an ultrasound-guided biopsy for the indeterminate finding in the right breast, which is a workup recommendation. This recommendation is not mentioned in the summary, indicating an omission."
+  },
+  "v1_39103258_extent": {
+    "annotation": 1,
+    "confidence": 0.9,
+    "reasoning": "The source document describes a band of calcifications extending 4 cm superior and 7 cm lateral to the nipple, which matches the summary's report of a 4+ cm band extending 4 cm superior and 7 cm lateral to the nipple. The extent of the abnormality is correctly reported in the summary."
+  },
+  "v2_39103258_extent": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document describes the extent of the findings in the left breast, specifically mentioning a band of innumerable soft tissue densities over a distance of at least 4 cm, extending 4 cm superior and 7 cm lateral to the nipple line. This information is not present in the summary, indicating an omission."
+  },
+  "v1_39100321_workup_recommendation": {
+    "annotation": 2,
+    "confidence": 0.9,
+    "reasoning": "The source document does not provide any specific workup recommendation, such as an ultrasound-guided core biopsy, which is mentioned in the summary. Therefore, the summary omits the workup recommendation feature as it is not present in the source document."
+  },
+  "v2_39100321_workup_recommendation": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document indicates a workup recommendation is present, but the summary does not include this information, resulting in an omission."
+  },
+  "v1_38307961_lesion_size": {
+    "annotation": 3,
+    "confidence": 0.9,
+    "reasoning": "The source document states the lesion size as 5 mm (0.5 cm) based on the ultrasound findings, while the summary incorrectly reports the lesion size as 6.5 cm. This discrepancy indicates a fabrication in the summary."
+  },
+  "v2_38307961_lesion_size": {
+    "annotation": 2,
+    "confidence": 1.0,
+    "reasoning": "The source document mentions a 5 mm mass in the left breast, which is a specific lesion size. The summary does not report this lesion size, resulting in an omission."
+  },
+  "human_gt_v2_39089057_invasive_component_size_pathology": {
+    "v2_code": 3,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary reports an 'Invasive tumor measures at least 1.7 cm' for the invasive component size in pathology. However, the source document does not provide any information about the invasive component size in pathology, indicating that this information is still fabricated in V2."
+  },
+  "human_gt_v2_38138814_histologic_diagnosis": {
+    "v2_code": 2,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary does not provide any information about the histologic diagnosis in the source document. The source document provided is a mammogram report, which typically does not include histologic diagnosis details. Therefore, V2 correctly omits this feature, as it is not supported by the source document."
+  },
+  "human_gt_v2_39100822_lesion_size": {
+    "v2_code": 1,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary accurately reports the lesion size as 0.7 cm, which is consistent with the source document stating 'Size: 0.7 cm; unifocal'. The V2 summary also provides additional measurements from different imaging modalities, which are consistent with the source document's descriptions of the lesion size from MRI and pathology reports. Therefore, V2 has corrected the fabrication present in V1."
+  },
+  "human_gt_v2_39091629_receptor": {
+    "v2_code": "N/A",
+    "confidence": 1.0,
+    "reasoning": "The V2 summary does not mention 'Receptor Status', and there is no evidence of receptor status in the provided source documents. Therefore, V2 correctly does not report this feature, aligning with the absence of this information in the source."
+  },
+  "human_gt_v2_39111396_lesion_size": {
+    "v2_code": 1,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary accurately reports the lesion sizes based on the source document. The source document mentions a 'persistent irregular mass measuring 0.7 cm' and an 'ill-defined mass measuring 0.4 x 0.3 x 0.4 cm', which are both reflected in the V2 summary. There is no evidence of fabrication in the V2 summary regarding lesion size."
+  },
+  "human_gt_v2_39095007_lesion_size": {
+    "v2_code": 1,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary accurately reports the lesion size based on the source document. The source document mentions a lesion size of 1 x 0.6 x 1.6 cm, which is consistent with the V2 summary's reporting of '0.6 x 1.6 cm suspicious irregular mass'. Therefore, V2 has corrected the fabrication present in V1."
+  },
+  "human_gt_v2_39094834_invasive_component_size_pathology": {
+    "v2_code": 1,
+    "confidence": 1.0,
+    "reasoning": "The V2 summary correctly reports that the invasive component size is not explicitly stated in centimeters in the source documents. It accurately reflects the biopsy report's statement that the tumor measures at least 3.5 mm, which aligns with the source document information. Therefore, V2 has corrected the fabrication present in V1."
+  },
+  "human_gt_v2_39092180_receptor": {
+    "v2_code": 2,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary does not provide specific receptor status results for ER, PR, or HER2, which aligns with the source document that does not contain this information. It only mentions that assays for prognostic markers are pending, which is consistent with the absence of receptor status details in the provided source text."
+  },
+  "human_gt_v2_39089385_chronology_preserved": {
+    "v2_code": 2,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary does not mention 'Chronology Preserved' at all, which indicates that it has omitted the feature entirely. This is a correction from the V1 fabrication, as it does not misreport or fabricate this feature."
+  },
+  "human_gt_v2_39102467_biopsy_method": {
+    "v2_code": 2,
+    "confidence": 1.0,
+    "reasoning": "The V2 summary does not mention the biopsy method at all, which means it has omitted the feature entirely. This is a correction from the V1 fabrication, as it does not introduce any unsupported information."
+  },
+  "human_gt_v2_39106459_workup_recommendation": {
+    "v2_code": 1,
+    "confidence": 1.0,
+    "reasoning": "The V2 summary accurately reports the workup recommendation as 'Ultrasound Biopsy' based on the source document, which states 'RECOMMENDATION: Ultrasound Biopsy'. Additionally, it includes further recommendations for surgical consultation and additional imaging, which are also supported by the source document. Therefore, V2 has corrected the fabrication present in V1 by accurately reflecting the source information."
+  },
+  "human_gt_v2_39103258_extent": {
+    "v2_code": 2,
+    "confidence": 1.0,
+    "reasoning": "The V2 summary does not report the 'Extent' feature, which is consistent with the source document that does not provide information on the extent of the lesion. This indicates that V2 has corrected the fabrication by omitting the feature entirely."
+  },
+  "human_gt_v2_39100321_workup_recommendation": {
+    "v2_code": 1,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary accurately reports the workup recommendation as 'Ultrasound-guided core biopsy is recommended. Surgical excision when clinically appropriate. Ultrasound can be performed if clinically indicated.' This is supported by the source document text, which mentions a highly suspicious left breast mass and recommends an ultrasound-guided core biopsy and surgical excision when clinically appropriate."
+  },
+  "human_gt_v2_38307961_lesion_size": {
+    "v2_code": 3,
+    "confidence": 0.9,
+    "reasoning": "The V2 summary reports a lesion size of 6.5 cm, which is not supported by the source document. The source document mentions a 5 mm mass in the left breast, not a 6.5 cm mass. Therefore, V2 still fabricates the lesion size."
+  }
+}

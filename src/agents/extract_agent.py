@@ -6,10 +6,7 @@ Calls Claude via langchain_anthropic, parses strict JSON output.
 
 from __future__ import annotations
 
-import os
-
-from langchain_anthropic import ChatAnthropic
-
+from src.agents.llm_factory import get_llm
 from src.prompts.extraction_prompt_builder import build_extraction_prompt
 from src.rag.feature_queries import FEATURES
 from src.utils.json_utils import (
@@ -23,14 +20,6 @@ from src.workflows.extraction_state import ExtractionState, FeatureResult
 
 logger = get_logger(__name__)
 
-
-def _get_llm(model_id: str = "claude-3-5-sonnet-20241022") -> ChatAnthropic:
-    return ChatAnthropic(
-        model=model_id,
-        temperature=0.0,
-        max_tokens=2048,
-        api_key=os.getenv("ANTHROPIC_API_KEY"),
-    )
 
 
 def extract_feature(state: ExtractionState) -> ExtractionState:
@@ -54,7 +43,7 @@ def extract_feature(state: ExtractionState) -> ExtractionState:
         use_cot=True,
     )
 
-    llm = _get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
+    llm = get_llm(state.get("model_id", "claude-3-5-sonnet-20241022"))
     response = llm.invoke(messages)
     raw = response.content if hasattr(response, "content") else str(response)
 
