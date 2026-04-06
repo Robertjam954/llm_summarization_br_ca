@@ -630,6 +630,25 @@ notebooks/
 │   └── Per-case text summary + quality plots
 │   Outputs: extracted_text/*.txt, case_document_mapping.csv, text_extraction_log.csv, per_case_text_stats.csv
 │
+├── 04b_text_consolidation_per_case.ipynb
+│   ├── parse_patient_case_id()              — extract case folder name from original path
+│   ├── parse_surgeon_name()                 — extract surgeon folder from path
+│   ├── classify_doc_section()               — assign hpi/radiology/pathology/genetics per filename
+│   ├── consolidate_case()                   — merge all docs for one case with section headers
+│   └── Validation: spot-check + missing case audit
+│   Outputs: extracted_text_consolidated/{patient_case_id}.txt, patient_case_manifest.csv,
+│            data/processed/patient_case_manifest.csv, reports/consolidation_summary.png
+│
+├── 04c_rag_question_generation.ipynb
+│   ├── generate_template_question()         — deterministic question per feature from extraction hint
+│   ├── generate_case_feature_question()     — GPT-4o case-specific question per case × feature
+│   ├── create_vector_store()                — OpenAI Vector Store (file_search tool)
+│   ├── upload_single_txt()                  — upload consolidated .txt per case
+│   ├── query_vector_store()                 — Responses API file_search, top-k retrieval
+│   └── process_eval_row()                   — correct@k, reciprocal rank, average precision per question
+│   Outputs: data/processed/rag_question_dataset.csv, rag_evaluation_results.csv,
+│            vector_store_config.json, reports/rag_evaluation_summary.png
+│
 ├── 05_feature_extraction_ocr_bert.ipynb
 │   ├── Part 1: OCR Image Quality Scoring
 │   │   ├── laplacian_variance()             — blur detection

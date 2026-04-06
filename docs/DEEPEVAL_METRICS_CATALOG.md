@@ -521,11 +521,11 @@ Primary (recommend all 6):
 - [ ] TaskCompletionMetric
 
 Secondary (select 2-4):
-- [ ] ToxicityMetric
+- [x ] ToxicityMetric
 - [ ] NonAdviceMetric
 - [ ] RoleAdherenceMetric
 - [ ] AnswerRelevancyMetric
-- [ ] ContextualRelevancyMetric
+- [ x] ContextualRelevancyMetric
 
 Optional (select 0-3):
 - [ ] PromptAlignmentMetric
