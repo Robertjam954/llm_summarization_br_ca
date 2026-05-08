@@ -102,4 +102,4 @@ pip install -r requirements.txt
 
 ## Project Status
 
-Active research and experimentation repository with ongoing updates to prompts, evaluation methods, and reporting artifacts.
+Current phase: prompt and evaluation-method optimization. Notebook outputs and reports are research-grade and may change as experiments are re-run with updated prompt variants.
