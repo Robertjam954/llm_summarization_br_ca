@@ -1,4 +1,4 @@
-# LLM (Large Language Model) Summarization BR/CA
+# LLM (Large Language Model) Summarization for Breast Cancer
 
 Prompt-technique evaluation for feature-level **comparison of human and LLM-based clinical feature extraction** in breast cancer radiology and pathology documentation.
 
