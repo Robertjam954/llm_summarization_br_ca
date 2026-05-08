@@ -27,6 +27,7 @@ outputs_private/
 data_private/
 reports/
 study_records/
+docs/
 
 # Credentials
 *.env
