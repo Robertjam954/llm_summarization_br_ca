@@ -1,4 +1,4 @@
-# LLM (Large Language Model) Summarization for Breast Cancer
+# LLM Summarization for Breast Cancer
 
 Prompt-technique evaluation for feature-level **comparison of human and LLM-based clinical feature extraction** in breast cancer radiology and pathology documentation.
 
@@ -15,7 +15,7 @@ This repository evaluates how reliably LLMs extract structured clinical features
 
 1. Which clinical elements are most fragile for LLM extraction?
 2. Where does AI fabrication/omission differ significantly from human performance?
-3. How do prompt strategies (zero-shot, chain-of-thought, retrieval-augmented generation, few-shot, program-aided language-style prompting, reason+act, etc.) change outcomes?
+3. How do different prompt strategies (zero-shot, chain-of-thought, retrieval-augmented generation, few-shot, etc.) change outcomes?
 4. Which document and OCR features predict AI failure?
 
 ## What Is in This Repository
