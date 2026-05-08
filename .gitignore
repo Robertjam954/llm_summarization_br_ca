@@ -25,6 +25,8 @@ Thumbs.db
 # Private Data and Outputs
 outputs_private/
 data_private/
+reports/
+study_records/
 
 # Credentials
 *.env
