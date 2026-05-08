@@ -1,6 +1,6 @@
 # LLM (Large Language Model) Summarization BR/CA
 
-Prompt-technique evaluation for feature-level **human vs Large Language Model (LLM) clinical extraction** in breast cancer radiology and pathology documentation.
+Prompt-technique evaluation for feature-level **comparison of human and LLM-based clinical feature extraction** in breast cancer radiology and pathology documentation.
 
 ## Project Overview
 
