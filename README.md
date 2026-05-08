@@ -15,7 +15,7 @@ This repository evaluates how reliably LLMs extract structured clinical features
 
 1. Which clinical elements are most fragile for LLM extraction?
 2. Where does AI fabrication/omission differ significantly from human performance?
-3. How do prompt strategies (zero-shot, Chain-of-Thought (CoT), Retrieval-Augmented Generation (RAG), few-shot, Program-Aided Language (PAL)-style prompting, Reason+Act (ReAct), etc.) change outcomes?
+3. How do prompt strategies (zero-shot, chain-of-thought, retrieval-augmented generation, few-shot, program-aided language-style prompting, reason+act, etc.) change outcomes?
 4. Which document and OCR features predict AI failure?
 
 ## What Is in This Repository
