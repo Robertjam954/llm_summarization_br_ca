@@ -1,0 +1,16 @@
+{
+  "run_id": "20260511T163329_c9193299",
+  "timestamp": "2026-05-11T16:35:42.158682",
+  "n_cases": 14,
+  "n_pdfs": 75,
+  "n_pages_total": 266,
+  "model_vision": "claude-sonnet-4-20250514",
+  "model_extraction": "claude-sonnet-4-20250514",
+  "outputs": {
+    "pdf_validation_csv": "/Users/robertjames/Downloads/llm_summarization_br_ca/data/features/fab_pdf_validation.csv",
+    "page_quality_csv": "/Users/robertjames/Downloads/llm_summarization_br_ca/data/features/fab_page_level_doc_quality.csv",
+    "case_quality_csv": "/Users/robertjames/Downloads/llm_summarization_br_ca/data/features/fab_case_level_doc_quality.csv",
+    "combined_json": "/Users/robertjames/Downloads/llm_summarization_br_ca/data/processed/doc_text_eval_fab_cases/all_cases_doc_text_eval.json",
+    "quality_plots": "/Users/robertjames/Downloads/llm_summarization_br_ca/reports/doc_text_eval_quality_plots.png"
+  }
+}
