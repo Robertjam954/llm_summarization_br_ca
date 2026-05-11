@@ -25,6 +25,8 @@ Thumbs.db
 # Private Data and Outputs
 outputs_private/
 data_private/
+reports/
+study_records/
 
 # Credentials
 *.env
@@ -33,6 +35,12 @@ data_private/
 # Data directory — never committed; all data lives in DATA_PRIVATE_DIR (local only)
 # Run notebooks 01–10 to regenerate processed outputs in DATA_PRIVATE_DIR
 data/
+
+# Tooling / editor config
+.windsurf/rules/
+
+# Course notebooks and notes
+Document AI course OCR notebooks and notes/
 
 # Temp files
 ~$*

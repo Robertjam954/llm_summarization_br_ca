@@ -1,543 +1,108 @@
----
-title: "Prompt-Technique Evaluation for Feature-Level Human vs LLM Clinical Feature Extraction"
-subtitle: "Executive Summary, Dataset Specification, Analytic Pipeline & Code Reference Map"
-date: "2026-03-01"
-author: "Robertjam954"
----
-
-## Context
-
-Large Language Models (LLMs) are increasingly used to extract structured clinical features from unstructured medical records — radiology reports, pathology reports, and operative notes. In breast cancer care, accurate feature extraction is critical for surgical planning, tumor board review, and multidisciplinary documentation. However, LLM-generated summaries may fabricate clinical features not present in the source documents or omit features that are present. Both failure modes pose direct patient safety risks.
-
-As the volume of scanned clinical documents grows, manual validation by human annotators becomes a bottleneck. Understanding where, why, and how often the AI fails — and whether prompt engineering can mitigate these failures — is essential to safely deploying LLM-based extraction in clinical workflows.
-
-## Objective
-
-Evaluate the accuracy, omission rate, and fabrication rate of LLM-extracted clinical features compared to human annotator extraction across 14 clinical elements and 200 patient cases. Identify actionable patterns in AI failure modes and determine whether prompt engineering techniques can reduce extraction errors.
-
-## Key Questions
-
-1. Does the AI fabrication rate significantly exceed the human fabrication rate for any clinical element?
-2. Which clinical elements are most fragile (highest fabrication / omission rates)?
-3. Which document-level features (OCR quality, lexical diversity, negation frequency, embedding variance) best predict AI extraction errors?
-4. Does RAG-based retrieval reduce hallucination compared to full-document prompting?
-5. Are Radiology elements more or less fragile than Pathology elements?
-6. How do prompt iterations change diagnostic metrics across extraction runs?
-7. What is the comparative performance of different text extraction methods (pytesseract OCR vs. Claude Vision API) on scanned clinical documents?
-
-## Dataset Description
-
-The primary dataset contains **200 patient cases × 45 columns**, covering 14 clinical elements each scored by a human annotator and an AI annotator against ground-truth source documents.
-
-| Variable Group | Count | Description |
-|---|---|---|
-| Source (ground truth) | 14 | Binary (0/1): feature present in source documents |
-| Human annotator | 14 | Coded 1/2/3/N/A: human extraction status |
-| AI annotator | 14 | Coded 1/2/3/N/A: LLM extraction status |
-| Covariates | 2 | `tumor_invasive_dcis` (1=Invasive, 2=DCIS), `complex_case_status` (0/1) |
-| Identifier | 1 | `surgeon_id` (de-identified, 20 unique) |
-
-**Annotator Coding:** 1 = Correct extraction, 2 = Omission, 3 = Fabrication, N/A = Not applicable
-
-**Primary safety outcome:** `Fabrication rate = FP / (FP + TN)`
-
----
-
-## 1. Executive Summary
-
-This project evaluates whether different prompting techniques improve LLM-based validation of clinical summary features relative to human validation.
-
-Independent Variable (IV)
-
-Prompt technique:
-
-zero_shot_structured_extraction_prod
-
-chain_of_thought_3
-
-rag_*
-
-few_shot_*
-
-program_aided_*
-
-react_*
-
-2pop_mcode_gpt
-
-bfop_*
-
-Base model only (no fine-tuning in this phase).
-
-Primary Dependent Variables (DVs)
-
-Correct rate (label = 1)
-
-Omission rate (label = 2)
-
-Fabrication rate (label = 3; only when source == 1)
-
-Secondary DVs
-
-Cohen's kappa (human vs AI)
-
-Domain-stratified performance (radiology vs pathology)
-
-Per-element performance
-
-Time-series stability of metrics
-
-Key Confounder (Required)
-
-OCR quality / document image quality
-
-2. Data Model and Label Encoding
-Source Encoding
-
-*_status_source
-
-1 = present in source
-
-0 = absent in source
-
-Human & AI Encoding (only when source==1)
-
-1 = correct
-
-2 = omission
-
-3 = fabrication
-
-If source==0:
-
-human and ai = NaN or "N/A"
-
-3. LangChain + RAG Integration (New Core Layer)
-Purpose
-
-Replace full-document prompting with retrieval-augmented extraction to:
-
-Reduce fabrication
-
-Improve traceability
-
-Enable evidence citation
-
-Support interpretability analysis
-
-3.1 OCR Loader
-
-Scanned PDFs → OCR → LangChain Documents
-
-def ocr_pdf_to_documents(pdf_path):
-    # Rasterize via PyMuPDF
-    # OCR via pytesseract
-    # Return list[Document(page_content, metadata)]
-3.2 Chunking Strategy
-RecursiveCharacterTextSplitter(
-    chunk_size=1000,
-    chunk_overlap=200,
-    add_start_index=True
-)
-3.3 Embedding Options
-
-OpenAI text-embedding-3-large
-
-HuggingFace sentence-transformers/all-mpnet-base-v2
-
-Others allowed if logged
-
-Embedding config must be stored per run.
-
-3.4 Vector Store Options
-
-FAISS (recommended default)
-
-Chroma (persistent)
-
-Qdrant / PGVector (if scaling later)
-
-3.5 Per-Element RAG Extraction
-
-Each feature uses:
-
-Query:
-
-Element name + definition + synonyms
-
-Prompt must:
-
-Restrict reasoning to provided context
-
-Return structured JSON
-
-Return null if not found
-
-3.6 Required Extraction Output Schema
-{
-  "case_id": "CASE_0001",
-  "model": "gpt-4o-mini",
-  "prompt_id": "P2",
-  "elements": [
-    {
-      "element_name": "ER_status",
-      "value": "positive",
-      "evidence": "Estrogen receptor: Positive (90%)",
-      "page_refs": [2],
-      "confidence": 0.86,
-      "rationale": "Explicit statement in pathology section."
-    }
-  ]
-}
-4. Frozen Prompt Registry (Required)
-Directory
-prompts/
-  frozen/
-    P1_initial.txt
-    P2_refined.txt
-    P3_rag_structured.txt
-  metadata.json
-Rules
-
-Frozen prompts are immutable.
-
-Any modification → new prompt ID.
-
-Prompt ID referenced in run logs.
-
-Prompt escalation documented (problem → change → hypothesis).
-
-5. Experiment Run Logging (Required)
-
-Each experiment produces an immutable log entry.
-
-5.1 Required Schema
-{
-  "run_id": "R23",
-  "model": "gpt-4.x",
-  "prompt_id": "P17",
-  "approach": "RAG_structured",
-  "timestamp": "2026-03-10",
-  "overall_accuracy": 0.82,
-  "fabrication_rate": 0.05,
-  "domain_breakdown": {
-    "radiology": 0.84,
-    "pathology": 0.79
-  }
-}
-5.2 Required Additional Fields
-
-dataset hash
-
-git commit hash
-
-embedding model
-
-chunk size
-
-top_k retrieval
-
-temperature
-
-total elements evaluated (source==1 rows)
-
-OCR thresholds used
-
-6. Document Quality Assessment (Required)
-
-OCR quality is a confounder and must be measured.
-
-6.1 Per-Page Metrics
-
-Variance of Laplacian (blur)
-
-Tenengrad
-
-RMS contrast
-
-Intensity spread (p95 - p5)
-
-Mean brightness
-
-Skew angle
-
-Resolution/DPI
-
-6.2 Flag Definitions
-
-Define percentile-based thresholds:
-
-blurry = bottom 10% Laplacian variance
-low_contrast = bottom 10% RMS contrast
-
-Threshold values must be logged per dataset.
-
-6.3 Required Case-Level JSON
-{
-  "case_id": "CASE_0123",
-  "case_quality_summary": {
-    "num_pages": 6,
-    "pct_pages_blurry": 0.33,
-    "pct_pages_low_contrast": 0.50,
-    "worst_page_laplacian_var": 31.8
-  },
-  "annotation_performance": {
-    "correct": 15,
-    "fabrications": 1,
-    "omissions": 2
-  }
-}
-7. Interpretability Framework (Molnar-Aligned)
-
-This project operationalizes:
-
-Global interpretability: feature-level performance trends
-
-Local interpretability: per-element evidence citations
-
-Example-based explanations: retrieved chunks
-
-Post-hoc analysis: document predictors of failure
-
-Key analysis layers:
-
-Which elements are most fragile?
-
-Which document features predict fabrication?
-
-Does RAG reduce hallucination?
-
-Does OCR quality predict omission?
-
-8. Predictive Modeling Layer
-8.1 Binary Classification Model
-
-Goal:
-Predict probability of correct extraction (label=1).
-
-Models:
-
-H2O AutoML
-
-HistGradientBoostingClassifier
-
-Evaluation:
-
-Brier score
-
-Calibration curves
-
-ROC-AUC
-
-8.2 Regression Model
-
-Goal:
-Predict mean overall AI metric by prompt version.
-
-Outcome:
-Mean accuracy or mean fabrication rate per run.
-
-Used for:
-
-Prompt optimization objective
-
-Loss monitoring
-
-9. Time-Series Forecasting
-
-Track over runs:
-
-Fabrication rate
-
-Accuracy
-
-Per-element fabrication
-
-Domain-specific trends
-
-Requirements:
-Prompt versions must be sequential and hypothesis-driven.
-
-Forecasting model:
-
-ARIMA or Prophet
-
-Detect drift
-
-Trigger alerts
-
-10. Folder Structure
-data/
-  raw/
-  deidentified/
-  processed/
-
-prompts/
-  frozen/
-  library/
-
-runs/
-  logs/
-  metrics/
-
-models/
-  configs/
-
-eval/
-  metrics_utils.py
-  main_analysis.py
-
-notebooks/
-  rag_driver.ipynb
-  forecasting.ipynb
-
-docs/
-  protocol.md
-11. Full Pipeline Architecture
-
-Raw scanned PDFs
-
-OCR + image quality scoring
-
-Deidentification
-
-Chunking
-
-Embeddings
-
-Vector store
-
-Per-element RAG extraction
-
-Structured JSON output
-
-Validation comparison
-
-Metrics computation
-
-Run logging
-
-Forecasting + alerting
-
-12. Scientific Contributions
-
-This project produces:
-
-Feature-level fabrication analysis in clinical summarization
-
-Prompt-technique comparative effectiveness study
-
-OCR quality as performance confounder analysis
-
-Retrieval-based hallucination mitigation evaluation
-
-Reproducible monitoring framework
-
-13. Publication Alignment (npj Digital Medicine)
-
-Study type:
-Retrospective diagnostic accuracy evaluation
-
-Index test:
-LLM validation via structured RAG prompting
-
-Reference standard:
-Human validation of source-document feature presence
-
-Primary endpoint:
-Fabrication rate
-
-Secondary:
-Accuracy, omission, agreement, domain breakdown
-
-Required reporting:
-
-Flow diagram
-
-Annotator training
-
-Error taxonomy
-
-OCR quality adjustment
-
-Statistical analysis plan
-
-Data availability statement
-
----
-
-## Appendix A: Evaluation Framework — Metric Definitions
-
-Confusion-matrix components are computed per element per annotator:
-
-```
-TP = ((data[source_col] == 1) & (data[annotator_col] == 1)).sum()
-FN = ((data[source_col] == 1) & (data[annotator_col] == 2)).sum()
-FP = ((data[source_col] == 0) & (data[annotator_col] == 3)).sum()
-TN = ((data[source_col] == 0) & (data[annotator_col] == "N/A")).sum()
+# LLM Summarization for Breast Cancer
+
+Prompt-technique evaluation for feature-level **comparison of human and LLM-based clinical feature extraction** in breast cancer radiology and pathology documentation.
+
+## Project Overview
+
+This repository evaluates how reliably LLMs extract structured clinical features from unstructured/scanned source documents.
+
+- **Primary goal:** reduce clinically unsafe extraction errors, especially hallucinated features.
+- **Core comparison:** Human annotator vs LLM annotator against source-document ground truth.
+- **Dataset scale:** 200 de-identified patient cases, 14 clinical elements, 45 core columns.
+- **Primary safety metric:** fabrication rate.
+
+## Research Questions
+
+1. Which clinical elements are most fragile for LLM extraction?
+2. Where does AI fabrication/omission differ significantly from human performance?
+3. How do different prompt strategies (zero-shot, chain-of-thought, retrieval-augmented generation, few-shot, etc.) change outcomes?
+4. Which document and OCR features predict AI failure?
+
+## What Is in This Repository
+
+- End-to-end analysis notebooks for data quality, diagnostics, modeling, and validation.
+- Prompt artifacts and prompt-library resources for extraction experiments.
+- Evaluation scripts for human-vs-LLM comparisons and LLM-as-judge workflows.
+- Reports and figures generated from notebook and pipeline outputs.
+- Supporting manuscript and conference materials.
+
+## Repository Layout
+
+```text
+<project_root>
+├── docs/                 # project docs, architecture notes, summaries, guides
+├── notebooks/            # main analysis notebooks
+├── src/                  # pipeline/evaluation/modeling scripts
+├── prompts/              # prompt library, prompt assets, generated prompts
+├── eval/                 # evaluation schemas and metric resources
+├── experiments/          # run tracking structure
+├── reports/              # generated tables/plots/analysis outputs
+├── models/               # model configs
+├── references/           # papers and technical references
+└── conferences/          # conference submission material
 ```
 
-| Symbol | Interpretation |
-|--------|----------------|
-| TP | Correctly extracted feature present in source |
-| FN | Omission — source present, not extracted |
-| FP | Fabrication — source absent, extracted anyway |
-| TN | Correctly not extracted |
+## Documentation Guide
 
-**Primary safety outcome:**
+Start here based on your need:
 
-```
-Fabrication rate = FP / (FP + TN)
-```
+- **High-level summary:** `docs/executive_summary.md`
+- **Dataset details:** `docs/dataset_metadata.md`
+- **LangGraph framework and RAG design:** `docs/langgraph_agentic_rag_design.md`
+- **LangChain ecosystem architecture:** `docs/ARCHITECTURE_LANGCHAIN_ECOSYSTEM.md`
+- **Metric selection decisions:** `docs/FINAL_METRICS_SELECTION.md`, `docs/hcat_metrics_selection.md`
+- **Colab execution workflow:** `docs/colab_pipeline_guide.md`
+- **Project structure + privacy rules:** `docs/project_directory_structure_privacy_rules.md`
 
-Statistical tests: One-sided exact McNemar (binomial on discordant pairs, `alternative="greater"`) testing H1: AI metric > Human metric for diagnostic metrics, and H1: AI fabrication rate > Human fabrication rate for fabrication.
+## Data and Labeling Conventions
 
-## Appendix B: Source Document Feature Analysis
+- **Source label:** feature present/absent in source documents.
+- **Annotator coding:**
+  - `1` = Correct extraction
+  - `2` = Omission
+  - `3` = Fabrication
+  - `N/A` = Not applicable
+- **Domains covered:** radiology and pathology elements.
 
-For each case, the following document-level features should be computed from OCR-extracted text:
+## Environment and Setup
 
-- Number of reports per case
-- Total token count / average tokens per report
-- Unique token ratio
-- Lexical diversity (type-token ratio)
-- Embedding variance (sentence-transformer or BERT)
-- Negation frequency
-- Uncertainty language frequency (e.g., "possible", "cannot exclude")
-- Table density (structured vs free-text ratio)
-- Cross-document semantic similarity (cosine similarity of document embeddings)
+### Requirements
 
-These features serve as predictors in downstream modeling of AI fabrication and omission.
+- Python 3.11+
+- Local dependencies from `pyproject.toml` or `requirements.txt`
+- API keys via `.env` (do not commit secrets)
 
-## Appendix C: Deidentification Pipeline for Scanned PDFs
+### Installation
 
-**Purpose:** OCR-based bounding-box redaction with black rectangles, applied to both source PDFs and the validation Excel spreadsheet.
+Using `uv`:
 
-**Dependencies:** `pymupdf`, `pytesseract`, `opencv-python`, `pillow`, `pandas`, `tqdm`
-
-**Redaction rules (HIPAA-aligned):**
-- Email, phone, SSN, dates, ZIP codes, URLs, address patterns
-- MRN (context-based, with label lookahead)
-- Contextual: if token matches a PHI label (Name, Patient, DOB, MRN), redact next N tokens on same line
-
-**Key configuration:**
-```python
-CONTEXT_LABELS = {"name", "patient", "dob", "dateofbirth", "birth", "mrn", "acct", "account"}
-redact_after_label_tokens = 6
+```bash
+uv sync
 ```
 
-**Patient mapping requirement:** Deidentified outputs must retain a `case_id ↔ original_filename` mapping table (stored separately in a secure location) to enable downstream observation-level linkage.
+Using `pip`:
 
-**Outputs:** Redacted PDFs + CSV redaction log (file, page, status, redaction count, rules applied).
+```bash
+pip install -r requirements.txt
+```
 
-## Appendix D: Interpretability Framework (Molnar-Aligned)
+## Typical Workflow
 
-This project operationalizes four levels of interpretability:
+1. Prepare/confirm de-identified inputs.
+2. Run notebooks in sequence for preprocessing, diagnostics, extraction analysis, and validation.
+3. Generate updated outputs in `reports/`.
+4. Compare metrics across prompt variants and evaluation methods.
 
-1. **Global interpretability** — feature-level performance trends across all elements and domains
-2. **Local interpretability** — per-element evidence citations from RAG retrieval chunks
-3. **Example-based explanations** — retrieved source chunks that grounded each extraction
-4. **Post-hoc analysis** — document-quality and text-complexity predictors of AI failure
+## Privacy and Safety
 
+- Never commit PHI or identifiable patient data.
+- Keep sensitive data in controlled private storage.
+- Commit only de-identified/approved derived outputs.
+- Store credentials only in `.env`.
+
+## Project Status
+
+<<<<<<< HEAD
 Key analysis questions:
 - Which elements are most fragile (highest fabrication rate)?
 - Which document features predict fabrication?
@@ -840,3 +405,6 @@ data reports/
     ├── validation_methods_by_domain.csv     — domain-stratified comparison
     └── validation_by_domain_plot.png        — Radiology vs Pathology comparison
 ```
+=======
+Current phase: prompt and evaluation-method optimization. Notebook outputs and reports are research-grade and may change as experiments are re-run with updated prompt variants.
+>>>>>>> 740d1020037861cf7104139ecb25299bde8f60a1
