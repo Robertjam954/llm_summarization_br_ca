@@ -36,13 +36,37 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RAW_DIR = PROJECT_ROOT / "data" / "raw"
-PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
-PROMPT_LIBRARY_CSV = PROJECT_ROOT / "references" / "Prompts" / "prompt_library (1).csv"
+from dotenv import load_dotenv
+load_dotenv()
+
+PROJECT_ROOT     = Path(__file__).resolve().parents[2]
+DATA_PRIVATE_DIR = Path(os.getenv("DATA_PRIVATE_DIR", "/Users/robertjames/data_private"))
+
+RAW_DIR          = DATA_PRIVATE_DIR / "raw"
+PROCESSED_DIR    = PROJECT_ROOT / "data" / "processed"
+PROMPT_LIBRARY_CSV  = PROJECT_ROOT / "references" / "Prompts" / "prompt_library (1).csv"
 PROMPT_LIBRARY_XLSX = PROCESSED_DIR / "prompt_library_updated_v5.xlsx"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "deepeval_runs"
-VALIDATION_RAW = RAW_DIR / "merged_llm_summary_validation_datasheet.xlsx"
+OUTPUT_DIR       = PROJECT_ROOT / "data" / "processed" / "deepeval_runs"
+
+# Validation sheet: check multiple candidate paths in priority order
+def _find_validation_sheet(private_dir: Path) -> Path:
+    candidates = [
+        private_dir / "deidentified" / "validation_datasheet_deidentified.xlsx",
+        private_dir / "raw" / "merged_llm_summary_validation_datasheet_deidentified.xlsx",
+        private_dir / "raw" / "merged_llm_summary_validation_datasheet.xlsx",
+    ]
+    for c in candidates:
+        if c.exists():
+            return c
+    # Last resort: glob for any validation xlsx in raw/
+    raw_dir = private_dir / "raw"
+    if raw_dir.exists():
+        matches = sorted(raw_dir.glob("*validation*.xlsx"))
+        if matches:
+            return matches[0]
+    return candidates[2]  # Return expected path even if missing (will error at load time)
+
+VALIDATION_RAW = _find_validation_sheet(DATA_PRIVATE_DIR)
 
 # ---------------------------------------------------------------------------
 # Logging
