@@ -461,15 +461,15 @@ def process_sheet():
     con_vals = [d["rms_contrast"] for d in derived_list
                 if d["rms_contrast"] is not None]
 
-    lap_p10 = float(np.percentile(lap_vals, 10)) if lap_vals else None
-    con_p10 = float(np.percentile(con_vals, 10)) if con_vals else None
+    lap_p25 = float(np.percentile(lap_vals, 25)) if lap_vals else None
+    con_p25 = float(np.percentile(con_vals, 25)) if con_vals else None
 
     for d in derived_list:
         lv = d["laplacian_variance_blur"]
         cv_ = d["rms_contrast"]
-        d["is_blurry"]       = ("Y" if (lap_p10 is not None and lv is not None and lv <= lap_p10)
+        d["is_blurry"]       = ("Y" if (lap_p25 is not None and lv is not None and lv <= lap_p25)
                                 else ("N" if lv is not None else None))
-        d["is_low_contrast"] = ("Y" if (con_p10 is not None and cv_ is not None and cv_ <= con_p10)
+        d["is_low_contrast"] = ("Y" if (con_p25 is not None and cv_ is not None and cv_ <= con_p25)
                                 else ("N" if cv_ is not None else None))
 
     # ── Step 3: write new columns to sheet ───────────────────────────────────
@@ -574,13 +574,13 @@ def process_sheet():
             f"{sum(1 for d in derived_list if d['performance_stratum']=='poor_doc' and d.get('is_blurry')=='Y')} blurry",
         ],
         ["", "", "", "", "", ""],
-        ["PDF IMAGE QUALITY THRESHOLDS (10th percentile within fabrication set)", "", "", "", "", ""],
+        ["PDF IMAGE QUALITY THRESHOLDS (25th percentile within fabrication set)", "", "", "", "", ""],
         [
-            f"is_blurry threshold (laplacian_var <= {lap_p10:.1f})" if lap_p10 else "is_blurry: n/a",
+            f"is_blurry threshold (laplacian_var <= {lap_p25:.1f})" if lap_p25 else "is_blurry: n/a",
             f"{len(blurry_cases)} cases flagged blurry", "", "", "", "",
         ],
         [
-            f"is_low_contrast threshold (rms_contrast <= {con_p10:.1f})" if con_p10 else "is_low_contrast: n/a",
+            f"is_low_contrast threshold (rms_contrast <= {con_p25:.1f})" if con_p25 else "is_low_contrast: n/a",
             f"{len(lo_con_cases)} cases flagged low-contrast", "", "", "", "",
         ],
         ["", "", "", "", "", ""],
@@ -632,8 +632,8 @@ def process_sheet():
         print(f"  {stratum:<30}  N={n}  avg_ai_errors={avg}  major_error_cases={maj}")
 
     print()
-    print(f"  is_blurry threshold:       laplacian_var <= {lap_p10:.1f}" if lap_p10 else "  is_blurry: no data")
-    print(f"  is_low_contrast threshold: rms_contrast  <= {con_p10:.1f}" if con_p10 else "  is_low_contrast: no data")
+    print(f"  is_blurry threshold:       laplacian_var <= {lap_p25:.1f}" if lap_p25 else "  is_blurry: no data")
+    print(f"  is_low_contrast threshold: rms_contrast  <= {con_p25:.1f}" if con_p25 else "  is_low_contrast: no data")
     print(f"  Blurry cases: {len(blurry_cases)}  |  Low-contrast cases: {len(lo_con_cases)}")
 
     print()
