@@ -1,0 +1,76 @@
+8:03 AM                                    Marino, Marlene [REDACTED]
+
+OCHIN OCHIN                                           Outside Information
+
+Results                                    MAMMO LEFT W/ TOMO (Order [REDACTED])
+
+ⓘ Information displayed in this report may not trend or trigger automated decision support.
+
+MAMMO LEFT W/ TOMO                                    Order: [REDACTED]
+
+Narrative
+
+Patient: [REDACTED] [REDACTED]
+ID: [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+Note: All result statuses are Final unless otherwise noted.
+
+Tests: (1) MAMMO LEFT W/ TOMO (77065TL)
+MAMMOGRAM   Result Below...   20250914000000
+RESULT: BI-RADs 5 - Highly suggestive of Malignancy
+
+
+PROCEDURE: LEFT MAMMOGRAM WITH TOMOSYNTHESIS
+
+COMPARISON: MG, MAMMO BILATERAL SC W/ TOMO, [REDACTED]
+MG, MAMMO BILATERAL SC W/ TOMO, [REDACTED]
+
+INDICATIONS: New group of microcalcifications in the posterior upper-outer quadrant the left breast.
+
+LAST CLINICAL BREAST EXAM: [REDACTED]
+
+TECHNIQUE: Left 90 degree lateral and XCC views and left 90 degree lateral and CC magnification spot views.
+
+BREAST COMPOSITION: The breasts are heterogeneously dense, which may obscure small masses.
+
+FINDINGS:
+There is a band of innumerable soft tissue densities over a distance of at least 4 cm, and extending 4 cm superior and 7 cm lateral to the nipple line. The calcifications are pleomorphic and highly suspicious. Several additional slightly separated calcifications are noted more medially and inferiorly.
+
+CONCLUSION:
+Highly suspicious band of calcifications in the upper-outer quadrant of the left breast, with several additional slightly separated suspicious calcifications more inferomedially. Biopsy is recommended.
+
+RECOMMENDATIONS:
+BI-RADS#5 - Highly Suggestive of Malignancy - Appropriate Action Should be Taken:
+Breast biopsy: LEFT BREAST
+
+Dense breasts may obscure an underlying neoplasm. As required by New York state law, the patient [REDACTED] [REDACTED] informed of her dense breasts for the mammogram in writing.
+
+
+Findings faxed to the referring physician [REDACTED] [REDACTED]
+
+Dictated and Approved by: Robert Lautin, M.D. on [REDACTED]
+
+Marino, Marlene [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] at [REDACTED] 8:03 AM                1/2
+
+8:03 AM                                    Marino, Marlene [REDACTED]
+
+Note: An exclamation mark (!) indicates a result that was not dispersed into the flowsheet.
+Document Creation Date: [REDACTED] 4:46 PM
+
+
+(1) Order result status: Final
+Collection or observation date-time: [REDACTED] 15:29
+Requested date-time:
+Receipt date-time:
+Reported date-time: [REDACTED] 16:29:20
+Referring Physician:
+Ordering Physician: [REDACTED] [REDACTED] [REDACTED]
+Specimen Source:
+Source: CPAI
+Filler Order Number: [REDACTED]
+Lab site: CP Advanced Imaging
+Exam End: —                               Last Resulted: [REDACTED] 15:29
+Received From: OCHIN                      Result Received: [REDACTED] 15:37
+                                         Received Information
+
+
+Marino, Marlene [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] at [REDACTED] 8:03 AM                2/2

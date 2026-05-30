@@ -1,0 +1,112 @@
+[
+  {
+    "case_id": "CASE_C00B770F8A1C",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 543,
+    "pre_word_count": 543,
+    "word_count_diff": 0,
+    "raw_char_count": 4607,
+    "pre_char_count": 4109,
+    "raw_snippet": "[REDACTED] 4:33 PM                                                    Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                Datavant                Fax Id: [REDACTED]                    D 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (BILAT) W/O/W CONTRA",
+    "pre_snippet": "[REDACTED] 4:33 PM Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35        Datavant        Fax Id: [REDACTED]        0 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (RT/LT) W/WO CONTRAST (4515521616, Final [REDACTED] 9:39am)  [LOGO] Summit Health        Summit Hea"
+  },
+  {
+    "case_id": "CASE_A5664E70EFB4",
+    "original_filename": "Imaging_External.pdf",
+    "raw_word_count": 1677,
+    "pre_word_count": 1821,
+    "word_count_diff": 144,
+    "raw_char_count": 12956,
+    "pre_char_count": 14914,
+    "raw_snippet": "[REDACTED] 4:32 PM                                                  Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                    Dataswant            Fax Id: [REDACTED]            [REDACTED]     RUCKER, Derrica (Id [REDACTED]) 3D DIAGNOSTIC BILATERAL MAMMOGRAM TOMO (SH11",
+    "pre_snippet": "[REDACTED] 4:32 PM                                                            Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35                    Datavant                    Fax Id: [REDACTED]                   1 [REDACTED]   RUCKER, Derrica (id [REDACTED]) 3D DIAGNOSTIC BILATE"
+  },
+  {
+    "case_id": "CASE_A6002A41125B",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1804,
+    "pre_word_count": 1895,
+    "word_count_diff": 91,
+    "raw_char_count": 17538,
+    "pre_char_count": 15953,
+    "raw_snippet": "Case: 3580691-1                                                                                            Patient [REDACTED]                                                                                                                      Memorial Sloan Kettering Cancer [LOGO] Memorial Sloan Ket",
+    "pre_snippet": "Case: 3580691-1  Patient [REDACTED] Memorial Sloan Kettering Cancer Center New York, NY, [REDACTED] Phone [REDACTED] Fax [REDACTED]  Needed By: September 09 2025  STAT REQUEST- URGENT!  Authorization for Release of Medical Records and Protected Health Information (PHI) for Continuity of Care  Memori"
+  },
+  {
+    "case_id": "CASE_A5664E70EFB4",
+    "original_filename": "Imaging_External.pdf",
+    "raw_word_count": 1677,
+    "pre_word_count": 1821,
+    "word_count_diff": 144,
+    "raw_char_count": 12956,
+    "pre_char_count": 14914,
+    "raw_snippet": "[REDACTED] 4:32 PM                                                  Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                    Dataswant            Fax Id: [REDACTED]            [REDACTED]     RUCKER, Derrica (Id [REDACTED]) 3D DIAGNOSTIC BILATERAL MAMMOGRAM TOMO (SH11",
+    "pre_snippet": "[REDACTED] 4:32 PM                                                            Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35                    Datavant                    Fax Id: [REDACTED]                   1 [REDACTED]   RUCKER, Derrica (id [REDACTED]) 3D DIAGNOSTIC BILATE"
+  },
+  {
+    "case_id": "CASE_C00B770F8A1C",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 543,
+    "pre_word_count": 543,
+    "word_count_diff": 0,
+    "raw_char_count": 4607,
+    "pre_char_count": 4109,
+    "raw_snippet": "[REDACTED] 4:33 PM                                                    Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                Datavant                Fax Id: [REDACTED]                    D 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (BILAT) W/O/W CONTRA",
+    "pre_snippet": "[REDACTED] 4:33 PM Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35        Datavant        Fax Id: [REDACTED]        0 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (RT/LT) W/WO CONTRAST (4515521616, Final [REDACTED] 9:39am)  [LOGO] Summit Health        Summit Hea"
+  },
+  {
+    "case_id": "CASE_A6002A41125B",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1804,
+    "pre_word_count": 1895,
+    "word_count_diff": 91,
+    "raw_char_count": 17538,
+    "pre_char_count": 15953,
+    "raw_snippet": "Case: 3580691-1                                                                                            Patient [REDACTED]                                                                                                                      Memorial Sloan Kettering Cancer [LOGO] Memorial Sloan Ket",
+    "pre_snippet": "Case: 3580691-1  Patient [REDACTED] Memorial Sloan Kettering Cancer Center New York, NY, [REDACTED] Phone [REDACTED] Fax [REDACTED]  Needed By: September 09 2025  STAT REQUEST- URGENT!  Authorization for Release of Medical Records and Protected Health Information (PHI) for Continuity of Care  Memori"
+  },
+  {
+    "case_id": "CASE_C00B770F8A1C",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 543,
+    "pre_word_count": 543,
+    "word_count_diff": 0,
+    "raw_char_count": 4607,
+    "pre_char_count": 4109,
+    "raw_snippet": "[REDACTED] 4:33 PM                                                    Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                Datavant                Fax Id: [REDACTED]                    D 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (BILAT) W/O/W CONTRA",
+    "pre_snippet": "[REDACTED] 4:33 PM Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35        Datavant        Fax Id: [REDACTED]        0 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (RT/LT) W/WO CONTRAST (4515521616, Final [REDACTED] 9:39am)  [LOGO] Summit Health        Summit Hea"
+  },
+  {
+    "case_id": "CASE_A5664E70EFB4",
+    "original_filename": "Imaging_External.pdf",
+    "raw_word_count": 1677,
+    "pre_word_count": 1821,
+    "word_count_diff": 144,
+    "raw_char_count": 12956,
+    "pre_char_count": 14914,
+    "raw_snippet": "[REDACTED] 4:32 PM                                                  Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                    Dataswant            Fax Id: [REDACTED]            [REDACTED]     RUCKER, Derrica (Id [REDACTED]) 3D DIAGNOSTIC BILATERAL MAMMOGRAM TOMO (SH11",
+    "pre_snippet": "[REDACTED] 4:32 PM                                                            Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35                    Datavant                    Fax Id: [REDACTED]                   1 [REDACTED]   RUCKER, Derrica (id [REDACTED]) 3D DIAGNOSTIC BILATE"
+  },
+  {
+    "case_id": "CASE_C00B770F8A1C",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 543,
+    "pre_word_count": 543,
+    "word_count_diff": 0,
+    "raw_char_count": 4607,
+    "pre_char_count": 4109,
+    "raw_snippet": "[REDACTED] 4:33 PM                                                    Rucker, Derrica Y (MR # 39092180)  Media Information  09-06-2025 18:35                Datavant                Fax Id: [REDACTED]                    D 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (BILAT) W/O/W CONTRA",
+    "pre_snippet": "[REDACTED] 4:33 PM Rucker, Derrica Y (MR # 39092180)  Media Information  09-05-2025 18:35        Datavant        Fax Id: [REDACTED]        0 6/14   RUCKER, Derrica (id [REDACTED]) MRI BREAST BILATERAL (RT/LT) W/WO CONTRAST (4515521616, Final [REDACTED] 9:39am)  [LOGO] Summit Health        Summit Hea"
+  },
+  {
+    "case_id": "CASE_A6002A41125B",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1804,
+    "pre_word_count": 1895,
+    "word_count_diff": 91,
+    "raw_char_count": 17538,
+    "pre_char_count": 15953,
+    "raw_snippet": "Case: 3580691-1                                                                                            Patient [REDACTED]                                                                                                                      Memorial Sloan Kettering Cancer [LOGO] Memorial Sloan Ket",
+    "pre_snippet": "Case: 3580691-1  Patient [REDACTED] Memorial Sloan Kettering Cancer Center New York, NY, [REDACTED] Phone [REDACTED] Fax [REDACTED]  Needed By: September 09 2025  STAT REQUEST- URGENT!  Authorization for Release of Medical Records and Protected Health Information (PHI) for Continuity of Care  Memori"
+  }
+]

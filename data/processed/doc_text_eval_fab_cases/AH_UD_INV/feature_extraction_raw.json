@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "1.3 cm",
+        "evidence": "Left breast 3 o'clock 6 cm from the nipple 1 x 0.6 x 1.6 cm suspicious irregular hypoechoic mass is present"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 3 o'clock, 6 cm from the nipple",
+        "evidence": "Left breast 3 o'clock 6 cm from the nipple 1 x 0.6 x 1.6 cm suspicious irregular hypoechoic mass is present"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Queried focal asymmetry with mild distortion",
+        "evidence": "Queried focal asymmetry with mild distortion in the outer central left breast persists on additional imaging. There are no calcifications."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, heart shaped biopsy clip placed",
+        "evidence": "A heart shaped biopsy clip was placed at the biopsy site. Post procedure mammogram demonstrates appropriate positioning of the heart shaped biopsy marker at the mammographic finding."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical Consultation",
+        "evidence": "RECOMMENDATION: Recommendation: Surgical Consultation Side: Left Follow-Up: Prompt follow up"
+      },
+      "feature_8_lymph_node": {
+        "value": "Left axilla not imaged",
+        "evidence": "LEFT AXILLA: Not imaged."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound guided core biopsy",
+        "evidence": "A. Breast, left, 3:00 NG, ultrasound guided core biopsy: Invasive ductal carcinoma and atypical lobular hyperplasia (ALH)."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "~0.8 cm",
+        "evidence": "involves multiple cores, wherein it spans ~0.8 cm"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma and atypical lobular hyperplasia (ALH)",
+        "evidence": "A. Breast, left, 3:00 NG, ultrasound guided core biopsy: Invasive ductal carcinoma and atypical lobular hyperplasia (ALH). The invasive carcinoma is moderately differentiated, i.e., grade 2: 3+2+1, displays lobular features"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PR, HER2, and Ki67 tests",
+          "evidence": "Results of ER, PR, HER2, and Ki67 tests, to be performed on 'A1' sections"
+        },
+        "ER": {
+          "value": ">95% STRONG positive",
+          "evidence": "ESTROGEN RECEPTOR: >95% STRONG. Since >1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN RECEPTOR POSITIVE."
+        },
+        "PR": {
+          "value": "~90% STRONG positive",
+          "evidence": "PROGESTERONE RECEPTOR: ~90% STRONG. Since >1% of tumor cell nuclei express progesterone receptors, this tumor is considered to be PROGESTERONE RECEPTOR POSITIVE."
+        },
+        "HER2_IHC": {
+          "value": "0 (NEGATIVE)",
+          "evidence": "HER2: 0. HER2: no result indicates NEGATIVE HER2 by immunohistochemistry."
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

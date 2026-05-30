@@ -1,0 +1,224 @@
+[REDACTED] 7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)
+
+Media Information
+
+
+[REDACTED] Baptist Health                    Baptist Health Medical Center
+                                            9601 Baptist Health Drive
+                                            Little Rock, Arkansas 72205
+
+
+Coman, Mihaela M 00543619                   Department/Submitter Info:
+F, 70 yrs. [REDACTED]                       Baptist Health Breast Center
+21 BURNTTREE CT, LITTLE ROCK AR [REDACTED]  9500 Kanis Road
+W: [REDACTED] M: [REDACTED]                 Little Rock AR [REDACTED]
+
+Addended Report: SURG
+
+Surgical Pathology Report (Final result)                                                    S25-[REDACTED]
+
+Authorizing Provider:    [REDACTED] V. [REDACTED]      [REDACTED] [REDACTED]      [REDACTED] Health Breast Center
+Pathologist:            [REDACTED] [REDACTED]         [REDACTED] [REDACTED]      [REDACTED]
+Collected:              [REDACTED] 1436               Received:                   [REDACTED] 1509
+
+Specimens
+A       Breast, Right, RIGHT BREAST ARCHITECTURAL DISTORTION @ 9:00
+
+
+CLINICAL INFORMATION
+Right breast architectural distortion
+
+
+ABNORMAL/SIGNIFICANT FINDINGS (Abnormal)
+Yes                                         Ref. Range: No
+
+
+FINAL DIAGNOSIS
+A. Breast, Right Architectural Distortion, Core Biopsy:
+- Invasive ductal carcinoma, Nottingham grade 1 of 3, 0.2 cm in this material; see comment.
+
+                    Electronically signed by Melody Harrison, MD on [REDACTED] at 1704 CDT
+
+
+DIAGNOSIS COMMENT
+A p63 immunostain demonstrates loss of myoepithelial cells in the areas of interest, supporting the above
+diagnosis. The Nottingham grade is based on scores of 2 for architecture, 2 for cytology, and 1 for mitotic
+activity. Ancillary studies for ER, PR, HER2, and Ki-67 are in progress, and the results will be issued in a
+supplemental report.
+
+
+GROSS DESCRIPTION
+
+Coman, Mihaela M 00543619                                                          [REDACTED] 11:54 AM
+1 of 4
+
+9/L d                   I269888991L << 029LZ0ZL05 A80J04J3d 38I3d8B               00:EL 5L-0L-5Z0Z
+
+
+Coman, Mihaela Maria (MR # 39102467) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 7:56 PM                1/5
+
+[REDACTED] 7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)
+
+
+[REDACTED] Baptist Health                    Baptist Health Medical Center
+                                            9601 Baptist Health Drive
+                                            Little Rock, Arkansas [REDACTED]
+
+A. RIGHT BREAST ARCHITECTURAL DISTORTION @ 9:00
+Received in 10% neutral buffered formalin in a container labeled with the patient's name [REDACTED] [REDACTED] [REDACTED]
+architectural distortion at 9:00 are multiple fragmented pieces of fibrofatty tissue that measure 2.7 cm in aggregate.
+This entire specimen is submitted.
+
+(Multiple sections, 1 block)
+
+Gross description performed by Savannah Jenkins
+
+
+ANCILLARY TESTING
+ESTROGEN AND PROGESTERONE RECEPTORS
+
+SOURCE: RIGHT BREAST (blk A1)
+
+Estrogen Receptor IHC: POSITIVE
+% of Nuclei Staining (ER): 94%
+Staining Intensity: STRONG
+
+Progesterone Receptor IHC: NEGATIVE
+% of Nuclei Staining (PR): <1%
+Staining Intensity: N/A
+
+INTERPRETATION: See note
+
+NOTE: Staining of greater than or equal to 1% of tumor cell nuclei is considered positive or favorable and correlates
+with the presence of ER and PR receptors by biochemical assay. Staining of less than 1% of tumor cell nuclei is
+considered negative or unfavorable. Control case and benign tissue in the block stained appropriately.
+
+There are limited data on the overall benefit of endocrine therapies for patients with low level (1-10%) ER expression,
+but they currently suggest possible benefit; therefore, these patients are considered eligible for endocrine treatment.
+There are data that suggest invasive cancers with these results are heterogeneous in both behavior and biology and
+often have gene expression profiles more similar to ER-negative cancers. The "Low Positive" designation only applies
+to invasive carcinoma.
+
+
+HER-2/NEU
+
+RESULT: NEGATIVE
+Staining Intensity: 1+
+
+INTERPRETATION: See note
+
+NOTE: This test is performed by immunohistochemical methodology. HER2/neu staining intensity of 3+ is considered
+
+Coman, Mihaela M 00543619                                                          [REDACTED] 11:54 AM
+2 of 4
+
+9/Z d                   I269888991L << 029LZ0ZL05 A80J04J3d 38I3d8B               00:EL 5L-0L-5Z0Z
+
+
+Coman, Mihaela Maria (MR # 39102467) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 7:56 PM                2/5
+
+[REDACTED] 7:56 PM
+                                            Coman, Mihaela Maria (MR # 39102467)
+
+
+[REDACTED] Baptist Health                    Baptist Health Medical Center
+                                            9601 Baptist Health Drive
+                                            Little Rock, Arkansas 72205
+
+unequivocally positive. Staining intensity of 2+ is considered equivocal, therefore in situ hybridization (ISH) analysis
+will be reflexively ordered by our laboratory and the results will be given in an addendum report. HER2/neu staining
+of 0 and 1+ is considered negative. If HER2/neu ISH is required on cases other than those with 2+ staining, please
+notify this office. Control case tissue and benign tissue in the block stain appropriately.
+
+
+KI-67
+
+RESULT: FAVORABLE
+Percent Positive: 5.6%
+
+INTERPRETATION: See note
+
+NOTE: This test is performed by immunohistochemical methodology. Staining of less than 10% of tumor cell nuclei
+is considered negative or favorable. Staining of 10% to less than 20% of tumor cell nuclei is considered borderline.
+Staining of greater than or equal to 20% of tumor cell nuclei is unfavorable.
+
+This ER, PR, and Ki67 test was developed by Pathology Labs of Arkansas has been approved by the U.S. Food and
+Drug Administration. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988
+(CLIA) as qualified to perform high complexity clinical laboratory testing.
+
+These assays have not been validated on decalcified specimens or tissue other than breast. Nor is it FDA approved
+for these specimens.
+
+This test panel was analyzed using the Ventana Image Analysis System (DP200). Type of fixation, 10% neutral
+buffered formalin. Embedded in paraffin. Tissue is fixed in 10% NBF for 6 to 72 hours. As in the ASCO/CAP HER2
+guideline, storage of slides for more than 6 weeks before analysis is not recommended. Immunohistochemical stains
+were performed on Ventana automated analyzers. Ventana Ultraview DAB detection system, antibodies: Anti ER
+clone SP1 Ventana, Anti PR clone 1E2 Ventana, Anti Ki 67 clone K-2 Ventana, Anti Her-2/neu clone 4B5 Ventana.
+
+                    Addendum electronically signed by Melody Harrison, MD on [REDACTED] at 1310 CDT
+
+DISCLAIMER
+Pathology report signed out by Pathology Laboratories of Arkansas at:
+Baptist Health Medical Center - Little Rock
+9601 Baptist Health Dr., Little Rock, AR [REDACTED]
+
+
+NOTE: Corresponding control slides are noted to stain appropriately for immunohistochemistry stain(s) and/or
+special stain(s), if applicable.
+
+Immunohistochemical staining may involve reagents labeled as analyte specific reagents (ASR). These assays were
+developed and their performance characteristics were determined by the Histology Laboratory at Pathology
+
+Coman, Mihaela M 00543619
+3 of 4                                                                             [REDACTED] 11:54 AM
+
+9/E d                   I269888991L << 029LZ0ZL05 A80J04J3d 38I3d8B               I0:EL 5L-0L-5Z0Z
+
+
+Coman, Mihaela Maria (MR # 39102467) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 7:56 PM                3/5
+
+[REDACTED] 7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)
+
+
+[REDACTED] Baptist Health                    Baptist Health Medical Center
+                                            9601 Baptist Health Drive
+                                            Little Rock, Arkansas 72205
+
+Laboratories of Arkansas. They have not been cleared or approved by the FDA. The FDA has determined that such
+clearance or approval is not necessary. This laboratory is certified under the Clinical Laboratory Improvement
+Amendments of 1988 as qualified to perform high complexity clinical laboratory testing.
+
+
+Resulting Labs
+
+PLA                                         PATHOLOGY LABORATORIES OF ARKANSAS, #1 Life Ct.,    [REDACTED]
+                                           Suite 101, Little Rock AR [REDACTED]
+                                           Director: Palmer, Hal Eugene, MD
+
+                                           CLIA: [REDACTED]
+Legend
+
+A - Abnormal
+
+
+Coman, Mihaela M 00543619                                                          [REDACTED] 11:54 AM
+4 of 4
+
+9/9 d                   I269888991L << 029LZ0ZL05 A80J04J3d 38I3d8B               I0:EL 5L-0L-5Z0Z
+
+Document Information
+Other: Outside Correspondence
+[REDACTED] 00:00
+
+Coman, Mihaela Maria (MR # 39102467) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 7:56 PM                4/5
+
+[REDACTED] 7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)
+
+Attached To:
+    Michaela Maria Coman
+
+Source Information
+Mahnoor Siddiqui | Baic Bre Srg
+
+
+Coman, Mihaela Maria (MR # 39102467) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 7:56 PM                5/5

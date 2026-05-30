@@ -1,0 +1,212 @@
+[REDACTED] 10:45 PM                                          Weaver, Rachel Victoria (MR # 39091629)
+
+Media Information
+
+
+                                    PATHOLOGY
+8 Memorial Medical Court           CONSULTANTS              Phone: (864) 295-3492
+Greenville, SC [REDACTED]         specialized diagnostic services    Fax: (864) 455-8926
+
+                                  IHC Prognostic Report
+Patient [REDACTED]               [REDACTED]               C00499       WHC25-012873
+Weaver, Rachel                   DOB: 03/24/1977 [REDACTED]           Greenville Memorial
+Gender    Female                 Ordering   09/02/2025
+MRN       374694034               Received   09/03/2025
+Ordering  Hultman, MD, Abbie L.   Body Site  Right breast; 2:00, 3 cm from Phone [REDACTED] Fax 864-455-8926
+                                            nipple; 6 cm mass, coil clip,
+                                  Specimen   ultrasound-guided core biopsy
+Treating  Shah, MD, Pavan Thotakura           invasive ductal tissue
+
+Clinical Information: Malignant neoplasm of unspecified site of unspecified female breast. Unspecified lump in the right breast, unspecified 
+                     quadrant. Invasive carcinoma of no [REDACTED] [REDACTED] [REDACTED]
+
+                     Cold Ischemia:           <1min      Fixation Time:         12-14hrs
+
+[THIS IS FIGURE: H&E stained tissue section showing cellular morphology]
+H&E
+
+[THIS IS TABLE: ER (SP1) Results]
+Overall Result:                    Positive      ER (SP1) Reference Range
+% Positive                        96.7          <1%    Negative
+Staining Intensity                2             1-10%  Low Positive
+Analysis                          Image         >10%   Positive
+Assay Type                        IVD
+Clone                            SP1
+ER (SP1)
+
+[THIS IS TABLE: PR (1E2) Results]
+Overall Result:                    Positive      PR (1E2) Reference Range
+% Positive                        85.4          <1%    Negative
+Staining Intensity                3             >=1%   Positive
+Analysis                          Image
+Assay Type                        IVD
+Clone                            1E2
+PR (1E2)
+
+
+This QBT system provided are intended for informational purposes only and should not be solely relied upon for billing purposes. When digital images are used for evaluation, the Source QT and integrated whole-slide scanner is utilized along with PACS.
+Patient claims develop software by third parties where the same slides are needed to reconstruct or digital pathology. These slides are prepared for review.
+
+Patient Name  [REDACTED] [REDACTED]              Patient ID    748972      Accession [REDACTED] [REDACTED]    [REDACTED]
+
+
+Weaver, Rachel Victoria (MR # 39091629) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 10:45 PM                   1/5
+
+[REDACTED] 10:45 PM                                          Weaver, Rachel Victoria (MR # 39091629)
+
+
+                                    PATHOLOGY
+8 Memorial Medical Court           CONSULTANTS              Phone: (864) 295-3492
+Greenville, SC [REDACTED]         specialized diagnostic services    Fax: (864) 455-8926
+
+                                  IHC Prognostic Report
+Patient [REDACTED]               [REDACTED] [REDACTED]      C00499       WHC25-012873
+Weaver, Rachel
+
+[THIS IS TABLE: HER2 (4B5) Results]
+Overall Result:        NEGATIVE (Ultra-Low)    HER2 (4B5) Reference Range
+Score                 0+                      0         NEGATIVE (Null)
+Analysis              Image                   0+        NEGATIVE (Ultra-Low)
+Assay Type            LDT                     1+        NEGATIVE (Low)
+Clone                 4B5                     2+        EQUIVOCAL
+Complete Intense                              3+        POSITIVE
+Staining              0%
+Her2 (4B5)
+
+[THIS IS TABLE: Ki-67 (MIB-1) Results]
+Overall Result:                   High        Ki-67 Reference Range
+% Positive                       65.2        <10%  Low
+Staining Intensity               3           10-20 Intermediate
+Analysis                         Image       >20%  High
+Assay Type                       IVD
+Clone                           MIB-1
+Ki-67 (MIB-1)
+
+Comments:
+Clinical correlation is suggested.
+
+Cold ischemia time and formalin fixation time meet ASCO/CAP guidelines.
+
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] present and appropriate.
+
+INTERPRETATION OF RESULTS:
+When performed, the following prognostic and/or predictive IVD markers were assessed by ready-to-use (RTU) primary monoclonal antibodies obtained from Ventana (Roche): (1) ER
+Nuclear expression using SP1); (2) PR nuclear expression clone 1E2); (3) p53 nuclear expression clone Bp53-11); (4) HER2 membrane protein expression clone 4B5); and (5) the
+Ki-67 nuclear antigen MIB-1. Since a higher expression and intensity of proliferation markers such as Ki-67 nuclear antigen MIB-1 is associated with a higher grade tumor with the
+Laureate Polymer Detection Kit. The percentage and intensity of ER/PR (1, 1+/weak, 2+/moderate, 3+/strong) of positively-stained tumor nuclei and the HER2 membrane staining score
+based on the latest ASCO/CAP 2020 guidelines and is compared assessed against normal mammary epithelium. The percentage and intensity of p53 (1, none/rare, 2+/moderate) nuclear staining of
+tumor cells is associated with significant involvement in disease-free survival compared to those patients whose tumors lack ER expression. In addition, although ER should be utilized
+as a predictor of benefit in adjuvant endocrine therapy, PR is used to only provide prognostic information in these tumors. ER positive patients generally those with hemoglobin PR
+expression have a smaller benefit from endocrine therapy when compared to those with higher levels. Although there are some caveats to the biology mentioned above, we
+include age > 50 years, negative ER and PR; ER (+) & PR (-/wk); 1) a high proliferative index (Ki-67 > 20%); or angioinvasive invasion, for example, in patients for whom anti-hormonal
+or HER2-targeted therapy is being considered, interpretative criteria are set forth by the latest ASCO/CAP Guidelines for breast cancer. In addition, the ASCO/CAP Guidelines also
+specify that these are HER2/neu amplified tumors that would benefit from anti-HER2 targeted therapy. When anti-HER2 therapy is being considered, HER2 testing should be
+evaluated for HER2 status. Validated ER, PR, and HER2 testing can be performed on paraffin-embedded tissue optimally fixed in 10% NBF for 6-72 hours; the Cold Ischemic Time should
+be < 60 minutes, and unintended tissue sections should be ideally < 8 weeks old.
+
+The percentage of tumor cells with uniform intense, complete membrane staining (2+ to 3+) is shown above. All controls are reviewed and show appropriate positive and negative
+immunoreactivity, unless otherwise specified. Since this IHC assay has not been validated on decalcified tissues, the results on decalcified specimens should be carefully interpreted
+given the possibility of false negativity.
+
+
+The Reference ranges for breast carcinoma are as follows for the following markers (expressed as a percentage of cells with nuclear staining):
+
+
+This QBT system provided are intended for informational purposes only and should not be solely relied upon for billing purposes. When digital images are used for evaluation, the Source QT and integrated whole-slide scanner is utilized along with PACS.
+Platform allows develop software by third parties where the same slides are needed to reconstruct or digital pathology. These slides are prepared for review.
+
+Patient [REDACTED] [REDACTED] [REDACTED]                  [REDACTED] [REDACTED]     [REDACTED] [REDACTED]    [REDACTED]
+
+
+Weaver, Rachel Victoria (MR # 39091629) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 10:45 PM                   2/5
+
+[REDACTED] 10:45 PM                                          Weaver, Rachel Victoria (MR # 39091629)
+
+
+                                    PATHOLOGY
+8 Memorial Medical Court           CONSULTANTS              Phone: (864) 295-3492
+Greenville, SC [REDACTED]         specialized diagnostic services    Fax: (864) 455-8926
+
+                                  IHC Prognostic Report
+Patient Name                      DOB        Specimen ID     Account        CSI Case Number
+Weaver, Rachel                   03/24/1977  M25-35797-A1    C00499         WHC25-012873
+
+BIOMARKER                                      RESULTS
+
+ER (SP1)                         Negative (< 1%)                Low Positive (1% - 10%)           Positive (> 10% - 100%)
+
+PR (1E2)                         Negative (< 1%)                                                   Positive (1% - 100%)
+
+Ki-67 (MIB-1)           Low Proliferation Rate (< 10%)        Intermediate Proliferation Rate (10% - 20%)     High Proliferation Rate (> 20% - 100%)
+
+p53 (Bp53-11)                    Negative (< 35%)                                                 Positive (> 35% - 100%)
+
+If the initial ER result is ≥ 10% or the ER intensity is weak (1+), then internal control tissues are re-reviewed following ASCO/CAP 2020 Guidelines. The "Low Positive" ER designation
+applies if the % is ≥ 10% but small details of ER ≤ 10%. In contrast, the PR staining follows the pattern in IHC Clinical Guidelines (2010). When applicable, the Status* ER comment is noted. If
+the level (1-10%) of ER expression by IHC. There are limited data on the overall benefit of endocrine therapies for patients with low levels (1-10%) ER expression, but they currently
+suggest considering this for patients and consequently eligible for endocrine treatment. There are data that suggest endocrine cancer with these counts and heterogeneous in both extension
+and biology are often have poor expression profiles from breast in ER negative cancers.
+
+Based on the latest ASCO/CAP 2020 ER/PR Guidelines, ER testing should also be performed on DCIS tumors without invasion since there is growing clinical literature that adjuvant
+endocrine therapy can reduce the risk of future breast cancer in these patients. Although only ER should be used to select these patients for endocrine therapy, reporting PR results
+may be provided if requested when additional endocrine therapy is considered optional in DCIS patients.
+
+With selected invasive breast cancer subtypes, ER results are usually histologically concordant with these tumors. Thus, when tumor histology is concordant with ER results (< 10%
+staining with 0-1+ intensity, the result may be reported as "ER-POSITIVE". But if the tumor histology is concordant with the ER results AND shows "weak staining intensity (1+)" OR
+only 5-10% cells stain with ER, then the results must be adjudicated, per Guidelines. Lastly, if discordant (or highly unusual) ER results are obtained in relation to the tumor histologic
+subtype, then a second pathological review (or digital analysis) and repeat testing has been performed. If necessary, These tumors include: (1) Tubocribriform lesions that are alternately
+ER-positive and ER-negative (Variable-positive and Variable-negative); (2) Invasive micropapillary carcinomas that are alternately ER-positive with variable ER intensities (Variable to
+Apocrine differentiation); and (2) "Discordant tumors that are alternately ER-NEGATIVE": for example, LG invasive ductal carcinomas of no special type, Lobular carcinomas, classic type,
+Pure lobular, cribriform, or mucinous adenocarcinomas [Encapsulated papillary carcinomas].
+
+In a recent study (Mueller, 2023), an optimal p53 index cutoff of ≥ 35% was utilized to help identify luminal breast cancer with TP53 mutations in treatment-naive patient specimens (with
+high specificity of 90%, and accuracy of 81%). In contrast, in endocrine pre-treated patients, the cutoff was 20% (with high specificity of 89%, and accuracy of 80%).
+
+Scoring Criteria of HER2 (4B5) results for invasive breast carcinomas are substantiated as follows:
+
+HER2 IHC          Staining Pattern of HER2 IHC results for Breast Carcinoma                    HER2 IHC Overall Result
+Score
+
+0                                    No membrane staining is observed (Null)                              Negative (Null)
+(Without Staining)
+
+0+                     Membrane staining that is incomplete and is faint/barely perceptible         Negative (Ultra-Low)
+(With Staining)                           in ≤ 10% of invasive tumor cells
+
+1+                  Incomplete membrane staining that is faint/barely perceptible in > 10% of invasive tumor cells      Negative (Low)
+
+2+                  Weak to moderate complete membrane staining in > 10% of tumor cells OR Complete membrane staining     Equivocal
+                                            that is intense but < 10% of tumor cells.
+
+3+                  Circumferential membrane staining that is complete, intense, and > 10% of invasive tumor cells.      Positive
+
+*HER2-Low encompasses both HER2 IHC 1+ and IHC 2+/FISH non-amplified
+
+In accordance with the CAP Biomarker Reporting protocol, HER2 tests results of invasive breast cancer samples with either 2+ (Equivocal) or 3+ (Positive) should also provide the
+percentage of tumor cells with uniform, intense, complete membrane staining (3+ percentage). In addition, equivocal (2+) IHC findings will be automatically referred to "HER2/CEPT1
+FISH testing". The HER2 FISH criteria remain unchanged as described in the ASCO/CAP Guidelines (2023), and the CAP Cancer Protocol for Breast Biomarker Testing (2020).
+
+
+This QBT system provided are intended for informational purposes only and should not be solely relied upon for billing purposes. When digital images are used for evaluation, the Source QT and integrated whole-slide scanner is utilized along with PACS.
+Platform allows develop software by third parties where the same slides are needed to reconstruct or digital pathology. These slides are prepared for review.
+
+Patient Name  [REDACTED] [REDACTED]                        [REDACTED] [REDACTED]     [REDACTED] [REDACTED]    [REDACTED]
+
+
+Weaver, Rachel Victoria (MR # 39091629) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 10:45 PM                   3/5
+
+[REDACTED] 10:45 PM                                          Weaver, Rachel Victoria (MR # 39091629)
+
+
+                                    PATHOLOGY
+8 Memorial Medical Court           CONSULTANTS              Phone: (864) 295-3492
+Greenville, SC [REDACTED]         specialized diagnostic services    Fax: (864) 455-8926
+
+                                  IHC Prognostic Report
+Patient Name                      DOB        Specimen ID     Account        CSI Case Number
+Weaver, Rachel                   03/24/1977  M25-35797-A1    C00499         WHC25-012873
+
+When the initial result indicates core biopsy is HER2 Negative (IHC or FISH) or the biopsy is not representative of the entire mass, then a new test may be ordered if the surgical findings that is
+significantly different from that in the core biopsy. In such cases, the initial result should be utilized until the HER2 status has been reliably established in the resection specimen. When that is
+morphologically different from that in the core. (4) The core biopsy result is equivocal. (2+) for HER2 by both IHC and FISH. (5) There is doubt about the handling of the core biopsy
+specimen (long ischemic time, short time in fix

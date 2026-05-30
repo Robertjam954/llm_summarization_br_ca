@@ -1,0 +1,285 @@
+3:31 PM                                    Malasi, Marjeta (MR # 39089385)
+
+Media Information
+
+Quest Diagnostics                          Report Status: Final - Courtesy Copy
+                                          MALASI, MARJETA
+
+Patient Information                    Specimen Information                Client Information
+MALASI, MARJETA                       Specimen:  CF096534V               Client #: 48039280      NYNJMAIL
+                                      Requisition: 7899152               KASHANIAN, FARZAM
+DOB: [REDACTED]                       Collected:      / 14:00 EDT        FARZAM KASHANIAN,MD
+Gender:     F    Fasting: U           Received:   08/19/2025 / 02:18 EDT  2350 OCEAN AVE STE 4
+Phone:                                Faxed:      08/25/2025 / 16:48 EDT  [REDACTED]
+Patient ID: RG
+
+COMMENTS:     ADD ON
+
+Test Name                             [REDACTED]                                      Lab
+ER/PR,  PARAFFIN BLOCK                                                               AMD
+HISTOPATH TISSUE/BIOPSY               see note
+
+TESTS:     Processed Specimen Quantity (1)
+          HER2, IHC WITH REFLEX TO FISH (1)
+
+CLINICAL DIAGNOSIS / INFORMATION:
+Interpretation of Submitting Facility: Infiltrating ductal carcinoma
+
+SITE OF BIOPSY / SOURCE:
+Block(s) - CT25-807786#-A2 Breast, right, retro areolar, core needle
+biopsy (1 blk)
+
+GROSS DESCRIPTION:
+Received is one paraffin-embedded tissue block labeled
+CT25-807786#-A2.
+
+MICROSCOPIC DESCRIPTION:
+The patient [REDACTED]
+monoclonal antibody, using a polymer based technique and DAB as a
+chromogen. Controls stain appropriately unless otherwise noted.
+Specimen Adequacy: Adequate for evaluation.
+Type of Fixation: Formalin
+Duration of Fixation: Exact hours
+Type of tissue processing: Routine
+Cold ischemic time: Not provided
+
+Estrogen Receptor (Dako clone EP1)
+Scoring Guide:  Positive: >10% / Low Positive: 1-10% / Negative: <1%
+
+Progesterone Receptor (Dako clone PgR636)
+Scoring Guide:  Positive: =/>/1% / Negative: <1%
+
+HER2/neu(c-erb-2) immunohistochemistry, Ventana Pathway 4B5.
+Specimen Adequacy: Adequate for evaluation.
+Internal and External Controls: Stain appropriately.
+There is no membrane staining of cells in the lesion.
+
+------------------------ FINAL DIAGNOSIS -------------------------
+SOURCE: BREAST, RIGHT, RETRO AREOLAR, CORE NEEDLE BIOPSY
+
+ESTROGEN RECEPTOR (IHC):  POSITIVE:  >95%, STRONG INTENSITY
+PROGESTERONE RECEPTOR (IHC):  POSITIVE:  95%, STRONG INTENSITY
+
+HER2: NEGATIVE FOR OVER-EXPRESSION, SCORE 0 – NO [REDACTED]
+
+COMMENTS:
+In the DESTINY-Breast 04 and 06 trials, "HER2 Low" was considered IHC
+score 1+ or 2+/ISH negative, and "HER2 Ultra-Low" was HER2 IHC Score
+
+CLIENT SERVICES 866.697.8378          SPECIMEN: CF096534V                    PAGE 1 OF 4
+
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+
+
+Malasi, Marjeta (MR # 39089385) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 3:31 PM                1/6
+
+3:31 PM                                    Malasi, Marjeta (MR # 39089385)
+
+Quest Diagnostics                          Report Status: Final - Courtesy Copy
+                                          MALASI, MARJETA
+
+Patient Information                    Specimen Information                Client Information
+MALASI, MARJETA                       Specimen:   CF096534V              Client #: 48039280
+                                      Collected:     / 14:00 EDT         KASHANIAN, FARZAM
+DOB: 04/05/1978    AGE: 47            Received:   08/19/2025 / 02:18 EDT
+Gender:  F         Fasting: U         Faxed:      [REDACTED]
+Patient ID: RG
+
+Test Name                             [REDACTED]                                      Lab
+0 (pattern 0+) with membrane staining that is incomplete and
+barely perceptible in less than 10% of the invasive tumor cells.
+Breast cancers with these staining patterns may be eligible for
+treatment with trastuzumab-deruxtecan in the metastatic setting (but
+those with no staining [REDACTED] may not).
+
+*The Ventana Pathway anti-HER2/neu (4B5) is a semi-quantitative
+immunohistochemical assay to determine HER2/neu over-expression in
+breast cancer tissues routinely processed for histologic evaluation.
+This test has been approved by the FDA as an aid in the assessment of
+patients for whom trastuzumab (Herceptin) treatment is being
+considered. The kit used in this staining has been FDA approved for
+breast and gastric cancers. As with any IHC type assay, a false
+negative result is possible. A negative result does not exclude the
+possibility of HER2/neu over-expression and clinically warranted,
+more sensitive DNA based methodology (i.e. FISH) for evaluating gene
+amplification may be indicated.
+
+This assay is performed in concordance with CAP/ASCO criteria. The
+results of this test are altered/affected by variables beyond our
+laboratory's control, e.g. fixatives other than formalin and fixation
+times other than those recommended in the CAP/ASCO guidelines. The
+reporting ranges have been modified from the original FDA approved
+reporting criteria to reflect those recommended in the updated
+CAP/ASCO guidelines. This test is not intended as a confirmation of
+the original diagnosis and should be used in conjunction with other
+established risk factors, clinical and diagnostic procedures.
+
+Patients with breast cancers that are HER2 IHC 1+ or 2+/ISH
+amplified may be eligible for several therapies in that category HER2
+signaling positive invasive breast cancers that test "HER2-Negative"
+(IHC 0, 1+ or 2+/ISH not-amplified) are more specifically considered
+"HER2-negative for protein overexpression/gene amplification" since
+non-overexpressed levels of the HER2 protein may be present in these
+cases. Patients with breast cancers that are HER2 IHC 0 (incomplete
+faint membrane staining within <10% of the tumor cells), 1+, or
+IHC 2+/ISH not amplified may be eligible for a treatment that targets
+non-amplified/non-overexpressed levels of HER2 expression for
+cytotoxic drug delivery.
+
+HER2 Reporting Guidelines per ASCO and CAP:
+Negative (Score 0): No [REDACTED]
+incomplete and is faint/barely perceptible and within </=10% of tumor
+cells.
+Negative (Score1+): Incomplete membrane staining that is faint/barely
+perceptible and within >10% of tumor cells.
+Equivocal (Score2+): Weak to moderate complete membrane staining in
+>10% of tumor cells or Complete membrane staining that is intense but
+within </=10% of tumor cells.
+Positive (Score 3+): Complete membrane staining that is intense and
+>10% of tumor cells.
+
+REFERENCES
+Wolff AC, Hale Hammond ME, Allison KH et al. Human Epidermal Growth
+Factor Receptor 2 Testing in Breast Cancer Arch Pathol Lab Med. doi:
+10.5858/arpa.2018-0902-SA
+
+CLIENT SERVICES [REDACTED]             SPECIMEN: CF096534V                    PAGE 2 OF 4
+
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+
+
+Malasi, Marjeta (MR # 39089385) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 3:31 PM                2/6
+
+3:31 PM                                    Malasi, Marjeta (MR # 39089385)
+
+Quest Diagnostics                          Report Status: Final - Courtesy Copy
+                                          MALASI, MARJETA
+
+Patient Information                    Specimen Information                Client Information
+MALASI, MARJETA                       Specimen:   CF096534V              Client #: 48039280
+                                      Collected:  08/19/2025 / 14:00 EDT  KASHANIAN, FARZAM
+DOB: [REDACTED]                       Received:   [REDACTED] EDT
+Gender:  F         Fasting: U         Faxed:      [REDACTED] / 16:48 EDT
+Patient ID: [REDACTED]
+
+Test Name                             [REDACTED]                                      Lab
+
+Wolff AC, Hammond ME, Hicks DG, et al. Recommendations for human
+epidermal growth factor receptor 2 testing in breast cancer. American
+Society of Clinical Oncology/College of American Pathologists
+Clinical Practice Guideline Update JCO Nov. 1, 2013 vol. 31 no. 31
+3997-4013.
+
+Reference: [REDACTED]
+
+Allison KH, Hammond EH, Dowsett M, et al. Estrogen and Progesterone
+Receptor Testing in Breast Cancer: American Society of Clinical
+Oncology/College of American Pathologists Guideline Update Arch
+Pathol Lab Med. 2020; 144(5):545-63
+
+Hammond ME, Hayes DF, Dowsett M, et al. American Society of Clinical
+Oncology/College of American Pathologists guideline recommendations
+for immunohistochemical testing of estrogen and progesterone
+receptors in breast cancer. Arch Pathol Lab Med. 2010;134(6):907-922.
+
+Signature on File
+_________________________________
+Ryan E. Glass, M.D.
+Pathologist
+[REDACTED]
+
+RESULTS RECEIVED
+Reference lab accession: [REDACTED]
+SAMPLE FIXED IN FORMALIN?          N
+FIXED BETWEEN 6-72 HRS?           Y
+ROUTINE TISSUE PROCESSING         Y
+HER 2, IHC W/REFL TO FISH                                        AMD
+HISTOPATH TISSUE/BIOPSY           see note
+
+Additional billing charges added.
+RESULTS RECEIVED
+Reference lab accession: [REDACTED]
+SAMPLE FIXED IN FORMALIN?          Y
+FIXED BETWEEN 6-72 HOURS?          Y
+
+
+CLIENT SERVICES 866.697.8378          SPECIMEN: CF096534V                    PAGE 3 OF 4
+
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+
+
+Malasi, Marjeta (MR # 39089385) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 3:31 PM                3/6
+
+3:31 PM                                    Malasi, Marjeta (MR # 39089385)
+
+Quest Diagnostics                          Report Status: Final - Courtesy Copy
+                                          MALASI, MARJETA
+
+Patient [REDACTED]                    Specimen Information                Client Information
+MALASI, MARJETA                       Specimen:   CF096534V              Client #: 48039280
+                                      Collected:     / 14:00 EDT         KASHANIAN, FARZAM
+DOB: [REDACTED]                       Received:   08/19/2025 / 02:18 EDT
+Gender:  F         Fasting: U         Faxed:      [REDACTED] / 16:48 EDT
+Patient ID: [REDACTED]
+
+TISSUE PATHOLOGY
+                                     RESULTS
+DIAGNOSIS:                                                                    Lab: Z99
+A) Breast, right, retro areolar, core needle biopsy:
+    INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM
+    COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.9 CM IN GREATEST LENGTH ON A SINGLE CORE
+
+B) Breast, right, 11 o'clock, core needle biopsy:
+    INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM
+    COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.6 CM IN GREATEST LENGTH ON A SINGLE CORE
+
+C) Breast, left, 2 o'clock, core needle biopsy:
+    BENIGN BREAST TISSUE WITH STROMAL FIBROSIS
+
+REPORT NOTES:   Key portions of this case have been reviewed by one or more additional department pathologists. Immunohistochemical stains for ER,
+                PR and HER2 will be performed and reported separately.
+
+
+                                     Marisa Castillo, MD. (electronic signature)
+                                     Board Certified in Anatomic Pathology
+                                     Pathologist since [REDACTED]
+
+For questions contact Anatomic Pathology Client Services at [REDACTED] and reference DEPT ID: CT25807708e
+
+                                     CLINICAL INFORMATION
+A: Mass
+B,C: Node
+                                     SPECIMEN DATA
+GROSS DESCRIPTION:                                                            Lab: Z23
+A) Specimen is received in 10% Neutral Buffered Formalin, labeled right breast retro-areolar with two patient [REDACTED]
+   cylindrically-shaped light tan soft tissue measuring from 1.0 x 0.2 to 1.5 x 0.2 cm. The specimen is entirely submitted in cassette(s) A1-A2.
+   Summary of Sections:
+   A1-A2 - 2
+
+B) Specimen is received in 10% Neutral Buffered Formalin, labeled right breast 11:00 and with two patient [REDACTED]
+   cylindrically-shaped light tan soft tissue measuring from 1.0 x 0.2 to 1.2 x 0.2 cm. The specimen is entirely submitted in cassette(s) B1-B2.
+   Summary of Sections:
+   B2 - 1
+
+C) Specimen is received in 10% Neutral Buffered Formalin, labeled left breast and with two patient [REDACTED]
+   shaped light tan soft tissue measuring 0.6 x 0.2 and 1.0 x 0.2 cm. The specimen is entirely submitted in cassette(s) C1.
+
+Grossing and technical component for all specimen parts performed at Ameripath East, Clifton, 1 Insights Drive, Suite A, Clifton, NJ 07012. Laboratory
+Director: Elaine R. ALM.D. C11A No. [REDACTED]
+
+PERFORMING SITE:
+AMD   QUEST DIAGNOSTICS-NICHOLS CHANTILLY, 14225 NEWBROOK DRIVE, CHANTILLY, VA 20151; Laboratory Director: PATRICK M. MARTIN, MD MD; CLIA# 49D1034948
+Z23   AMERIPATH EAST AMERIPATH NJ LLC DBA AMERIPATH EAST, 1 INSIGHTS DRIVE SUITE A, CLIFTON, NJ [REDACTED]; Laboratory Director: ELAINE R. ALM.D. CLIA: 31D1034945
+Z99   QUEST DIAGNOSTICS CLIFTON, 1 INSIGHTS DRIVE, CLIFTON, NJ 07012-2315 Laboratory Director: DR. PETER STEIN CLIA: 31D0906268
+
+
+CLIENT SERVICES [REDACTED]             SPECIMEN: CF096534V                    PAGE 4 OF 4
+
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+
+
+Malasi, Marjeta (MR # 39089385) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 3:31 PM                4/6
+
+3:31 PM                                    Malasi, Marjeta (MR # 39089385)
+
+Quest Diagnostics                          Pathology Material Delivery Receipt

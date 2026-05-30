@@ -1,0 +1,100 @@
+[REDACTED] 8:05 PM                                    Coman, Michaela Maria [REDACTED]
+
+Surgical Pathology Submitted Slides Order: S25-082095                    Order: [REDACTED]
+
+Collected [REDACTED] 14:36   Status: Final result   Dx: Encounter for consultation
+
+Test Result Released: Yes (seen)
+
+Component
+Clinical Information
+    Material received from outside hospital:
+    BAPTIST HEALTH MEDICAL CENTER
+Final Diagnosis
+    1. Outside Material; Breast, right, architectural distortion; core biopsy [REDACTED] A1-1 TO A1-3; 2
+    H&E AND 1 IMMUNO); Collected: [REDACTED]
+        Invasive carcinoma type
+            Invasive breast carcinoma of no [REDACTED] [REDACTED] [REDACTED]
+        Tumor size
+            Invasive carcinoma spans at least 2 mm in this material
+        Differentiation
+            Well to moderately differentiated
+        Nuclear grade
+            II/III (moderate variation in size and shape)
+
+
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF THE SLIDES (AND/OR
+OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED THE REPORT.
+
+SAHAR JALALI FARAHANI, MD
+
+                                Electronically signed by Sahar Jalali Farahani, MD on [REDACTED] at 1107 EDT
+Disclaimer
+    Note: Specimen(s) received and accessioned at Memorial Hospital for Cancer and Allied Diseases Dept of Pathology, 300
+    E 66th St Room 425, New York, NY [REDACTED] (PFI 8458). Any immunohistochemistry procedures on the case were performed
+    at Memorial Hospital for Cancer and Allied Diseases - Dept of Pathology and Laboratory Medicine, 1275 York Ave, New
+    York, NY [REDACTED] (PFI 2514).
+
+    Slides may have been examined as digital images including consultation for intraoperative frozen sections. Hardware and
+    software for digital images have been developed by Leica Biosystems, Philips, and MSK.
+    Their performance characteristics have been determined by the MSK Department of Pathology and Laboratory Medicine
+    (PFI 2514). It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). This test has been
+    granted approval by New York State as a laboratory developed test. This test is used for clinical purposes. Pursuant to the
+    requirements of CLIA '88, our laboratory has established the equivalence and non-inferiority of this test for reporting of
+    pathology.
+
+Resulting Agency      MEMORIAL HOSPITAL FOR CANCER AND ALLIED DISEASES DEPT OF PATHOLOGY
+
+Specimen Collected: [REDACTED] 14:36                    Last Resulted: [REDACTED] 11:07
+
+📋 Order Details   👁️ View Encounter   🧪 Lab and Collection Details   📮 Routing   🔄 Result History
+
+Scans on Order [REDACTED]
+    Lab Result Document - Document on [REDACTED] 11:08 AM
+
+
+Result Care Coordination
+    📞 Patient [REDACTED]
+
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:04 PM                                                           1/2
+
+[REDACTED] 8:05 PM                                    Coman, Michaela Maria [REDACTED]
+
+📬 Released                                              👁️ Seen
+
+Component SmartLink Info
+Component [ID]                    [REDACTED] [REDACTED]                    [REDACTED] [REDACTED]
+LAB AP CLINICAL INFORMATION [29]    CLININFO                    CLINICAL INFORMATION
+LAB AP REPORT FINAL DIAGNOSIS        FINALDX                    FINAL DIAGNOSIS
+NARRATIVE [34]
+LAB AP CASE REPORT [1499]            CASEREPORT                CASE REPORT
+LAB AP ASR DISCLAIMER [769]                                    LAB AP ASR DISCLAIMER
+
+Using Base Names in SmartLinks
+Every Lab component (for example, WBC) has a corresponding base name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] SmartLink to pull the component into your note. Above is the base name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+To pull a lab component with a base name [REDACTED] [REDACTED] type:
+.RESUFAST[TSH
+
+To pull two different lab components, type both their base names separated by a comma:
+.RESUFAST[TSH,WBC
+
+If you're interested in seeing more than just the last result, type a colon after the base name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] results to show:
+.RESUFAST[TSH:3
+.RESUFAST[TSH,WBC:3
+
+If you're interested in seeing all lab results from a given time period (for example, one month or six weeks), type a left-facing bracket after the .GETLABS SmartLink, followed by a number [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] week:
+.GETLABS[1M
+.GETLABS[6W
+
+The common name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] project team and isn't used in standard SmartLinks.
+
+Order Tracking
+📋                           🧪                           🔬                           📋
+Ordered                     Collected                    Received in Lab               Final Result
+10/14  16:06               10/8  14:36                   10/15  08:56                 10/16  11:07
+                           BAICPATH                      BAICPATH
+
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:04 PM                                                           2/2

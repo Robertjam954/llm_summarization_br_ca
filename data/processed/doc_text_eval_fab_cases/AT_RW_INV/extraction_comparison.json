@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "CASE_6F82C55FD5FF",
+    "original_filename": "Imaging_internal_review.pdf",
+    "raw_word_count": 1257,
+    "pre_word_count": 1264,
+    "word_count_diff": 7,
+    "raw_char_count": 9967,
+    "pre_char_count": 10247,
+    "raw_snippet": "[REDACTED] 10:52 PM                    Weaver, Rachel Victoria [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST BILATERAL Status: Edited Result - FINAL  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST BILATERAL  Addendum  ADDENDUM:  EXAM: REVIEW OF SUBMITTED BREAST",
+    "pre_snippet": "[REDACTED] 10:52 PM                    Weaver, Rachel Victoria [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST BILATERAL Status: Edited Result - FINAL  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST BILATERAL  Addendum  ADDENDUM:  EXAM: REVIEW OF SUBMITTED BREAST"
+  },
+  {
+    "case_id": "CASE_BBB1BD50A516",
+    "original_filename": "Path_biopsy2.pdf",
+    "raw_word_count": 1909,
+    "pre_word_count": 1747,
+    "word_count_diff": -162,
+    "raw_char_count": 15309,
+    "pre_char_count": 15615,
+    "raw_snippet": "[REDACTED] 10:45 PM                                          Weaver, Rachel Victoria (MR # 39091629)  Media Information                                       PATHOLOGY 8 Memorial Medical Court           CONSULTANTS              Phone: (864) 295-3492 Greenville, SC [REDACTED]         specialized diag",
+    "pre_snippet": "[REDACTED] 10:45 PM                                                 Weaver, Rachel Victoria (MR # 39091629)  Media Information                                       PATHOLOGY 8 Memorial Medical Court              CONSULTANTS                   Phone: (864) 295-3492 Greenville, SC [REDACTED]          "
+  }
+]

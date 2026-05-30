@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.9 x 0.7 x 0.8 cm",
+        "evidence": "On subsequent diagnostic ultrasound October 2, 2025, in the 9:00 axis, 4 cm from the nipple, is an irregular hypoechoic mass measuring 0.9 x 0.7 x 0.8 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, 9:00 axis, 4 cm from nipple",
+        "evidence": "architectural distortion at about the 9:00 axis at the junction of the anterior to middle one thirds of the breast tissue"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Architectural distortion",
+        "evidence": "There is a persistent architectural distortion at about the 9:00 axis at the junction of the anterior to middle one thirds of the breast tissue. This is 0.8 x 0.6 x 1.0 cm."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, Tumark vision marker placed",
+        "evidence": "Postbiopsy mammographic images demonstrate a Tumark vision marker at the site of mammographic distortion on CC view, and along the anterior margin of the distortion on the 90 degree lateral view."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Right ultrasound-guided core needle biopsy is recommended for definitive histologic diagnosis",
+        "evidence": "Right ultrasound-guided core needle biopsy is recommended for definitive histologic diagnosis. A core needle biopsy and clip placement were discussed with the patient"
+      },
+      "feature_8_lymph_node": {
+        "value": "Not imaged",
+        "evidence": "RIGHT AXILLA: Not imaged. LEFT AXILLA: Not imaged."
+      },
+      "feature_10_biopsy_method": {
+        "value": "stereotactic biopsy",
+        "evidence": "This underwent stereotactic biopsy on October 8, 2025"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "0.2 cm",
+        "evidence": "Invasive ductal carcinoma, Nottingham grade 1 of 3, 0.2 cm in this material"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma, Nottingham grade 1 of 3",
+        "evidence": "Invasive ductal carcinoma, Nottingham grade 1 of 3, 0.2 cm in this material"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PR, HER2, and Ki-67",
+          "evidence": "Ancillary studies for ER, PR, HER2, and Ki-67 are in progress"
+        },
+        "ER": {
+          "value": "POSITIVE, 94%, STRONG intensity",
+          "evidence": "Estrogen Receptor IHC: POSITIVE, % of Nuclei Staining (ER): 94%, Staining Intensity: STRONG"
+        },
+        "PR": {
+          "value": "NEGATIVE, <1%",
+          "evidence": "Progesterone Receptor IHC: NEGATIVE, % of Nuclei Staining (PR): <1%"
+        },
+        "HER2_IHC": {
+          "value": "NEGATIVE, 1+",
+          "evidence": "HER-2/NEU RESULT: NEGATIVE, Staining Intensity: 1+"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

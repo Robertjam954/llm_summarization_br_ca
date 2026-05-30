@@ -1,0 +1,189 @@
+Patient: 252983RAM    PATTERSON, NADIA L    Acc#: [REDACTED] [MA Stereotactic BX 2 Sites [MABX05] - Breast - L]    Scheduled:
+May 05, 2025 10:52                    To: [REDACTED]                    Page 1/2                    From: Pathline                    [REDACTED]
+
+LABORATORY MEDICINE ASSOCIATES, LLP
+Montefiore Nyack Hospital Laboratory
+160 North Midland Ave, Nyack NY [REDACTED]
+Tel: 845 348 2770 Fax: 845 348 6430
+
+Surgical Pathology Report
+
+PATIENT                                    ST25-010494                        Steven Reichard, DO
+Patterson, Nadia L                        COLLECTED: [REDACTED]             Hudson Valley Radiology Associates
+185 First Street                          RECEIVED: [REDACTED]              of Westchester
+Apt 1                                     REPORTED: [REDACTED]              505 Route 208
+Newburgh, NY [REDACTED]                                                    Monroe, NY [REDACTED]
+DOB: [REDACTED]                                                           CC: Anderson, Melissa
+AGE: 46        SEX: Female
+Patient [REDACTED]
+
+Final Diagnosis
+
+A. Left breast, medial calcifications, stereotactic biopsy, suros assisted:
+- Benign breast tissue.
+
+B. Left breast, medial tissue, stereotactic biopsy, suros assisted:
+- Benign breast tissue with a rare calcification within lobules.
+- Focal fibrocystic changes.
+
+C. Left breast, lateral calcifications, stereotactic biopsy, suros assisted:
+-Ductal carcinoma in situ, intermediate grade, cribriform type, with associated calcifications.
+-Radial sclerosing lesion.
+-Fibrocystic changes with calcifications.
+
+Breast Cancer Biomarker Results (Block C):
+Estrogen Receptor (ER): Positive( 98%, strong)
+Progesterone Receptor (PR): Positive( 100%, strong)
+
+Status of internal controls (for ER and PR immunohistochemistry):
+_X__Internal control cells present and stain as expected.
+
+Methods: Immunohistochemistry (IHC) for ER and PR was performed at Pathline - Histopathology Services, Ramsey, NJ, and interpreted at Montefiore 
+Nyack Hospital, Nyack, NY. ER and PR IHC are laboratory-developed tests. Cold ischemia and fixation times meet requirements specified in the latest 
+version of the ASCO/CAP guidelines. The fixative used is 10% buffered formalin. The following primary antibodies were used on the Leica Bond III system:
+ER (SP1); PR (312).
+
+D. Left breast, lateral tissue, stereotactic biopsy, suros assisted:
+-Ductal carcinoma in situ, intermediate grade, cribriform type,
+-Radial sclerosing lesion.
+-Fibrocystic changes with calcifications.
+
+                                        Electronically Signed By:
+                                        
+                                        Vandana Hoon, MD On [REDACTED] 01:46 PM EST
+
+Patterson, Nadia L                                                         Page 1 of 2
+ST25-010494
+
+Scanned Document Type:PATH, front side, page 1/2  Acquired on [REDACTED] 2:54 PM
+
+Patient: 252983RAM    PATTERSON, NADIA L    Acc#: [REDACTED] [MA Stereotactic BX 2 Sites [MABX05] - Breast - L]    Scheduled:
+May 05, 2025 10:52                    To: [REDACTED]                    Page 2/2                    From: Pathline                    Fax: [REDACTED]
+
+ACCESSION [REDACTED]                                                      [REDACTED]
+
+Clinical History:
+Left breast stereotactic biopsy, suros assisted, 2 sites.
+
+Gross Description:
+A)      Received in formalin labeled with patient's name, [REDACTED] single tan-
+        yellow to white cylindrical fragment of fibrofatty soft tissue core measuring 2.7 cm in length by 0.2 to 0.3
+        cm in diameter. Entirely submitted in one cassette.
+
+B)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring and 2.7 x 2.6 x
+        0.2 cm in aggregate. Entirely submitted in two cassettes.
+
+C)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 2.8 x 1.5 x 0.2
+        cm in aggregate. Entirely submitted in one cassette.
+
+D)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 1.8 x 1.5 x 0.2
+        cm in aggregate. Entirely submitted in one cassette.
+
+        Time to fixation: Presumed immediate;
+        Time of fixation: Approximately 13-14 hours.
+
+Previous Cases:
+None
+
+                                        Technical component performed at Pathline LLC, 535 E. Crescent Ave., Ramsey, NJ [REDACTED]
+Patterson, Nadia L                                                         Page 2 of 2
+[REDACTED]
+
+Scanned Document Type:PATH, front side, page 2/2  Acquired on [REDACTED] 2:54 PM
+
+Patient: 252983RAM    PATTERSON, NADIA L    Acc#: [REDACTED] [MA Stereotactic BX 2 Sites [MABX05] - Breast - L]    Scheduled:
+
+LABORATORY MEDICINE ASSOCIATES, LLP
+Montefiore Nyack Hospital Laboratory
+160 North Midland Ave, Nyack NY
+Tel: 845 348 2270 Fax: 845 348 6430
+
+Surgical Pathology Report
+
+PATIENT                                    ST25-010494                        Steven Reichard, DO
+Patterson, Nadia L                        COLLECTED: [REDACTED]             Hudson Valley Radiology Associates
+185 First Street                          RECEIVED: [REDACTED]              of Westchester
+Apt 1                                     REPORTED: [REDACTED]              505 Route 208
+Newburgh, NY [REDACTED]                                                    Monroe, NY 10950
+DOB: [REDACTED]                                                           CC: Anderson, Melissa
+AGE: 46        SEX: Female
+Patient [REDACTED]
+
+Final Diagnosis
+
+A. Left breast, medial calcifications, stereotactic biopsy, suros assisted:
+- Benign breast tissue.
+
+B. Left breast, medial tissue, stereotactic biopsy, suros assisted:
+- Benign breast tissue with a rare calcification within lobules.
+- Focal fibrocystic changes.
+
+C. Left breast, lateral calcifications, stereotactic biopsy, suros assisted:
+-Ductal carcinoma in situ, intermediate grade, cribriform type, with associated calcifications.
+-Radial sclerosing lesion.
+-Fibrocystic changes with calcifications.
+
+Breast Cancer Biomarker Results (Block C):
+Estrogen Receptor (ER): Positive( 98%, strong)
+Progesterone Receptor (PR): Positive( 100%, strong)
+
+Status of internal controls (for ER and PR immunohistochemistry):
+_X__Internal control cells present and stain as expected.
+
+Methods: Immunohistochemistry (IHC) for ER and PR was performed at Pathline - Histopathology Services, Ramsey, NJ, and interpreted at Montefiore
+Nyack Hospital, Nyack, NY. ER and PR IHC are laboratory-developed tests. Cold ischemia and fixation times meet requirements specified in the latest
+version of the ASCO/CAP guidelines. The fixative used is 10% buffered formalin. The following primary antibodies were used on the Leica Bond III system:
+ER (SP1); PR (312).
+
+D. Left breast, lateral tissue, stereotactic biopsy, suros assisted:
+-Ductal carcinoma in situ, intermediate grade, cribriform type,
+-Radial sclerosing lesion.
+-Fibrocystic changes with calcifications.
+
+                                        Electronically Signed By:
+
+                                        Vandana Hoon, MD On [REDACTED] 25 01:46 PM EST
+
+Patterson, Nadia L                                                         Page 1 of 2
+ST25-010494
+
+Scanned Document Type:PATH, front side, page 1/2  Acquired on [REDACTED] 1:59 PM
+
+Patient: [REDACTED]    [REDACTED] [REDACTED]    [REDACTED]    [REDACTED] [REDACTED] 2 Sites [MABX05] - Breast - L]    Scheduled:
+
+ACCESSION [REDACTED]                                                      [REDACTED]
+
+Clinical History:
+Left breast stereotactic biopsy, suros assisted, 2 sites.
+
+Gross Description:
+A)      Received in formalin labeled with patient's name, [REDACTED] single tan-
+        yellow to white cylindrical fragment of fibrofatty soft tissue core measuring 2.7 cm in length by 0.2 to 0.3
+        cm in diameter. Entirely submitted in one cassette.
+
+B)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring and 2.7 x 2.6 x
+        0.2 cm in aggregate. Entirely submitted in two cassettes.
+
+C)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 2.8 x 1.5 x 0.2
+        cm in aggregate. Entirely submitted in one cassette.
+
+D)      Received in formalin labeled with patient's name, [REDACTED] tan-
+        yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 1.8 x 1.5 x 0.2
+        cm in aggregate. Entirely submitted in one cassette.
+
+        Time to fixation: Presumed immediate;
+        Time of fixation: Approximately 13-14 hours.
+
+Previous Cases:
+None
+
+                                        Technical component performed at Pathline LLC, 535 E. Crescent Ave., Ramsey, NJ [REDACTED]
+Patterson, Nadia L                                                         Page 2 of 2
+ST25-010494
+
+Scanned Document Type:PATH, front side, page 2/2  Acquired on [REDACTED] 1:59 PM

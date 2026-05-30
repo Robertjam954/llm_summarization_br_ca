@@ -1,0 +1,71 @@
+[REDACTED] 2:48 PM                                    Coman, Mihaela [REDACTED]
+
+Baptist Health Medical Center - Arkansas                           Outside Information
+
+Mammo ABUS Bilat
+
+Anatomical Region                    Laterality                    Modality
+Breast                              bilateral                     Ultrasound
+
+Impression
+Impression: Negative
+
+Recommendation: She has been recalled from screening for additional views based
+on mammographic findings which are occult on the automated whole breast
+ultrasound. She remains a candidate for supplemental screening with automated
+whole breast ultrasound based on her breast tissue density assessment on
+mammography.
+
+BI-RADS: 1 - Negative.
+
+
+This document passed e-signature verification by Dr. Amanda J Ferrell on
+[REDACTED] 3:56 PM
+Narrative
+AUTOMATED WHOLE BREAST ULTRASOUND SCREENING (ABUS), BILATERAL
+
+Date/Time: [REDACTED] 2:31 PM
+
+History: Z12.39: Encounter for other screening for malignant neoplasm of
+breast, Dense breasts, unspecified.
+
+Comparison Ultrasound: [REDACTED]
+Comparison Mammography: This examination is performed in conjunction with
+screening mammography today.
+
+Technique: Whole breast ultrasound of each breast is performed. Sagittal and
+coronal reformatted images are rendered.
+
+Breast Composition: Homogeneous background echotexture - Fibroglandular
+
+Right Breast:
+
+Mass: None
+
+Architectural Distortion: None
+
+Adenopathy: None
+
+Other: None
+
+
+Left Breast:
+
+Mass: None
+
+Printed by Trinnphin Jaylor [TAYL97134] [REDACTED] 12:48 PM                   1/2
+
+[REDACTED] 12:48 PM                           Coman, Mihaela [REDACTED]
+
+Architectural Distortion: None
+
+Adenopathy: None
+
+Other: None
+Exam End: [REDACTED] 16:07
+Specimen Collected: [REDACTED] 16:55           Last Resulted: [REDACTED] 16:56
+Received From: Baptist Health Medical Center - Arkansas   Result Received: [REDACTED] 12:28
+
+View Encounter
+
+Printed by Trinnphin Jaylor [TAYL97134] 10/4/2025 12:48 PM                   2/2

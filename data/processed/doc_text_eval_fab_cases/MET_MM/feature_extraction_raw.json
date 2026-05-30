@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "at least 4 cm",
+        "evidence": "There is a band of innumerable soft tissue densities over a distance of at least 4 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, upper-outer quadrant, posterior depth, 1-2:00 axis, extending 4 cm superior and 7 cm lateral to the nipple line",
+        "evidence": "upper-outer quadrant the left breast... extending 4 cm superior and 7 cm lateral to the nipple line... 1-2:00 axis, posterior depth"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Microcalcifications present - pleomorphic and highly suspicious, segmental distribution",
+        "evidence": "New group of microcalcifications... The calcifications are pleomorphic and highly suspicious... 3.7 cm segmental distributed pleomorphic calcifications"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "3:00 axis left breast focal nonmass enhancement measures 1.4 x 0.5 x 0.7 cm, concerning for additional disease",
+        "evidence": "3:00 axis, posterior depth, located 0.6 cm anteroinferior to the proven malignancy, additional focal nonmass enhancement measures 1.4 x 0.5 x 0.7 cm, concerning for additional disease"
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes - hourglass shaped marker at posterior aspect and top hat shaped marker at anterior aspect",
+        "evidence": "Postprocedure mammogram demonstrates placement of a top hat shaped marker at the anterior aspect and hourglass shaped marker at the posterior aspect of the calcifications... A hourglass shaped Eviva biopsy clip was deployed at the biopsy site... A top hat shaped Eviva biopsy clip was deployed at the biopsy site"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Breast biopsy: LEFT BREAST... MRI guided biopsy of posterior left breast 3:00 axis focal nonmass enhancement... Preoperative left diagnostic mammogram... targeted left axillary ultrasound for preoperative planning",
+        "evidence": "Breast biopsy: LEFT BREAST... MRI guided biopsy of posterior left breast 3:00 axis focal nonmass enhancement... Preoperative left diagnostic mammogram to assess marker positioning and residual calcifications... If there is concern for microinvasion, targeted left axillary ultrasound for preoperative planning"
+      },
+      "feature_8_lymph_node": {
+        "value": "Left axilla: No lymphadenopathy. Benign-appearing lymph nodes project over the axillary region",
+        "evidence": "LEFT AXILLA: No lymphadenopathy... Benign-appearing lymph nodes project over the axillary region"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Stereotactic biopsy 2 sites with vacuum assistance using 9-gauge EVIVA vacuum-assisted breast biopsy standard needle",
+        "evidence": "STEREOTACTIC BIOPSY 2 SITES WITH VACUUM ASSISTANCE... Biopsy was performed using a 9-gauge EVIVA vacuum-assisted breast biopsy standard needle"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ, intermediate to high nuclear grade, solid increased performed patterns with necrosis and calcifications",
+        "evidence": "Left breast 1 o'clock axis calcifications, core biopsy: -Ductal carcinoma in situ, intermediate to high nuclear grade, solid increased performed patterns with necrosis and calcifications... Left breast 2 o'clock axis calcifications, core biopsy: -Ductal carcinoma in situ, intermediate to high nuclear grade, solid increased performed patterns with necrosis and calcifications"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

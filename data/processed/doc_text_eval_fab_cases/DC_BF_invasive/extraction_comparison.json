@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "CASE_DC3E721E5308",
+    "original_filename": "imaging_US_internal.pdf",
+    "raw_word_count": 973,
+    "pre_word_count": 945,
+    "word_count_diff": -28,
+    "raw_char_count": 9103,
+    "pre_char_count": 8587,
+    "raw_snippet": "[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]  US BREAST DIAGNOSTIC BILAT Status: Final result  PACS Images     (Link Unavailable) Show images for US BREAST DIAGNOSTIC BILAT  Related Results ⚠ SURGICAL PATHOLOGY ORDER Edited Resu",
+    "pre_snippet": "[REDACTED] 1:14 PM                                    Faccidomo, Bonela [REDACTED]  US BREAST DIAGNOSTIC BILAT Status: Final result  PACS Images (Link Unavailable) Show images for US BREAST DIAGNOSTIC BILAT  Related Results ⚠ SURGICAL PATHOLOGY ORDER Edited Result - FINAL                            "
+  },
+  {
+    "case_id": "CASE_ADC5866D82B5",
+    "original_filename": "path_biopsy_internal.pdf",
+    "raw_word_count": 965,
+    "pre_word_count": 971,
+    "word_count_diff": 6,
+    "raw_char_count": 8040,
+    "pre_char_count": 8223,
+    "raw_snippet": "[REDACTED] 1:15 PM                                    Faciodomo, Bonnie [REDACTED]  (!) Addended Report: Review for Additional Results/Information  SURGICAL PATHOLOGY ORDER: S25-080994                                Order: [REDACTED]  Collected [REDACTED] 13:58  Status: Edited Result - FINAL  Dx: Ab",
+    "pre_snippet": "[REDACTED] 1:15 PM                                                    Faccidomo, Bonnie [REDACTED]  ⚠ Addended Report: Review for Additional Results/Information  SURGICAL PATHOLOGY ORDER: S25-080994                                    Order: [REDACTED]  Collected [REDACTED] 13:58  Status: Edited Resu"
+  }
+]

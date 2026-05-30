@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "CASE_9913CA6C25C1",
+    "original_filename": "path_biopsy_external_read2.pdf",
+    "raw_word_count": 495,
+    "pre_word_count": 471,
+    "word_count_diff": -24,
+    "raw_char_count": 5407,
+    "pre_char_count": 5208,
+    "raw_snippet": "[REDACTED] 1:58 PM                                           Patterson, Nadia Lashawna [REDACTED] [REDACTED]  Mount Sinai Health System                                                Outside Information  Information displayed in this report may not trend or trigger automated decision support.  SURGI",
+    "pre_snippet": "[REDACTED] 1:58 PM                                Patterson, Nadia Lashawna [REDACTED]  Mount Sinai Health System                                     Outside Information  ⓘ Information displayed in this report may not trend or trigger automated decision support.  SURGICAL PATHOLOGY                  "
+  },
+  {
+    "case_id": "CASE_F32C5E364DDC",
+    "original_filename": "path_biopsy_external_read.pdf",
+    "raw_word_count": 1102,
+    "pre_word_count": 1111,
+    "word_count_diff": 9,
+    "raw_char_count": 9324,
+    "pre_char_count": 9172,
+    "raw_snippet": "Patient: 252983RAM    PATTERSON, NADIA L    Acc#: [REDACTED] [MA Stereotactic BX 2 Sites [MABX05] - Breast - L]    Scheduled: May 05, 2025 10:52                    To: [REDACTED]                    Page 1/2                    From: Pathline                    [REDACTED]  LABORATORY MEDICINE ASSOCIAT",
+    "pre_snippet": "Patient: 252983RAM    PATTERSON, NADIA L    Acct#: [REDACTED] [MA Stereotactic BX 2 Sites [MABX05] - Breast - L]    Scheduled: May 05, 2025 10:52                To: [REDACTED]                Page: 1/2                From: Pathline                [REDACTED]  LABORATORY MEDICINE ASSOCIATES, LLP       "
+  }
+]

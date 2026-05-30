@@ -1,0 +1,13 @@
+[
+  {
+    "case_id": "CASE_3171A2CC63AC",
+    "original_filename": "Path_Biopsy1.pdf",
+    "raw_word_count": 634,
+    "pre_word_count": 629,
+    "word_count_diff": -5,
+    "raw_char_count": 5596,
+    "pre_char_count": 5584,
+    "raw_snippet": "[REDACTED] 11:31 PM                                Sun, Fengmei (MR # 38307961)  Media Information  [REDACTED] 09:19                                    (FAX)7184262475                P. 001/002   _| NewYork-Presbyterian                            [REDACTED] -| Queens                                 ",
+    "pre_snippet": "[REDACTED] 11:31 PM                                                    Sun, Fengmei (MR # 38307961)  Media Information  [REDACTED] 09:19                                                     (FAX)7184282475        P.001/002  NewYork-Presbyterian Queens                                                  "
+  }
+]

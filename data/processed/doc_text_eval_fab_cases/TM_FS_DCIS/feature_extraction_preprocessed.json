@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.5 cm",
+        "evidence": "A 0.5 cm indeterminate mass is identified at 3:00 4 cm from nipple in the left breast, newly visualized."
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 3:00, 4 cm from nipple",
+        "evidence": "A 0.5 cm indeterminate mass is identified at 3:00 4 cm from nipple in the left breast, newly visualized."
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Surrounding breast tissue shows calcifications",
+        "evidence": "Surrounding breast tissue shows calcifications."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, rod shaped clip marker deployed at biopsy site",
+        "evidence": "A rod shaped clip marker was then deployed at the biopsy site. Post procedure digital mammogram discloses the rod shaped shaped marker at the expected location."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consult/excision is recommended. A bilateral breast MRI with contrast may also be considered to evaluate for extent of disease. Localization of the rod shaped clip can be performed prior to excision.",
+        "evidence": "RECOMMENDATION: Surgical consult/excision is recommended. A bilateral breast MRI with contrast may also be considered to evaluate for extent of disease. Localization of the rod shaped clip can be performed prior to excision."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right breast: 11:00 9 cm from nipple, a 0.4 cm intramammary lymph node is identified",
+        "evidence": "11:00 9 cm from nipple, a 0.4 cm intramammary lymph node is identified."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound guided core biopsy",
+        "evidence": "Ultrasound guided core biopsy of hypoechoic mass in the left breast, 3:00 axis."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ (DCIS). DCIS is of the papillary and cribriform types with intermediate grade nuclei.",
+        "evidence": "Ductal carcinoma in situ (DCIS). DCIS is of the papillary and cribriform types with intermediate grade nuclei."
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER testing performed",
+          "evidence": "The result of ER testing will follow."
+        },
+        "ER": {
+          "value": "ESTROGEN RECEPTOR POSITIVE, >95% positive cells, strong staining intensity",
+          "evidence": "ESTROGEN RECEPTOR: >95% STRONG. Since ≥1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN RECEPTOR POSITIVE."
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

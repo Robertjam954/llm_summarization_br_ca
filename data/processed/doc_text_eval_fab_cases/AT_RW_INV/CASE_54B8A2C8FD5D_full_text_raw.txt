@@ -1,0 +1,98 @@
+Case ID: [REDACTED]
+Patient: [REDACTED] [REDACTED]
+MRN: 974694034
+
+Printing Department
+
+Weaver, Rachel 974694034
+F, 48 yrs, [REDACTED]
+
+Surgicals (Final result)                                                [REDACTED]
+
+Authorizing Provider:       [REDACTED]                    [REDACTED]          [REDACTED]
+Ordering Location:          Prisma Health Outpatient      Collected:           [REDACTED] 08:48 AM
+                           Radiology - Patewood Hospital
+Pathologist:               [REDACTED] [REDACTED] [REDACTED]                    [REDACTED] [REDACTED] [REDACTED]
+
+Specimens
+A       Breast, Right, Right Breast 2:00 3cmfn (6cm mass), Coil Clip - Dr. P. Shah
+B       Lymph Node, Axillary, Right abnormal axillary lymph node, Vision Clip - Dr. P. Shah
+
+Clinical Information
+Diagnosis:
+N63.10 - Mass of right breast, unspecified quadrant [ICD-10-CM]
+
+
+Final Diagnosis
+A. Right breast, 2:00, 3 cm from nipple, 6 cm mass, coil clip, ultrasound-guided core biopsy:
+Invasive carcinoma of no [REDACTED] type.
+Histologic grade: 3 (poorly differentiated); (3 for tubule formation, 3 for nuclear pleomorphism, and 3 for mitotic 
+activity).
+Tumor size: 15 mm on submitted cores.
+Presence of associated DCIS/LCIS: Not identified.
+Microcalcifications: Absent.
+Lymph-vascular space extension: Not identified.
+Hormone receptor and HER2 status: Pending. Addendum report to follow.
+Cold ischemia time: <1 minute.
+Overall formalin fixation time: 12-14 hours.
+See comment.
+
+B. Right abnormal axillary lymph node, vision clip, ultrasound-guided core biopsy:
+Metastatic carcinoma.
+Size of metastatic deposit: At least 14 mm.
+
+                           Electronically signed by Abbie Lee Husman, MD on [REDACTED] at 0926 EDT
+
+Comment
+Clinical and radiographic correlation is recommended.
+
+        [REDACTED]                      Page: 1 of 2                    Printed: [REDACTED] 9:26 AM
+
+Case ID: [REDACTED]
+Patient: [REDACTED] [REDACTED]
+MRN: 974694034
+
+Printing Department
+
+
+Findings were emailed to Dr. Shah at 9:24 AM on [REDACTED]
+
+Gross Description
+A. Breast, Right.
+Received in formalin labeled with the patient's proper identification and "right breast 2:00 3 cm FN (6 cm mass)," is a 1.7 x
+0.4 x 0.2 cm aggregate of fibrofatty tissue fragments. The specimen is inked green and submitted entirely in cassette A1.
+
+Time out of body: 8:48 AM September 2, 2025
+Time placed in formalin: 848
+Total time in formalin: 12 to 14 hours
+
+B. Lymph Node, Axillary.
+Received in formalin labeled with the patient's proper identification and "right abnormal axillary lymph node," is a 1.6 x 0.4
+x 0.2 cm aggregate of fibrofatty tissue fragments. The specimen is inked yellow and submitted entirely in cassette B1.
+
+Time out of body: 8:48 AM September 2, 2025
+Time placed in formalin: 848
+Total time in formalin: 12 to 14 hours    SWB
+
+Microscopic Description
+A. The tissue is inked green, corresponding with the gross description. There is invasive carcinoma. The Nottingham
+histologic score is 3 for tubule formation, 3 for nuclear pleomorphism, and 3 for mitotic activity for an overall grade of 3.
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+seen.
+
+B. The tissue is inked yellow, corresponding with the gross description. Sections show a lymph node involved by
+metastatic carcinoma. The metastatic deposit measures at least 14 mm.
+
+Blocks for Additional Testing
+A1
+
+Disclaimer
+Unless otherwise specified, formalin-fixed paraffin-embedded sections, all routine, IHC, or special stains and cytology
+screening, are performed at PCI Laboratory, 8 Memorial Medical Ct., Greenville, SC [REDACTED]
+
+
+Resulting Labs
+GMH                                     PRISMA HEALTH GREENVILLE MEMORIAL HOSPITAL LABORATORY, 701
+                                       Grove Rd., GREENVILLE SC [REDACTED]
+
+        [REDACTED]                      Page: 2 of 2                    Printed: [REDACTED] 9:26 AM

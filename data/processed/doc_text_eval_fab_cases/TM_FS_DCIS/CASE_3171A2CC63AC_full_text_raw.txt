@@ -1,0 +1,126 @@
+[REDACTED] 11:31 PM                                Sun, Fengmei (MR # 38307961)
+
+Media Information
+
+[REDACTED] 09:19                                    (FAX)7184262475                P. 001/002
+
+
+_| NewYork-Presbyterian                            [REDACTED]
+-| Queens                                         Diagnostic Laboratories
+                                                 56-45 Main Street
+                                                 Flushing, NY [REDACTED]
+                                                 William H. Rodgers, PHD, MD
+                                                 Director of Clinical Laboratory
+                                                 Tel: 718-670-1374   Fax: [REDACTED]
+
+                    Surgical Pathology Report with Addendum
+Specimen Date: [REDACTED]                                      QS25-14681
+In Lab Date:   [REDACTED]
+Report Date:   [REDACTED]
+Patient:       [REDACTED]                      [REDACTED] [REDACTED] [REDACTED]
+               [REDACTED] 92ND AVE                      136-25 37th Ave
+               QUEENS VILLAGE, NY [REDACTED]             Flushing, NY
+NYP MRN:       1401911369                        Telephone:  [REDACTED]
+
+Encounter #:   316991250                         Location:   NYPQ LAB OUTREACH
+DOB-Age-Sex:   [REDACTED] - 71 -F                Copy To:    Hui Wen Huang, FNP
+
+CLINICAL INFORMATION:
+Left breast 3:00 4cmfn 0.5cm mass, r/o IDC, DCIS
+
+DIAGNOSIS:
+1. Breast, left, 3:00 4 cmfn, core biopsy:
+   Ductal carcinoma in situ (DCIS).
+   DCIS is of the papillary and cribriform types with intermediate grade nuclei.
+   Surrounding breast tissue shows calcifications.
+   The result of ER testing will follow.
+
+Note: SMM and p63 immunostains were used in the workup of this specimen.
+
+
+GROSS DESCRIPTION:
+1. Received in formalin, the specimen is labeled "Left breast 3:00 x 3 passes" and consists of four cores of yellow-white tissue
+admixed with bloody tissue ranging from 0.2 cm to 1.5 cm in length x 0.1 cm in diameter. The specimen was collected and placed in
+formalin at 12:07 pm on [REDACTED] and placed into the tissue processor at 10:00 pm on 9/3/25. ES 2C.
+                                                          /
+
+                               ***Electronically Signed***
+                                   Esther Cheng, D.O.
+
+      The attending [REDACTED] [REDACTED] [REDACTED] [REDACTED] reviewed the diagnostic slides,
+                 and has edited the gross and microscopic portions of the report in rendering the final diagnosis.
+
+
+Addendum - Queens
+Date Ordered: [REDACTED]
+Date Reported: [REDACTED]
+
+Addendum Diagnosis
+                                                                                    Page 1 of 2
+SUN, FENGMEI                                    Printed: 09/05/2025 09:54
+
+OP Marker
+
+
+
+Sun, Fengmei (MR # 38307961) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 11:31 PM                1/3
+
+[REDACTED] 11:31 PM                             Sun, Fengmei (MR # 38307961)
+09/05/2025    09:15                            (FAX)7184262475                P. 002/002
+
+SUN, FENGMEI                    Surgical Pathology Report               [REDACTED]
+
+Specimen: Left breast (DCIS)
+Block: 1A
+
+                    RESULTS OF ANCILLARY IMMUNOPATHOLOGY STUDIES
+
+                    PERCENTAGE OF POSITIVE CELLS         STAINING INTENSITY
+
+ESTROGEN RECEPTOR:               >95%                    STRONG
+
+INTERPRETATION: Since ≥1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN
+RECEPTOR POSITIVE.
+
+ER, PgR tests and Ki-67 assay were performed on tissue fixed in 10% neutral buffered formalin for at least 6 hours, up to a maximum of 72
+hours using the Ventana SP1 antibody clone for ER, Ventana 1E2 antibody clone for PgR; the Ventana 451 antibody clone for HER2; and the Ventana 30-9
+antibody clone for Ki-67. For HER2 tert: equivocal (IHC) result, FISH testing was performed using the IQFISH HER2 guideline. Antibody performance was initially
+validated by NYU-Q and is periodically verified. Interpretation of these studies is based on current CAP/ASCO scoring criteria.
+
+
+                                        Esther Cheng, D.O
+
+
+Billing Codes: 1; 88360_Q, 88305_Q, 88342_Q, 88341_Q     (Epic Private Ambulatory)
+
+All controls for immunohistochemistry, histochemistry, histology, and cytology show appropriate reactivity. These tests were developed and
+their performance characteristics determined by NYPQ. Modified procedures such as decalcification, alcohol fixation, air dried smears
+and frozen sections are subject to variation from the standard formalin fixed paraffin embedded specimens. They have not been cleared or
+approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. These tests
+are used for clinical purposes. They should not be regarded as investigational or research.
+
+
+
+SUN, FENGMEI                                              Page 2 of 2
+                            Printed: [REDACTED] 09:54
+OP Marker
+END OF REPORT
+
+
+Document Information
+Other: Outside Pathology
+      PATH
+
+Sun, Fengmei (MR # 38307961) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 11:31 PM                2/3
+
+[REDACTED] 11:31 PM                             Sun, Fengmei (MR # 38307961)
+00:00
+Attached To:
+  OUTSIDE PATHOLOGY ORDER [REDACTED]
+  Orders Only on [REDACTED] with Historical Provider, [REDACTED]
+
+Source Information
+Jaslee Quinones | Msk Pas
+
+
+Sun, Fengmei (MR # 38307961) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 11:31 PM                3/3

@@ -1,0 +1,143 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "6.0 x 2.4 x 4.0 cm (ultrasound); approximately 5.8 x 4.0 x 3.5 cm (mammogram); 15 mm on submitted cores (pathology)",
+        "evidence": "Targeted ultrasound of the palpable area of concern in the right breast 2:00 3 cm from the nipple demonstrates an irregular hypoechoic mass with internal specular reflections measuring approximately 6.0 x 2.4 x 4.0 cm. / Irregular spiculated high density mass within the upper inner right breast middle depth with associated pleomorphic calcifications measures approximately 5.8 x 4.0 x 3.5 cm / Tumor size: 15 mm on submitted cores."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper inner quadrant, 2:00 position, 3 cm from nipple, middle depth",
+        "evidence": "right breast 2:00 3 cm from the nipple / upper inner right breast middle depth / Irregular spiculated high density mass within the upper inner right breast middle depth"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Associated pleomorphic calcifications present",
+        "evidence": "Irregular spiculated high density mass within the upper inner right breast middle depth with associated pleomorphic calcifications / Associated calcifications appear to extend beyond the mass"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Associated calcifications appear to extend beyond the mass",
+        "evidence": "Associated calcifications appear to extend beyond the mass, not evaluated with magnification views"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "COIL clip placed with good placement confirmed",
+        "evidence": "Post procedure imaging confirms good COIL clip placement with respect to the palpable mass seen mammographically / Post procedure mammogram demonstrates a coil marker in expected position"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided biopsy of the right breast mass and abnormal axillary lymph node is recommended; Right breast magnification views as surgically warranted",
+        "evidence": "Ultrasound-guided biopsy of the right breast mass and abnormal axillary lymph node is recommended / Right breast magnification views as surgically warranted"
+      },
+      "feature_8_lymph_node": {
+        "value": "Abnormal right axillary lymphadenopathy suspicious; 3.5 x 1.2 cm lymph node with nodular cortical thickening to 0.7 cm; metastatic carcinoma confirmed",
+        "evidence": "Targeted ultrasound of the right axilla demonstrates an abnormal lymph node versus 2 adjacent abnormal lymph nodes, which is also palpable to the patient. / Abnormal right axillary lymphadenopathy is suspicious / there is a 3.5 x 1.2 cm lymph node with nodular cortical thickening to 0.7 cm / Metastatic carcinoma"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided core biopsy",
+        "evidence": "ultrasound-guided core biopsy / Sonographic core biopsy was performed / Ultrasound-guided core biopsy was performed"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "15 mm",
+        "evidence": "Tumor size: 15 mm on submitted cores"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive carcinoma of no specific type. Histologic grade: 3 (poorly differentiated)",
+        "evidence": "Invasive carcinoma of no specific type. Histologic grade: 3 (poorly differentiated); (3 for tubule formation, 3 for nuclear pleomorphism, and 3 for mitotic activity)"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER (SP1), PR (1E2), HER2 (4B5), Ki-67 (MIB-1)",
+          "evidence": "ER (SP1) / PR (1E2) / Her2 (4B5) / Ki-67 (MIB-1)"
+        },
+        "ER": {
+          "value": "Positive; % Positive 96.7; Staining Intensity 2",
+          "evidence": "Overall Result: Positive; % Positive 96.7; Staining Intensity 2"
+        },
+        "PR": {
+          "value": "Positive; % Positive 85.4; Staining Intensity 3",
+          "evidence": "Overall Result: Positive; % Positive 85.4; Staining Intensity 3"
+        },
+        "HER2_IHC": {
+          "value": "NEGATIVE (Ultra-Low); Score 0+",
+          "evidence": "Overall Result: NEGATIVE (Ultra-Low); Score 0+"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "1.4 cm",
+        "evidence": "Left outer central breast posterior depth there is a 1.4 cm asymmetry"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, outer central, posterior depth",
+        "evidence": "Left outer central breast posterior depth"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Asymmetry present",
+        "evidence": "Left outer central breast posterior depth there is a 1.4 cm asymmetry"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Left breast mammogram and possible subsequent ultrasound. If MRI is planned the queried asymmetry may be further evaluated on MRI in lieu of mammogram and ultrasound",
+        "evidence": "Left breast mammogram and possible subsequent ultrasound. If MRI is planned the queried asymmetry may be further evaluated on MRI in lieu of mammogram and ultrasound"
+      },
+      "feature_8_lymph_node": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

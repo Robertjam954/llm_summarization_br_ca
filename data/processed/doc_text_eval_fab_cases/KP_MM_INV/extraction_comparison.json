@@ -1,0 +1,13 @@
+[
+  {
+    "case_id": "CASE_A94DEB44131F",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1646,
+    "pre_word_count": 1592,
+    "word_count_diff": -54,
+    "raw_char_count": 13665,
+    "pre_char_count": 13318,
+    "raw_snippet": "3:31 PM                                    Malasi, Marjeta (MR # 39089385)  Media Information  Quest Diagnostics                          Report Status: Final - Courtesy Copy                                           MALASI, MARJETA  Patient Information                    Specimen Information       ",
+    "pre_snippet": "3:31 PM                                           Malasi, Marjeta (MR # 39089385)  Media Information  [Quest Diagnostics Logo] Quest                              Report Status: Final - Courtesy Copy                                                            MALASI, MARJETA  Patient Information      "
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "case_id": "CASE_E8983FFA0D48",
+    "original_filename": "Imaging_Internal_Review.pdf",
+    "raw_word_count": 1002,
+    "pre_word_count": 1002,
+    "word_count_diff": 0,
+    "raw_char_count": 8825,
+    "pre_char_count": 8531,
+    "raw_snippet": "[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST UNI Status: Final result  PACS Images     (Link Unavailable) Show images for FOREIGN TOMO BREAST UNI  Study Result     Narrative & Impression     ACCESSION#(s):",
+    "pre_snippet": "[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST UNI Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST UNI  Study Result Narrative & Impression ACCESSION#(s): A000253620, A000253621"
+  },
+  {
+    "case_id": "CASE_1BF7C0D35B3C",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1145,
+    "pre_word_count": 1156,
+    "word_count_diff": 11,
+    "raw_char_count": 9261,
+    "pre_char_count": 9443,
+    "raw_snippet": "7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)  Media Information                                                         Baptist Health Medical Center 🏥 Baptist Health                                    9601 Baptist Health Drive                                      ",
+    "pre_snippet": "[REDACTED] 7:56 PM                                    Coman, Mihaela Maria (MR # 39102467)  Media Information   [REDACTED] Baptist Health                    Baptist Health Medical Center                                             9601 Baptist Health Drive                                            "
+  },
+  {
+    "case_id": "CASE_6955F215D7EC",
+    "original_filename": "Path_Internal_review.pdf",
+    "raw_word_count": 626,
+    "pre_word_count": 630,
+    "word_count_diff": 4,
+    "raw_char_count": 5225,
+    "pre_char_count": 5126,
+    "raw_snippet": "[REDACTED] 8:05 PM                                    Coman, Michaela Maria [REDACTED]  Surgical Pathology Submitted Slides Order: S25-082095                    Order: [REDACTED]  Collected [REDACTED] 14:36   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (seen)  Co",
+    "pre_snippet": "8:05 PM                                     Coman, Michaela Maria [REDACTED]  Surgical Pathology Submitted Slides Order: S25-082095                    Order: [REDACTED]  Collected [REDACTED] 14:36   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (seen)  Component Cl"
+  },
+  {
+    "case_id": "CASE_A4259E4FAB3F",
+    "original_filename": "Imaging_External1.pdf",
+    "raw_word_count": 396,
+    "pre_word_count": 381,
+    "word_count_diff": -15,
+    "raw_char_count": 3034,
+    "pre_char_count": 2884,
+    "raw_snippet": "[REDACTED] 12:48 PM                                    Coman, Mihaela [REDACTED] [REDACTED]  Baptist Health Medical Center - Arkansas                              Outside Information  (!) Mammo US Breast, RIGHT Limited  Anatomical Region                    Laterality                      Modality Br",
+    "pre_snippet": "12:48 PM                                    Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                           Outside Information  Mammo US Breast, RIGHT Limited  Anatomical Region                    Laterality                    Modality Breast                           "
+  },
+  {
+    "case_id": "CASE_0D93B35B5604",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 377,
+    "pre_word_count": 392,
+    "word_count_diff": 15,
+    "raw_char_count": 2901,
+    "pre_char_count": 3026,
+    "raw_snippet": "[REDACTED] 12:48 PM                                     Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                            Outside Information  (!) Mammo Diagnostic W Tomosynthesis Right  Anatomical Region                    Laterality                     Modality Breast ",
+    "pre_snippet": "[REDACTED] 12:48 PM                                   Coman, Mihaela [REDACTED] [REDACTED]  Baptist Health Medical Center - Arkansas                                Outside Information  ⚠ Mammo Diagnostic W Tomosynthesis Right  Anatomical Region                    Laterality                      Moda"
+  },
+  {
+    "case_id": "CASE_920BBBDDD84A",
+    "original_filename": "Imaging_External4.pdf",
+    "raw_word_count": 247,
+    "pre_word_count": 247,
+    "word_count_diff": 0,
+    "raw_char_count": 2267,
+    "pre_char_count": 2515,
+    "raw_snippet": "[REDACTED] 12:48 PM                                                          Coman, Mihaela [REDACTED] [REDACTED]  Baptist Health Medical Center - Arkansas                                                Outside Information  ⚠ Mammo Screening W Tomosynthesis  Anatomical Region                    Late",
+    "pre_snippet": "[REDACTED] 12:48 PM                                                                                           Coman, Mihaela [REDACTED] [REDACTED]  Baptist Health Medical Center - Arkansas                                                                Outside Information  ⚠ Mammo Screening W Tomosyn"
+  },
+  {
+    "case_id": "CASE_AA7750187745",
+    "original_filename": "Imaging_External3.pdf",
+    "raw_word_count": 222,
+    "pre_word_count": 225,
+    "word_count_diff": 3,
+    "raw_char_count": 2065,
+    "pre_char_count": 1982,
+    "raw_snippet": "[REDACTED] 12:48 PM                                         Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                                Outside Information  Mammo ABUS Bilat  Anatomical Region                        Laterality                     Modality Breast               ",
+    "pre_snippet": "[REDACTED] 2:48 PM                                    Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                           Outside Information  Mammo ABUS Bilat  Anatomical Region                    Laterality                    Modality Breast                              b"
+  },
+  {
+    "case_id": "CASE_25E3464D0805",
+    "original_filename": "Imaging_External5.pdf",
+    "raw_word_count": 245,
+    "pre_word_count": 244,
+    "word_count_diff": -1,
+    "raw_char_count": 2113,
+    "pre_char_count": 2114,
+    "raw_snippet": "[REDACTED] 12:48 PM                                    Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                           Outside Information  (!) Mammo Screening W Tomosynthesis Bilateral  Anatomical Region                    Laterality                    Modality Breast ",
+    "pre_snippet": "[REDACTED] 12:48 PM                                     Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                           Outside Information  (!) Mammo Screening W Tomosynthesis Bilateral  Anatomical Region                    Laterality                    Modality Breast"
+  },
+  {
+    "case_id": "CASE_E8983FFA0D48",
+    "original_filename": "Imaging_Internal_Review.pdf",
+    "raw_word_count": 1002,
+    "pre_word_count": 1002,
+    "word_count_diff": 0,
+    "raw_char_count": 8825,
+    "pre_char_count": 8531,
+    "raw_snippet": "[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST UNI Status: Final result  PACS Images     (Link Unavailable) Show images for FOREIGN TOMO BREAST UNI  Study Result     Narrative & Impression     ACCESSION#(s):",
+    "pre_snippet": "[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST UNI Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST UNI  Study Result Narrative & Impression ACCESSION#(s): A000253620, A000253621"
+  },
+  {
+    "case_id": "CASE_086B9CCC2862",
+    "original_filename": "Path_biopsy2.pdf",
+    "raw_word_count": 392,
+    "pre_word_count": 387,
+    "word_count_diff": -5,
+    "raw_char_count": 3152,
+    "pre_char_count": 3126,
+    "raw_snippet": "[REDACTED] 12:28 PM                                    Coman, Mihaela [REDACTED]  [LOGO] Baptist Health Medical Center - Arkansas                    Outside Information  (!) Surgical Pathology Exam (PLA/LMA) Specimen: Tissue - Right breast structure (body structure)  Component Ref Range & Units     ",
+    "pre_snippet": "[REDACTED] 12:28 PM                                    Coman, Mihaela [REDACTED]  Baptist Health Medical Center - Arkansas                          Outside Information  ⚠ Surgical Pathology Exam (PLA/LMA)  Specimen: Tissue - Right breast structure (body structure)  Component Ref Range & Units       "
+  },
+  {
+    "case_id": "CASE_6955F215D7EC",
+    "original_filename": "Path_Internal_review.pdf",
+    "raw_word_count": 626,
+    "pre_word_count": 630,
+    "word_count_diff": 4,
+    "raw_char_count": 5225,
+    "pre_char_count": 5126,
+    "raw_snippet": "[REDACTED] 8:05 PM                                    Coman, Michaela Maria [REDACTED]  Surgical Pathology Submitted Slides Order: S25-082095                    Order: [REDACTED]  Collected [REDACTED] 14:36   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (seen)  Co",
+    "pre_snippet": "8:05 PM                                     Coman, Michaela Maria [REDACTED]  Surgical Pathology Submitted Slides Order: S25-082095                    Order: [REDACTED]  Collected [REDACTED] 14:36   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (seen)  Component Cl"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "4.6 x 2.7 x 4.3 centimeters",
+        "evidence": "In the superior breast there is heterogeneous non mass enhancement measuring 4.6 x 2.7 x 4.3 centimeters consistent with biopsy-proven DCIS"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, 2 o'clock, 2 cm from nipple",
+        "evidence": "Along 2 o'clock 2 cm from nipple in the area of palpable concern there is a hypoechoic finding that extends over 24 mm"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Incompletely characterized calcifications along the 12:00 axis anterior and middle third depth spanning 3.7 cm",
+        "evidence": "Incompletely characterized calcifications are noted along the 12:00 axis anterior and middle third depth spanning 3.7 cm on routine and spot MLO views"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Heterogeneous non mass enhancement measuring 4.6 x 2.7 x 4.3 centimeters",
+        "evidence": "In the superior breast there is heterogeneous non mass enhancement measuring 4.6 x 2.7 x 4.3 centimeters consistent with biopsy-proven DCIS"
+      },
+      "feature_5_extent": {
+        "value": "The non mass enhancement extends within 0.7 centimeters from the nipple areola complex",
+        "evidence": "The non mass enhancement extends within 0.7 centimeters from the nipple areola complex"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Q marker placed in adequate position",
+        "evidence": "with needle traversing it and a Q marker placed. Postprocedure mammogram demonstrates marker in the expected position"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consultation",
+        "evidence": "RECOMMENDATION: Surgical Consultation"
+      },
+      "feature_8_lymph_node": {
+        "value": "Normal lymph nodes",
+        "evidence": "RIGHT AXILLA: Normal lymph nodes"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided core biopsy",
+        "evidence": "ultrasound-guided core biopsy was performed of the 2:00 mass"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "1 focus of microinvasive carcinoma",
+        "evidence": "their diagnosis of the right breast biopsy is that there is 1 focus of microinvasive carcinoma"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ (DCIS), nuclear grade 3 and 2-3, cribriform pattern, with comedo necrosis and focal calcifications",
+        "evidence": "Ductal carcinoma in situ (DCIS), nuclear grade 3 and 2-3, cribriform pattern, with comedo necrosis and focal calcifications, involving multiple ducts"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Test Performed on formalin fixed paraffin embedded section",
+          "evidence": "Test Performed on formalin fixed paraffin embedded section of: Right breast, 2:00, 2 cm FN, core biopsy"
+        },
+        "ER": {
+          "value": "NEGATIVE for estrogen receptor expression",
+          "evidence": "NEGATIVE for estrogen receptor expression (suggest repeat testing on excision)"
+        },
+        "PR": {
+          "value": "NEGATIVE for progesterone receptor expression",
+          "evidence": "NEGATIVE for progesterone receptor expression"
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

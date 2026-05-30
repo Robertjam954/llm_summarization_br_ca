@@ -1,0 +1,219 @@
+[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+FOREIGN TOMO BREAST UNI
+Status: Final result
+
+PACS Images
+    (Link Unavailable) Show images for FOREIGN TOMO BREAST UNI
+
+Study Result
+    Narrative & Impression
+    ACCESSION#(s): A000253620, A000253621, A000253622, A000253623
+
+    DATE: [REDACTED] 9:12 AM
+
+    EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+    BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS September 30, 2025:
+        Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+    BILATERAL COMPLETE BREAST ULTRASOUND September 30, 2025:
+        Technique: bilateral breast us: whole breast ultrasound was performed, including sonographic evaluation of all
+    four quadrants and the retroareolar tissues.
+
+    RIGHT MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]:
+        Technique: right mammogram: tomosynthesis images were obtained.
+
+    RIGHT LIMITED BREAST ULTRASOUND [REDACTED]:
+        Technique: right breast us: limited breast ultrasound was performed.
+
+
+    CLINICAL HISTORY: Recently diagnosed right breast invasive ductal carcinoma (internal review pending) . Review
+    of outside imaging requested.
+
+    COMPARISON(S): April 9, 2024, March 7, 2023, March 4, 2022
+
+    FINDINGS:
+
+    MAMMOGRAM:
+
+    BREAST DENSITY: Extremely dense, which lowers the sensitivity of mammography.
+
+    RIGHT BREAST:
+    * Subtle distortion in the anterior slightly upper, outer breast. The finding persists on diagnostic mammogram
+    October 2, 2025, both on full 90 degree lateral and spot compression views.
+    * Queried asymmetry in the posterior right central/slightly outer breast only the CC view. This dissipates on spot
+    compression views, and is not seen on the 90 degree lateral view, suggesting overlapping dense fibroglandular
+    tissue.
+
+    LEFT BREAST:
+    No [REDACTED] [REDACTED] [REDACTED]
+
+    ULTRASOUND:               Evaluation is limited as interpretation is based on automated whole breast images.
+
+    RIGHT BREAST:
+    * No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] breast automated ultrasound.
+
+    * On subsequent diagnostic ultrasound October 2, 2025, in the 9:00 axis, 4 cm from the nipple, is an irregular
+    hypoechoic mass measuring 0.9 x 0.7 x 0.8 cm, corresponding to the distortion on mammography. This underwent
+    stereotactic biopsy on October 8, 2025.Outside pathology revealed invasive ductal carcinoma (MSK internal
+    pathology review pending).
+
+    * Postbiopsy mammographic images demonstrate a Tumark vision marker at the site of mammographic distortion on
+    CC view, and along the anterior margin of the distortion on the 90 degree lateral view.
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:06 PM                    1/4
+
+[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+    RIGHT AXILLA:           Not imaged.
+
+    LEFT BREAST:            No [REDACTED] [REDACTED] [REDACTED]
+
+    LEFT AXILLA:            Not imaged.
+
+    ADDITIONAL IMAGING RECOMMENDED: None.
+
+    IMPRESSION:
+    Biopsy-proven invasive ductal carcinoma (MSK pathology review pending) in the right 9:00 breast. Biopsy marker
+    along the anterior aspect of the distortion on postbiopsy mammogram.
+
+
+    Electronically Signed By: PRIYA SHAH on [REDACTED] 5:05 PM
+
+Result History
+    FOREIGN TOMO BREAST UNI (Order [REDACTED] on [REDACTED] - Order Result History Report
+
+Supplies
+                                                                                    Charge
+    Name                     ID   Temporary Type        Charge Code Description    Code     Quantity
+    No [REDACTED] [REDACTED]
+
+🔧 Implants
+    Eye                                      Status         Implanted on       Expiration Date
+    EYE                                      Implanted
+
+Supplies
+                                                                                    Charge
+    Name                     ■   [REDACTED] [REDACTED]      [REDACTED] [REDACTED]   [REDACTED]   [REDACTED]
+    No [REDACTED] [REDACTED]
+
+Signed by
+    Signed                   Time            Phone          Pager
+    Priya K. Shah, MD        [REDACTED] 17:05
+
+Exam Information
+    Status                   Exam Begun                     Exam Ended
+    Final                    [REDACTED] 09:03               [REDACTED] 09:03
+
+External Results Report                     Encounter
+    There is an external results report available.          View Encounter
+
+Total Sedation Time
+
+
+FOREIGN TOMO BREAST UNI                                     Order: [REDACTED]
+
+Status: Final result   Next appt: [REDACTED] at 05:40 PM in Radiation Oncology (KOCH-TB1)
+
+Test Result Released: Yes (not seen)
+
+    Details
+        Reading Physician                    [REDACTED] [REDACTED]    [REDACTED] [REDACTED]
+        Priya K. Shah, MD                   [REDACTED]               Routine
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:06 PM                    2/4
+
+[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+    Narrative & Impression
+    ACCESSION#(s): A000253620, A000253621, A000253622, A000253623
+
+    DATE: [REDACTED] 9:12 AM
+
+    EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+    BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS September 30, 2025:
+        Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+    BILATERAL COMPLETE BREAST ULTRASOUND September 30, 2025:
+        Technique: bilateral breast us: whole breast ultrasound was performed, including sonographic evaluation of
+    all four quadrants and the retroareolar tissues.
+
+    RIGHT MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]:
+        Technique: right mammogram: tomosynthesis images were obtained.
+
+    RIGHT LIMITED BREAST ULTRASOUND [REDACTED]:
+        Technique: right breast us: limited breast ultrasound was performed.
+
+
+    CLINICAL HISTORY: Recently diagnosed right breast invasive ductal carcinoma (internal review pending) .
+    Review of outside imaging requested.
+
+    COMPARISON(S): April 9, 2024, March 7, 2023, March 4, 2022
+
+    FINDINGS:
+
+    MAMMOGRAM:
+
+    BREAST DENSITY: Extremely dense, which lowers the sensitivity of mammography.
+
+    RIGHT BREAST:
+    * Subtle distortion in the anterior slightly upper, outer breast. The finding persists on diagnostic mammogram
+    October 2, 2025, both on full 90 degree lateral and spot compression views.
+    * Queried asymmetry in the posterior right central/slightly outer breast only the CC view. This dissipates on spot
+    compression views, and is not seen on the 90 degree lateral view, suggesting overlapping dense fibroglandular
+    tissue.
+
+    LEFT BREAST:
+    No [REDACTED] [REDACTED] [REDACTED]
+
+    ULTRASOUND:            Evaluation is limited as interpretation is based on automated whole breast images.
+
+    RIGHT BREAST:
+    * No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] breast automated ultrasound.
+
+    * On subsequent diagnostic ultrasound October 2, 2025, in the 9:00 axis, 4 cm from the nipple, is an irregular
+    hypoechoic mass measuring 0.9 x 0.7 x 0.8 cm, corresponding to the distortion on mammography. This
+    underwent stereotactic biopsy on October 8, 2025.Outside pathology revealed invasive ductal carcinoma (MSK
+    internal pathology review pending).
+
+    * Postbiopsy mammographic images demonstrate a Tumark vision marker at the site of mammographic
+    distortion on CC view, and along the anterior margin of the distortion on the 90 degree lateral view.
+
+
+    RIGHT AXILLA:           Not imaged.
+
+    LEFT BREAST:            No [REDACTED] [REDACTED] [REDACTED]
+
+    LEFT AXILLA:            Not imaged.
+
+    ADDITIONAL IMAGING RECOMMENDED: None.
+
+    IMPRESSION:
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:06 PM                    3/4
+
+[REDACTED] 8:06 PM                                    Coman, Mihaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+    Biopsy-proven invasive ductal carcinoma (MSK pathology review pending) in the right 9:00 breast. Biopsy
+    marker along the anterior aspect of the distortion on postbiopsy mammogram.
+
+
+    Electronically Signed By: PRIYA SHAH on [REDACTED] 5:05 PM
+
+Exam Ended: [REDACTED] 09:03                         Last Resulted: [REDACTED] 17:05
+
+📋 Order Details 📋 View Encounter ⚗️ Lab and Collection Details 📊 Routing 🔄 Result History
+
+Result Care Coordination
+📋 Patient [REDACTED]
+📋 Released                                  ⚠️ Not seen
+
+Study Details
+    Open Study Details
+
+
+
+
+Coman, Michaela Maria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:06 PM                    4/4

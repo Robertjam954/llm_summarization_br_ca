@@ -1,0 +1,68 @@
+[
+  {
+    "case_id": "CASE_C77ECFBBCB1A",
+    "original_filename": "MMG.pdf",
+    "raw_word_count": 487,
+    "pre_word_count": 498,
+    "word_count_diff": 11,
+    "raw_char_count": 3985,
+    "pre_char_count": 4162,
+    "raw_snippet": "[REDACTED] 7:51 AM                                     Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New                    Outside Information York Presbyterian Hospital  Results                                                   ⓘ US BREAST DIAGNOSTIC BILAT (",
+    "pre_snippet": "[REDACTED] 7:51 AM                                                    Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New  York Presbyterian Hospital                                                Outside Information  Results                                     "
+  },
+  {
+    "case_id": "CASE_0B09FA0516C1",
+    "original_filename": "MSK review.pdf",
+    "raw_word_count": 1120,
+    "pre_word_count": 1105,
+    "word_count_diff": -15,
+    "raw_char_count": 9142,
+    "pre_char_count": 9122,
+    "raw_snippet": "[REDACTED] 7:55 AM                    Moncada-Wolhers, Marlene [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN TOMO BREAST BILATERAL Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST BILATERAL  Study Result Narrative & Impression ACCESSION#(s): A000271015,",
+    "pre_snippet": "7:55 AM                                 Moncada-Wolhers, Marlene [REDACTED]  FOREIGN TOMO BREAST BILATERAL Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN TOMO BREAST BILATERAL  Study Result Narrative & Impression ACCESSION#(s): A000271015, A000271014  DATE: [REDACTED] 2"
+  },
+  {
+    "case_id": "CASE_55C2B1B90890",
+    "original_filename": "MRI.pdf",
+    "raw_word_count": 407,
+    "pre_word_count": 394,
+    "word_count_diff": -13,
+    "raw_char_count": 3357,
+    "pre_char_count": 3292,
+    "raw_snippet": "[REDACTED] 7:53 AM                                    Moncada-Wolhers, Marlene [REDACTED]  [LOGO] Weill Cornell Medicine, Columbia Physicians, and New                Outside Information York Presbyterian Hospital  Results                                                   ⓘ MR BREAST W/WO CON W/CAD B",
+    "pre_snippet": "[REDACTED] 7:53 AM                                    Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New York Presbyterian Hospital                                        Outside Information  Results                                    ⓘ MR BREAST W/WO CON W/CAD"
+  },
+  {
+    "case_id": "CASE_4F0D7FBB7AD6",
+    "original_filename": "path.pdf",
+    "raw_word_count": 930,
+    "pre_word_count": 898,
+    "word_count_diff": -32,
+    "raw_char_count": 10776,
+    "pre_char_count": 10230,
+    "raw_snippet": "[REDACTED] 7:53 AM                                    Moncada-Wolhers, MARLENE [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New                    Outside Information York Presbyterian Hospital  ⓘ Information displayed in this report may not trend or trigger automated decision suppor",
+    "pre_snippet": "[REDACTED] 7:53 AM                                    Moncada-Wolhers, MARLENE [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New                Outside Information York Presbyterian Hospital  ⓘ Information displayed in this report may not trend or trigger automated decision support.  "
+  },
+  {
+    "case_id": "CASE_5568A7B23D47",
+    "original_filename": "post MMG.pdf",
+    "raw_word_count": 356,
+    "pre_word_count": 336,
+    "word_count_diff": -20,
+    "raw_char_count": 3055,
+    "pre_char_count": 2953,
+    "raw_snippet": "[REDACTED] 7:54 AM                                          Moncada-Wolhers, Marlene [REDACTED]  [LOGO] Weill Cornell Medicine, Columbia Physicians, and New                    Outside Information York Presbyterian Hospital  Results                                    MAMMOGRAPHY FOLLOWING PROCEDURE -",
+    "pre_snippet": "[REDACTED] 7:54 AM                                                          Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New York Presbyterian Hospital                                                              Outside Information  Results                  "
+  },
+  {
+    "case_id": "CASE_FF5EBF417289",
+    "original_filename": "US bx.pdf",
+    "raw_word_count": 433,
+    "pre_word_count": 435,
+    "word_count_diff": 2,
+    "raw_char_count": 3596,
+    "pre_char_count": 3610,
+    "raw_snippet": "[REDACTED] 7:52 AM                                    Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New                    Outside Information York Presbyterian Hospital  Results                         MAMMOGRAPHY FOLLOWING CLIP PLACEMENT - RIGHT (Order [REDA",
+    "pre_snippet": "7:52 AM                                    Moncada-Wolhers, Marlene [REDACTED]  Weill Cornell Medicine, Columbia Physicians, and New                Outside Information York Presbyterian Hospital  Results                           MAMMOGRAPHY FOLLOWING CLIP PLACEMENT - RIGHT (Order [REDACTED])  ⓘ Inf"
+  }
+]

@@ -1,0 +1,61 @@
+10:42 PM                                    Weaver, Rachel Victoria [REDACTED]
+
+Prisma Health                                                     Outside Information
+
+Results                                         US BREAST DIAGNOSTIC RIGHT (Order [REDACTED])
+
+US BREAST DIAGNOSTIC RIGHT                                                Order: [REDACTED]
+
+Narrative
+FROM:
+PRISMA HEALTH PATEWOOD OUTPATIENT CENTER
+200 Patewood Drive, Ste A16
+Greenville, SC [REDACTED]
+Phone: [REDACTED]
+
+BILATERAL DIGITAL DIAGNOSTIC MAMMOGRAM 3D/2D AND TARGETED RIGHT ULTRASOUND: [REDACTED]
+No [REDACTED]
+Real-time ultrasound of the right breast was performed.
+
+The breasts are heterogeneously dense, which may obscure small masses.
+Digital mammography views were performed including tomosynthesis.
+
+Patient [REDACTED] [REDACTED] [REDACTED] [REDACTED] right breast.
+
+Irregular spiculated high density mass within the upper inner right breast middle depth with associated pleomorphic calcifications measures approximately 5.8 x 4.0 x 3.5 cm (oblique TV, oblique AP, CC). There is skin thickening of the right breast predominantly involving the medial and inferior aspects. There is also mild right nipple retraction.
+
+ULTRASOUND:
+Targeted ultrasound of the palpable area of concern in the right breast 2:00 3 cm from the nipple demonstrates an irregular hypoechoic mass with internal specular reflections measuring approximately 6.0 x 2.4 x 4.0 cm. Skin thickening noted within the lower inner quadrant measuring up to 6 mm.
+
+Targeted ultrasound of the right axilla demonstrates an abnormal lymph node versus 2 adjacent abnormal lymph nodes, which is also palpable to the patient.
+
+IMPRESSION: HIGHLY SUGGESTIVE OF MALIGNANCY, ULTRASOUND HIGHLY SUGGESTIVE OF MALIGNANCY
+1. Right breast mass is highly suspicious of malignancy.
+2. Right breast skin thickening for which clinical evaluation is recommended for possible punch biopsy.
+3. Abnormal right axillary lymphadenopathy is suspicious.
+
+Ultrasound-guided biopsy of the right breast mass and abnormal axillary lymph node is recommended.
+
+Electronically Signed By: Allie Franklin MD
+[REDACTED] 11:39:06
+
+letter sent: Same Day BiRads 4/5
+OVERALL STUDY BIRADS: Category 5: Highly Suggestive of Malignancy
+Images on Order [REDACTED]
+    External Radiology and Imaging - Scan on [REDACTED] US Breast Complete Right
+
+Weaver, Rachel Victoria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 10:42 PM        1/2
+
+10:42 PM                                    Weaver, Rachel Victoria [REDACTED] [REDACTED]
+
+[THIS IS FIGURE: Ultrasound image showing breast tissue]
+
+Exam End: [REDACTED] 15:24
+Specimen Collected: [REDACTED] 14:51                    Last Resulted: [REDACTED] 11:39
+Received From: Prisma Health                             Result Received: [REDACTED] 11:46
+                                                        View Encounter   Received Information
+
+Procedure
+    US BREAST COMPLETE RIGHT
+
+Weaver, Rachel Victoria [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 10:42 PM        2/2

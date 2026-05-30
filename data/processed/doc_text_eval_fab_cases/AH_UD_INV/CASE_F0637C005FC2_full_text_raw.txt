@@ -1,0 +1,275 @@
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+Media Information
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+
+SURGICAL PATHOLOGY
+Collected on Sep 08, 2025 4:05 PM
+
+Important Information About Your Test Results ▼
+
+Results
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    1/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  1/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    2/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  2/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+Surgical Pathology (AP)
+
+Value
+New York-Presbyterian Hospital/Weill Cornell Medical Center
+Department of Pathology Surgical Pathology Laboratory
+Starr 1028 [REDACTED]
+525 East 68th Street, NY,NY [REDACTED]
+
+Surgical Pathology Report [REDACTED]
+
+Specimen Date: [REDACTED]
+In Lab Date: [REDACTED] 18:13
+Report Date: [REDACTED]
+
+Patient: [REDACTED]
+60 E 8TH ST APT 16L Cornell Medical Associates
+APT 16L 12 West 72nd Street
+New York, NY [REDACTED]
+Telephone: (646) 962-7800 Fax: 962-0413
+
+[REDACTED]
+Encounter #: 315706558
+Location: WCINYP US 61ST
+Age/Sex: 81 / F
+Copy To: Jill S. Gluskin, MD
+
+CLINICAL INFORMATION:
+
+Abnormal finding on breast imaging (R92.8). Left breast 3:00 axis 6 cmFN 1.3 cm
+mass, BI-RADS 4C.
+
+DIAGNOSIS:
+
+A. Breast, left, 3:00 NG, ultrasound guided core biop
+sy:
+Invasive ductal carcinoma and atypical lobular hyperplasia (ALH).
+The invasive carcinoma is moderately differentiated,
+i.e., grade 2: 3+2+1,
+displays lobular features,
+and involves multiple cores,
+wherein it spans ~0.8 cm.
+Neither lymphovascular involvement nor in situ carcinoma is identified.
+A brisk lymphoplasmacytic infiltrate is absent (<50%).
+Results of ER, PR, HER2, and Ki67 tests, to be performed on 'A1' sections, will
+follow.
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    3/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  3/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+follow.
+E-cadherin immunoreactivity of the invasive carcinoma, also on 'A1', supports the
+ductal phenotype of the invasive carcinoma.
+E-cadherin immunonegativity of the lesional cells ('A1') supports the diagnosis of
+ALH.
+Rebecca Filorent/gea905 [REDACTED]
+GROSS DESCRIPTION:
+
+A. Received in formalin, the specimen is labeled "ultrasound-guided core biopsy
+left breast 3:00 NG" and consists of four cores of yellow-white tissue measuring
+from 0.8 x 0.1 x 0.1 cm to 1.5 x 0.1 x 0.1 cm. Also received are fragments of yellow-
+white soft
+tissue measuring 0.4 x 0.4 x 0.1 cm in aggregate. The specimen was placed in
+formalin at 4:36 p.m. and placed into the tissue processor at 4 o'clock. 100%
+submitted. Summary of sections: A1-A3. (RLK/REF)
+
+
+** Electronically Signed Out **
+Andy Phan, MD
+Attending [REDACTED]
+The attending [REDACTED] has reviewed
+the diagnostic slides, and has edited the gross and microscopic portions of the
+report in rendering the final diagnosis.
+
+
+ICD Codes: A; C50.812 Z17.0 Z17.21
+Billing Codes: A; 23883051, 23883421, 23883601(4) (Epic Outpatient Billing)
+
+
+SNOMED:
+AVP900/lpm
+
+
+PROCEDURES/ADDENDA:
+
+Specimen: Left breast (invasive carcinoma) Block: A1
+
+RESULTS OF ANCILLARY IMMUNOPATHOLOGY STUDIES
+
+PERCENTAGE OF POSITIVE CELLS STAINING INTENSITY
+
+
+ESTROGEN RECEPTOR: >95%
+STRONG
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    4/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  4/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+PROGESTERONE RECEPTOR: ~90% STRONG
+
+PROLIFERATION INDEX (Ki-67): 20%
+
+HER2: 0
+
+INTERPRETATION: Since >1% of tumor cell nuclei express estrogen receptors, this
+tumor is considered to be ESTROGEN RECEPTOR POSITIVE. Since >1% of tumor
+cell nuclei express progesterone receptors, this tumor is considered to be
+PROGESTERONE RECEPTOR POSITIVE. HER2: no [REDACTED]
+result indicates NEGATIVE HER2 by immunohistochemistry.
+
+This test was developed and its performance characteristics determined by the
+Immunopathology Laboratory. It has not been cleared or approved by the U.S.
+Food and Drug Administration (FDA). The FDA has determined that such clearance
+or approval is not necessary. This test is used for clinical purposes. It should not
+be regarded as investigational or for research. This laboratory is certified under
+the Clinical Laboratory Improvement Amen
+dments of 1988 (CLIA-88) as qualified to perform high complexity clinical
+laboratory testing. Antibodies and methodology: ER (Ventana, SP1); PR (Leica,
+16); Anti-HER2/neu (4B5) Rabbit Monoclonal Primary Antibody
+(Ventana/Roche)/Ultraview Universal DAB Detection Kit; Ki-67 (Dako MIB-1). The
+interpretation criteria are in accordance with the guidelines of the American
+Society of Clinical Oncology/College of American Pathologists Guideline
+Recommendations for Immunohistochemical Testing of Estrogen and
+Progesterone Receptors in Breast Cancer by
+American Society of Clinical Oncology (2010 and 2020) and American Society of
+Clinical Oncology/College of American Pathologists Guideline and Focused
+Update Recommendations for Human Epidermal Growth Factor Receptor 2
+Testing in Breast Cancer in Journal of Clinical Oncology (2007, 2013, and 2018).
+Duration of fixation in neutral buffered formalin is between 6 and 72 hours. This
+assay has not been validated decalcified tissues. Results should
+be interpreted with caution given the likelihood of false negativity on decalcified
+specimens.
+
+
+** Electronically Signed Out By **
+
+Andy Phan, MD
+Attending [REDACTED]
+The attending [REDACTED] has reviewed
+the diagnostic slides,
+and has edited the gross and microscopic portions of the report in rendering the
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    5/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  5/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+final diagnosis.
+
+
+All control slides for immunohistochemical tests show appropriate
+immunoreactivity. Immunohistochemical, in-situ hybridization and flow
+cytometric assays were developed and their performance characteristics
+determined by the Immunopathology Laboratory. The limit of enumeration for
+flow cytometry minimal residual diagnosis (MRD) detection assays is 0.01% of
+viable cells. These tests have not been cleared or approved by the U.S. Food and
+Drug Administration (FDA). The FDA has determined that such clearance or
+approval is not necessary. These tests are used for clinical purposes
+and should not be regarded as investigational or for research. This laboratory is
+certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-
+88) as qualified to perform high complexity clinical laboratory testing. The testing
+was performed at New York Presbyterian - Weill Cornell Medical Center, 525 East
+68th Street, New York, NY [REDACTED] CLIA # 33D0653378.
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    6/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  6/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+
+📎 Scan 1
+
+Ordering provider: [REDACTED]
+Collection date: Sep 08, 2025 4:05 PM
+Specimens: AP Specimen (Surgical)
+Result date: Sep 12, 2025 2:14 PM
+Result status: Final (Edited)
+Resulting lab:
+CORNELL PATHOLOGY
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    7/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  7/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    8/9
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  8/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 5:08 PM                                          Connect - Test Details
+
+
+https://www.myconnectnyc.org/mychart/app/test-results/details?pageMode=1&recordId=WP-24CaeD-2BHGjXzd4FB0ut-2F%c2Fw-3D-3D-24qer1UTN...    9/9
+
+Document Information
+Other: Outside Pathology
+PATH
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  9/10
+
+[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)
+
+[REDACTED] 00:00
+Attached To:
+    OUTSIDE OTHER ORDERS [REDACTED]
+    Orders Only on [REDACTED] with Historical Provider, [REDACTED]
+
+Source Information
+Waynasia Memminger | Msk Pas
+
+
+Day, Ursula (MR # 39095007) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 12:39 PM                  10/10

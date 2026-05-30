@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.6 cm",
+        "evidence": "11:00, 8 cm from the nipple, there is a 0.6 cm irregular hypoechoic mass likely corresponding to mammographic finding"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, 11:00, 8 cm from the nipple",
+        "evidence": "11:00, 8 cm from the nipple, there is a 0.6 cm irregular hypoechoic mass"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Asymmetry with possible distortion present",
+        "evidence": "There is an asymmetry with possible distortion in the lateral right breast in the CC image; There is a persistent irregular focal asymmetry in the upper outer quadrant"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, Venus shaped biopsy clip",
+        "evidence": "A Venus shaped biopsy clip was deployed at the biopsy site; Postprocedure digital mammogram demonstrates biopsy clip in expected location, located just posterior to mammographic irregular focal asymmetry on the MLO image"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consultation regarding biopsy results",
+        "evidence": "BI-RADS CATEGORY: 6-Known Malignancy, Biopsy Proven Recommendation: Surgical consultation regarding biopsy results"
+      },
+      "feature_8_lymph_node": {
+        "value": "Right axillary tail, 7 mm intramammary lymph node",
+        "evidence": "Right axillary tail, 7 mm intramammary lymph node"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided core needle biopsy",
+        "evidence": "ULTRASOUND-GUIDED RIGHT BREAST CORE NEEDLE BIOPSY; A 12-gauge spring activated core biopsy needle was used. 3 passes were made through the lesion"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "At least 5.5 mm",
+        "evidence": "TUMOR INVOLVES 2 CORES AND MEASURES AT LEAST 5.5 MM"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma",
+        "evidence": "BREAST, RIGHT BREAST 11:00 8CM FN (ULTRASOUND-GUIDED BIOPSY): - INVASIVE DUCTAL CARCINOMA - NOTTINGHAM SCORE: 5 OF 9 (ARCHITECTURE = 2 + NUCLEI = 2 + MITOSIS = 1 )"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PR, HER2 IHC, Ki-67",
+          "evidence": "Estrogen Receptor (ER), Progesterone Receptor (PR), HER2 IHC, Ki-67"
+        },
+        "ER": {
+          "value": "Positive, 91-100%, Strong intensity",
+          "evidence": "Estrogen Receptor (ER) 91-100% Strong Positive"
+        },
+        "PR": {
+          "value": "Positive, 91-100%, Strong intensity",
+          "evidence": "Progesterone Receptor (PR) 91-100% Strong Positive"
+        },
+        "HER2_IHC": {
+          "value": "1+, Negative",
+          "evidence": "HER2 IHC 1+ Negative"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

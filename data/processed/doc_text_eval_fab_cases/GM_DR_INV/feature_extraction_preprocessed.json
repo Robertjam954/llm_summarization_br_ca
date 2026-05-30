@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "4 cm mass with spiculated and indistinct margins (mammogram), 4.2 cm hypoechoic mass (ultrasound), about 3.5 cm irregular enhancing mass (MRI)",
+        "evidence": "There is an underlying 4 cm mass with spiculated and indistinct margins... There is a hypoechoic mass with angular margins measuring 4.2 cm... highly suspicious irregular enhancing and linear partially eccentric calcifications in the upper outer quadrant of the left breast, measuring about 3.5 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, upper central (mammogram), 11 o'clock position, 10 cm from the nipple (ultrasound), upper outer quadrant of the left breast (MRI)",
+        "evidence": "A tubular-like mass lesion has been placed on the upper central left breast... There is a hypoechoic mass with angular margins measuring 4.2 cm in the 11 o'clock position, 10 cm from the nipple in the left breast... highly suspicious irregular enhancing and linear partially eccentric calcifications in the upper outer quadrant of the left breast"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Linear partially eccentric calcifications",
+        "evidence": "highly suspicious irregular enhancing and linear partially eccentric calcifications in the upper outer quadrant of the left breast"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "There is also a foci of enhancement inferiorly",
+        "evidence": "There is also a foci of enhancement inferiorly"
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Biopsy marker clip placed",
+        "evidence": "There is associated hippocampus clip... The largest morphologically abnormal left auxiliary lymph node measures 3 cm and contains. biopsy marker clip"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consultation and tissue sampling are advised",
+        "evidence": "Surgical consultation and tissue sampling are advised. The findings and recommendations were discussed with Nurse Janet over the phone on August 21, 2025 at 3:00 p.m."
+      },
+      "feature_8_lymph_node": {
+        "value": "Left: An enlarged ipsilateral left lymph node measuring 1.1 cm in the left axilla. There is also an abnormal round lymph node measuring 1.1 cm in the left axilla as well. The largest morphologically abnormal left auxiliary lymph node measures 3 cm. Right: There is no right axillary lymphadenopathy",
+        "evidence": "An enlarged ipsilateral left lymph node measuring 1.1 cm in the left axilla. There is also an abnormal round lymph node measuring 1.1 cm in the left axilla as well... The largest morphologically abnormal left auxiliary lymph node measures 3 cm... There is no right axillary lymphadenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound guided core needle biopsy",
+        "evidence": "PROCEDURE: Ultrasound guided core needle biopsy"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

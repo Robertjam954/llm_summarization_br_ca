@@ -1,0 +1,110 @@
+[REDACTED] 2:00 PM                                                Patterson, Nadia Lashawna [REDACTED] [REDACTED]
+
+Surgical Pathology Submitted Slides Order: S25-088852                                Order: [REDACTED]
+
+Collected [REDACTED] 00:00   Status: Final result   Dx: Encounter for consultation
+
+Test Result Released: Yes (not seen)
+
+Component
+Clinical Information
+    Material received from outside hospital: MONTEFIORE NYACK HOSPITAL
+Final Diagnosis
+    1,2. Outside Material; Breast, left medial with and without calcifications; stereotactic core biopsy
+    (ST25-010494/ A;1;S1 to A;1;S3, A;1;S4-L1 to A;1;S4-L4, B;1;S1 to B;1;S3, B;1;S4-L1 to B;1;S4-L4, B;2;S1
+    to B;2;S3, B;2;S4-L1 to B;2;S4-L4; 21 H&E); Collected: [REDACTED]
+        Breast parenchyma
+            Adenosis
+        Calcifications
+            Present, rare and minute
+
+
+    3,4. Outside Material; Breast, left lateral with and without calcifications; stereotactic core biopsy
+    (ST25-010494/ C;1;S1 to C;1;S5, C;1;S7-L1 to C;1;S7-L3, D;1;S1 to D;1;S3; 9 H&E and 2 IHC); Collected:
+    [REDACTED]
+        Breast parenchyma
+        Atypical ductal hyperplasia (ADH), focally at the level of low grade ductal carcinoma in situ
+    (DCIS)
+        Breast parenchyma
+            Adenosis
+            Columnar cell change
+        Calcifications
+            In atypical and non-atypical benign epithelium
+
+
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF THE SLIDES (AND/OR
+OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED THE REPORT.
+
+LEE K TAN, MD
+
+                                    Electronically signed by Lee K Tan, MD on [REDACTED] at 1542 EST
+Disclaimer
+    Note: Specimen(s) received and accessioned at Memorial Hospital for Cancer and Allied Diseases Dept of Pathology, 300
+    E 66th St Room 425, New York, NY [REDACTED] (PFI 8458). Any immunohistochemistry procedures on the case were performed
+    at Memorial Hospital for Cancer and Allied Diseases - Dept of Pathology and Laboratory Medicine, 1275 York Ave, New
+    York, NY [REDACTED] (PFI 2514).
+
+    Slides may have been examined as digital images including consultation for intraoperative frozen sections. Hardware and
+    software for digital images have been developed by Leica Biosystems, Philips, and MSK.
+    Their performance characteristics have been determined by the MSK Department of Pathology and Laboratory Medicine
+    (PFI 2514). It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). This test has been
+    granted approval by New York State as a laboratory developed test. This test is used for clinical purposes. Pursuant to the
+    requirements of CLIA '88, our laboratory has established the equivalence and non-inferiority of this test for reporting of
+    pathology.
+
+Resulting Agency      MEMORIAL HOSPITAL FOR CANCER AND ALLIED DISEASES DEPT OF PATHOLOGY
+
+
+Specimen Collected: [REDACTED] 00:00                        Last Resulted: [REDACTED] 15:42
+
+Patterson, Nadia Lashawna [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 2:00 PM     1/2
+
+[REDACTED] 2:00 PM                                                Patterson, Nadia Lashawna [REDACTED] [REDACTED]
+
+[Icon] Order Details [Icon] View Encounter [Icon] Lab and Collection Details [Icon] Routing [Icon] Result History
+
+Scans on Order [REDACTED]
+    Lab Result Document - Document on [REDACTED] 3:42 PM
+
+Result Care Coordination
+    [Icon] Patient [REDACTED]
+    [Icon] Released                                          [Icon] Not seen
+
+Component SmartLink Info
+Component (ID)                     [REDACTED] [REDACTED]                    [REDACTED] [REDACTED]
+LAB AP CLINICAL INFORMATION [29]   CLININFO                               CLINICAL INFORMATION
+LAB AP REPORT FINAL DIAGNOSIS      FINALDX                                FINAL DIAGNOSIS
+NARRATIVE [34]
+LAB AP CASE REPORT [1499]          CASEREPORT                             CASE REPORT
+LAB AP ASR DISCLAIMER [769]                                                LAB AP ASR DISCLAIMER
+
+Using Base Names in SmartLinks
+Every Lab component (for example, WBC) has a corresponding base name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+SmartLink to pull the component into your note. Above is the base name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+To pull a lab component with a base name [REDACTED] [REDACTED]
+.RESUFAST[TSH
+
+To pull two different lab components, type both their base names separated by a comma:
+.RESUFAST[TSH,WBC
+
+If you're interested in seeing more than just the last result, type a colon after the base name [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+results to show:
+.RESUFAST[TSH:3
+.RESUFAST[TSH,WBC:3
+
+If you're interested in seeing all lab results from a given time period (for example, one month or six weeks), type a
+left-facing bracket after the .GETLABS SmartLink, followed by a number [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] week:
+.GETLABS[1M
+.GETLABS[6W
+
+The common name [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] project team and isn't used in standard SmartLinks.
+
+Order Tracking
+
+[Icon]                [Icon]                [Icon]                [Icon]
+Ordered              Collected             Received in Lab       Final Result
+11/4 18:43           4/30 00:00            11/5 10:29           11/6 15:42
+                     BAICPATH              BAICPATH
+
+Patterson, Nadia Lashawna [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 2:00 PM     2/2
