@@ -52,8 +52,10 @@ FEATURE_META = {
 
 QUALITY_METRICS = [
     "laplacian_var",
+    "laplacian_var_pct",
     "tenengrad",
     "rms_contrast",
+    "rms_contrast_pct",
     "intensity_spread_p95_p5",
     "mean_brightness",
     "skew_angle_deg",
@@ -61,8 +63,10 @@ QUALITY_METRICS = [
 
 METRIC_LABELS = {
     "laplacian_var":           "Sharpness\n(Laplacian Var)",
+    "laplacian_var_pct":       "Sharpness\nPercentile Rank",
     "tenengrad":               "Sharpness\n(Tenengrad)",
     "rms_contrast":            "RMS Contrast",
+    "rms_contrast_pct":        "RMS Contrast\nPercentile Rank",
     "intensity_spread_p95_p5": "Intensity Spread\n(P95−P5)",
     "mean_brightness":         "Mean Brightness",
     "skew_angle_deg":          "Skew Angle (°)",
@@ -178,12 +182,8 @@ for feat, n in fab_by_feat.items():
 # ==============================================================================
 # Per page metrics for each (case_folder, doc_type) — doc_type matches domain
 page_agg = (
-    dq.groupby(["case_folder", "doc_type"])[QUALITY_METRICS + ["is_blurry", "is_low_contrast"]]
-    .agg({
-        **{m: ["mean", "min", "max", "std"] for m in QUALITY_METRICS},
-        "is_blurry": "mean",
-        "is_low_contrast": "mean",
-    })
+    dq.groupby(["case_folder", "doc_type"])[QUALITY_METRICS]
+    .agg({m: ["mean", "min", "max", "std"] for m in QUALITY_METRICS})
 )
 page_agg.columns = ["_".join(c).strip("_") for c in page_agg.columns]
 page_agg = page_agg.reset_index()
@@ -289,22 +289,72 @@ for domain in ["radiology", "pathology"]:
 
 
 # ==============================================================================
-# Step 8 — Per-feature breakdown
+# Step 8 — Per-feature × metric: correlation and p-value
 # ==============================================================================
 print("\n" + "=" * 72)
-print("PER-FEATURE: mean quality for fabricated instances")
+print("PER-FEATURE × METRIC: Mann-Whitney U + point-biserial r (fabricated vs not)")
 print("=" * 72)
-primary_metric = "laplacian_var_mean"
-if primary_metric in df_merged.columns:
-    feat_summary = (
-        df_merged.groupby(["feature", "is_fabricated"])[primary_metric]
-        .agg(["mean", "count"])
-        .reset_index()
-        .pivot(index="feature", columns="is_fabricated", values=["mean", "count"])
-    )
-    feat_summary.columns = ["mean_not_fab", "mean_fab", "n_not_fab", "n_fab"]
-    feat_summary["diff"] = feat_summary["mean_fab"] - feat_summary["mean_not_fab"]
-    print(feat_summary.sort_values("diff").to_string())
+
+feat_stat_rows = []
+
+for feat in sorted(FEATURE_META.keys()):
+    sub = df_merged[df_merged["feature"] == feat]
+    fab_sub  = sub[sub["is_fabricated"] == True]
+    nfab_sub = sub[sub["is_fabricated"] == False]
+    n_fab  = len(fab_sub)
+    n_nfab = len(nfab_sub)
+
+    print(f"\n  {feat}  (n_fab={n_fab}, n_not_fab={n_nfab})")
+
+    for metric in QUALITY_METRICS:
+        mc = f"{metric}_mean"
+        if mc not in df_merged.columns:
+            continue
+        fv  = fab_sub[mc].dropna()
+        nv  = nfab_sub[mc].dropna()
+        if len(fv) < 2 or len(nv) < 2:
+            continue
+
+        u_stat, mw_p = stats.mannwhitneyu(fv, nv, alternative="two-sided")
+        combined = sub[[mc, "is_fabricated"]].dropna()
+        rho, rho_p = stats.pointbiserialr(
+            combined["is_fabricated"].astype(int), combined[mc]
+        )
+        sig = "***" if mw_p < 0.001 else ("**" if mw_p < 0.01 else ("*" if mw_p < 0.05 else ""))
+
+        mean_f  = round(fv.mean(),  3)
+        mean_nf = round(nv.mean(),  3)
+        print(f"    {metric:<30}  fab={mean_f:9.3f}  no_fab={mean_nf:9.3f}  "
+              f"U={u_stat:.0f}  p={mw_p:.4f}{sig:3s}  r={rho:+.3f}  r_p={rho_p:.4f}")
+
+        feat_stat_rows.append({
+            "feature":     feat,
+            "metric":      metric,
+            "n_fab":       len(fv),
+            "n_not_fab":   len(nv),
+            "mean_fab":    mean_f,
+            "mean_not_fab": mean_nf,
+            "mw_u":        round(u_stat, 2),
+            "mw_p":        round(mw_p, 4),
+            "sig":         sig,
+            "r":           round(rho, 4),
+            "r_p":         round(rho_p, 4),
+        })
+
+df_feat_stats = pd.DataFrame(feat_stat_rows)
+if not df_feat_stats.empty:
+    df_feat_stats = df_feat_stats.sort_values(["feature", "mw_p"])
+    feat_stats_path = REPORTS_DIR / "fab_quality_per_feature_stats.csv"
+    df_feat_stats.to_csv(feat_stats_path, index=False)
+    print(f"\nSaved per-feature stats → {feat_stats_path}")
+
+    # Compact pivot: one row per feature, columns = metric r-values
+    pivot_r = df_feat_stats.pivot(index="feature", columns="metric", values="r")
+    pivot_p = df_feat_stats.pivot(index="feature", columns="metric", values="mw_p")
+    print("\nPoint-biserial r (fabricated vs not) — positive = higher metric in fabricated cases:")
+    print(pivot_r.to_string(float_format=lambda x: f"{x:+.3f}"))
+    print("\nMann-Whitney p-values:")
+    print(pivot_p.to_string(float_format=lambda x: f"{x:.4f}"))
 
 
 # ==============================================================================
@@ -400,10 +450,10 @@ ax8.set_xlabel("Fabrication Rate (%)")
 ax8.set_title("Fabrication Rate per Feature\n(across 14 cases with quality data)", fontweight="bold", fontsize=9)
 ax8.tick_params(axis="y", labelsize=7)
 
-# Plot 9: blurry/low-contrast page rate per case, colored by total fabrications
+# Plot 9: sharpness percentile rank per case vs fabrication count
 ax9 = axes[2][2]
 blurry_by_case = (
-    dq.groupby("case_folder")["is_blurry"].mean() * 100
+    dq.groupby("case_folder")["laplacian_var_pct"].mean()
 ).reset_index()
 blurry_by_case.columns = ["case_folder", "pct_blurry"]
 
@@ -426,10 +476,10 @@ for _, row in blurry_joined.iterrows():
     ax9.annotate(row["case_folder"], (row["pct_blurry"], row["n_fab_features"]),
                  fontsize=6, xytext=(3, 3), textcoords="offset points")
 plt.colorbar(sc, ax=ax9, label="% Blurry Pages")
-ax9.set_xlabel("% Blurry Pages in Case")
+ax9.set_xlabel("Mean Sharpness Percentile Rank of Case\n(lower = blurrier relative to corpus)")
 ax9.set_ylabel("N Fabricated Features")
 rho9, p9 = stats.spearmanr(blurry_joined["pct_blurry"], blurry_joined["n_fab_features"])
-ax9.set_title(f"Blurry Page Rate vs N Fabricated Features\nSpearman ρ={rho9:+.3f}  p={p9:.3f}",
+ax9.set_title(f"Sharpness Pctile Rank vs N Fabricated Features\nSpearman ρ={rho9:+.3f}  p={p9:.3f}",
               fontweight="bold", fontsize=9)
 
 plt.tight_layout()
