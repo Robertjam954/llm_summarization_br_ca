@@ -24,9 +24,9 @@ import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.utils import get_column_letter
 
-FAB_DIR    = "/Users/robertjames/Downloads/llm_summarization_br_ca/data/fab_source"
+FAB_DIR    = os.path.join(os.path.dirname(__file__), "fab_source")
 EXCEL_PATH = os.path.join(FAB_DIR, "llm_validation_failure_analysis.xlsx")
-SHEET_NAME = "AI_Has_3"
+SHEET_NAME = "AI_Has_3 "
 RENDER_DPI = 150   # render resolution for quality metrics
 
 # ── Feature definitions (same as original pipeline) ──────────────────────────
