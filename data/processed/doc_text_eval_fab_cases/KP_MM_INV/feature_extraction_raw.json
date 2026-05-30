@@ -1,0 +1,281 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "1.6 x 1.4 x 1.8 cm",
+        "evidence": "Within the right breast, at the 10 o'clock retroareolar region, a lobulated irregular mass measures 1.6 x 1.4 x 1.8 cm corresponding to the palpable lump"
+      },
+      "feature_2_lesion_location": {
+        "value": "right breast, 10 o'clock retroareolar region",
+        "evidence": "Within the right breast, at the 10 o'clock retroareolar region, a lobulated irregular mass measures 1.6 x 1.4 x 1.8 cm corresponding to the palpable lump"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, marker deployed",
+        "evidence": "Under ultrasound guidance, a core needle biopsy was performed upon the right retroareolar nodule. A marker was deployed."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED. FOLLOWUP WITH SURGICAL CONSULTATION IS ADVISED.",
+        "evidence": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED. FOLLOWUP WITH SURGICAL CONSULTATION IS ADVISED."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right axillary lymph nodes are seen demonstrating thickened cortex",
+        "evidence": "Right axillary lymph nodes are seen demonstrating thickened cortex"
+      },
+      "feature_10_biopsy_method": {
+        "value": "ultrasound guided core needle biopsy",
+        "evidence": "Under ultrasound guidance, a core needle biopsy was performed upon the right retroareolar nodule"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "up to 0.9 cm in greatest length",
+        "evidence": "INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.9 CM IN GREATEST LENGTH ON A SINGLE CORE"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III)",
+        "evidence": "A) Breast, right, retro areolar, core needle biopsy: INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.9 CM IN GREATEST LENGTH ON A SINGLE CORE"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER/PR, PARAFFIN BLOCK, HER2, IHC WITH REFLEX TO FISH",
+          "evidence": "TESTS: Processed Specimen Quantity (1) HER2, IHC WITH REFLEX TO FISH (1)"
+        },
+        "ER": {
+          "value": "POSITIVE: >95%, STRONG INTENSITY",
+          "evidence": "ESTROGEN RECEPTOR (IHC): POSITIVE: >95%, STRONG INTENSITY"
+        },
+        "PR": {
+          "value": "POSITIVE: 95%, STRONG INTENSITY",
+          "evidence": "PROGESTERONE RECEPTOR (IHC): POSITIVE: 95%, STRONG INTENSITY"
+        },
+        "HER2_IHC": {
+          "value": "NEGATIVE FOR OVER-EXPRESSION, SCORE 0",
+          "evidence": "HER2: NEGATIVE FOR OVER-EXPRESSION, SCORE 0 – NO [REDACTED]"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "0.7 x 0.7 x 0.6 cm",
+        "evidence": "An adjacent irregular nodule at 9 o'clock measures 0.7 x 0.7 x 0.6 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "right breast, 9 o'clock",
+        "evidence": "An adjacent irregular nodule at 9 o'clock measures 0.7 x 0.7 x 0.6 cm"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED.",
+        "evidence": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right axillary lymph nodes are seen demonstrating thickened cortex",
+        "evidence": "Right axillary lymph nodes are seen demonstrating thickened cortex"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L3",
+      "feature_1_lesion_size": {
+        "value": "1.0 x 1.0 x 0.8 cm",
+        "evidence": "At the right 11 o'clock periareolar region, a lobulated nodule measures 1.0 x 1.0 x 0.8 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "right breast, 11 o'clock periareolar region",
+        "evidence": "At the right 11 o'clock periareolar region, a lobulated nodule measures 1.0 x 1.0 x 0.8 cm"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, marker deployed",
+        "evidence": "Under ultrasound guidance, a core needle biopsy was performed upon the right 11 o'clock nodule. Marker was then deployed."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED. FOLLOWUP WITH SURGICAL CONSULTATION IS ADVISED.",
+        "evidence": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED. FOLLOWUP WITH SURGICAL CONSULTATION IS ADVISED."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right axillary lymph nodes are seen demonstrating thickened cortex",
+        "evidence": "Right axillary lymph nodes are seen demonstrating thickened cortex"
+      },
+      "feature_10_biopsy_method": {
+        "value": "ultrasound guided core needle biopsy",
+        "evidence": "Under ultrasound guidance, a core needle biopsy was performed upon the right 11 o'clock nodule"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "up to 0.6 cm in greatest length",
+        "evidence": "B) Breast, right, 11 o'clock, core needle biopsy: INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.6 CM IN GREATEST LENGTH ON A SINGLE CORE"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III)",
+        "evidence": "B) Breast, right, 11 o'clock, core needle biopsy: INFILTRATING DUCTAL CARCINOMA, ARCHITECTURAL GRADE 3, NUCLEAR GRADE 3, MITOTIC RATE 1 (NOTTINGHAM COMBINED HISTOLOGIC GRADE II/III), MEASURING UP TO 0.6 CM IN GREATEST LENGTH ON A SINGLE CORE"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L4",
+      "feature_1_lesion_size": {
+        "value": "0.7 x 0.6 x 0.6 cm",
+        "evidence": "Within the left breast, an ill defined nodule at the 2 o'clock axis measures 0.7 x 0.6 x 0.6 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "left breast, 2 o'clock axis, 5 cm from the nipple",
+        "evidence": "Within the left breast, an ill defined nodule at the 2 o'clock axis measures 0.7 x 0.6 x 0.6 cm. At the left 2 o'clock axis, 5 cm from the nipple, a hypoechoic nodule measures 0.6 cm"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, marker deployed",
+        "evidence": "Under ultrasound guidance, fine needle aspiration/core needle biopsy was performed upon the 0.6 left 2 o'clock nodule. A marker was then deployed."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED.",
+        "evidence": "RECOMMEND FURTHER EVALUATION WITH ULTRASOUND GUIDED CORE NEEDLE BIOPSY OF BOTH BREASTS. BILATERAL BREAST MRI WITH CONTRAST ENHANCEMENT IS ALSO RECOMMENDED."
+      },
+      "feature_8_lymph_node": {
+        "value": "Benign appearing lymph nodes are seen in the left axilla",
+        "evidence": "Benign appearing lymph nodes are seen in the left axilla"
+      },
+      "feature_10_biopsy_method": {
+        "value": "fine needle aspiration/core needle biopsy",
+        "evidence": "Under ultrasound guidance, fine needle aspiration/core needle biopsy was performed upon the 0.6 left 2 o'clock nodule"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "BENIGN BREAST TISSUE WITH STROMAL FIBROSIS",
+        "evidence": "C) Breast, left, 2 o'clock, core needle biopsy: BENIGN BREAST TISSUE WITH STROMAL FIBROSIS"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

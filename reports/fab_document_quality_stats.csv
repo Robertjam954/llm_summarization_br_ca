@@ -1,0 +1,10 @@
+property,n_docs_with_fab_domain,n_docs_without_fab_domain,mean_docs_with_fab_domain,mean_docs_without_fab_domain,median_docs_with_fab_domain,median_docs_without_fab_domain,higher_group,mannwhitney_p,welch_ttest_p,point_biserial_r,point_biserial_p,significant_p_lt_0_05
+mean_brightness_mean,39,36,240.4956,244.559,243.5334,245.2552,docs_without_fab_domain,0.038151,0.012002,-0.284,0.013546,True
+rms_contrast_mean,39,36,46.3462,42.8056,46.6324,40.5982,docs_with_fab_domain,0.147744,0.137669,0.1719,0.14027,False
+intensity_spread_p95_p5_mean,39,36,111.5143,93.3234,103.0,84.0833,docs_with_fab_domain,0.190277,0.210296,0.1461,0.21094,False
+n_pages,39,36,3.5385,3.5556,3.0,3.0,docs_without_fab_domain,0.211639,0.976535,-0.0034,0.977035,False
+tenengrad_mean,39,36,9.0689,7.8919,8.4204,7.5178,docs_with_fab_domain,0.326623,0.132175,0.1726,0.138751,False
+skew_angle_deg_mean,39,36,-0.7798,-0.5407,-1.0,-0.6833,docs_without_fab_domain,0.573928,0.419075,-0.094,0.422252,False
+pct_blurry,39,36,0.0973,0.0878,0.0,0.0,docs_with_fab_domain,0.658311,0.788467,0.0316,0.788149,False
+pct_low_contrast,39,36,0.0961,0.0912,0.0,0.0,docs_with_fab_domain,0.667726,0.89328,0.0158,0.892937,False
+laplacian_var_mean,39,36,281.9163,249.6778,215.8621,198.2955,docs_with_fab_domain,0.795005,0.318543,0.1152,0.324936,False

@@ -1,0 +1,212 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.7 x 0.7 x 0.7 cm (main mass), adjacent 0.5 x 0.4 x 0.4 cm mass, measuring approximately 1.2 cm in entirety",
+        "evidence": "6:00, 4 cm from nipple there is an irregular mass measuring 0.7 x 0.7 x 0.7 cm, newly visualized. There is an adjacent/abutting irregular mass measuring 0.5 x 0.4 x 0.4 cm This correlates with the right lower central breast mammographic nodular focal asymmetry. In its entirety, the 2 nodules measuring approximately 1.2 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, 6:00, 4 cm from nipple, lower central breast, posterior depth",
+        "evidence": "Right lower central breast, posterior depth there is nodular focal asymmetry. 6:00, 4 cm from nipple there is an irregular mass measuring 0.7 x 0.7 x 0.7 cm"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Nodular focal asymmetry present, scattered benign punctate calcifications",
+        "evidence": "Right lower central breast, posterior depth there is nodular focal asymmetry. Scattered benign punctate calcifications are again noted"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Invasive tumor measures at least 1.1 cm",
+        "evidence": "Invasive tumor measures at least 1.1 cm"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Clip placement recommended",
+        "evidence": "Ultrasound-guided core needle biopsy (x1) with clip placement and postprocedural mammogram is recommended. Right breast ultrasound-guided core needle biopsy clip placement and postprocedural mammogram"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided core needle biopsy (x1) with clip placement and postprocedural mammogram is recommended",
+        "evidence": "Ultrasound-guided core needle biopsy (x1) with clip placement and postprocedural mammogram is recommended. Right breast ultrasound-guided core needle biopsy clip placement and postprocedural mammogram"
+      },
+      "feature_8_lymph_node": {
+        "value": "No suspicious axillary lymphadenopathy",
+        "evidence": "No other suspicious solid masses or cysts. No suspicious axillary lymphadenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Sonogram guided core needle biopsy",
+        "evidence": "RIGHT BREAST LESION, HIGH SUSPICION; 1.3x0.5CM AT 6:00, 1CMFN, SONOGRAM GUIDED CORE NEEDLE BIOPSY"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "At least 1.1 cm",
+        "evidence": "Invasive tumor measures at least 1.1 cm"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma, moderately differentiated",
+        "evidence": "DIAGNOSIS: INVASIVE DUCTAL CARCINOMA, MODERATELY DIFFERENTIATED. Notes: Invasive carcinoma; Ductal, NOS. Nottingham score: 6/9 (tubular formation grade 2, mitoses 1)"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PR, Her-2, Ki67, E-cadherin, P63, HER2 FISH",
+          "evidence": "ER: 100%, strong staining. PR: 100%, strong staining. Her-2 - 1+/negative. Molecular studies will be performed and reported separately. Ki67 approximately 20%. E-cadherin is positive confirming ductal origin of tumor cells. P63 shows staining pattern supporting the diagnosis"
+        },
+        "ER": {
+          "value": "100%, strong staining",
+          "evidence": "ER: 100%, strong staining"
+        },
+        "PR": {
+          "value": "100%, strong staining",
+          "evidence": "PR: 100%, strong staining"
+        },
+        "HER2_IHC": {
+          "value": "1+/negative",
+          "evidence": "Her-2 - 1+/negative"
+        },
+        "HER2_ISH": {
+          "value": "Negative for HER2 amplification, HER2/CEP17 ratio: 1.0, average HER2 copy number: 1.6",
+          "evidence": "NEGATIVE FOR HER2 AMPLIFICATION. HER2/CEP17 RATIO: 1.0, AVG. HER2 COPY NUMBER: 1.6"
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "0.5 cm",
+        "evidence": "2:00, 2 cm from nipple is a hypoechoic lesion measuring 0.5 cm, stable"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, 2:00, 2 cm from nipple",
+        "evidence": "2:00, 2 cm from nipple is a hypoechoic lesion measuring 0.5 cm, stable"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_8_lymph_node": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L3",
+      "feature_1_lesion_size": {
+        "value": "0.8 cm",
+        "evidence": "11:00, 2 cm from nipple there is a circumscribed nodule measuring 0.8 cm, unchanged"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 11:00, 2 cm from nipple, central breast, middle depth",
+        "evidence": "Left central breast, middle depth there is a 0.8 cm nodule, stable. 11:00, 2 cm from nipple there is a circumscribed nodule measuring 0.8 cm, unchanged"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_8_lymph_node": {
+        "value": "No suspicious axillary lymphadenopathy",
+        "evidence": "No suspicious solid masses or cysts. No suspicious axillary lymphadenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

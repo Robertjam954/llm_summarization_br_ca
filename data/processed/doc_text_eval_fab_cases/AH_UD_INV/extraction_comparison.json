@@ -1,0 +1,80 @@
+[
+  {
+    "case_id": "CASE_F0637C005FC2",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1209,
+    "pre_word_count": 1226,
+    "word_count_diff": 17,
+    "raw_char_count": 10302,
+    "pre_char_count": 10864,
+    "raw_snippet": "[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                          Connect - Test Details   SURGICAL PATHOLOGY Collected on Sep 08, 2025 4:05 PM  Important Information About Your Test Results ▼  Results ",
+    "pre_snippet": "[REDACTED] 12:40 PM                                                Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                                Connect - Test Details   SURGICAL PATHOLOGY Collected on Sep 08, 2025 4:05 PM  Important Information About Your Test Re"
+  },
+  {
+    "case_id": "CASE_5A290308EC6F",
+    "original_filename": "Path_Internal_reivew.pdf",
+    "raw_word_count": 607,
+    "pre_word_count": 604,
+    "word_count_diff": -3,
+    "raw_char_count": 4642,
+    "pre_char_count": 4947,
+    "raw_snippet": "[REDACTED] 12:42 PM                                Day, Ursula [REDACTED]  Surgical Pathology Submitted Slides Order: S25-077858                    Order: [REDACTED]  Collected [REDACTED] 00:00   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (not seen)  Component C",
+    "pre_snippet": "[REDACTED] 12:42 PM                                        Day, Ursula [REDACTED]  Surgical Pathology Submitted Slides Order: S25-077858                    Order: [REDACTED]  Collected [REDACTED] 00:00   Status: Final result   Dx: Encounter for consultation  Test Result Released: Yes (not seen)  Com"
+  },
+  {
+    "case_id": "CASE_157DB94F00AF",
+    "original_filename": "Imaging_External1.pdf",
+    "raw_word_count": 661,
+    "pre_word_count": 651,
+    "word_count_diff": -10,
+    "raw_char_count": 5611,
+    "pre_char_count": 5466,
+    "raw_snippet": "[REDACTED] 12:38 PM                                Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:07 PM                                         Connect - Test Details   US-Guided Breast Core Biopsy - Left  Important Information About Your Test Results ⌄  Results  Addendum    EXAM:    P",
+    "pre_snippet": "12:38 PM                                                    Day, Ursula (MR # 39095007)  Media Information  5:07 PM                                                               Connect - Test Details   US-Guided Breast Core Biopsy - Left  Important Information About Your Test Results ▼  Results  Ad"
+  },
+  {
+    "case_id": "CASE_2697D6FC6201",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 663,
+    "pre_word_count": 664,
+    "word_count_diff": 1,
+    "raw_char_count": 5753,
+    "pre_char_count": 5396,
+    "raw_snippet": "[REDACTED] 12:39 PM                                Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                Connect - Test Details   MAMMOGRAPHY FOLLOWING CLIP PLACEMENT - LEFT  Important Information About Your Test Results ▼  Results     Addendum         EXA",
+    "pre_snippet": "[REDACTED] 12:39 PM                                    Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                               Connect - Test Details   MAMMOGRAPHY FOLLOWING CLIP PLACEMENT - LEFT  Important Information About Your Test Results ⌄  Results  Adde"
+  },
+  {
+    "case_id": "CASE_9D471F127204",
+    "original_filename": "Imaging_External4.pdf",
+    "raw_word_count": 410,
+    "pre_word_count": 409,
+    "word_count_diff": -1,
+    "raw_char_count": 3602,
+    "pre_char_count": 3387,
+    "raw_snippet": "[REDACTED] 12:41 PM                                Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:10 PM                                          Connect - Test Details   Mammogram Screening Digital with Tomosynthesis -  Bilateral  Important Information About Your Test Results ✓  Result",
+    "pre_snippet": "[REDACTED] 12:41 PM                                    Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:10 PM                                               Connect - Test Details   Mammogram Screening Digital with Tomosynthesis - Bilateral  Important Information About Your Test Results ⌄"
+  },
+  {
+    "case_id": "CASE_F92DD1EF27A9",
+    "original_filename": "Imaging_Internal_review.pdf",
+    "raw_word_count": 697,
+    "pre_word_count": 699,
+    "word_count_diff": 2,
+    "raw_char_count": 6059,
+    "pre_char_count": 6483,
+    "raw_snippet": "[REDACTED] 12:42 PM                                Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN US BREAST UNI Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN US BREAST UNI  Study Result Narrative & Impression ACCESSION#(s): A000244944, A000244938, A00",
+    "pre_snippet": "[REDACTED] 12:42 PM                                    Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED]  FOREIGN US BREAST UNI Status: Final result  PACS Images (Link Unavailable) Show images for FOREIGN US BREAST UNI  Study Result Narrative & Impression ACCESSION#(s): A000244944, A000244938,"
+  },
+  {
+    "case_id": "CASE_F0637C005FC2",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 1209,
+    "pre_word_count": 1226,
+    "word_count_diff": 17,
+    "raw_char_count": 10302,
+    "pre_char_count": 10864,
+    "raw_snippet": "[REDACTED] 12:40 PM                                     Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                          Connect - Test Details   SURGICAL PATHOLOGY Collected on Sep 08, 2025 4:05 PM  Important Information About Your Test Results ▼  Results ",
+    "pre_snippet": "[REDACTED] 12:40 PM                                                Day, Ursula (MR # 39095007)  Media Information  [REDACTED] 5:08 PM                                                Connect - Test Details   SURGICAL PATHOLOGY Collected on Sep 08, 2025 4:05 PM  Important Information About Your Test Re"
+  }
+]}
+]

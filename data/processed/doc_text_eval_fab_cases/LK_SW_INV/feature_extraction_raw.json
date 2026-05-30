@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.7 cm",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth, best appreciated on the MLO view, is a 0.7 cm spiculated mass"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, posterior depth, 10:00, 10 cm from nipple",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth... Hypoechoic mass at the 10:00 axis, 10 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Asymmetry present",
+        "evidence": "There is an asymmetry superorlarly or true lateral view at posterior depth, localizing to the lateral breast"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "0.8 x 0.7 cm heterogeneously enhancing mass",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth, is a heterogeneously enhancing mass measuring 0.8 x 0.7 cm"
+      },
+      "feature_5_extent": {
+        "value": "0.6 cm in maximal length",
+        "evidence": "Moderately differentiated invasive ductal carcinoma... measuring 0.6 cm in maximal length in this material"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Tophat clip placed, marker posterior to asymmetry by approximately 2 cm",
+        "evidence": "After assuring adequate sampling, a biopsy marker clip in the shape of a tophat was placed... A post-procedure two-view mammogram shows biopsy marker clip is posterior to the previously reported right breast mammographic asymmetry by approximately 2 cm"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Stereotactic guided biopsy recommended",
+        "evidence": "Stereotactic guided biopsy is recommended... Right breast ultrasound guided core needle biopsy should be performed"
+      },
+      "feature_8_lymph_node": {
+        "value": "No right axillary adenopathy",
+        "evidence": "Survey ultrasound of the right axilla shows normal morphology lymph nodes... No right axillary adenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided core needle biopsy and stereotactic",
+        "evidence": "Right breast ultrasound-guided core needle biopsy... stereotactic/tomographic versus MRI guided biopsy"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "0.6 cm",
+        "evidence": "Moderately differentiated invasive ductal carcinoma... measuring 0.6 cm in maximal length in this material"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Moderately differentiated invasive ductal carcinoma, tubule formation 3/3, nuclear pleomorphism 2/3, mitotic count 1/3",
+        "evidence": "Right Breast, upper outer quadrant, posterior depth: Moderately differentiated invasive ductal carcinoma (tubule formation 3/3, nuclear pleomorphism 2/3, mitotic count 1/3)"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Prognostic/predictive marker studies performed",
+          "evidence": "Prognostic/predictive marker studies are being performed"
+        },
+        "ER": {
+          "value": "POSITIVE - >90% strong intensity nuclear staining",
+          "evidence": "Estrogen receptor (ER): POSITIVE - >90% strong intensity nuclear staining"
+        },
+        "PR": {
+          "value": "POSITIVE - >90% strong intensity nuclear staining",
+          "evidence": "Progesterone receptor (PgR): POSITIVE - >90% strong intensity nuclear staining"
+        },
+        "HER2_IHC": {
+          "value": "1+/low (NEGATIVE) faint/incomplete membranous staining observed in >10% of tumor cells",
+          "evidence": "HER-2 neu score: 1+/low (NEGATIVE) (faint/incomplete membranous staining observed in >10% of tumor cells)"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

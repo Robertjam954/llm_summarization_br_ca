@@ -1,0 +1,7 @@
+run_id,model,prompt_approach,timestamp,total_correct,total_fabrications,total_misses,overall_accuracy,overall_fabrication_rate
+gpt-4o_bfop_20260529_235245,gpt-4o,bfop,2026-05-29T23:52:45.580322,0,0,0,,
+gpt-4o_2pop_20260529_235245,gpt-4o,2pop,2026-05-29T23:52:45.649215,0,0,0,,
+gpt-4o-mini_bfop_20260529_235245,gpt-4o-mini,bfop,2026-05-29T23:52:45.716986,0,0,0,,
+gpt-4o-mini_2pop_20260529_235245,gpt-4o-mini,2pop,2026-05-29T23:52:45.777886,0,0,0,,
+claude-3-5-sonnet-20241022_bfop_20260529_235245,claude-3-5-sonnet-20241022,bfop,2026-05-29T23:52:45.851620,0,0,0,,
+claude-3-5-sonnet-20241022_2pop_20260529_235245,claude-3-5-sonnet-20241022,2pop,2026-05-29T23:52:45.912773,0,0,0,,

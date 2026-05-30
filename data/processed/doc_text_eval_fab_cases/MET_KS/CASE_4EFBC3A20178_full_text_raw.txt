@@ -1,0 +1,101 @@
+From: [REDACTED]     Page: 5/7     Date: [REDACTED] 12:11:52 PM
+
+NewYork-Presbyterian
+Queens                                    NewYork-Presbyterian
+                                         Diagnostic Laboratories
+                                         56-45 Main Street
+                                         Flushing, NY [REDACTED]
+                                         William H. Rodgers, PHD, MD
+                                         Director of Clinical Laboratory
+                                         Tel: [REDACTED]  Fax: 718-661-7747
+
+Specimen Date: [REDACTED]    Surgical Pathology Report with Addendum
+In Lab Date:   [REDACTED]                                        [REDACTED]
+Report Date:   [REDACTED]
+Patient:       [REDACTED]                    [REDACTED] [REDACTED] [REDACTED]
+               50-35 175TH PLACE             44-01 Francis Lewis Blvd.
+               FRESH MEADOWS, NY [REDACTED]   Bayside, NY [REDACTED]
+NYP [REDACTED]                              [REDACTED]
+
+Encounter #:    324109209                    Location:     NYPQ LAB OUTREACH
+DOB-Age- Sex:   [REDACTED] - 71 - F         Copy To:      Wong Lap Koon, MD
+
+CLINICAL INFORMATION:
+Left breast 10:00 2cmin. t/o cancer
+
+DIAGNOSIS:
+1. Breast, left, 10:00 2 cmfn, core biopsy:
+   Invasive ductal carcinoma, with calcifications.
+   The invasive carcinoma is moderately differentiated,
+   and spans 0.7 cm in greatest dimension.
+   The results of ER, PR, HER2, and Ki-67 testing will follow.
+
+Note: An E-cadherin immunostain was used in the workup of this specimen.
+
+GROSS DESCRIPTION:
+1. Received in formalin, the specimen is labeled "Left breast 10:00 2cmfn" and consists of five cores of yellow-white tissue ranging
+from 0.8 cm to 2.1 cm. The specimen was collected and placed in formalin at 10:00 a.m. on [REDACTED] and placed into the tissue
+processor at 10:00 p.m. on [REDACTED] ES 2C.
+
+                                         ***Electronically Signed***
+                                              Esther Cheng, D.O.
+
+The attending pathologist [REDACTED] the diagnostic slides,
+and has edited the gross and microscopic portions of the report in rendering the final diagnosis.
+
+Addendum - Queens
+Date Ordered: [REDACTED]
+Date Reported: [REDACTED]
+
+Addendum Diagnosis
+
+SHIH, LI J.
+
+OP Marker                               Printed: 11/[REDACTED] 12:00                    Page 1 of 2
+
+This fax was received by GFI FaxMaker fax server. For more information, visit: http://www.gfi.com
+
+From: [REDACTED]     Page: 6/7     Date: [REDACTED] 12:11:52 PM
+
+SHIH, LI J.                           Surgical Pathology Report                    [REDACTED]
+
+Specimen: Left breast (invasive ca)
+Block: 1A
+
+                         RESULTS OF ANCILLARY IMMUNOPATHOLOGY STUDIES
+
+                         PERCENTAGE OF POSITIVE CELLS         STAINING INTENSITY
+
+ESTROGEN RECEPTOR:                      ~70%                         STRONG
+
+PROGESTERONE RECEPTOR:                  10-15%                       STRONG
+
+PROLIFERATION INDEX (Ki-67):            30%
+
+HER2:                                   1+
+
+INTERPRETATION: Since ≥1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN 
+RECEPTOR POSITIVE. Since ≥1% of tumor cell nuclei express progesterone receptors, this tumor is considered to be 
+PROGESTERONE RECEPTOR POSITIVE. HER2: Incomplete membrane staining that is faint-barely perceptible and within 
+>10% of invasive tumor cells. Thus, this result indicates NEGATIVE HER2 by immunohistochemistry.
+
+ER, PgR, HER2 and Ki-67 immunohistochemistry was performed on tissue block 1A. IHC staining delivered formalin for at least 6 hours, up to a maximum of 72 
+hours using the Ventana SP2 antibody clone for ER, the Ventana/L25 antibody clone for PgR, the Ventana 4B5 antibody clone for HER2-neu and the Ventana 30-9 
+antibody clone for Ki-67. Cold ischemic times were kept within specified tolerances version of the ASCO/CAP guidelines. Antibody performance was initially 
+validated by NYP-Q and is periodically verified. Interpretation of these antibodies is based on current CAP/ASCO scoring criteria.
+
+                                                                    Esther Cheng, D.O.
+
+Billing Codes: I; 88342_Q, 88360_Q, 88360_Q, 88360_Q, 88360_Q, 88305_Q     (Epic Private Ambulatory)
+
+All controls for immunohistochemistry, histochemistry, histology, and cytology show appropriate reactivity. These tests were developed and 
+their performance characteristics determined by NYP-Q. Modified procedures such as decalcification, alcohol fixation, air dried smears 
+and frozen sections are subject to variation from the standard formalin fixed paraffin embedded specimen. They have not been cleared or 
+approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. These tests 
+are used for clinical purposes. They should not be regarded as investigational or research.
+
+                                                                                                Page 2 of 2
+SHIH, LI J.                                      Printed: [REDACTED] 12:00
+OP Marker
+END OF REPORT
+         This fax was received by GFI FaxMaker fax server. For more information, visit: http://www.gfi.com

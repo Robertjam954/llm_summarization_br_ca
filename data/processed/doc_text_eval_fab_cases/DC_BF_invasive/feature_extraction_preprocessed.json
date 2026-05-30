@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.3 x 0.4 x 0.4 cm",
+        "evidence": "irregular shadowing hypervascular hypoechoic mass in the 7:00 periareolar left breast measuring 0.3 x 0.4 x 0.4 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 7:00 periareolar, lower inner periareolar anterior depth",
+        "evidence": "Within the lower inner periareolar anterior depth left breast there is an irregular high dense spiculated mass; irregular shadowing hypervascular hypoechoic mass in the 7:00 periareolar left breast"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Ribbon shape marker accurately positioned in the expected location",
+        "evidence": "BIOPSY MARKER: Ribbon shape; Marker position: Biopsy marker accurately positioned in the expected location"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided breast biopsy- Left; Surgical consultation Left",
+        "evidence": "Ultrasound-guided breast biopsy- Left; RECOMMENDED FOLLOW-UP: Surgical consultation Left"
+      },
+      "feature_8_lymph_node": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided core needle biopsy",
+        "evidence": "EXAM: DIAGNOSTIC ULTRASOUND-GUIDED CORE NEEDLE BIOPSY LEFT BREAST; BIOPSY DEVICE: Suros, vacuum-assisted 12 gauge, biopsy device"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Invasive carcinoma spans at least 3.5 mm in this material",
+        "evidence": "Invasive carcinoma spans at least 3.5 mm in this material"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive mammary carcinoma, moderately to poorly differentiated",
+        "evidence": "Invasive carcinoma type: Invasive mammary carcinoma; Differentiation: Moderately to poorly differentiated"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Positive - Tumor cells with nuclear staining: 99% % Strong intensity",
+          "evidence": "Estrogen Receptor (Clone SP1, Ventana): Positive - Tumor cells with nuclear staining: 99% % Strong intensity"
+        },
+        "PR": {
+          "value": "Negative (<1% nuclear staining)",
+          "evidence": "Progesterone Receptor (Clone 16, Leica): Negative (<1% nuclear staining)"
+        },
+        "HER2_IHC": {
+          "value": "Negative (1+)",
+          "evidence": "HER2 (4B5; Ventana): Negative (1+)"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

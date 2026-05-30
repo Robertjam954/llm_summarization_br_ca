@@ -1,0 +1,212 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "2.5 x 0.9 cm",
+        "evidence": "A circumscribed enhancing mass in the upper outer mid to posterior left breast at approximately 2:30 o'clock 11 cm from the nipple measures 2.5 x 0.9 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, upper outer mid to posterior, 2:30 o'clock, 11 cm from the nipple",
+        "evidence": "A circumscribed enhancing mass in the upper outer mid to posterior left breast at approximately 2:30 o'clock 11 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Further evaluation with MRI guided core biopsy is recommended",
+        "evidence": "Further evaluation with MRI guided core biopsy is recommended. FOLLOW-UP: Biopsy should be considered. MRI biopsy-enhancing mass identified"
+      },
+      "feature_8_lymph_node": {
+        "value": "No morphologically abnormal right axillary lymph nodes",
+        "evidence": "No morphologically abnormal right axillary lymph nodes"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "2.8 x 1.5 x 0.2 cm in aggregate",
+        "evidence": "C) Received in formalin labeled with patient's name, tan-yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 2.8 x 1.5 x 0.2 cm in aggregate"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, lateral calcifications",
+        "evidence": "Left breast, lateral calcifications, stereotactic biopsy, suros assisted"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Calcifications present in DCIS",
+        "evidence": "Left breast, lateral calcifications, stereotactic biopsy... with associated calcifications. Microcalcification: Present in DCIS"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_8_lymph_node": {
+        "value": "No morphologically abnormal right axillary lymph nodes",
+        "evidence": "No morphologically abnormal right axillary lymph nodes"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Stereotactic biopsy, suros assisted",
+        "evidence": "Left breast, lateral calcifications, stereotactic biopsy, suros assisted"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ, intermediate grade, cribriform type",
+        "evidence": "Ductal carcinoma in situ, intermediate grade, cribriform type, with associated calcifications"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Immunohistochemistry (IHC) for ER and PR was performed",
+          "evidence": "Immunohistochemistry (IHC) for ER and PR was performed at Pathline - Histopathology Services, Ramsey, NJ, and interpreted at Montefiore Nyack Hospital, Nyack, NY"
+        },
+        "ER": {
+          "value": "Positive (98%, strong)",
+          "evidence": "Estrogen Receptor (ER): Positive( 98%, strong)"
+        },
+        "PR": {
+          "value": "Positive (100%, strong)",
+          "evidence": "Progesterone Receptor (PR): Positive( 100%, strong)"
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L3",
+      "feature_1_lesion_size": {
+        "value": "1.8 x 1.5 x 0.2 cm in aggregate",
+        "evidence": "D) Received in formalin labeled with patient's name, tan-yellow to white irregular to cylindrical fragments of fibrofatty soft tissue cores measuring 1.8 x 1.5 x 0.2 cm in aggregate"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, lateral tissue",
+        "evidence": "Left breast, lateral tissue, stereotactic biopsy, suros assisted"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Fibrocystic changes with calcifications",
+        "evidence": "Fibrocystic changes with calcifications"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_8_lymph_node": {
+        "value": "No morphologically abnormal right axillary lymph nodes",
+        "evidence": "No morphologically abnormal right axillary lymph nodes"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Stereotactic biopsy, suros assisted",
+        "evidence": "Left breast, lateral tissue, stereotactic biopsy, suros assisted"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ, intermediate grade, cribriform type",
+        "evidence": "Ductal carcinoma in situ, intermediate grade, cribriform type"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

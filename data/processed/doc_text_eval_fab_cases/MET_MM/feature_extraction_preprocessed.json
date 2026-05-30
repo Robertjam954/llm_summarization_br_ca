@@ -1,0 +1,143 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "4 cm",
+        "evidence": "There is a band of innumerable soft tissue densities over a distance of at least 4 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast upper-outer quadrant, posterior depth, 1-2:00 axis, 4 cm superior and 7 cm lateral to the nipple line",
+        "evidence": "upper-outer quadrant of the left breast; 1-2:00 axis left breast; posterior depth; 4 cm superior and 7 cm lateral to the nipple line"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Pleomorphic calcifications, segmental distributed, 3.7 cm",
+        "evidence": "The calcifications are pleomorphic and highly suspicious; 3.7 cm segmental distributed pleomorphic calcifications"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "3:00 axis focal nonmass enhancement measures 1.4 x 0.5 x 0.7 cm, concerning for additional disease",
+        "evidence": "3:00 axis, posterior depth, located 0.6 cm anteroinferior to the proven malignancy, additional focal nonmass enhancement measures 1.4 x 0.5 x 0.7 cm, concerning for additional disease"
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, top hat shaped marker at anterior aspect and hourglass shaped marker at posterior aspect",
+        "evidence": "A top hat shaped Eviva biopsy clip was deployed at the biopsy site; A hourglass shaped Eviva biopsy clip was deployed at the biopsy site; Postprocedure mammogram demonstrates placement of a top hat shaped marker at the anterior aspect and hourglass shaped marker at the posterior aspect of the calcifications"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Contrast-enhanced breast MRI is recommended to evaluate the extent of disease. Breast surgery consultation is recommended for further management. MRI guided biopsy of posterior left breast 3:00 axis focal nonmass enhancement",
+        "evidence": "Contrast-enhanced breast MRI is recommended to evaluate the extent of disease. Breast surgery consultation is recommended for further management; MRI guided biopsy of posterior left breast 3:00 axis focal nonmass enhancement"
+      },
+      "feature_8_lymph_node": {
+        "value": "Benign-appearing lymph nodes project over the axillary region bilaterally",
+        "evidence": "Benign-appearing lymph nodes project over the axillary region"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Stereotactic core needle biopsy using 9-gauge EVIVA vacuum-assisted breast biopsy standard needle",
+        "evidence": "Biopsy was performed using a 9-gauge EVIVA vacuum-assisted breast biopsy standard needle"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Ductal carcinoma in situ, intermediate to high nuclear grade, solid increased perforated patterns with necrosis and calcifications",
+        "evidence": "Ductal carcinoma in situ, intermediate to high nuclear grade, solid increased perforated patterns with necrosis and calcifications"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "1.0 cm",
+        "evidence": "1.0 cm oval circumscribed mass"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast inner quadrant, mid depth, 9:00 axis 2 cm from nipple",
+        "evidence": "Inner quadrant, mid depth; 9:00 axis 2 cm from nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_8_lymph_node": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_10_biopsy_method": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Benign, stable, characterized as a fibroadenoma",
+        "evidence": "Stable left breast nodule, previously characterized as a fibroadenoma; benign and stable compared to prior examinations dating back to June 10, 2022"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

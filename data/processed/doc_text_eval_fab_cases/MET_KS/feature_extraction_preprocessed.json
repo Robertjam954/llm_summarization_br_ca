@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.7 cm",
+        "evidence": "Left upper central breast, posterior depth there is a persistent irregular mass measuring 0.7 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 10:00, 2 cm from nipple, upper central breast, posterior depth",
+        "evidence": "10:00, 2 cm from nipple there is an ill-defined mass; Left upper central breast, posterior depth"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Invasive ductal carcinoma, with calcifications",
+        "evidence": "Invasive ductal carcinoma, with calcifications"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "spans 0.7 cm in greatest dimension",
+        "evidence": "spans 0.7 cm in greatest dimension"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, ribbon tissue marker placed at biopsy site",
+        "evidence": "A ribbon tissue marker was then deployed at the biopsy site. The ribbon biopsy marker corresponds to the irregular mammographic mass, confirming correlation"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consultation. Surgery consultation/excision and appropriate medical management is recommended. Pre and postcontrast breast MRI can be considered to evaluate for extent of disease",
+        "evidence": "Recommendation: Surgical consultation. Surgery consultation/excision and appropriate medical management is recommended for the left 10:00 (ribbon clip) biopsy-proven invasive ductal carcinoma. Pre and postcontrast breast MRI can be considered to evaluate for extent of disease"
+      },
+      "feature_8_lymph_node": {
+        "value": "No axillary lymphadenopathy",
+        "evidence": "No axillary lymphadenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound guided core biopsy using a 14 gauge spring loaded core biopsy needle device",
+        "evidence": "The mass was biopsied using a lateral approach; ultrasound guidance and a 14 gauge spring loaded core biopsy needle device. 8 tissue samples were obtained"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "0.7 cm",
+        "evidence": "spans 0.7 cm in greatest dimension"
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma, with calcifications. The invasive carcinoma is moderately differentiated",
+        "evidence": "Invasive ductal carcinoma, with calcifications. The invasive carcinoma is moderately differentiated, and spans 0.7 cm in greatest dimension"
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PR, HER2, and Ki-67 testing",
+          "evidence": "The results of ER, PR, HER2, and Ki-67 testing will follow"
+        },
+        "ER": {
+          "value": "POSITIVE, ~70%, STRONG intensity",
+          "evidence": "ESTROGEN RECEPTOR: ~70% STRONG; Since ≥1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN RECEPTOR POSITIVE"
+        },
+        "PR": {
+          "value": "POSITIVE, 10-15%, STRONG intensity",
+          "evidence": "PROGESTERONE RECEPTOR: 10-15% STRONG; Since <1% of tumor cell nuclei express progesterone receptors, this tumor is considered to be PROGESTERONE RECEPTOR POSITIVE"
+        },
+        "HER2_IHC": {
+          "value": "NEGATIVE, 1+",
+          "evidence": "HER2: 1+; HER2: Incomplete membrane staining that is faint/barely perceptible and within >10% of invasive tumor cells. Thus, this result indicates NEGATIVE HER2 by immunohistochemistry"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

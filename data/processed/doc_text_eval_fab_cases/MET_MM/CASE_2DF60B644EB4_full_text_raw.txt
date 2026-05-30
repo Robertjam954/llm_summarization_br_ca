@@ -1,0 +1,84 @@
+[REDACTED] 8:02 AM                                                           Marino, Marlene [REDACTED]
+
+OCHIN                                                                                   Outside Information
+
+Results                                                          HISTORIC MAMMOGRAM (Order [REDACTED])
+
+ⓘ Information displayed in this report may not trend or trigger automated decision support.
+
+HISTORIC MAMMOGRAM                                                              Order: [REDACTED]
+
+Narrative
+
+Patient: [REDACTED]
+ID: [REDACTED]
+Note: All result statuses are Final unless otherwise noted.
+
+Tests: (1) MAMMO BILATERAL SC W/ TOMO (77067T)
+MAMMOGRAM    Result Below...  20250824000000
+RESULT: BI-RADs 0 - Incomplete
+
+
+PROCEDURE: BILATERAL DIGITAL MAMMOGRAM WITH TOMOSYNTHESIS
+
+COMPARISON: US, BREAST ULTRASOUND (LEFT), [REDACTED]
+MG, MAMMO BILATERAL SC W/ TOMO, [REDACTED]
+MG, MAMMO BILATERAL SC W/ TOMO, [REDACTED]
+
+INDICATIONS: Screening. Family history of breast cancer in maternal cousin.
+
+LAST CLINICAL BREAST EXAM: [REDACTED]
+
+TECHNIQUE: Digital CC and MLO views of both breasts with tomosynthesis are submitted for review. The study is
+interpreted with the use and aid of computer assisted diagnosis (CAD).
+
+BREAST COMPOSITION: The breasts are heterogeneously dense, which may obscure small masses.
+
+FINDINGS:
+There is a new group of microcalcifications in the posterior upper-outer quadrant of the left breast spanning
+approximately 2.5 cm (3.5 cm superior to the nipple line, 6.5 cm lateral to the nipple line). A 1 cm nodule in the
+lower inner quadrant of the left breast is stable. The overlying skin and axillary tissue are within normal limits.
+
+CONCLUSION:
+1. New group of microcalcifications in the posterior upper-outer quadrant the left breast. Recommend
+magnification ML and exaggerated lateral CC views for further evaluation.
+2. Stable left breast nodule, previously characterized as a fibroadenoma.
+
+Dense breasts may obscure an underlying neoplasm. As required by New York state law, the patient [REDACTED]
+informed of her dense breasts for the mammogram in writing.
+
+RECOMMENDATIONS:
+BI-RADS#0 - Need Additional Imaging Evaluation: Additional mammographic views required: LEFT BREAST
+
+
+Marino, Marlene [REDACTED] at [REDACTED] 8:02 AM                                                    1/2
+
+[REDACTED] 8:02 AM                                                           Marino, Marlene [REDACTED]
+
+
+Dictated and Approved by: Heather Osborne, M.D. on [REDACTED]
+
+
+
+Note: An exclamation mark (!) indicates a result that was not dispersed into the flowsheet.
+Document Creation Date: [REDACTED] 5:01 PM
+
+(1) Order result status: Final
+Collection or observation date-time: [REDACTED] 15:44
+Requested date-time:
+Receipt date-time:
+Reported date-time: [REDACTED] 16:56:24
+Referring Physician:
+Ordering Physician: [REDACTED]
+Specimen Source:
+Source: CPAI
+Filler Order Number: [REDACTED]
+Lab site: CP Advanced Imaging
+Exam End: —                                                Last Resulted: [REDACTED] 15:44
+Received From: OCHIN ⟲                                     Result Received: [REDACTED] 15:37
+                                                                            ⟲ Received Information
+
+
+
+
+Marino, Marlene [REDACTED] at [REDACTED] 8:02 AM                                                    2/2

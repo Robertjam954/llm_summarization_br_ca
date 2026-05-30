@@ -1,0 +1,150 @@
+[REDACTED] 1:10 PM                                    Faccidomo, Bonela [REDACTED]
+
+BI MAMMO TOMO SCREENING BILAT
+Status: Edited Result - FINAL
+
+PACS Images
+    (Link Unavailable) Show images for BI MAMMO TOMO SCREENING BILAT
+
+Study Result
+    Narrative & Impression
+    [REDACTED] Bilateral mammogram with tomosynthesis
+    CLINICAL STATEMENT: Annual screening mammogram. Right breast conservation in 2020.
+    TECHNIQUE: Tomosynthesis views of both breasts were obtained at 1-mm increments.
+    COMPARISON(S): August 23, 2023 and additional prior mammograms dating back to 2020
+    FINDINGS:
+    BREAST(S): There are scattered areas of fibroglandular density
+    No [REDACTED] breast. There has been no [REDACTED]
+    change since the prior study.
+    LAST CLINICAL EXAM: 2024
+    IMPRESSION:
+    No [REDACTED]
+    BI-RADS 2-Benign.
+    Routine annual mammography recommended.
+
+Result History
+    BI MAMMO TOMO SCREENING BILAT (Order [REDACTED] on [REDACTED] - Order Result History Report
+
+Supplies
+                                                                                          Charge
+    Name                   ■   [REDACTED]             [REDACTED]           [REDACTED]    [REDACTED]
+    No [REDACTED]
+
+⚡ Implants
+    No [REDACTED]
+
+Supplies
+                                                                                          Charge
+    Name                   ■   [REDACTED]             [REDACTED]           [REDACTED]    [REDACTED]
+    No [REDACTED]
+
+Breast Imaging Recommendations - Order                                        Faccidomo, Bonnie
+
+    Routine annual screening mammography - Bilateral (Status: Resolved, Due: [REDACTED]
+    Overall Assessment: 2 - Benign  Reading Physician: Tali Amir, MD
+    Performed Procedures: BI MAMMO TOMO SCREENING BILAT (Accession #: [REDACTED]
+    Performing Departments: MSKCC MON
+    No [REDACTED]
+
+    Resolving appointments and orders
+                    Appt
+    Appt Date      Department    Appt Status    Visit Type         Procedure           Study Status
+    [REDACTED]     MON BRE IMG   Completed      BI MAMMO          BI MAMMO TOMO       Final
+    12:20 PM                                    SCREEN TOMO       DIAGNOSTIC BILAT
+                                               BILAT
+    [REDACTED] 1:00 MON BRE IMG  Canceled       BI MAMMO          BI MAMMO TOMO       Final
+    PM                                         SCREEN TOMO       DIAGNOSTIC BILAT
+                                               BILAT
+
+    Result Letters
+
+Faccidomo, Bonnie [REDACTED] 1:10 PM                                                   1/3
+
+[REDACTED] 1:10 PM                                    Faccidomo, Bonela [REDACTED]
+
+Result letter on [REDACTED]
+
+Mammography Recommendations
+    Recommendation      Side          Entered By                                    Due
+    Routine annual     Bilateral     Interface, Ge Ris Mammography Data (Mqsa) Conversion In  Resolved
+    screening
+    mammography
+
+    Reading Physician                                              Reading Date
+    Tali Amir, MD                                                 [REDACTED]
+    [REDACTED]
+
+Signed by
+    Signed                          Time              Phone          Pager
+    Tali Amir, MD                   [REDACTED] 13:46
+
+Exam Information
+    Status                          Exam Begun                     Exam Ended
+    Final                          [REDACTED] 14:01               [REDACTED] 14:21
+
+External Results Report                            Encounter
+    There is an external results report available.         View Encounter
+
+Total Sedation Time
+
+✓ Follow-Ups
+    No [REDACTED]
+    Recommendation      Procedure         Ordered           Performed         Authorizing
+    Routine annual     📱 BI MAMMO       [REDACTED]        [REDACTED]        Brendan J Mulholland
+    screening          TOMO DIAGNOSTIC
+    mammography        BILAT
+
+BI MAMMO TOMO SCREENING BILAT                                        Order: [REDACTED]
+
+Status: Edited Result - FINAL  Next appt: None
+
+Test Result Released: No [REDACTED]
+
+    Assessment
+    Overall                         Left                    Right
+    2 - Benign                     2 - Benign              2 - Benign
+
+    Breast Density
+    Breast Composition    Overall                Left                    Right
+                         b - Scattered          b - Scattered          b - Scattered fibroglandular
+                         fibroglandular density fibroglandular density  density
+
+    Details
+        Reading Physician           [REDACTED]           Result Priority
+        Tali Amir, MD              [REDACTED]
+        [REDACTED]
+
+        Physician [REDACTED] [REDACTED]
+        Tali Amir, MD                            Signed
+
+Faccidomo, Bonnie [REDACTED] 1:10 PM                                                   2/3
+
+[REDACTED] 1:10 PM                                    Faccidomo, Bonela [REDACTED]
+
+Narrative & Impression
+    [REDACTED] Bilateral mammogram with tomosynthesis
+    CLINICAL STATEMENT: Annual screening mammogram. Right breast conservation in 2020.
+    TECHNIQUE: Tomosynthesis views of both breasts were obtained at 1-mm increments.
+    COMPARISON(S): August 23, 2023 and additional prior mammograms dating back to 2020
+    FINDINGS:
+    BREAST(S): There are scattered areas of fibroglandular density
+    No [REDACTED] breast. There has been no [REDACTED]
+    change since the prior study.
+    LAST CLINICAL EXAM: 2024
+    IMPRESSION:
+    No [REDACTED]
+    BI-RADS 2-Benign.
+    Routine annual mammography recommended.
+
+Exam Ended: [REDACTED] 14:21                         Last Resulted: [REDACTED] 13:46
+
+📱 Order Details  🔍 View Encounter  🧪 Lab and Collection Details  📋 Routing  🔄 Result History
+
+Result Care Coordination
+    👤 Patient [REDACTED]
+    📤 Released                                       ❌ Not seen
+
+Study Details
+    Open Study Details
+
+Faccidomo, Bonnie [REDACTED] 1:10 PM                                                   3/3

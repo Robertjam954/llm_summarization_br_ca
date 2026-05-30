@@ -1,0 +1,241 @@
+[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+US BREAST DIAGNOSTIC BILAT
+Status: Final result
+
+PACS Images
+    (Link Unavailable) Show images for US BREAST DIAGNOSTIC BILAT
+
+Related Results
+⚠ SURGICAL PATHOLOGY ORDER Edited Result - FINAL                                [REDACTED]
+
+Final Diagnosis
+1. Breast, Left; us left breast biopsy 7:00 periareolar; US BREAST
+CORE BIOPSY LEFT:
+    Invasive carcinoma type
+        Invasive mammary carcinoma
+    Tumor size
+        Invasive carcinoma spans at least 3.5 mm in this material
+    Differentiation
+        Moderately to poorly differentiated
+    Results of immunohistochemical studies
+        Will be reported in an addendum
+
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL
+EXAMINATION OF THE SLIDES (AND/OR OTHER MATERIAL), AND THAT I
+HAVE REVIEWED AND APPROVED THE REPORT.
+
+DILIP D GIRI, MD
+
+Study Result
+Narrative & Impression
+ACCESSION#(s): [REDACTED] [REDACTED]
+
+DATE: [REDACTED]
+
+EXAM: BILATERAL DIAGNOSTIC MAMMOGRAM. Limited bilateral ultrasound.
+
+CLINICAL HISTORY: Annual mammogram. Status post right conservation surgery.
+
+TECHNIQUE: Mammographic examination was performed using full breast digital technique. Limited bilateral
+ultrasound.
+
+COMPARISON(S): 2024 dating back to 2020
+
+LAST CLINICAL BREAST EXAM: Within the past year
+
+BREAST DENSITY: Scattered areas of fibroglandular density.
+
+FINDINGS:
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] asymmetry in the outer middle depth right breast
+resolves with spot compression imaging. Limited same day right breast ultrasound demonstrate normal fibroglandular
+tissue in the outer right breast.
+
+Within the lower inner periareolar anterior depth left breast there is an irregular high dense spiculated mass with
+associated overlying skin retraction. Limited same day left breast ultrasound demonstrates an irregular shadowing
+hypervascular hypoechoic mass in the 7:00 periareolar left breast measuring 0.3 x 0.4 x 0.4 cm. This corresponds to
+mammographic abnormality.
+
+IMPRESSION:
+
+Faccidomo, Bonnie [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 1:14 PM                1/5
+
+[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Left breast mass. Ultrasound-guided biopsy recommended.
+
+BI-RADS 4 - Suspicious
+
+RECOMMENDATION(S):
+Ultrasound-guided breast biopsy- Left
+
+
+Electronically Signed By: NICOLE SAPHIER MD on [REDACTED] 1:22 PM
+
+Result History
+    US BREAST DIAGNOSTIC BILAT (Order [REDACTED] on [REDACTED] - Order Result History Report
+
+Supplies
+                                                                                Charge
+Name                    ■   [REDACTED] [REDACTED]      [REDACTED] [REDACTED]   [REDACTED]    Quantity
+No [REDACTED] [REDACTED]
+
+⌘ Implants
+No [REDACTED] [REDACTED]
+
+Supplies
+                                                                                Charge
+Name                    ■   [REDACTED] [REDACTED]      [REDACTED] [REDACTED]   [REDACTED]    Quantity
+No [REDACTED] [REDACTED]
+
+Breast Imaging Recommendations - Order                                         Faccidomo, Bonnie
+
+    Ultrasound-guided breast biopsy - Left (Status: Resolved, Due: [REDACTED])
+    Overall Assessment: 4 - Suspicious Reading Physicians: Nicole Berardoni Saphier, MD
+    Performed Procedures: US BREAST DIAGNOSTIC BILAT (Accession #: [REDACTED] [REDACTED])
+    Performing Departments: MON US
+    No [REDACTED]
+        Resolving appointments and orders
+                        Appt
+        Appt Date       Department      Appt Status     Visit Type         Procedure                Study Status
+        [REDACTED]      MON US         Completed       US BRST CORE      US BREAST CORE BIOPSY LEFT Final
+        1:30 PM                                        BX LEFT
+
+        Result Letters
+        Created by SAPHIER, NICOLE BERARDONI on [REDACTED]
+
+Mammography Recommendations
+    Recommendation          Side                        Entered By                      Due
+    Ultrasound-guided breast    Left                   Interface, Radiology Results In  Resolved
+    biopsy
+
+    Reading Physician                                   [REDACTED] [REDACTED]
+    Nicole Berardoni Saphier, MD                       [REDACTED]
+    [REDACTED]
+
+Faccidomo, Bonnie [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 1:14 PM                2/5
+
+[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Signed by
+    Signed                              Time                    Phone           Pager
+    Nicole Berardoni Saphier, MD        [REDACTED] 13:22       [REDACTED]
+
+Exam Information
+    Status                              Exam Begun              Exam Ended
+    Final                               [REDACTED] 12:40       [REDACTED] 13:03
+
+External Results Report               Encounter
+    There is an external results report available.              View Encounter
+
+Total Sedation Time
+
+✓ Follow-Ups
+    No [REDACTED] [REDACTED] [REDACTED]
+    Recommendation      Procedure        Ordered         Performed       Authorizing
+    Ultrasound-guided   🔰 US BREAST CORE [REDACTED]    [REDACTED]      Brendan J Mulholland
+    breast biopsy       BIOPSY LEFT
+
+⚠ US BREAST DIAGNOSTIC BILAT                                               Order: [REDACTED]
+
+Status: Final result  Next appt: None  Dx: Encounter for screening, unspecified
+
+Test Result Released: No [REDACTED] [REDACTED] [REDACTED]
+
+    Assessment
+    Overall
+    4 - Suspicious
+
+    Breast Density
+
+    Breast Composition                   Overall
+                                        b - Scattered fibroglandular density
+
+    Details
+        Reading Physician               [REDACTED] [REDACTED]     [REDACTED]
+        Nicole Berardoni Saphier, MD    [REDACTED]               Routine
+
+        Physician [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+        Nicole Berardoni Saphier, MD                            Signed
+
+    Narrative & Impression
+    ACCESSION#(s): [REDACTED] [REDACTED]
+
+    DATE: [REDACTED]
+
+    EXAM: BILATERAL DIAGNOSTIC MAMMOGRAM. Limited bilateral ultrasound.
+
+    CLINICAL HISTORY: Annual mammogram. Status post right conservation surgery.
+
+    TECHNIQUE: Mammographic examination was performed using full breast digital technique. Limited bilateral
+    ultrasound.
+
+    COMPARISON(S): 2024 dating back to 2020
+
+    LAST CLINICAL BREAST EXAM: Within the past year
+
+Faccidomo, Bonnie [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 1:14 PM                3/5
+
+[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+    BREAST DENSITY: Scattered areas of fibroglandular density.
+
+    FINDINGS:
+    No [REDACTED] [REDACTED] [REDACTED] [REDACTED] asymmetry in the outer middle depth right breast
+    resolves with spot compression imaging. Limited same day right breast ultrasound demonstrate normal
+    fibroglandular tissue in the outer right breast.
+
+    Within the lower inner periareolar anterior depth left breast there is an irregular high dense spiculated mass with
+    associated overlying skin retraction. Limited same day left breast ultrasound demonstrates an irregular
+    shadowing hypervascular hypoechoic mass in the 7:00 periareolar left breast measuring 0.3 x 0.4 x 0.4 cm. This
+    corresponds to mammographic abnormality.
+
+    IMPRESSION:
+    Left breast mass. Ultrasound-guided biopsy recommended.
+
+    BI-RADS 4 - Suspicious
+
+    RECOMMENDATION(S):
+    Ultrasound-guided breast biopsy- Left
+
+
+Electronically Signed By: NICOLE SAPHIER MD on [REDACTED] 1:22 PM
+
+Exam Ended: [REDACTED] 13:03                        Last Resulted: [REDACTED] 13:22
+
+📋 Order Details 🔄 View Encounter 🧪 Lab and Collection Details 📨 Routing 📊 Result History
+
+Related Results
+⚠ SURGICAL PATHOLOGY ORDER Edited Result - FINAL                           [REDACTED]
+
+Final Diagnosis
+1. Breast, Left; us left breast biopsy 7:00 periareolar; US
+BREAST CORE BIOPSY LEFT:
+    Invasive carcinoma type
+        Invasive mammary carcinoma
+    Tumor size
+        Invasive carcinoma spans at least 3.5 mm in this material
+    Differentiation
+        Moderately to poorly differentiated
+    Results of immunohistochemical studies
+        Will be reported in an addendum
+
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY
+PERSONAL EXAMINATION OF THE SLIDES (AND/OR OTHER
+MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED THE
+REPORT.
+
+DILIP D GIRI, MD
+
+Result Care Coordination
+    👤 Patient [REDACTED]
+    📤 Released                         ❌ Not seen
+
+Faccidomo, Bonnie [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 1:14 PM                4/5
+
+[REDACTED] 1:14 PM                                     Faccidomo, Boneta [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Study Details
+    Open Study Details
+
+Faccidomo, Bonnie [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 1:14 PM                5/5

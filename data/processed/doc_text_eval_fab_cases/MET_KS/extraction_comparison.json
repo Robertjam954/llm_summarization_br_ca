@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "CASE_454841E85B01",
+    "original_filename": "dx MMG.pdf",
+    "raw_word_count": 639,
+    "pre_word_count": 618,
+    "word_count_diff": -21,
+    "raw_char_count": 5723,
+    "pre_char_count": 4868,
+    "raw_snippet": "[REDACTED] 8:51 AM                                                          Shih, Li (MR # 39111396)  Media Information  From: Main Street Radiology      To: [REDACTED]      Page: 1/2      Date: 11/12/2025 5:54:11 PM  [MAIN STREET RADIOLOGY LOGO]                               Bayside 32nd Ave       ",
+    "pre_snippet": "[REDACTED] 8:51 AM  Media Information  Shih, Li (MR # 39111396)  From: Main Street Radiology    To: [REDACTED]    Page: 1/2    Date: 11/12/2025 5:54:11 PM  MAIN STREET RADIOLOGY Tel (718) 428-1500 • Fax (718) 428-2475 www.mainstreetradiology.com  Bayside-35rd Ave. Bayside 48th Ave Downtown Flushing "
+  },
+  {
+    "case_id": "CASE_2660C0FD9C85",
+    "original_filename": "MMG.pdf",
+    "raw_word_count": 571,
+    "pre_word_count": 563,
+    "word_count_diff": -8,
+    "raw_char_count": 4865,
+    "pre_char_count": 4355,
+    "raw_snippet": "[REDACTED] 8:50 AM                                                          Shih, Li (MR # 39111396)  Media Information  From: Main Street Radiology    To: [REDACTED]    Page: 1/2    Date: 11/12/2025 5:55:46 PM  [LOGO] MAIN STREET RADIOLOGY  Tel (718) 428-1500 • Fax (718) 428-2475 www.mainstreetradi",
+    "pre_snippet": "Shih, Li (MR # 39111396)  8:50 AM  Media Information                                                      Page 1/2    Date: 11/12/2025 5:55:46 PM From: Main Street Radiology         To: [REDACTED]  [LOGO: MAIN STREET RADIOLOGY] Tel (718) 428-1500 • Fax (718) 428-2475 www.mainstreetradiology.com  Bay"
+  },
+  {
+    "case_id": "CASE_323E93C6E268",
+    "original_filename": "US bx.pdf",
+    "raw_word_count": 818,
+    "pre_word_count": 819,
+    "word_count_diff": 1,
+    "raw_char_count": 6834,
+    "pre_char_count": 6302,
+    "raw_snippet": "[REDACTED] 8:51 AM                                                           Shih, Li (MR # 39111396)  Media Information  From: Main Street Radiology    To: [REDACTED]    Page 1/2    Date: 11/12/2025 5:53:51 PM  [LOGO: MAIN STREET RADIOLOGY]                                Bayside 33rd Ave     [REDAC",
+    "pre_snippet": "8:51 AM  Media Information  Shih, Li (MR # 39111396)  From: Main Street Radiology    To: [REDACTED]    Page 1/2    Date: 11/12/2025 5:53:51 PM  MAIN STREET RADIOLOGY Tel (718) 428-1500 • Fax (718) 428-2475 www.mainstreetradiology.com  Bayside-Hts Hills           Bayside Hts Francis Lewis Blvd, Baysi"
+  }
+] Date: ■■■■■■■ In Lab Date: ■■■■■■■ Repo"
+  }
+]

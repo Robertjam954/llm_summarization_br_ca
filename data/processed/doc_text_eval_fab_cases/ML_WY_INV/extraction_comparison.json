@@ -1,0 +1,79 @@
+[
+  {
+    "case_id": "CASE_83D454335539",
+    "original_filename": "Imaging_External.pdf",
+    "raw_word_count": 700,
+    "pre_word_count": 703,
+    "word_count_diff": 3,
+    "raw_char_count": 6006,
+    "pre_char_count": 6082,
+    "raw_snippet": "[REDACTED] 10:07 PM                                    Yeh, Wen Mei-Ing (MR # 39094834)  Media Information  From: Main Street Radiology      To: AL      Page: 1/2      Date: 9/19/2025 9:18:17 AM  [LOGO: MAIN STREET RADIOLOGY]                           Bayside-Dell Ave:       53-35 Francis Lewis Blvd",
+    "pre_snippet": "[REDACTED] 10:07 PM                                                    Yeh, Wen Mei-Ing (MR # 39094834)  Media Information                                  From: Main Street Radiology      To: AL      Page: 1/2      Date: 9/19/2025 9:18:17 AM  [THIS IS LOGO: Circular logo for MAIN STREET RADIOLOGY] "
+  },
+  {
+    "case_id": "CASE_286D674971BE",
+    "original_filename": "Imaging_External2.pdf",
+    "raw_word_count": 712,
+    "pre_word_count": 665,
+    "word_count_diff": -47,
+    "raw_char_count": 6730,
+    "pre_char_count": 6513,
+    "raw_snippet": "[REDACTED] 10:07 PM                                                                                                     Yeh, Wen Mei-Ing (MR # 39094834)  Media Information  From: Main Street Radiology         To: ALICE         Page: 1/2         Date: 9/16/2025 9:18:42 AM  [LOGO: MAIN STREET RADIOLOG",
+    "pre_snippet": "[REDACTED] 10:07 PM                                                      Yeh, Wen Mei-Ing (MR # 39094834)  Media Information                                 From: Main Street Radiology    To: ALICE    Page: 1/2    Date: 9/16/2025 9:18:42 AM  MAIN STREET RADIOLOGY                                     "
+  },
+  {
+    "case_id": "CASE_997683864BFC",
+    "original_filename": "Imaging_External3.pdf",
+    "raw_word_count": 605,
+    "pre_word_count": 595,
+    "word_count_diff": -10,
+    "raw_char_count": 5561,
+    "pre_char_count": 4819,
+    "raw_snippet": "[REDACTED] 10:08 PM                                       Yeh, Wen Mei-Ing (MR # 39094834)  Media Information                         From: Main Street Radiology      To: ALICE     Page: 1/2     Date: 9/16/2025 9:16:52 AM                           MAIN STREET RADIOLOGY                         Tel (7",
+    "pre_snippet": "[REDACTED] 10:08 PM  Yeh, Wen Mei-Ing (MR # 39094834)  Media Information  From: Main Street Radiology    To: ALICE    Page: 1/2    Date: 9/16/2025 9:16:52 AM  MAIN STREET RADIOLOGY  Tel (718) 321-1500 • Fax (718) 426-2475 www.mainstreetradiology.com  Bayside 32nd Ave         37-34 Francis Lewis Blvd"
+  },
+  {
+    "case_id": "CASE_E3804505DFDB",
+    "original_filename": "Imaging_External4.pdf",
+    "raw_word_count": 603,
+    "pre_word_count": 598,
+    "word_count_diff": -5,
+    "raw_char_count": 5264,
+    "pre_char_count": 4944,
+    "raw_snippet": "[REDACTED] 10:09 PM                                    Yeh, Wen Mei-Ing (MR # 39094834)  Media Information                                  From: Main Street Radiology      To: ALICE      Page: 1/2      Date: 9/16/2025 9:17:27 AM  [LOGO: MAIN STREET RADIOLOGY] Tel (718) 428-1500 • Fax (718) 428-2475",
+    "pre_snippet": "[REDACTED] 10:09 PM  Media Information                                     Yeh, Wen Mei-Ing (MR # 39094834)  From: Main Street Radiology        To: ALICE     Page: 1/2    Date: 8/16/2025 9:17:27 AM  [LOGO: MAIN STREET RADIOLOGY] Tel (718) 338-1500 • Fax (718) 338-2425 www.mainstreetradiology.com  Ba"
+  },
+  {
+    "case_id": "CASE_F651C48347EE",
+    "original_filename": "Imaging_External5.pdf",
+    "raw_word_count": 702,
+    "pre_word_count": 689,
+    "word_count_diff": -13,
+    "raw_char_count": 5939,
+    "pre_char_count": 5611,
+    "raw_snippet": "[REDACTED] 10:09 PM                                           Yeh, Wen Mei-lng (MR # 39094834)  Media Information  From: Main Street Radiology    To: A    Page: 1/2    Date: 9/16/2025 9:16:37 AM  [LOGO: MAIN STREET RADIOLOGY]                        Bayside Dial Ave         53-25 Francis Lewis Blvd. ",
+    "pre_snippet": "[REDACTED] 10:09 PM                                                Yeh, Wen Mei-Ing (MR # 39094834)  Media Information  From: Main Street Radiology      To: A      Page: 1/2      Date: 9/16/2025 9:16:37 AM  [LOGO: MAIN STREET RADIOLOGY] Tel (718) 228-1500 • Fax (718) 445-2478 www.mainstreetradiology"
+  },
+  {
+    "case_id": "CASE_0AEA1D0571B1",
+    "original_filename": "Imaging_External6.pdf",
+    "raw_word_count": 662,
+    "pre_word_count": 654,
+    "word_count_diff": -8,
+    "raw_char_count": 6091,
+    "pre_char_count": 5620,
+    "raw_snippet": "[REDACTED] 10:10 PM                                     Yeh, Wen Mei-lng (MR # 39094834)  Media Information  From: Main Street Radiology         To: ALICE      Page: 1/3      Date: 9/16/2025 9:15:42 AM  [LOGO: MAIN STREET RADIOLOGY]                                      Bayside Dell Ave.           35",
+    "pre_snippet": "10:10 PM Yeh, Wen Mei-lng (MR # 39094834)  Media Information  From: Main Street Radiology    To: ALICE    Page: 1/3    Date: 9/16/2025 9:15:42 AM  MAIN STREET RADIOLOGY  Tel (718) 225-1500 • Fax (718) 426-2473 www.mainstreetradiology.com  Bayside 32nd Ave        32-52 Francis Lewis Blvd, Bayside, NY"
+  },
+  {
+    "case_id": "CASE_499E8338AA56",
+    "original_filename": "Path_Biopsy.pdf",
+    "raw_word_count": 579,
+    "pre_word_count": 574,
+    "word_count_diff": -5,
+    "raw_char_count": 5362,
+    "pre_char_count": 5405,
+    "raw_snippet": "[REDACTED] 10:10 PM                                                    Yeh, Wen Mei-Ing (MR # 39094834)  Media Information   [THIS IS LOGO: Ribbon-style logo] NEW YORK                                      NY Cancer & Blood Specialists                     CANCER & BLOOD                               ",
+    "pre_snippet": "[REDACTED] 10:10 PM                                                 Yeh, Wen Mei-Ing (MR # 39094834)  Media Information   [LOGO] NEW YORK                                                    NY Cancer & Blood Specialists        CANCER & BLOOD                                                      1500 R"
+  }
+]

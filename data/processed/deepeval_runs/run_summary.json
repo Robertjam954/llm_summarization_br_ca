@@ -1,0 +1,68 @@
+[
+  {
+    "run_id": "gpt-4o_bfop_20260529_235245",
+    "model": "gpt-4o",
+    "prompt_approach": "bfop",
+    "timestamp": "2026-05-29T23:52:45.580322",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  },
+  {
+    "run_id": "gpt-4o_2pop_20260529_235245",
+    "model": "gpt-4o",
+    "prompt_approach": "2pop",
+    "timestamp": "2026-05-29T23:52:45.649215",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  },
+  {
+    "run_id": "gpt-4o-mini_bfop_20260529_235245",
+    "model": "gpt-4o-mini",
+    "prompt_approach": "bfop",
+    "timestamp": "2026-05-29T23:52:45.716986",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  },
+  {
+    "run_id": "gpt-4o-mini_2pop_20260529_235245",
+    "model": "gpt-4o-mini",
+    "prompt_approach": "2pop",
+    "timestamp": "2026-05-29T23:52:45.777886",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  },
+  {
+    "run_id": "claude-3-5-sonnet-20241022_bfop_20260529_235245",
+    "model": "claude-3-5-sonnet-20241022",
+    "prompt_approach": "bfop",
+    "timestamp": "2026-05-29T23:52:45.851620",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  },
+  {
+    "run_id": "claude-3-5-sonnet-20241022_2pop_20260529_235245",
+    "model": "claude-3-5-sonnet-20241022",
+    "prompt_approach": "2pop",
+    "timestamp": "2026-05-29T23:52:45.912773",
+    "total_correct": 0,
+    "total_fabrications": 0,
+    "total_misses": 0,
+    "overall_accuracy": null,
+    "overall_fabrication_rate": null
+  }
+]

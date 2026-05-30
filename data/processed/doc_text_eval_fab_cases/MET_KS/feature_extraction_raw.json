@@ -1,0 +1,74 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.7 cm",
+        "evidence": "Left upper central breast, posterior depth there is a persistent irregular mass measuring 0.7 cm (mammogram); 10:00, 2 cm from nipple there is an ill-defined mass measuring 0.4 x 0.3 x 0.4 cm (ultrasound); The invasive carcinoma is moderately differentiated, and spans 0.7 cm in greatest dimension (pathology)"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 10:00 position, 2 cm from nipple, upper central breast, posterior depth",
+        "evidence": "0.6 cm spiculated mass at the 9:00 position of the left breast at a mid to posterior depth (screening mammogram); Left upper central breast, posterior depth there is a persistent irregular mass measuring 0.7 cm (diagnostic mammogram); 10:00, 2 cm from nipple there is an ill-defined mass measuring 0.4 x 0.3 x 0.4 cm (ultrasound)"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Bilateral scattered coarse benign-appearing calcifications unchanged; invasive ductal carcinoma with calcifications",
+        "evidence": "Bilateral scattered coarse benign-appearing calcifications are unchanged; Invasive ductal carcinoma, with calcifications"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes, ribbon tissue marker placed, corresponding to irregular mammographic mass",
+        "evidence": "A ribbon tissue marker was then deployed at the biopsy site; ribbon biopsy marker with post biopsy changes is noted. The ribbon biopsy marker corresponds to the irregular mammographic mass, confirming correlation"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical consultation. Surgery consultation/excision and appropriate medical management is recommended for the left 10:00 (ribbon clip) biopsy-proven invasive ductal carcinoma. Pre and postcontrast breast MRI can be considered to evaluate for extent of disease.",
+        "evidence": "1.Recommendation: Surgical consultation. Surgery consultation/excision and appropriate medical management is recommended for the left 10:00 (ribbon clip) biopsy-proven invasive ductal carcinoma. 2. Pre and postcontrast breast MRI can be considered to evaluate for extent of disease."
+      },
+      "feature_8_lymph_node": {
+        "value": "Nonenlarged bilateral axillary lymph nodes; No axillary lymphadenopathy",
+        "evidence": "Nonenlarged bilateral axillary lymph nodes are seen; No axillary lymphadenopathy"
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound guided core biopsy",
+        "evidence": "The mass was biopsied using a lateral approach, ultrasound guidance and a 14 gauge spring loaded core biopsy needle device. 5 tissue samples were obtained."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "0.7 cm",
+        "evidence": "The invasive carcinoma is moderately differentiated, and spans 0.7 cm in greatest dimension."
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive ductal carcinoma, with calcifications. The invasive carcinoma is moderately differentiated",
+        "evidence": "Invasive ductal carcinoma, with calcifications. The invasive carcinoma is moderately differentiated, and spans 0.7 cm in greatest dimension."
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "ER, PgR, HER2 and Ki-67 immunohistochemistry",
+          "evidence": "ER, PgR, HER2 and Ki-67 immunohistochemistry was performed on tissue block 1A"
+        },
+        "ER": {
+          "value": "Positive, ~70%, strong intensity",
+          "evidence": "ESTROGEN RECEPTOR: ~70% STRONG; Since ≥1% of tumor cell nuclei express estrogen receptors, this tumor is considered to be ESTROGEN RECEPTOR POSITIVE"
+        },
+        "PR": {
+          "value": "Positive, 10-15%, strong intensity",
+          "evidence": "PROGESTERONE RECEPTOR: 10-15% STRONG; Since ≥1% of tumor cell nuclei express progesterone receptors, this tumor is considered to be PROGESTERONE RECEPTOR POSITIVE"
+        },
+        "HER2_IHC": {
+          "value": "Negative, 1+",
+          "evidence": "HER2: 1+; HER2: Incomplete membrane staining that is faint-barely perceptible and within >10% of invasive tumor cells. Thus, this result indicates NEGATIVE HER2 by immunohistochemistry."
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": true
+}

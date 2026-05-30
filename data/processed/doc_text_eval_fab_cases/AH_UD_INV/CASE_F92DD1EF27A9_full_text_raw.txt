@@ -1,0 +1,167 @@
+[REDACTED] 12:42 PM                                Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+FOREIGN US BREAST UNI
+Status: Final result
+
+PACS Images
+(Link Unavailable) Show images for FOREIGN US BREAST UNI
+
+Study Result
+Narrative & Impression
+ACCESSION#(s): A000244944, A000244938, A000244931
+
+DATE: [REDACTED] 4:24 PM
+
+EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]
+Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+LEFT MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]
+Technique: left mammogram: tomosynthesis images were obtained.
+
+LEFT LIMITED BREAST ULTRASOUND [REDACTED]
+Technique: left breast us: limited breast ultrasound was performed.
+
+CLINICAL HISTORY: Left breast invasive ductal carcinoma, MSK path review confirmed.
+
+COMPARISON(S): [REDACTED]
+
+FINDINGS:
+
+MAMMOGRAM:
+
+BREAST DENSITY: Heterogeneously dense, which may obscure small masses.
+
+RIGHT BREAST:
+No [REDACTED] [REDACTED] [REDACTED]
+
+LEFT BREAST:
+* 1.3 cm irregular focal asymmetry in the central outer breast middle third depth (MLO 15/51 CC 15/55) on routine and subsequent ML and spot views (ML 21/56) with sonographic correlate below.
+* Stable biopsy marker
+
+ULTRASOUND:         Evaluation is limited as interpretation is based on static images.
+
+LEFT BREAST:        3:00 breast 6 cm from the nipple, irregular hypoechoic mass measuring 1 x 0.6 x 1.3 cm.
+On [REDACTED] ultrasound-guided core biopsy was performed with needle traversing the mass and a heart marker placed. Postprocedure mammogram demonstrates biopsy marker in adequate position. Pathology revealed invasive ductal carcinoma.
+
+LEFT AXILLA:        Not imaged.
+
+ADDITIONAL IMAGING RECOMMENDED: None.
+
+IMPRESSION:
+1. Left breast invasive ductal carcinoma with heart marker in adequate position.
+2. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Electronically Signed By: WINNIE WAI-YIN AU MD on [REDACTED] 5:04 PM
+
+Result History
+
+Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 12:42 PM                1/3
+
+[REDACTED] 12:42 PM                                Day, Ursula [REDACTED] [REDACTED] [REDACTED]
+
+FOREIGN US BREAST UNI (Order [REDACTED] on [REDACTED] - Order Result History Report
+
+Supplies
+                                                                              Charge
+Name                        ID   Temporary Type    Charge Code Description    Code    Quantity
+No [REDACTED] [REDACTED]
+
+⚙ Implants
+Joint                                Status         Implanted on    Expiration Date
+JOINT                               Implanted
+
+Supplies
+                                                                              Charge
+Name                        ID   Temporary Type    Charge Code Description    Code    Quantity
+No [REDACTED] [REDACTED]
+
+Signed by
+Signed                              Time            Phone           Pager
+Winnie Wai-Yin Au, MD              [REDACTED] 17:04
+
+Exam Information
+Status                              Exam Begun                     Exam Ended
+Final                               [REDACTED] 16:13             [REDACTED] 16:13
+
+External Results Report                    Encounter
+There is an external results report available.      View Encounter
+
+Total Sedation Time
+
+
+FOREIGN US BREAST UNI                                            Order: [REDACTED]
+
+Status: Final result   Next appt: [REDACTED] at 10:30 AM in Pre-Admission Testing (ROP 7 Pre-Surgical Testing)
+
+Test Result Released: Yes (not seen)
+
+Details
+    Reading Physician                   [REDACTED] [REDACTED]    [REDACTED]
+    Winnie Wai-Yin Au, MD              [REDACTED]              Routine
+
+    Narrative & Impression
+    ACCESSION#(s): A000244944, A000244938, A000244931
+
+    DATE: [REDACTED] 4:24 PM
+
+    EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+    BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]
+        Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+    LEFT MAMMOGRAM WITH TOMOSYNTHESIS [REDACTED]
+        Technique: left mammogram: tomosynthesis images were obtained.
+
+    LEFT LIMITED BREAST ULTRASOUND [REDACTED]
+        Technique: left breast us: limited breast ultrasound was performed.
+
+    CLINICAL HISTORY: Left breast invasive ductal carcinoma, MSK path review confirmed.
+
+Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 12:42 PM                2/3
+
+[REDACTED] 12:42 PM                                Day, Ursula [REDACTED] [REDACTED] [REDACTED]
+
+COMPARISON(S): [REDACTED]
+
+FINDINGS:
+
+MAMMOGRAM:
+
+BREAST DENSITY: Heterogeneously dense, which may obscure small masses.
+
+RIGHT BREAST:
+No [REDACTED] [REDACTED]
+
+LEFT BREAST:
+* 1.3 cm irregular focal asymmetry in the central outer breast middle third depth (MLO 15/51 CC 15/55) on routine and subsequent ML and spot views (ML 21/56) with sonographic correlate below.
+* Stable biopsy marker
+
+ULTRASOUND:         Evaluation is limited as interpretation is based on static images.
+
+LEFT BREAST:        3:00 breast 6 cm from the nipple, irregular hypoechoic mass measuring 1 x 0.6 x 1.3 cm. On [REDACTED] ultrasound-guided core biopsy was performed with needle traversing the mass and a heart marker placed. Postprocedure mammogram demonstrates biopsy marker in adequate position. Pathology revealed invasive ductal carcinoma.
+
+LEFT AXILLA:        Not imaged.
+
+ADDITIONAL IMAGING RECOMMENDED: None.
+
+IMPRESSION:
+1. Left breast invasive ductal carcinoma with heart marker in adequate position.
+2. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Electronically Signed By: WINNIE WAI-YIN AU MD on [REDACTED] 5:04 PM
+
+Exam Ended: [REDACTED] 16:13                     Last Resulted: [REDACTED] 17:04
+
+📋 Order Details ⚕ View Encounter 🧪 Lab and Collection Details 📨 Routing ⏰ Result History
+
+Result Care Coordination
+👤 Patient [REDACTED]
+📤 Released                                       ⚠ Not seen
+
+Study Details
+Open Study Details
+
+
+Day, Ursula [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 12:42 PM                3/3

@@ -26,15 +26,20 @@ Thumbs.db
 outputs_private/
 data_private/
 reports/
+!reports/
+!reports/**
+reports/.DS_Store
 study_records/
 
 # Credentials
 *.env
 !.env.example
 
-# Data directory — never committed; all data lives in DATA_PRIVATE_DIR (local only)
-# Run notebooks 01–10 to regenerate processed outputs in DATA_PRIVATE_DIR
-data/
+# Data directory
+!data/
+!data/**
+data/**/.DS_Store
+data/**/~$*
 
 # Tooling / editor config
 .windsurf/rules/

@@ -1,0 +1,143 @@
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.7 cm spiculated mass (mammogram), 7 mm mass (MRI), 0.8 x 0.7 cm (MRI), 0.6 cm in maximal length (pathology)",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth, best appreciated on the MLO view, is a 0.7 cm spiculated mass. In the upper outer right breast, 8 cm from the nipple, there is an enhancing 7 mm mass. In the upper outer quadrant of the right breast, posterior depth, is a heterogeneously enhancing mass measuring 0.8 x 0.7 cm. Moderately differentiated invasive ductal carcinoma measuring 0.6 cm in maximal length in this material."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast upper outer quadrant, posterior depth, 8 cm from nipple",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth. In the upper outer right breast, 8 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Present - asymmetry superiorly on true lateral view at posterior depth, localizing to the lateral breast",
+        "evidence": "There is an asymmetry superiorly on true lateral view at posterior depth, localizing to the lateral breast (true lateral slice 15/59), which persists with spot compression (true lateral spot compression slice 17/49). mammographic asymmetry identified on study dated [REDACTED] Stereotactic guided biopsy is recommended."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "No additional enhancement reported",
+        "evidence": "In the upper outer quadrant of the right breast, posterior depth, is a heterogeneously enhancing mass measuring 0.8 x 0.7 cm, corresponding to mass seen mammographically."
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Stoplight biopsy marker in the upper outer right breast approximately 1 cm laterally displaced",
+        "evidence": "Post procedure mammogram shows a well-positioned stoplight biopsy marker in the upper outer right breast approximately 1 cm laterally displaced."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Stereotactic guided biopsy is recommended. If stereotactic guided biopsy is unsuccessful, MRI guided biopsy would then be recommended.",
+        "evidence": "Right breast stereotactic guided biopsy is recommended in the absence of clinical contraindication. If stereotactic guided biopsy is unsuccessful, MRI guided biopsy would then be recommended. Appropriate action is recommended pending MSK pathology review."
+      },
+      "feature_8_lymph_node": {
+        "value": "Survey ultrasound of the right axilla shows normal morphology lymph nodes. No right axillary adenopathy.",
+        "evidence": "Survey ultrasound of the right axilla shows normal morphology lymph nodes. (D) No right axillary adenopathy. Visualized portion of the axilla is unremarkable."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Stereotactic",
+        "evidence": "Clinical Information: 63 year old Female with enhancing 7 mm mass also seen to enhance on MRI Right Breast, upper outer quadrant, posterior depth; stop light clip marker; Mammotome; Stereotactic"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "0.6 cm in maximal length",
+        "evidence": "Moderately differentiated invasive ductal carcinoma (tubule formation 3/3, nuclear pleomorphism 2/3, mitotic count 1/3), measuring 0.6 cm in maximal length in this material."
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Moderately differentiated invasive ductal carcinoma (tubule formation 3/3, nuclear pleomorphism 2/3, mitotic count 1/3)",
+        "evidence": "Right Breast, upper outer quadrant, posterior depth: Moderately differentiated invasive ductal carcinoma (tubule formation 3/3, nuclear pleomorphism 2/3, mitotic count 1/3), measuring 0.6 cm in maximal length in this material."
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Prognostic/predictive marker studies are being performed",
+          "evidence": "Prognostic/predictive marker studies are being performed, the results will follow in an addendum."
+        },
+        "ER": {
+          "value": "POSITIVE - >90% strong intensity nuclear staining",
+          "evidence": "Estrogen receptor (ER): POSITIVE - >90% strong intensity nuclear staining"
+        },
+        "PR": {
+          "value": "POSITIVE - >90% strong intensity nuclear staining",
+          "evidence": "Progesterone receptor (PgR): POSITIVE - >90% strong intensity nuclear staining"
+        },
+        "HER2_IHC": {
+          "value": "1+/low (NEGATIVE) (faint/incomplete membranous staining observed in >10% of tumor cells)",
+          "evidence": "HER-2 neu score: 1+/low (NEGATIVE) (faint/incomplete membranous staining observed in >10% of tumor cells)"
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "lesion_id": "L2",
+      "feature_1_lesion_size": {
+        "value": "0.5 x 0.2 x 0.3 cm (ultrasound), 0.3 x 0.5 x 0.2 cm (ultrasound)",
+        "evidence": "At 10 00, 10 cm from the nipple there is an irregular hypoechoic mass measuring 0.5 x 0.2 x 0.3 cm. Hypoechoic mass at the 10:00 axis, 10 cm from the nipple measuring 0.3 x 0.5 x 0.2 cm."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast 10:00, 10 cm from nipple",
+        "evidence": "At 10 00, 10 cm from the nipple there is an irregular hypoechoic mass. Hypoechoic mass at the 10:00 axis, 10 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_5_extent": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Tophat clip placed, biopsy marker clip is posterior to the previously reported right breast mammographic asymmetry by approximately 2 cm",
+        "evidence": "After assuring adequate sampling, a biopsy marker clip in the shape of a tophat was placed. A post-procedure two-view mammogram shows biopsy marker clip is posterior to the previously reported right breast mammographic asymmetry by approximately 2 cm."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided core needle biopsy is recommended",
+        "evidence": "Right breast ultrasound guided core needle biopsy should be performed in the absence of clinical contraindications. Ultrasound-guided core needle biopsy is recommended."
+      },
+      "feature_8_lymph_node": {
+        "value": "Survey ultrasound of the right axilla shows normal morphology lymph nodes",
+        "evidence": "Survey ultrasound of the right axilla shows normal morphology lymph nodes."
+      },
+      "feature_10_biopsy_method": {
+        "value": "ultrasound-guided core needle biopsy",
+        "evidence": "Right breast ultrasound-guided core needle biopsy of right breast mass at 10:00 approximate 10 cm from nipple (tophat clip). Under real-time sonographic guidance, multiple core biopsies were obtained using a Bard, 14-gauge, Marquee."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "Not reported",
+        "evidence": ""
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Benign breast tissue with focally prominent stromal fibrosis",
+        "evidence": "Pathology demonstrates: \"Benign breast tissue with focally prominent stromal fibrosis.\". Outside pathology yielded benign results of benign breast tissue with focally prominent stromal fibrosis which is concordant with the sonographic appearance."
+      },
+      "feature_13_receptor_status": {
+        "tests_performed": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "ER": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "PR": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_IHC": {
+          "value": "Not reported",
+          "evidence": ""
+        },
+        "HER2_ISH": {
+          "value": "Not reported",
+          "evidence": ""
+        }
+      }
+    }
+  ],
+  "feature_9_chronology_preserved": false
+}

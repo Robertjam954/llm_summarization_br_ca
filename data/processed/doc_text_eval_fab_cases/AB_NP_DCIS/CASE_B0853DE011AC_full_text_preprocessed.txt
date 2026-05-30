@@ -1,0 +1,105 @@
+To:                     Page: 1 of 2                    2025-10-02 06:23:28 PDT                    (845) 783-0764                    From: RadNet API
+
+HUDSON VALLEY                                                                                                HVRA MONROE
+RADIOLOGY ASSOCIATES                                                                                         505 RT 208 STES 14 & 18
+                                                                                                            MONROE, NY [REDACTED]
+                                                                                                            Phone: (845) 783-3444
+LHR - A LENOX HILL RADIOLOGY AFFILIATE                                                                     Fax: (845) 783-0764
+
+
+
+
+Exam requested by:                                                          Patient: [REDACTED] [REDACTED]
+DAVID ANDERSON MD                                                           Date of Birth: [REDACTED]
+1176 5TH AVE, 1ST FL                                                       Phone: (704) 349-0802
+NEW YORK NY [REDACTED]                                                     [REDACTED] [REDACTED] [REDACTED]
+                                                                           Date of Exam: [REDACTED]
+
+
+
+
+EXAM: MRI BILATERAL BREASTS WITHOUT AND WITH CONTRAST
+
+HISTORY: 46-year-old female recently diagnosed with left breast ductal carcinoma in situ.
+
+COMPARISON: Screening mammogram from [REDACTED] diagnostic mammogram and breast ultrasound from 
+[REDACTED] stereotactic core biopsy from [REDACTED] Screening mammogram from 2021, 2022, 2023.
+
+TECHNIQUE: Images were acquired on a GE HDx 3T MRI with a dedicated breast array coil. Sagittal fat suppressed 
+T2 weighted images were acquired (TR5167, TE99, FA90, 256 x 256 matrix, 4 mm slice thickness). Sagittal FSE T1 
+weighted images were acquired (TR629, TE19, FA90, 512 x 512, 5 mm slice thickness). Bilateral sagittal T1 weighted 
+images were acquired (TR433, TE9, 4 mm slice thickness). Sagittal fat suppressed Vibrant gradient echo images were 
+acquired through both breasts both before and after dynamic intravenous administration of gadolinium (TR7, TE2, T6, 
+FA10, Matrix 256 x 256, 2.8 mm slice thickness). These images were acquired dynamically out to 6 minutes. After the 
+dynamic sagittal imaging, high resolution axial Vibrant images (TR6, TE2, T118, FA10, Matrix 512 x 512, 1.4 mm post 
+thickness) were acquired. Images were reviewed utilizing breast MRI software which includes subtraction and post 
+processing and enhancement curve analysis. Computer assisted diagnosis (CAD) was used. 20 ml of Clariscan was 
+injected from a 20 ml single use vial.
+
+FINDINGS:
+
+Right breast: Background parenchymal enhancement is moderate. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+or morphologically abnormal right axillary lymph nodes.
+
+Left breast: Background parenchymal enhancement is moderate. Susceptibility artifact is present in the medial mid left 
+breast, likely corresponds to the stereotactic core biopsy labeled medial. There is no [REDACTED] [REDACTED]
+the biopsy clip.
+
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] correspond to the second stereotactic core biopsy site.
+
+A circumscribed enhancing mass in the upper outer mid to posterior left breast at approximately 2:30 o'clock 11 cm 
+from the nipple measures 2.5 x 0.9 cm, not evident on the prior studies. Further evaluation with MRI guided core biopsy 
+is recommended.
+
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+IMPRESSION:
+
+                                            Confidential
+                    Tel: [REDACTED] - Fax: [REDACTED] -
+
+            ACCREDITATIONS: AMERICAN INSTITUTE OF ULTRASOUND IN MEDICINE, FETAL MEDICINE FOUNDATION ACR AND MQSA FOR MAMMOGRAPHY
+
+Printed: [REDACTED] 9:23 AM                    PATTERSON, NADIA (Exam: [REDACTED] 2:00 PM)                    Page 1 of 2
+
+To:                     Page: 2 of 2                    2025-10-02 06:23:28 PDT                    (845) 783-0764                    From: RadNet API
+
+HUDSON VALLEY                                                                                                HVRA MONROE
+RADIOLOGY ASSOCIATES                                                                                         505 RT 208 STES 14 & 18
+                                                                                                            MONROE, NY
+                                                                                                            Phone: (845) 783-3444
+LHR - A LENOX HILL RADIOLOGY AFFILIATE                                                                     Fax: (845) 783-0764
+
+                                                                                                            Continued: Page 2 of 2
+                                                                                                            Patient: [REDACTED] [REDACTED]
+                                                                                                            Date of Birth: [REDACTED]
+
+
+
+
+1. 2.5 x 0.9 cm enhancing mass in the left breast at 2:30 o'clock 11 cm from the nipple. Further evaluation with MRI 
+guided core biopsy is recommended.
+2. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] to the biopsy-proven DCIS.
+3. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+FOLLOW-UP: Biopsy should be considered.
+
+ASSESSMENT: BI-RADS Category 4: Suspicious findings.
+
+Thank you for the opportunity to participate in the care of this patient.
+
+DARIA SETLIK MD Bd Cert Radiologist - [REDACTED] [REDACTED] [REDACTED]
+Physician [REDACTED] [REDACTED]
+
+FDA Site Name: [REDACTED]
+505 RT 208 STES 14 & 18, MONROE, NY [REDACTED]
+
+
+
+
+                                            Confidential
+                    Tel: [REDACTED] - Fax: [REDACTED] -
+
+            ACCREDITATIONS: AMERICAN INSTITUTE OF ULTRASOUND IN MEDICINE, FETAL MEDICINE FOUNDATION ACR AND MQSA FOR MAMMOGRAPHY
+
+Printed: [REDACTED] 9:23 AM                    PATTERSON, NADIA (Exam: [REDACTED] 2:00 PM)                    Page 2 of 2

@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "CASE_4877A6DB5B00",
+    "original_filename": "path.pdf",
+    "raw_word_count": 873,
+    "pre_word_count": 794,
+    "word_count_diff": -79,
+    "raw_char_count": 7259,
+    "pre_char_count": 6461,
+    "raw_snippet": "[REDACTED] 9:12 AM                                          Wirth, Susan A (MR # 39100822)  Media Information      Sonic Healthcare        [REDACTED] 9:03:20 AM  PAGE   3/004    Fax Server   Wirth, Susan                    DOB: [REDACTED]           [REDACTED] #: [REDACTED]  Gender: F  Age: 63       ",
+    "pre_snippet": "[REDACTED] 9:12 AM                                    Wirth, Susan A (MR # 39100822)  Media Information  Sonic Healthcare        [REDACTED] 9:03:20 AM  PAGE   3/004   Fax Server   Wirth, Susan                    DOB: [REDACTED]           #: [REDACTED] Gender: F  Age: 63              Atlantic Medical"
+  },
+  {
+    "case_id": "CASE_D00AB85CBEF3",
+    "original_filename": "Path_biopsy.pdf",
+    "raw_word_count": 1128,
+    "pre_word_count": 1114,
+    "word_count_diff": -14,
+    "raw_char_count": 8976,
+    "pre_char_count": 8932,
+    "raw_snippet": "8:52 AM                                    Wirth, Susan A (MR # 39100822)  Media Information  O [REDACTED] 9:46 AM      Fax Services         [REDACTED]                pg 7 of 34   10/6/25, 2:25 PM                              Atlantic Medical Imaging - Synapse EIS   ami Atlantic Medical Imaging  Acc",
+    "pre_snippet": "8:52 AM                                     Wirth, Susan A (MR # 39100822)  Media Information  O [REDACTED] 9:46 AM        Fax Services        [REDACTED]        pg 7 of 34  10/6/25, 2:25 PM                                Atlantic Medical Imaging - Synapse EIS   [LOGO: Atlantic Medical Imaging logo w"
+  }
+]

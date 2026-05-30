@@ -1,0 +1,97 @@
+[REDACTED] 4:04 PM                                Ma, Xuli (MR # 39089057)
+
+Media Information
+
+FISH ANALYSIS REPORT                                         Page 1 of 1
+
+20 Lincoln Dominion Lrive
+Flushing, NY 11354                  ACCUPATH
+Test: 1-848-ACCUPATH
+Fax: (516) 326-3422
+Order#: IMS0-FISH-1422
+
+ACCESSION: [REDACTED]
+Received: 08/10/2025
+Reported: 08/14/2025
+
+PRACTICE: YI S. CHEN, MD, PLLC                             PATIENT: XULI MA
+PHYSICIAN: YI S. CHEN, MD, FACS                                    88988 144 ST.
+           YI S. CHEN, MD, FACS                                    FRESH MEADOWS, NY 11365
+           Suite: SUITE 6A                                         Age: 48        DOB: 09/26/1977
+           Flushing, NY 11354                                      Sex: Female    Acct: 1904286
+                                                                   Ptn#:39089152
+Account #: 4363-5527-1        QR   Fill  ■ (718) 961-4836
+                             Code  Cnt    ■ (718) 961-8765  Phone #: (917) 602-1253
+                                                            Fax#:     / / 0031869
+
+Site:     (A) Right Breast Lesion, High Suspicion, 1.3x0.9cm At 6:00, 3cm from nip  Source of Tissue:   Breast Cn Biopsy
+
+Indication: R/O MALIGNANCY
+                                                            Date Reported FISH:     08/15/2025 2:42 PM
+
+FINAL DIAGNOSIS:                                           HER2/CEP17 RATIO:      AVG. HER2 COPY NUMBER:
+
+NEGATIVE FOR HER2 AMPLIFICATION                                1.0                      1.6
+
+INTERPRETATION:
+
+Interphase fluorescence in situ hybridization (FISH) was
+completed on the submitted formalin fixed paraffin embedded
+biopsy using the Vysis's PathVysion HER 2 DNA probe kit
+(Abbott Molecular Inc., Des Plaines, IL), designed to detect
+amplification of the HER 2/neu gene using probes for the
+following loci: HER 2/neu (17q11.2-12) and CEP17 (17p11.1-
+q11.1). Results were manually reviewed.
+                                                            FISH ANALYSIS DATA:
+
+The HER2/CEP17 ratio and average HER2 copy number           PATIENT RESULTS:
+observed were concordantly reviewed with IHC results. A     AVERAGE NUMBER OF COPY1 (SIGNAL/NUCLEUS):
+combined interpretation of the ISH and IHC assays yielded a NUMBER OF TUMOR CELLS COUNTED:                        1.5
+negative HER2 result for the current sample.               NUMBER OF OBSERVERS:                                   2
+                                                           SAMPLE ADEQUACY:                                      3
+These findings should be interpreted in association with other ISDN:                                           SATISFACTORY
+clinical, pathologic and laboratory findings.                                                    [REDACTED] FISH2014(+/-NE)
+
+                                                           (+) CONTROL RESULTS:
+                                                           HER2/CEP17 RATIO:                                     14.7
+                                                           ISDN:                              [ILLEGIBLE] T SHSP P210-P92HS-70-WGW
+
+REFERENCE RANGES:
+                    HER2/CEP17     AVG HER2      IHC       ASSOU CAP    HER2 FISH
+                    RATIO          COPY #        SCORE     GROUP #      RESULT
+
+                    >=2.0          >=4.0         ANY       1            POSITIVE
+                                                 3+         1A           POSITIVE
+                    >=2.0          <4.0          2+ or 1+   2A           POSITIVE
+                                                 1+         2B           POSITIVE
+                    <2.0           >=6.0         2+         3A           POSITIVE
+                                                 2+ or 1+   3B           POSITIVE
+                    <2.0           >=4.0 and <6.0 2+       4A           NEGATIVE
+                                                 2+ or 1+   4B           NEGATIVE
+                    <2.0           <4.0          ANY       5             NEGATIVE
+
+Results are based on the average number of HER2/CEP17 ratio per cell nucleus, and laboratory's Score 0.08% QC read. Results are non-diagnostic when <50% ACCUPATH # AFFIRMS, SHALL BE, referenced within 30-day timeframe.
+Specimen results from October 1 Patient # should annual October reports of histocompatibility analysis of Accurate Technology Grant LRTN-TSREC-50-I-ISMP-50-ISL-50-ISS-50.
+
+Signature pathology and genomics, specimens were assessed during overnight clinical record classification Chromology 1 Tests • Genomics • Analysis of 15 Others • High-score correspondence control timing, typical oncology • Extended abundance test for 5 Controller.
+
+Testing-level or distribution report at tests but formal with cell lines may and instruments stated to the Genetic Counseling Services as indicated. Limitations during the patient counseling, and cellular biology changes in molecular genetic testing report may be affected by specimen adequacy, fixation (in CA 4-wire report). Results pathologic are not intended as certified by the FDA should be interpersonal.
+
+Electronically signed by:        Olga Falkowski, M.D.
+                                26 6 Terminal Dr. Plainview, NY 11803      Phone: 1-848-ACCUPATH      Fax: (516) 326-3422      CLIA# F169981345
+
+Ma, Xuli (MR # 39089057) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 4:04 PM                                1/2
+
+[REDACTED] 4:04 PM                                Ma, Xuli (MR # 39089057)
+
+Document Information
+Patient [REDACTED] [REDACTED] [REDACTED]
+image2.jpeg
+[REDACTED]
+Attached To:
+Patient [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Source Information
+Mychart, Generic
+
+Ma, Xuli (MR # 39089057) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 4:04 PM                                2/2

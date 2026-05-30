@@ -1,0 +1,214 @@
+[REDACTED] 8:55 AM                                        Wirth, Susan A [REDACTED] [REDACTED] [REDACTED]
+
+FOREIGN US BREAST BILAT
+Status: Final result
+
+PACS Images
+(Link Unavailable) Show images for FOREIGN US BREAST BILAT
+
+Study Result
+Narrative & Impression
+ACCESSION#[REDACTED] [REDACTED] [REDACTED]
+
+DATE: [REDACTED] 3:43 PM
+
+EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS August 4, 2025:
+Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+BILATERAL LIMITED BREAST ULTRASOUND August 4, 2025:
+Technique: bilateral breast us: limited breast ultrasound was performed.
+
+BILATERAL BREAST MRI WITH AND WITHOUT IV CONTRAST September 19, 2025:
+Technique: bilateral breast MR: multiplanar, multisequence MR images were obtained before and after
+intravenous administration of gadolinium-based contrast agent.
+
+CLINICAL HISTORY: Newly diagnosed right breast cancer (MSK pathology review pending). Evaluate outside
+imaging.
+
+COMPARISON(S): Multiple prior exams, most recent September 25, 2023 and September 12, 2023
+
+FINDINGS:
+
+MAMMOGRAM:
+
+BREAST DENSITY: Heterogeneously dense, which may obscure small masses. Unchanged appearance of bilateral
+areas of oil cysts and microcalcifications.
+
+RIGHT BREAST:           In the upper outer quadrant of the right breast, posterior depth, best appreciated on the
+MLO view, is a 0.7 cm spiculated mass. The finding persists on same day spot compression views.
+
+The patient [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] mass on September 25, 2025. Post
+procedure mammogram shows a well-positioned stoplight biopsy marker in the upper outer right breast
+approximately 1 cm laterally displaced. And outside pathology showed invasive ductal carcinoma.
+
+LEFT BREAST:           No [REDACTED] [REDACTED] [REDACTED]
+
+ULTRASOUND:           Evaluation is limited as interpretation is based on static images.
+
+RIGHT BREAST:           Hypoechoic mass at the 10:00 axis, 10 cm from the nipple measuring 0.3 x 0.5 x 0.2
+cm. This mass underwent ultrasound-guided biopsy on August 8, 2025. Same day post procedure mammogram
+shows a Top-Hat biopsy marker within the upper outer right breast, posterior depth however not associated with the
+originally visualized mammographic mass. Outside pathology yielded benign results of benign breast tissue with
+focally prominent stromal fibrosis which is concordant with the sonographic appearance.
+
+RIGHT AXILLA:          Not imaged.
+
+MRI:
+
+BREAST COMPOSITION: Heterogeneous fibroglandular tissue with marked parenchymal enhancement.
+
+RIGHT BREAST:    In the upper outer quadrant of the right breast, posterior depth, is a heterogeneously enhancing
+mass measuring 0.8 x 0.7 cm, corresponding to mass seen mammographically.
+
+Wirth, Susan A [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:55 AM                1/4
+
+[REDACTED] 8:55 AM                                        Wirth, Susan A [REDACTED] [REDACTED] [REDACTED]
+
+LEFT BREAST:     No [REDACTED] [REDACTED]
+
+OTHER:          None.
+
+ADDITIONAL IMAGING RECOMMENDED: None
+
+IMPRESSION:
+Newly diagnosed right breast cancer with associated stoplight biopsy marker 1 cm laterally displaced. Appropriate
+action is recommended pending MSK pathology review.
+
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Electronically Signed By: MOLLY P. HOGAN MD on [REDACTED] 5:35 PM
+
+Result History
+FOREIGN US BREAST BILAT (Order [REDACTED] on [REDACTED] - Order Result History Report
+
+Supplies
+                                                                                    Charge
+Name                    ■  [REDACTED] [REDACTED]      [REDACTED] [REDACTED] [REDACTED]      [REDACTED]   [REDACTED]
+No [REDACTED] [REDACTED] [REDACTED]
+
+🏥 Implants
+No [REDACTED] [REDACTED] [REDACTED]
+
+Supplies
+                                                                                    Charge
+Name                    ■  [REDACTED] [REDACTED]      [REDACTED] [REDACTED] [REDACTED]      [REDACTED]   [REDACTED]
+No [REDACTED] [REDACTED] [REDACTED]
+
+Signed by
+Signed                                      Time             Phone           Pager
+Molly Parsons Hogan, MD                    [REDACTED] 17:35
+
+Exam Information
+Status                                      Exam Begun                      Exam Ended
+Final                                       [REDACTED] 15:37               [REDACTED] 15:37
+
+External Results Report                     Encounter
+There is an external results report available.        View Encounter
+
+Total Sedation Time
+
+
+FOREIGN US BREAST BILAT                                                    Order: [REDACTED]
+
+Status: Final result   Next appt: [REDACTED] at 11:30 AM in Radiation Oncology (MON-SIMULATOR)
+
+Test Result Released: Yes (not seen)
+
+Details
+    Reading Physician
+    Molly Parsons Hogan, MD                [REDACTED] [REDACTED]      [REDACTED]      Routine
+    [REDACTED]
+
+    Narrative & Impression
+
+Wirth, Susan A [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:55 AM                2/4
+
+[REDACTED] 8:55 AM                                        Wirth, Susan A [REDACTED] [REDACTED] [REDACTED]
+
+ACCESSION#(s): A000247476, A000247480, A000247469
+
+DATE: [REDACTED] 3:43 PM
+
+EXAM: REVIEW OF SUBMITTED BREAST IMAGING:
+
+BILATERAL MAMMOGRAM WITH TOMOSYNTHESIS August 4, 2025:
+    Technique: bilateral mammogram: tomosynthesis images were obtained.
+
+BILATERAL LIMITED BREAST ULTRASOUND August 4, 2025:
+    Technique: bilateral breast us: limited breast ultrasound was performed.
+
+BILATERAL BREAST MRI WITH AND WITHOUT IV CONTRAST September 19, 2025:
+    Technique: bilateral breast MR: multiplanar, multisequence MR images were obtained before and after
+intravenous administration of gadolinium-based contrast agent.
+
+CLINICAL HISTORY: Newly diagnosed right breast cancer (MSK pathology review pending). Evaluate outside
+imaging.
+
+COMPARISON(S): Multiple prior exams, most recent September 25, 2023 and September 12, 2023
+
+FINDINGS:
+
+MAMMOGRAM:
+
+BREAST DENSITY: Heterogeneously dense, which may obscure small masses. Unchanged appearance of
+bilateral areas of oil cysts and microcalcifications.
+
+RIGHT BREAST:           In the upper outer quadrant of the right breast, posterior depth, best appreciated
+on the MLO view, is a 0.7 cm spiculated mass. The finding persists on same day spot compression views.
+
+The patient [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] mass on September 25, 2025. Post
+procedure mammogram shows a well-positioned stoplight biopsy marker in the upper outer right breast
+approximately 1 cm laterally displaced. And outside pathology showed invasive ductal carcinoma.
+
+LEFT BREAST:           No [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+ULTRASOUND:            Evaluation is limited as interpretation is based on static images.
+
+RIGHT BREAST:           Hypoechoic mass at the 10:00 axis, 10 cm from the nipple measuring 0.3 x 0.5 x
+0.2 cm. This mass underwent ultrasound-guided biopsy on August 8, 2025. Same day post procedure
+mammogram shows a Top-Hat biopsy marker within the upper outer right breast, posterior depth however not
+associated with the originally visualized mammographic mass. Outside pathology yielded benign results of
+benign breast tissue with focally prominent stromal fibrosis which is concordant with the sonographic
+appearance.
+
+RIGHT AXILLA:          Not imaged.
+
+MRI:
+
+BREAST COMPOSITION: Heterogeneous fibroglandular tissue with marked parenchymal enhancement.
+
+RIGHT BREAST:    In the upper outer quadrant of the right breast, posterior depth, is a heterogeneously
+enhancing mass measuring 0.8 x 0.7 cm, corresponding to mass seen mammographically.
+
+LEFT BREAST:     No [REDACTED] [REDACTED]
+
+OTHER:           None.
+
+ADDITIONAL IMAGING RECOMMENDED: None
+
+IMPRESSION:
+Newly diagnosed right breast cancer with associated stoplight biopsy marker 1 cm laterally displaced.
+Appropriate action is recommended pending MSK pathology review.
+
+Wirth, Susan A [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:55 AM                3/4
+
+[REDACTED] 8:55 AM                                        Wirth, Susan A [REDACTED] [REDACTED] [REDACTED]
+
+No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+Electronically Signed By: MOLLY P. HOGAN MD on [REDACTED] 5:35 PM
+
+Exam Ended: [REDACTED] 15:37                     Last Resulted: [REDACTED] 17:35
+
+📋 Order Details 📝 View Encounter 🧪 Lab and Collection Details 📨 Routing ⏰ Result History
+
+Result Care Coordination
+👤 Patient [REDACTED]
+📧 Released                                      ⚠️ Not seen
+
+Study Details
+Open Study Details
+
+Wirth, Susan A [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 8:55 AM                4/4

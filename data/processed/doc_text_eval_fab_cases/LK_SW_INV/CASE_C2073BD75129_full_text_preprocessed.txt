@@ -1,0 +1,133 @@
+[REDACTED] 8:53 AM                                      Wirth, Susan A (MR # 39100822)
+
+Media Information
+
+O [REDACTED] 9:46 AM         Fax Services               > [REDACTED]                pg 16 of 34
+
+> 06/25, 2:25 PM                                        Atlantic Medical Imaging - Synapse RIS
+
+
+ami
+Atlantic Medical Imaging
+
+Accurate answers. Fast.
+
+6529 Black Horse Pike, Egg Harbor Township, NJ 08234 • P: [REDACTED] • F: [REDACTED]
+
+Name:       [REDACTED] [REDACTED]                    [REDACTED]        [REDACTED] [REDACTED] [REDACTED]
+MRN:        39041184l                                Address:          629 SHORE ROAD
+DOB:        [REDACTED]                                                [REDACTED] [REDACTED] [REDACTED]
+Acc #:      [REDACTED]                               Referrer Phone#: (609) 926-6353
+Sec Acct:   [REDACTED]                               Referrer Fax#:   [REDACTED]
+Exam Date: 6/9/2025 12:52 PM                         cc:
+                                                     cc:
+
+BILATERAL BREAST MRI WITHOUT AND WITH CONTRAST WITH COMPUTER-AIDED DETECTION [REDACTED]
+12:00 AM
+
+INDICATION: 33 years old presenting for short interval follow-up for right upper outer breast enhancement and for
+correlation to prior mammographic finding on diagnostic mammogram dated [REDACTED]
+
+COMPARISON: 2/2/2024, [REDACTED] and 11/16/2023. Correlation is made to prior ultrasound biopsy dated
+[REDACTED] and diagnostic mammogrambreast ultrasound dated 8/4/2025.
+
+PERSONAL HISTORY/RISK FACTORS: Benign right breast ultrasound-guided biopsy in 2025.
+
+FAMILY HISTORY OF BREAST CANCER: No [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+RISK ASSESSMENT: The patient's lifetime breast cancer risk according to the Tyrer-Cuzick model is 7.7%. (Based
+on a revised TC model (version 8) which now incorporates breast density).
+
+TECHNIQUE:
+Multisequence, multiplanar images of both breasts were obtained without and with contrast. Subtracted MIP
+images were performed using the CAD stream system. The patient received:
+
+IV CONTRAST VIALS USED: Dotarem one 15cc vial.
+IV CONTRAST INJECTED: 15 cc.
+WASTED CONTRAST: 0 cc.
+
+The study was reviewed on the PACS workstation and in conjunction with the data supplied from computer aided
+detection software, CADstream. Available pathology was reviewed.
+
+FINDINGS:
+RIGHT BREAST:
+
+amims\WebForms\Patient\PatientInformation.aspx?pg=RG&pt=39041184I                                           16/33
+
+
+Wirth, Susan A (MR # 39100822) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 8:53 AM              1/3
+
+[REDACTED] 8:53 AM                                      Wirth, Susan A (MR # 39100822)
+
+O [REDACTED] 9:46 AM         Fax Services               > [REDACTED]                pg 17 of 34
+
+> 06/25, 2:25 PM                                        Atlantic Medical Imaging - Synapse RIS
+
+RATIO OF FIBROGLANDULAR TISSUE: Heterogeneously dense fibroglandular tissue.
+
+BACKGROUND PARENCHYMAL ENHANCEMENT: Marked, which limits sensitivity of this study.
+
+In the upper outer right breast, 8 cm from the nipple, there is an enhancing 7 mm mass (series 10 image 141,
+series 5 image 33, and CAD 36), likely correlate for previously identified mammographic asymmetry identified on
+study dated [REDACTED] Stereotactic guided biopsy is recommended.
+
+There are scattered complicated oil cysts some which demonstrate rim enhancement.
+
+Visualized portion of the axilla is unremarkable. There is no [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+LEFT BREAST:
+
+RATIO OF FIBROGLANDULAR TISSUE: Heterogeneously dense fibroglandular tissue.
+
+BACKGROUND PARENCHYMAL ENHANCEMENT: Marked, which limits sensitivity of this study.
+
+There is no suspicious enhancement.
+
+There are scattered complicated oil cysts some which demonstrate rim enhancement.
+
+Visualized portion of the axilla is unremarkable. There is no [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+
+IMPRESSION:
+1. Right upper outer breast, 8 cm from the nipple, enhancing 7 mm mass, likely correlate for previously identified
+mammographic asymmetry identified on study dated 8/4/2025. Stereotactic guided biopsy is recommended.
+2. No [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+
+BI-RADS: 4. Suspicious.
+
+MANAGEMENT RECOMMENDATIONS: Right breast stereotactic guided biopsy is recommended in the absence
+of clinical contraindication. If stereotactic guided biopsy is unsuccessful, MRI guided biopsy would then be
+recommended.
+
+
+If you are the referring physician [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] (609)650-0004 to reach a radiologist.
+
+Date Of Signature: 6/10/2025 8:53 AM
+                                                         Report Electronically Signed by: Kahn, D.O., Julia
+                                                         Report Electronically Signed on: [REDACTED] 08:53 AM
+
+Patient Name: [REDACTED] [REDACTED]                      [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+Patient [REDACTED]   [REDACTED]
+
+
+amims\WebForms\Patient\Patient [REDACTED]                                                                   [REDACTED]
+
+
+Document Information
+Misc Administration: Outside Radiology, Breast
+    MRI BREAST
+
+Wirth, Susan A (MR # 39100822) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 8:53 AM              2/3
+
+[REDACTED] 8:53 AM                                      Wirth, Susan A (MR # 39100822)
+
+10000  00:00
+Attached To:
+    OUTSIDE RADIOLOGY ORDER [REDACTED]
+    Orders Only on [REDACTED] with Historical Provider, [REDACTED]
+
+Source Information
+Priscilla P. Hazel | Msk Pas
+
+
+Wirth, Susan A (MR # 39100822) Printed by Solange Bayard, MD [REDACTED] at [REDACTED] 8:53 AM              3/3
