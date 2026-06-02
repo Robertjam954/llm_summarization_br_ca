@@ -1,0 +1,734 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\froman\fcharset0 TimesNewRomanPSMT;
+\f3\fmodern\fcharset0 Courier;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww26540\viewh20200\viewkind1
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Written overview\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2  this is my project outline. "LLM Oncologic Summary Evaluation Project \
+\
+Structured Technical Summary \
+\
+Shape \
+\
+1. Project Overview \
+\
+Goal \
+\
+Evaluate LLM-generated oncologic history summaries derived from radiologic and pathologic source PDFs, using: \
+\
+Human validation against source documents \
+Comparison against human-written summaries \
+Element-level accuracy and fabrication tracking \
+Prompt evolution and monitoring over time \
+Document-quality-aware performance modeling \
+Target publication: npj Digital Medicine (STARD-AI aligned) \
+\
+Shape \
+\
+2. Evaluation Framework \
+\
+Definitions Used for Metrics \
+\
+TP = ((data[source_col] == 1) & (data[annotator_col] == 1)).sum() \
+FN = ((data[source_col] == 1) & (data[annotator_col] == 2)).sum() \
+FP = ((data[source_col] == 0) & (data[annotator_col] == 3)).sum() \
+TN = ((data[source_col] == 0) & (data[annotator_col] == "N/A")).sum() \
+\
+Interpretation: \
+\
+TP = correctly extracted feature present in source \
+FN = omission (source present, not extracted) \
+FP = fabrication (source absent, extracted anyway) \
+TN = correctly not extracted \
+Primary safety outcome: \
+Fabrication rate = FP / (FP + TN) \
+\
+Shape \
+\
+3. Prompt Version Control \
+\
+Frozen prompt registry structure: \
+\
+Directory: \
+\
+prompts/frozen/ \
+  prompt_v1_initial.txt \
+  prompt_v2_updated.txt \
+  prompt_metadata.json \
+\
+Example metadata: \
+\
+\{ \
+  "prompt_v1": \{ \
+    "id": "P1", \
+    "date_frozen": "2026-02-28", \
+    "approach": "structured extraction", \
+    "model": "gpt-4.x", \
+    "temperature": 0.0, \
+    "status": "frozen" \
+  \}, \
+  "prompt_v2": \{ \
+    "id": "P2", \
+    "date_frozen": "2026-03-01", \
+    "approach": "refined extraction", \
+    "status": "frozen" \
+  \} \
+\} \
+\
+Each experiment run must log: \
+\
+\{ \
+  "run_id": "R23", \
+  "model": "gpt-4.x", \
+  "prompt_id": "P17", \
+  "approach": "BFOP", \
+  "timestamp": "2026-03-10", \
+  "overall_accuracy": 0.82, \
+  "fabrication_rate": 0.05, \
+  "domain_breakdown": \{ \
+    "radiology": 0.84, \
+    "pathology": 0.79 \
+  \} \
+\} \
+\
+Shape \
+\
+4. Document Quality Assessment (Scanned PDFs + OCR) \
+\
+Because source PDFs are scanned images, OCR quality is a performance confounder. \
+\
+Per-Page Image Quality Metrics \
+\
+Compute: \
+\
+Variance of Laplacian (blur) \
+Tenengrad gradient energy \
+RMS contrast \
+Intensity spread (p95 - p5) \
+Mean brightness \
+Skew angle \
+Resolution/DPI \
+Define \'93blurry\'94 and \'93low contrast\'94 using percentile thresholds within dataset (e.g., bottom 10%). \
+\
+Case-Level JSON Output \
+\
+\{ \
+  "case_id": "CASE_0123", \
+  "pages": [ \
+    \{ \
+      "page": 1, \
+      "laplacian_var": 42.1, \
+      "tenengrad": 1.87, \
+      "rms_contrast": 18.4, \
+      "p95_p5": 61, \
+      "mean_intensity": 212.3, \
+      "skew_deg": 2.1, \
+      "flags": ["blurry", "low_contrast"] \
+    \} \
+  ], \
+  "case_quality_summary": \{ \
+    "num_pages": 6, \
+    "pct_pages_blurry": 0.33, \
+    "pct_pages_low_contrast": 0.50, \
+    "worst_page_laplacian_var": 31.8 \
+  \}, \
+  "annotation_performance": \{ \
+    "total_elements": 18, \
+    "correct": 15, \
+    "fabrications": 1, \
+    "omissions": 2 \
+  \} \
+\} \
+\
+This enables: \
+\
+Performance stratified by document quality \
+Regression modeling of fabrication vs image degradation \
+STARD-AI compliant failure mode analysis \
+Shape \
+\
+5. Source Document Feature Analysis \
+\
+For each case compute: \
+\
+Number of reports \
+Total token count \
+Unique token ratio \
+Lexical diversity \
+Embedding variance \
+Negation frequency \
+Uncertainty language frequency \
+Table density \
+Cross-document semantic similarity \
+Structured case-level output: \
+\
+\{ \
+  "case_id": "1234", \
+  "document_features": \{ \
+    "num_reports": 3, \
+    "avg_tokens": 2450, \
+    "lexical_diversity": 0.72, \
+    "embedding_entropy": 1.84, \
+    "radiology_only": false, \
+    "pathology_only": true \
+  \}, \
+  "annotation_performance": \{ \
+    "total_elements": 18, \
+    "correct": 15, \
+    "fabrications": 1, \
+    "omissions": 2 \
+  \} \
+\} \
+\
+Shape \
+\
+6. Time-Series Monitoring of Prompt Evolution \
+\
+Track over time: \
+\
+Overall accuracy \
+Fabrication rate \
+Per-element fabrication \
+Domain-level breakdown \
+Time-series forecasting is meaningful only if: \
+\
+Prompt versions are sequential and hypothesis-driven: \
+P1 
+\f2 \uc0\u8594 
+\f1  P2 
+\f2 \uc0\u8594 
+\f1  P3 
+\f2 \uc0\u8594 
+\f1  P4 \
+\
+Not independent random experiments. \
+\
+Monitoring triggers: \
+\
+Fabrication spike \
+Domain-specific degradation \
+Sudden accuracy drop \
+Shape \
+\
+7. Deidentification Pipeline for Scanned PDFs \
+\
+Purpose \
+\
+OCR-based bounding box redaction with black rectangles. \
+\
+Requirements \
+\
+Install: \
+\
+pymupdf \
+pytesseract \
+opencv-python \
+pillow \
+pandas \
+tqdm \
+\
+Key Deidentification Logic \
+\
+Redact tokens matching: \
+\
+Email \
+Phone \
+SSN \
+Dates \
+ZIP codes \
+URLs \
+Address patterns \
+MRN (context-based) \
+Tokens after labels (DOB, MRN, Patient, Name) \
+Contextual redaction: \
+\
+If token matches label: \
+Redact next N tokens on same line. \
+\
+Example contextual rule: \
+\
+CONTEXT_LABELS = \{"name", "patient", "dob", "mrn"\} \
+redact_after_label_tokens = 6 \
+\
+Output: \
+\
+New redacted PDF \
+CSV log of redactions \
+Log row example: \
+\
+file,page,status,page_redactions,sample_rules \
+report1.pdf,1,OK,7,DATE_MDY,PHONE \
+report1.pdf,DONE,2,14,data/deidentified/report1.pdf \
+\
+Shape \
+\
+8. Project Folder Structure \
+\
+data/ \
+  raw/ \
+  deidentified/ \
+  processed/ \
+  splits/ \
+ \
+prompts/ \
+  frozen/ \
+  library/ \
+  generated/ \
+ \
+models/ \
+  configs/ \
+ \
+eval/ \
+  schemas/ \
+  metrics/ \
+  reports/ \
+ \
+experiments/ \
+  runs/ \
+ \
+docs/ \
+  protocol.md \
+  data_dictionary.md \
+\
+Each experiment must log: \
+\
+dataset snapshot \
+prompt id \
+model version \
+git commit hash \
+timestamp \
+Shape \
+\
+9. Publication Alignment (npj Digital Medicine) \
+\
+Structure as: \
+\
+Study type: Retrospective diagnostic accuracy evaluation \
+\
+Index test: LLM summary under defined prompt \
+\
+Reference standard: Human validation of source document feature presence \
+\
+Comparator: Clinician-written summary \
+\
+Primary endpoint: \
+Element-level fabrication rate \
+\
+Secondary: \
+Sensitivity, precision, domain breakdown \
+\
+Required reporting elements: \
+\
+Case selection flow diagram \
+Annotator protocol \
+Error taxonomy \
+Statistical plan \
+Data availability statement \
+Code availability statement \
+OCR + image quality assessment description \
+Shape \
+\
+10. What TensorFlow Hub Would Entail \
+\
+If used for: \
+\
+Embedding analysis: \
+\
+Use pretrained BERT/ELMo embeddings \
+Extract document-level vector features \
+Model performance predictors \
+Full fine-tuning: \
+\
+Define train/validation/test splits \
+Specify hyperparameters \
+Report optimizer, LR schedule \
+Align with TRIPOD-AI style reporting \
+For npj Digital Medicine: \
+Embedding-based analysis is safer than full model training unless dataset is large. \
+\
+Shape \
+\
+11. High-Level Architecture \
+\
+Pipeline: \
+\
+Raw scanned PDFs \
+OCR + image quality scoring \
+Deidentification \
+LLM summarization (prompt version) \
+Human validation comparison \
+Metric calculation \
+Run registry logging \
+Time-series tracking \
+Alerting dashboard \
+Shape \
+\
+12. Core Scientific Contributions Emerging \
+\
+This project becomes: \
+\
+Clinical evaluation of LLM-generated oncologic summaries \
+Fabrication-focused safety analysis \
+Document-level predictors of LLM failure \
+Prompt optimization framework \
+Performance monitoring + drift detection system" id like to consolidates all that i need for inital data preprocessing (for data used in main_analysis.py) into several notebook including 1. deidentification of validation excel and source docs (deidentify_source_docs as template) in a way that allows for reliable mapping for observation level downstream analysis, 2 then missing analysis at observaton lvel for average total missing per observation grouped by feature, make a table with rad features under "radiologic features average missing" and "pathologic features average missing"  including other tables and plots from Py_missing data_descriptive_analysis_genetic_descriptive_tables_plots. as you think is useful, 3 same structure for eda analyzing  average total correct vs total omitted versus total fabrications at observation level grouped by feature using things from Hands_on_Notebook_ExploratoryDataAnalysis.ipynb as necessary followed by classification and diagnostic metrics creating all tables and plots from main_analysisof  nto faceted plots using facet for radiologic features with side by bar rand histogram for total correct  in each fature as well as ttotal omitted and total on followed by nference for diagnostic and classification metrics (observaton lvel grouped by features then stratified by rads vs path) with all plots and tables in main_analysis.py included, 4 source documents text extraction and processing by first deidentifying (deidenty_source_docs as template) in a way that allows for me to see which patient it came from still and what doc if i need to track it, 5 feature extraction and Raw scanned PDFs using bert encoder script attached as template and ai_featureinteraction analysis\
+OCR + image quality scoring using attached bert tranform\
+ \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 \
+Lagchain and OCR with deepeval version tracking + metrics\
+1) Prereqs for your setting (scanned PDFs)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 Because 
+\f3\fs26 \strokec2 PyPDFLoader
+\f1\fs24 \strokec2  may return empty text for scanned image PDFs, you\'92ll want an OCR-first loader.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 \strokec2 Colab install\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \
+!apt-get update\
+!apt-get install -y tesseract-ocr\
+!pip install langchain langchain-community langchain-text-splitters langchain-openai pymupdf pytesseract pillow opencv-python faiss-cpu chromadb\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 2) OCR loader that returns LangChain Documents\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 This loader:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 rasterizes each PDF page via PyMuPDF\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 runs Tesseract OCR\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 returns a 
+\f3\fs26 Document
+\f1\fs24  per page with metadata (source file, page number)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+from pathlib import Path\
+import fitz\
+import pytesseract\
+from PIL import Image\
+\
+from langchain_core.documents import Document\
+\
+def ocr_pdf_to_documents(pdf_path: str, dpi: int = 300, lang: str = "eng"):\
+    pdf_path = str(pdf_path)\
+    doc = fitz.open(pdf_path)\
+    out = []\
+\
+    zoom = dpi / 72.0\
+    mat = fitz.Matrix(zoom, zoom)\
+\
+    for page_idx in range(doc.page_count):\
+        page = doc.load_page(page_idx)\
+        pix = page.get_pixmap(matrix=mat, alpha=False)\
+        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)\
+\
+        text = pytesseract.image_to_string(img, lang=lang)\
+\
+        out.append(\
+            Document(\
+                page_content=text,\
+                metadata=\{"source": pdf_path, "page": page_idx\}\
+            )\
+        )\
+\
+    doc.close()\
+    return out\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 3) Split OCR text into retrieval-ready chunks\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 Use the LangChain-recommended splitter:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+from langchain_text_splitters import RecursiveCharacterTextSplitter\
+\
+def split_documents(docs, chunk_size=1000, chunk_overlap=200):\
+    splitter = RecursiveCharacterTextSplitter(\
+        chunk_size=chunk_size,\
+        chunk_overlap=chunk_overlap,\
+        add_start_index=True\
+    )\
+    return splitter.split_documents(docs)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 4) Choose embeddings (recommended for this use case)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 If you\'92re prototyping quickly: OpenAI embeddings.\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+import os\
+from langchain_openai import OpenAIEmbeddings\
+\
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs24 \cf0 \strokec2 If you want local/offline or IRB constraints: HuggingFace embeddings.\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+from langchain_huggingface import HuggingFaceEmbeddings\
+\
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 5) Vector store options for your environment\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\fs36 \cf0 Option A (simplest): FAISS in-memory (great for Colab)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \
+from langchain_community.vectorstores import FAISS\
+\
+vector_store = FAISS.from_documents(all_splits, embeddings)\
+\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Option B: Chroma (persist to disk)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \
+from langchain_chroma import Chroma\
+\
+vector_store = Chroma(\
+    collection_name="onc_summaries",\
+    embedding_function=embeddings,\
+    persist_directory="./chroma_db"\
+)\
+vector_store.add_documents(all_splits)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 6) Retrieval strategy tailored to your element extraction\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 You have 
+\f4\i \strokec2 specific features/elements
+\f1\i0 \strokec2  (e.g., ER status, tumor size, node status, biopsy date, imaging findings).\
+Instead of retrieving once for a general question, do 
+\f0\b \strokec2 per-element retrieval
+\f1\b0 \strokec2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Query = \'93Find evidence for: [element name + synonyms]\'94\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Retrieve top k chunks\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Feed only those chunks into the extraction prompt\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \strokec2 Retriever:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+retriever = vector_store.as_retriever(\
+    search_type="similarity",\
+    search_kwargs=\{"k": 5\}\
+)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 7) Minimal RAG extraction chain (per element)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 You want your output structured (JSON) so it can be compared to your human validation sheet.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 \strokec2 RAG prompt template (element-level)\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \
+from langchain_core.prompts import ChatPromptTemplate\
+from langchain_openai import ChatOpenAI\
+\
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)\
+\
+prompt = ChatPromptTemplate.from_messages([\
+    ("system",\
+     "You are extracting structured oncology information from clinical reports. "\
+     "Use only the provided context. If not explicitly supported, return null and say 'not found'. "\
+     "Do not guess."),\
+    ("user",\
+     "Element: \{element_name\}\\n"\
+     "Definition: \{element_definition\}\\n"\
+     "Context:\\n\{context\}\\n\\n"\
+     "Return JSON with keys: value, evidence, page_refs, confidence, rationale.\\n"\
+     "value must be null if not found. evidence must quote short supporting text.")\
+])\
+\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Run RAG extraction for one element\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs26 \cf0 \
+def extract_element(element_name, element_definition, case_id):\
+    query = f"\{element_name\}. \{element_definition\}"\
+    docs = retriever.invoke(query)\
+\
+    context = "\\n\\n".join(\
+        [f"[page \{d.metadata.get('page')\}] \{d.page_content\}" for d in docs]\
+    )\
+\
+    msg = prompt.format_messages(\
+        element_name=element_name,\
+        element_definition=element_definition,\
+        context=context\
+    )\
+\
+    resp = llm.invoke(msg).content\
+    return resp, docs\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 8) Output schema (matches your evaluation needs)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 This schema is designed so you can:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 compute fabrication (FP) and omission (FN)\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 trace evidence chunks\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 stratify by page, rad vs path if you tag docs\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \
+\{\
+  "case_id": "CASE_0001",\
+  "model": "gpt-4o-mini",\
+  "prompt_id": "P2",\
+  "elements": [\
+    \{\
+      "element_name": "ER_status",\
+      "value": "positive",\
+      "evidence": "Estrogen receptor: Positive (90%)",\
+      "page_refs": [2],\
+      "confidence": 0.86,\
+      "rationale": "Explicit ER statement in pathology report."\
+    \}\
+  ]\
+\}\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 9) Add rad vs path stratification\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 \strokec2 When loading PDFs, tag them based on filename pattern:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+def infer_domain_from_filename(path: str):\
+    p = Path(path).name.lower()\
+    if "path" in p or "surgical" in p:\
+        return "pathology"\
+    if "rad" in p or "ct" in p or "mri" in p or "mammo" in p:\
+        return "radiology"\
+    return "unknown"\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs24 \cf0 \strokec2 Then add 
+\f3\fs26 \strokec2 domain
+\f1\fs24 \strokec2  to Document metadata in OCR loader.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \strokec2 10) Connect to your DeepEval tracking + forecasting\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\fs36 \cf0 What you should log per run (minimum)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls4\ilvl0
+\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 run_id\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 prompt_id\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 model_id/version\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 per-element counts: TP/FN/FP/TN\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 per-element fabrication rate\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 aggregate + stratified rad/path\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 timestamp\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \strokec2 Example run registry entry:\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \strokec2 \
+\{\
+  "run_id": "R31",\
+  "timestamp": "2026-03-11T10:12:00Z",\
+  "model": "gpt-4o-mini",\
+  "prompt_id": "P2",\
+  "approach": "RAG+structured extraction",\
+  "metrics": \{\
+    "overall": \{"accuracy": 0.81, "fabrication_rate": 0.04\},\
+    "radiology": \{"accuracy": 0.84, "fabrication_rate": 0.03\},\
+    "pathology": \{"accuracy": 0.78, "fabrication_rate": 0.05\}\
+  \},\
+  "per_element": \{\
+    "ER_status": \{"fabrication_rate": 0.01, "recall": 0.95\},\
+    "tumor_size": \{"fabrication_rate": 0.07, "recall": 0.72\}\
+  \}\
+\}\
+}
