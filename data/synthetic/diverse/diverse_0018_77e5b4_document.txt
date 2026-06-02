@@ -1,0 +1,313 @@
+VALLEY REGIONAL MEDICAL CENTER
+Department of Radiology & Breast Imaging
+Department of Pathology & Laboratory Medicine
+
+PATIENT: [PATIENT] | DOB: [REDACTED] | MRN: [REDACTED]
+Ordering Physician: Dr. M. Okafor, MD
+Referring Diagnosis: Palpable right breast mass
+
+─────────────────────────────────────────────────────────────
+MAMMOGRAM
+Date of Examination: 03/12/2024
+Technologist: R. Salinas, RT(R)(M)
+Interpreting Radiologist: Dr. A. Whitfield, MD
+
+CLINICAL HISTORY:
+Patient [PATIENT] is a 52-year-old female presenting with a palpable
+lump in the right breast, noted approximately four weeks prior.
+Personal history: none. Family history: maternal aunt with breast cancer.
+
+TECHNIQUE:
+Standard bilateral digital diagnostic mammogram, including right
+spot-compression and magnification views was performed.
+
+FINDINGS:
+RIGHT BREAST: An irregular, high-density mass measuring approximately
+1.8 cm in greatest dimension is identified in the right breast at the
+10 o'clock position, upper outer quadrant, at mid depth, approximately
+5 cm from the nipple. The margins of the mass demonstrate spiculation
+along its posterior aspect. Associated fine pleomorphic calcifications
+are present within and immediately surrounding the mass, distributed
+in a clustered pattern. No skin thickening or nipple retraction is
+identified. There is no architectural distortion remote from the mass.
+
+LEFT BREAST: No suspicious mass, calcification, or architectural
+distortion identified.
+
+LYMPH NODES: A mildly enlarged, somewhat rounded lymph node is noted
+in the right axillary tail region on the MLO view; cortical thickening
+is noted. Recommend ultrasound correlation.
+
+IMPRESSION:
+Right breast: Irregular spiculated mass with associated fine pleomorphic
+clustered calcifications at 10 o'clock, mid depth, 5 cm from nipple.
+
+BI-RADS CATEGORY: 4C — High suspicion for malignancy.
+RECOMMENDATION: Ultrasound-guided core needle biopsy recommended.
+Axillary ultrasound to evaluate right axillary lymph nodes.
+
+Electronically signed: Dr. A. Whitfield, MD
+Date/Time: 03/12/2024 14:37
+
+─────────────────────────────────────────────────────────────
+ULTRASOUND
+Date of Examination: 03/14/2024
+Interpreting Radiologist: Dr. A. Whitfield, MD
+
+CLINICAL HISTORY:
+Follow-up to diagnostic mammogram demonstrating right breast mass with
+calcifications at 10 o'clock. Evaluation of right axillary lymph nodes.
+
+TECHNIQUE:
+High-resolution grayscale and color Doppler ultrasound of the right
+breast and right axilla was performed using a 15 MHz linear transducer.
+
+FINDINGS:
+RIGHT BREAST: At the 10 o'clock position, upper outer quadrant, mid
+depth, approximately 5 cm from the nipple, there is a hypoechoic,
+ir regular mass measuring 1.9 cm (AP) x 1.7 cm (transverse) x 1.6 cm
+(craniocaudal). The mass demonstrates angular margins and posterior
+acoustic shadowing. Internal vascularity is demonstrated on color
+Doppler imaging. Findings correlate with the mammographic mass.
+
+RIGHT AXILLA: A lymph node measuring 1.4 cm in short axis is identified
+in the right low axilla (Level I). The cortex is eccentrically thickened,
+measuring up to 5 mm. The fatty hilum is preserved but compressed.
+Findings are suspicious for low-level axillary nodal involvement.
+Additional axillary lymph nodes appear normal bilaterally.
+
+LEFT BREAST AND AXILLA: No suspicious lesion identified. No abnormal
+lymph nodes in the left axilla.
+
+IMPRESSION:
+1. Right breast: 1.9 cm hypoechoic irregular mass at 10 o'clock, 5 cm
+   from nipple, mid depth. BI-RADS 4C. Corresponds to mammographic
+   finding.
+2. Right low axillary lymph node with cortical thickening, measuring
+   1.4 cm short axis — suspicious, recommend biopsy correlation.
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the right
+breast mass with clip placement. Consider right axillary lymph node
+sampling if indicated after tissue diagnosis.
+
+Electronically signed: Dr. A. Whitfield, MD
+Date/Time: 03/14/2024 11:15
+
+─────────────────────────────────────────────────────────────
+ULTRASOUND-GUIDED CORE NEEDLE BIOPSY — PROCEDURE NOTE
+Date of Procedure: 03/15/2024
+Performing Radiologist: Dr. A. Whitfield, MD
+Nurse/Technologist Assist: P. Gomez, RN
+
+INDICATION: Right breast mass at 10 o'clock, BI-RADS 4C. Consent
+obtained. Time-out performed.
+
+TECHNIQUE: Using real-time ultrasound guidance, the right breast mass
+at 10 o'clock was localized. The skin was prepped in sterile fashion
+and local anesthesia (1% lidocaine) was administered. An UltiCore
+14-gauge automated core biopsy device was used. A total of five (5)
+cores were obtained, all grossly representative of the target lesion.
+A biopsy clip marker (titanium BB marker) was deployed at the biopsy
+site under real-time ultrasound visualization and confirmed to be
+within the mass cavity. Post-procedure mammogram confirmed accurate
+clip placement at the 10 o'clock position, right breast.
+
+Hemostasis achieved. No immediate complications.
+
+Cores submitted to pathology in 10% buffered formalin, labeled
+"Right breast, 10 o'clock, ultrasound-guided CNB."
+
+Electronically signed: Dr. A. Whitfield, MD
+Date/Time: 03/15/2024 10:42
+
+─────────────────────────────────────────────────────────────
+MRI — BREAST
+Date of Examination: 03/21/2024
+Interpreting Radiologist: Dr. S. Patel, MD (Breast MRI Fellowship Trained)
+
+CLINICAL HISTORY:
+52-year-old female with biopsy-proven right breast carcinoma. MRI
+performed for extent of disease evaluation prior to surgical planning.
+
+TECHNIQUE:
+Bilateral breast MRI performed on a 3.0 Tesla scanner using a dedicated
+8-channel breast coil. Axial T1-weighted pre- and post-contrast
+sequences with fat suppression were obtained following intravenous
+administration of 0.1 mmol/kg gadobutrol (Gadavist). Subtraction,
+MIP, and kinetic analysis images were generated.
+
+FINDINGS:
+RIGHT BREAST:
+The index lesion at 10 o'clock, upper outer quadrant, mid depth, 5 cm
+from the nipple, demonstrates an irregular enhancing mass measuring
+2.1 cm in greatest dimension on MRI. The lesion shows rapid initial
+enhancement with washout kinetics (Type III curve). Margins are
+irregular and spiculated.
+
+No additional enhancing foci, satellite lesions, or non-mass enhancement
+are identified elsewhere in the right breast. No pectoralis muscle or
+chest wall involvement.
+
+LEFT BREAST: No suspicious enhancing mass or non-mass enhancement
+identified.
+
+RIGHT AXILLA: An enlarged right low axillary lymph node (Level I)
+is identified, measuring 1.5 cm in short axis with heterogeneous
+cortical enhancement. This correlates with the ultrasound finding.
+No additional suspicious axillary adenopathy identified.
+
+LEFT AXILLA: Lymph nodes appear normal.
+
+IMPRESSION:
+1. Right breast: 2.1 cm irregular enhancing mass at 10 o'clock, upper
+   outer quadrant, mid depth, 5 cm from nipple. Rapid washout kinetics
+   consistent with biopsy-proven malignancy.
+2. No additional enhancing foci or non-mass enhancement identified in
+   either breast. Disease appears localized to the index lesion.
+3. Suspicious right low axillary lymph node (Level I), 1.5 cm short
+   axis, with heterogeneous cortical enhancement. Correlation with
+   clinical assessment and possible node biopsy recommended.
+
+BI-RADS CATEGORY: 6 (Known malignancy; extent of disease evaluation).
+RECOMMENDATION: Surgical oncology referral for treatment planning.
+Multidisciplinary tumor board discussion recommended.
+
+Electronically signed: Dr. S. Patel, MD
+Date/Time: 03/21/2024 16:08
+
+─────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+Date Received: 03/15/2024
+Date Reported: 03/18/2024
+Specimen: Right breast, 10 o'clock, ultrasound-guided core needle biopsy
+Pathologist: Dr. L. Nguyen, MD
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "Right breast, 10 o'clock, US-guided CNB,"
+are five tan-white cylindrical cores ranging from 1.0 to 1.4 cm in
+length and 0.1 cm in diameter. Representative sections submitted in
+one cassette.
+
+MICROSCOPIC DESCRIPTION:
+Sections demonstrate cores of fibroadipose and fibroglandular breast
+tissue infiltrated by a moderately differentiated invasive carcinoma
+with ductal-type architecture. The malignant cells are arranged in
+nests, cords, and solid sheets with intervening desmoplastic stroma.
+Nuclei are moderately pleomorphic (nuclear grade 2). Mitotic figures
+are present, approximately 8 per 10 high-power fields. A component of
+intermediate-grade ductal carcinoma in situ (DCIS) with cribriform
+and solid architecture is identified at the periphery of the invasive
+tumor nests.
+
+DIAGNOSIS:
+Right breast, 10 o'clock, ultrasound-guided core needle biopsy:
+INVASIVE DUCTAL CARCINOMA (IDC), Nottingham histologic grade 2
+(score: glandular 3 + nuclear 2 + mitotic 2 = 7/9).
+Associated intermediate-grade DCIS, cribriform and solid type.
+Invasive carcinoma measures at least 1.8 cm on core biopsy (note:
+final size to be determined on excision).
+
+Electronically signed: Dr. L. Nguyen, MD
+Date/Time: 03/18/2024 09:24
+
+─────────────────────────────────────────────────────────────
+RECEPTOR STATUS / ANCILLARY STUDIES
+Date Reported: 03/19/2024
+Laboratory: Valley Regional Medical Center — Immunohistochemistry Laboratory
+Pathologist: Dr. L. Nguyen, MD
+
+SPECIMEN: Right breast, 10 o'clock, US-guided core needle biopsy
+(same block as surgical pathology accession above)
+
+ESTROGEN RECEPTOR (ER) — IHC:
+Result: NEGATIVE
+Percentage of positive nuclei: <1% (essentially 0%)
+Staining Intensity: N/A
+Internal Control: Positive (normal ductal epithelium)
+External Control: Satisfactory
+
+PROGESTERONE RECEPTOR (PR/PgR) — IHC:
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Staining Intensity: N/A
+Internal Control: Positive (normal lobular epithelium)
+External Control: Satisfactory
+
+HER2 — IMMUNOHISTOCHEMISTRY (IHC):
+Result: 3+ (POSITIVE)
+Staining Pattern: Complete, intense membranous staining
+Percentage of cells staining: >10% of invasive tumor cells
+Scoring: 3+ per ASCO/CAP 2018 guidelines
+Internal Control: Satisfactory
+External Control: Satisfactory
+
+HER2 — IN SITU HYBRIDIZATION (ISH / FISH):
+Platform: HER2 Dual-Probe FISH (PathVysion, Abbott Molecular)
+HER2 Signals per Cell (mean): 8.2
+CEP17 Signals per Cell (mean): 1.9
+HER2/CEP17 Ratio: 4.3
+Result: AMPLIFIED (Positive)
+Interpretation: HER2 gene amplification confirmed per ASCO/CAP 2018
+criteria (ratio ≥ 2.0, average HER2 copy number ≥ 4.0).
+
+OVERALL HER2 STATUS: POSITIVE
+
+KI-67 PROLIFERATIVE INDEX:
+Ki-67: 28% of invasive tumor nuclei positive.
+
+SUMMARY:
+ER: Negative (0%)
+PR: Negative (0%)
+HER2: Positive (IHC 3+; FISH amplified, ratio 4.3)
+Ki-67: 28%
+Molecular subtype: HER2-enriched
+
+Electronically signed: Dr. L. Nguyen, MD
+Date/Time: 03/19/2024 13:55
+
+─────────────────────────────────────────────────────────────
+END OF REPORT
+
+Report compiled and verified by:
+Valley Regional Medical Center Health Information Management
+Document finalized: 03/21/2024
+─────────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "2.1 cm (MRI, greatest dimension)",
+        "evidence": "The index lesion at 10 o'clock, upper outer quadrant, mid depth, 5 cm from the nipple, demonstrates an irregular enhancing mass measuring 2.1 cm in greatest dimension on MRI."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, 10 o'clock position, mid depth, 5 cm from the nipple",
+        "evidence": "An irregular, high-density mass measuring approximately 1.8 cm in greatest dimension is identified in the right breast at the 10 o'clock position, upper outer quadrant, at mid depth, approximately 5 cm from the nipple."
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Present; fine pleomorphic calcifications in a clustered distribution within and immediately surrounding the mass",
+        "evidence": "Associated fine pleomorphic calcifications are present within and immediately surrounding the mass, distributed in a clustered pattern."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "No additional enhancing foci, satellite lesions, or non-mass enhancement identified elsewhere in the right breast or left breast",
+        "evidence": "No additional enhancing foci, satellite lesions, or non-mass enhancement are identified elsewhere in the right breast. No pectoralis muscle or chest wall involvement. Left Breast: No suspicious enhancing mass or non-mass enhancement identified."
+      },
+      "feature_5_extent": {
+        "value": "Localized to the index lesion",
+        "evidence": "Disease appears localized to the index lesion."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Biopsy clip placed; titanium BB marker deployed at the biopsy site; post-procedure mammogram confirmed accurate clip placement at the 10 o'clock position, right breast",
+        "evidence": "A biopsy clip marker (titanium BB marker) was deployed at the biopsy site under real-time ultrasound visualization and confirmed to be within the mass cavity. Post-procedure mammogram confirmed accurate clip placement at the 10 o'clock position, right breast."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical oncology referral for treatment planning. Multidisciplinary tumor board discussion recommended.",
+        "evidence": "RECOMMENDATION: Surgical oncology referral for treatment planning. Multidisciplinary tumor board discussion recommended."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right low axillary lymph node (Level I), 1.5 cm short axis, with heterogeneous cortical enhancement; suspicious for low-level axillary nodal involvement",
+        "evidence": "A lymph node measuring 1.4 cm in short axis is identified in the right low axilla (Level I). The cortex is eccentrically thickened, measuring up to 5 mm. Findings are suspicious for low-level axillary nodal involvement. [MRI]: An enlarged right low axillary lymph node (Level I) is identified, measuring 1.5 cm in short axis with heterogeneous cortical enhancement."
+      },
+      "feature_10_biopsy

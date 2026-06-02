@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0019_84a077",
+  "setting": "diverse",
+  "index": 19,
+  "profile": {
+    "cancer_type": "DCIS intermediate-grade",
+    "laterality": "left",
+    "modalities": "mammogram + stereotactic biopsy + pathology",
+    "special": "amorphous calcifications, localized extent"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm in greatest extent",
+          "evidence": "a cluster of amorphous calcifications measuring approximately 1.8 cm in greatest extent / extent approximately 1.8 cm based on the distribution of involved cores and correlating with imaging findings"
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10 o'clock position, mid depth, approximately 4.5 cm from the nipple",
+          "evidence": "left upper outer quadrant at the 10 o'clock position, approximately 4.5 cm from the nipple ... at mid depth"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Calcifications present; amorphous morphology; grouped (clustered) distribution",
+          "evidence": "a cluster of amorphous calcifications measuring approximately 1.8 cm in greatest extent. The calcifications are distributed in a grouped (clustered) pattern"
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI modality included in this document."
+        },
+        "feature_5_extent": {
+          "value": "Localized; approximately 1.8 cm",
+          "evidence": "EXTENT APPROXIMATELY 1.8 CM (LOCALIZED). NO INVASIVE CARCINOMA IDENTIFIED / The extent of involvement across the submitted cores is localized"
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Titanium biopsy marker clip (MicroMark II, oval configuration) deployed at biopsy site, left upper outer quadrant, 10 o'clock position; post-deployment images confirmed accurate clip placement",
+          "evidence": "A titanium biopsy marker clip (MicroMark II, oval configuration) was deployed at the biopsy site within the left upper outer quadrant at the 10 o'clock position following specimen collection. Post-deployment mammographic images confirmed accurate clip placement at the target site."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Surgical evaluation is recommended for definitive management, including discussion of breast-conserving surgery versus mastectomy. Post-surgical pathology will be required to assess final margin status. Oncologic and radiation oncology consultation advised as clinically appropriate.",
+          "evidence": "RECOMMENDATION: Surgical evaluation is recommended for definitive management, including discussion of breast-conserving surgery versus mastectomy. Post-surgical pathology will be required to assess final margin status. Oncologic and radiation oncology consultation advised as clinically appropriate."
+        },
+        "feature_8_lymph_node": {
+          "value": "Left axilla: no suspicious lymphadenopathy; axillary nodes appear normal in morphology",
+          "evidence": "LEFT AXILLA: No suspicious lymphadenopathy. Axillary nodes appear normal in morphology."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Stereotactic vacuum-assisted biopsy (VAB), 9-gauge Mammotome device, 12 passes",
+          "evidence": "A stereotactic vacuum-assisted biopsy (VAB) was performed using an 9-gauge Mammotome device. Multiple core specimens (12 passes) were obtained."
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "No invasive carcinoma is identified."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Ductal carcinoma in situ (DCIS), intermediate nuclear grade, cribriform and micropapillary pattern, with associated calcifications. Extent approximately 1.8 cm (localized). No invasive carcinoma identified.",
+          "evidence": "DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE NUCLEAR GRADE, CRIBRIFORM AND MICROPAPILLARY PATTERN, WITH ASSOCIATED CALCIFICATIONS. EXTENT APPROXIMATELY 1.8 CM (LOCALIZED). NO INVASIVE CARCINOMA IDENTIFIED."
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: Positive, 90%, strong (3+), internal and external controls adequate/satisfactory. PR: Positive, 75%, moderate-to-strong (2\u20133+), internal and external controls adequate/satisfactory. HER2 IHC: Negative, score 1+ (incomplete, faint membrane staining in <10% of cells); HER2 ISH: Not performed (IHC 1+, does not meet criteria).",
+          "evidence": "ER: POSITIVE, 90%, Strong (3+) / PR: POSITIVE, 75%, Moderate-to-strong (2\u20133+) / HER2 IHC: NEGATIVE, Score 1+ (incomplete, faint membrane staining in < 10% of cells); Reflex ISH testing: NOT PERFORMED (IHC score 1+, does not meet criteria)"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12888,
+  "json_parse_ok": true
+}

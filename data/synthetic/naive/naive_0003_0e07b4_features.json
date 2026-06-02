@@ -1,0 +1,64 @@
+{
+  "doc_id": "naive_0003_0e07b4",
+  "setting": "naive",
+  "index": 3,
+  "profile": {},
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.9 cm",
+          "evidence": "irregular hypoechoic mass with spiculated margins measuring 1.7 x 1.3 x 1.9 cm (AP x TR x LONG)"
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10:00 position, 6 cm from nipple, mid depth",
+          "evidence": "left breast upper outer quadrant at approximately 10:00 position, 6 cm from the nipple, at mid depth"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Pleomorphic calcifications present within and adjacent to mass, segmental distribution",
+          "evidence": "Associated pleomorphic calcifications are present within and adjacent to this mass, demonstrating a segmental distribution"
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI examination performed or described in this document"
+        },
+        "feature_5_extent": {
+          "value": "Not reported",
+          "evidence": "No explicit statement of multifocal, multicentric, bilateral, or localized extent in the document"
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "UltraClip triangular marker successfully deployed within biopsy cavity at left breast 10:00, confirmed on post-procedure mammogram",
+          "evidence": "A UltraClip triangular marker was successfully deployed within the biopsy cavity under ultrasound guidance. Post-deployment images confirm appropriate positioning within the left breast mass at 10:00. POST-PROCEDURE MAMMOGRAM: Single CC view of the left breast confirms the triangular marker is appropriately positioned at the site of biopsy."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Ultrasound-guided core needle biopsy of left breast mass is recommended for tissue diagnosis; Surgical consultation for definitive treatment",
+          "evidence": "RECOMMENDATION: Ultrasound-guided core needle biopsy of left breast mass is recommended for tissue diagnosis. RECOMMENDED FOLLOW-UP: Surgical consultation for definitive treatment."
+        },
+        "feature_8_lymph_node": {
+          "value": "No abnormal axillary lymphadenopathy bilaterally; normal-appearing left axillary lymph nodes with preserved fatty hila",
+          "evidence": "LYMPH NODES: No abnormal axillary lymphadenopathy is identified bilaterally. LEFT AXILLA: Normal-appearing lymph nodes with preserved fatty hila. No morphologically abnormal left axillary lymph nodes identified."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Ultrasound-guided 14 gauge core needle biopsy",
+          "evidence": "BIOPSY DEVICE: Bard Mission spring-loaded 14 gauge core biopsy needle. NUMBER OF CORE SAMPLES: 5 core samples were obtained under direct real-time ultrasound guidance"
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "0.8 cm",
+          "evidence": "The invasive component measures 0.8 cm in greatest dimension in this biopsy material. Invasive component spans 0.8 cm in this biopsy material"
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Invasive ductal carcinoma, moderately differentiated, 0.8 cm, with associated ductal carcinoma in situ (DCIS) cribriform and solid patterns, intermediate nuclear grade",
+          "evidence": "DIAGNOSIS: Left breast, 10:00 position, ultrasound-guided core needle biopsy: - Invasive ductal carcinoma, moderately differentiated - Invasive component spans 0.8 cm in this biopsy material - Nuclear grade: II/III (moderate nuclear pleomorphism) - Associated ductal carcinoma in situ (DCIS), cribriform and solid patterns - DCIS nuclear grade: Intermediate"
+        },
+        "feature_13_receptor_status": {
+          "value": "ER positive 85% strong intensity (3+), PR positive 70% moderate-strong intensity (2-3+), HER2 negative (IHC 2+ equivocal, ISH not amplified, HER2/CEP17 ratio 1.4, average HER2 copy number 3.8 signals/cell), Ki-67 22%, internal and external controls appropriate",
+          "evidence": "Estrogen Receptor (ER): - Positive - Percentage of tumor nuclei: 85% - Intensity: Strong (3+) - Internal and external controls: Appropriate. Progesterone Receptor (PR): - Positive - Percentage of tumor nuclei: 70% - Intensity: Moderate to strong (2-3+) - Internal and external controls: Appropriate. HER2 (Immunohistochemistry): - Equivocal (2+) - Incomplete membrane staining, moderate intensity in >10% of invasive carcinoma cells - Internal and external controls: Appropriate. HER2 (In Situ Hybridization by FISH): - Negative (not amplified) - HER2/CEP17 ratio: 1.4 - Average HER2 copy number: 3.8 signals/cell - Classification: HER2-negative per ASCO/CAP guidelines. Ki-67 Proliferation Index: Approximately 22%"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12857,
+  "json_parse_ok": true
+}

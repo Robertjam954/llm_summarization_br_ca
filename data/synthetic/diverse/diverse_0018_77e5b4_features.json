@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0018_77e5b4",
+  "setting": "diverse",
+  "index": 18,
+  "profile": {
+    "cancer_type": "IDC HER2-positive grade 2",
+    "laterality": "right",
+    "modalities": "mammogram + ultrasound + MRI + biopsy + pathology + receptor",
+    "special": "clip placed (BB marker), low axillary node"
+  },
+  "features": null,
+  "raw_output_chars": 14079,
+  "json_parse_ok": false
+}

@@ -11,6 +11,8 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import List, Tuple, Dict
 
+import argparse
+
 import fitz  # PyMuPDF
 import pytesseract
 import pandas as pd
@@ -29,18 +31,7 @@ os.environ["TESSDATA_PREFIX"] = (
 
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-# Dynamically find folder (name contains a curly apostrophe U+2019)
-_ONEDRIVE = Path(r"C:\Users\jamesr4\OneDrive - Memorial Sloan Kettering Cancer Center")
-_matches = [d for d in _ONEDRIVE.iterdir() if d.is_dir() and "Moo" in d.name and "Breast Bot" in d.name]
-if not _matches:
-    raise FileNotFoundError(f"Breast Bot Project folder not found in {_ONEDRIVE}")
-SOURCE_ROOT = _matches[0]
-OUTPUT_ROOT = Path(r"C:\Users\jamesr4\loc\data_private\breast_bot_deidentified")
-MAPPING_CSV = OUTPUT_ROOT / "case_id_mapping.csv"
-LOG_CSV = OUTPUT_ROOT / "deidentification_log.csv"
-
-# Create output directory
-OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+_DEFAULT_OUTPUT = Path(r"C:\Users\jamesr4\loc\data_private\breast_bot_deidentified")
 
 
 # ── HIPAA Safe Harbor 18 PHI Identifiers ─────────────────────────────────────
@@ -401,21 +392,36 @@ def deidentify_pdf(
     }
 
 
-def process_breast_bot_project():
+def process_breast_bot_project(source_root: Path = None, output_root: Path = None):
     """Process all PDFs in Breast Bot Project folder structure"""
-    
+
+    # Resolve source root
+    if source_root is None:
+        _ONEDRIVE = Path(r"C:\Users\jamesr4\OneDrive - Memorial Sloan Kettering Cancer Center")
+        _matches = [d for d in _ONEDRIVE.iterdir() if d.is_dir() and "Moo" in d.name and "Breast Bot" in d.name]
+        if not _matches:
+            raise FileNotFoundError(f"Breast Bot Project folder not found in {_ONEDRIVE}")
+        source_root = _matches[0]
+
+    if output_root is None:
+        output_root = _DEFAULT_OUTPUT
+
+    mapping_csv = output_root / "case_id_mapping.csv"
+    log_csv = output_root / "deidentification_log.csv"
+    output_root.mkdir(parents=True, exist_ok=True)
+
     print("=" * 80)
     print("BREAST BOT PROJECT DEIDENTIFICATION")
     print("=" * 80)
-    print(f"Source: {SOURCE_ROOT}")
-    print(f"Output: {OUTPUT_ROOT}")
-    print(f"\nUsing HIPAA Safe Harbor 18 PHI Identifiers")
+    print(f"Source: {source_root}")
+    print(f"Output: {output_root}")
+    print("\nUsing HIPAA Safe Harbor 18 PHI Identifiers")
     print(f"Redaction method: Black bounding boxes with {DeidConfig().pad_px}px padding")
     print("=" * 80)
     
     # Scan for all PDFs
     all_pdfs = []
-    surgeon_folders = [d for d in SOURCE_ROOT.iterdir() if d.is_dir()]
+    surgeon_folders = [d for d in source_root.iterdir() if d.is_dir()]
     
     print(f"\nScanning {len(surgeon_folders)} surgeon folders...")
     
@@ -433,7 +439,7 @@ def process_breast_bot_project():
                     "case": case_name,
                     "filename": pdf_file.name,
                     "source_path": pdf_file,
-                    "relative_path": pdf_file.relative_to(SOURCE_ROOT)
+                    "relative_path": pdf_file.relative_to(source_root)
                 })
     
     print(f"Found {len(all_pdfs)} PDF files across all cases")
@@ -466,7 +472,7 @@ def process_breast_bot_project():
         case_id = generate_case_id(surgeon, case, filename)
         
         # Create output path maintaining folder structure
-        output_path = OUTPUT_ROOT / surgeon / case / f"{case_id}.pdf"
+        output_path = output_root / surgeon / case / f"{case_id}.pdf"
         
         # Skip if already processed
         if output_path.exists():
@@ -529,14 +535,14 @@ def process_breast_bot_project():
     
     # Save mapping CSV
     mapping_df = pd.DataFrame(mapping_rows)
-    mapping_df.to_csv(MAPPING_CSV, index=False)
-    print(f"\n[OK] Mapping saved: {MAPPING_CSV}")
+    mapping_df.to_csv(mapping_csv, index=False)
+    print(f"\n[OK] Mapping saved: {mapping_csv}")
     print(f"   Total cases: {len(mapping_df)}")
     
     # Save log CSV
     log_df = pd.DataFrame(log_rows)
-    log_df.to_csv(LOG_CSV, index=False)
-    print(f"[OK] Log saved: {LOG_CSV}")
+    log_df.to_csv(log_csv, index=False)
+    print(f"[OK] Log saved: {log_csv}")
     
     # Summary statistics
     print("\n" + "=" * 80)
@@ -553,7 +559,7 @@ def process_breast_bot_project():
     print(f"Total redactions applied: {total_redactions:,.0f}")
     
     # Surgeon breakdown
-    print(f"\nBreakdown by surgeon:")
+    print("\nBreakdown by surgeon:")
     surgeon_summary = mapping_df.groupby("surgeon").agg({
         "case_id": "count",
         "status": lambda x: (x == "SUCCESS").sum()
@@ -563,10 +569,20 @@ def process_breast_bot_project():
     print("\n" + "=" * 80)
     print("COMPLETE")
     print("=" * 80)
-    print(f"Deidentified files: {OUTPUT_ROOT}")
-    print(f"Mapping: {MAPPING_CSV}")
-    print(f"Log: {LOG_CSV}")
+    print(f"Deidentified files: {output_root}")
+    print(f"Mapping: {mapping_csv}")
+    print(f"Log: {log_csv}")
 
 
 if __name__ == "__main__":
-    process_breast_bot_project()
+    parser = argparse.ArgumentParser(description="Deidentify PDFs using HIPAA Safe Harbor 18 PHI rules")
+    parser.add_argument(
+        "--source", type=Path, default=None,
+        help="Root folder containing surgeon/case/PDF structure (default: OneDrive Breast Bot folder)"
+    )
+    parser.add_argument(
+        "--output", type=Path, default=None,
+        help="Output root folder for deidentified PDFs (default: breast_bot_deidentified)"
+    )
+    args = parser.parse_args()
+    process_breast_bot_project(source_root=args.source, output_root=args.output)

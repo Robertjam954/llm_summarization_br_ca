@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0008_951b24",
+  "setting": "diverse",
+  "index": 8,
+  "profile": {
+    "cancer_type": "DCIS intermediate-grade",
+    "laterality": "left",
+    "modalities": "mammogram + stereotactic biopsy + pathology",
+    "special": "amorphous calcifications, localized extent"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm",
+          "evidence": "The calcifications span an estimated extent of 1.8 cm in greatest linear dimension. / ESTIMATED EXTENT: 1.8 cm (localized)."
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10 o'clock position, anterior-to-mid depth, approximately 3.5 cm from the nipple",
+          "evidence": "a cluster of amorphous calcifications at approximately the 10 o'clock position, located in the anterior-to-mid depth of the breast, approximately 3.5 cm from the nipple"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Present; amorphous morphology; grouped/clustered distribution; associated with involved ducts on pathology",
+          "evidence": "a cluster of amorphous calcifications... The distribution is grouped/clustered. / DUCTAL CARCINOMA IN SITU (DCIS)... WITH ASSOCIATED AMORPHOUS-TYPE CALCIFICATIONS."
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI modality present in this document."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "ESTIMATED EXTENT: 1.8 cm (localized)."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Yes; titanium biopsy marker clip (MicroMark II, oval-shaped) placed at the 10 o'clock position, anterior-to-mid depth of the left breast; post-deployment images confirmed accurate placement",
+          "evidence": "A titanium biopsy marker clip (MicroMark II, oval-shaped) was deployed at the biopsy site... Post-deployment mammographic images (CC and lateral) confirmed accurate clip placement at the 10 o'clock position, anterior-to-mid depth of the left breast, co-incident with the calcification cluster."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Surgical excision (lumpectomy or wide local excision) with intraoperative or post-excision specimen radiograph is recommended to confirm clip and calcification removal. Multidisciplinary tumor board review is advised. Sentinel lymph node biopsy may be considered at the time of definitive surgery per surgical and oncologic judgment.",
+          "evidence": "Surgical excision (lumpectomy or wide local excision) with intraoperative or post-excision specimen radiograph is recommended to confirm clip and calcification removal. Multidisciplinary tumor board review is advised. Sentinel lymph node biopsy may be considered at the time of definitive surgery per surgical and oncologic judgment."
+        },
+        "feature_8_lymph_node": {
+          "value": "No pathologically enlarged axillary lymph nodes identified bilaterally. Left axillary lymph nodes demonstrate normal morphology with preserved fatty hilum.",
+          "evidence": "No pathologically enlarged axillary lymph nodes identified bilaterally. Left axillary lymph nodes demonstrate normal morphology with preserved fatty hilum."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Stereotactic vacuum-assisted biopsy (VAB), 9-gauge, left breast",
+          "evidence": "PROCEDURE: Stereotactic vacuum-assisted biopsy (VAB), 9-gauge, left breast."
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "NO INVASIVE CARCINOMA IDENTIFIED."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Ductal carcinoma in situ (DCIS), intermediate grade, cribriform and micropapillary types, with associated amorphous-type calcifications, estimated extent 1.8 cm, left breast 10 o'clock position",
+          "evidence": "DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE GRADE, CRIBRIFORM AND MICROPAPILLARY TYPES, WITH ASSOCIATED AMORPHOUS-TYPE CALCIFICATIONS. ESTIMATED EXTENT: 1.8 cm (localized). NO INVASIVE CARCINOMA IDENTIFIED."
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: Positive, 90% positive nuclei, Allred score 7/8, strong intensity. PR: Positive, 65% positive nuclei, moderate-to-strong intensity. HER2 IHC: Negative (1+, incomplete faint membrane staining in <10% of cells). HER2 ISH: Not performed.",
+          "evidence": "ESTROGEN RECEPTOR (ER): Result: POSITIVE / Allred Score: 7/8 (proportion score 3, intensity score 4 [strong]) / Percentage of positive nuclei: 90% / Interpretation: ER POSITIVE. PROGESTERONE RECEPTOR (PR): Result: POSITIVE / Percentage of positive nuclei: 65% / Staining intensity: Moderate-to-strong / Interpretation: PR POSITIVE. HER2 (IHC): Result: 1+ (Incomplete, faint membrane staining in < 10% of cells) / Interpretation: HER2 NEGATIVE by IHC (1+). ISH testing not indicated per current ASCO/CAP guidelines for this result."
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 13846,
+  "json_parse_ok": true
+}

@@ -1,0 +1,172 @@
+[PAGE 1]
+BE 2:15 PM Thompson, R.M. (MR # 47829104)
+Media Information
+SITE PERFORMED: RIVERSIDE IMAGING CENTER
+REFERRING PHYSICIAN: CHEN, ALICE MD
+1550 PARK BOULEVARD
+Phone: (212) 555-0198
+MRN: 47829104 Acc: 2024-IMG-7742
+Date of Exam: 03/12/2024
+
+EXAM: BILATERAL DIAGNOSTIC MAMMOGRAM WITH TOMOSYNTHESIS
+
+HISTORY: 58-year-old female presents for diagnostic evaluation. Patient reports palpable mass in right breast, upper outer quadrant, noticed approximately 2 weeks ago. No nipple discharge. No skin changes. Personal history: benign breast biopsy 2018. Family history: mother diagnosed with breast cancer age 62.
+
+CLINICAL BREAST EXAMINATION: Palpable firm mass right breast upper outer quadrant measuring approximately 2 cm.
+
+TECHNIQUE: The following views were obtained digitally: bilateral craniocaudal, bilateral mediolateral oblique, right breast spot compression CC and MLO views, right breast magnification views. Low-dose full-field digital breast tomosynthesis examination was performed with tomosynthesis acquisitions and synthesized 2D reconstructed mammogram.
+
+COMPARISON: The present examination has been compared to prior breast imaging studies dating back to 01/15/2023.
+
+FINDINGS:
+
+BREAST COMPOSITION: The breasts are heterogeneously dense, which may obscure small masses.
+
+RIGHT BREAST: There is an irregular high-density mass in the right breast upper outer quadrant at approximately 2 o'clock, 4 cm from the nipple, measuring 2.3 cm in maximum dimension. The mass demonstrates spiculated margins. Associated clustered pleomorphic calcifications are present within and adjacent to the mass. No skin thickening or nipple retraction identified.
+
+LEFT BREAST: No dominant mass, suspicious calcifications, or architectural distortion detected.
+
+AXILLA: No suspicious axillary adenopathy is identified bilaterally.
+
+IMPRESSION: Suspicious irregular spiculated mass in the right breast upper outer quadrant at 2 o'clock, 4 cm from nipple, measuring 2.3 cm with associated pleomorphic calcifications. BI-RADS 5: Highly suggestive of malignancy.
+
+FOLLOW-UP: Recommend ultrasound-guided core needle biopsy of right breast mass.
+
+ASSESSMENT: BI-RADS Category 5: Highly suggestive of malignancy.
+
+This examination should not preclude the clinical evaluation of a suspicious palpable abnormality.
+
+As per the FDA requirements, a layman's letter has been generated and sent to your patient describing the recommendations of this breast imaging study.
+
+Confidential
+Tel: (212) 555-0198 - Fax: (212) 555-0199 www.riversideimaging.com
+Printed: 03/12/2024 3:45 PM THOMPSON, R.M. (Exam: 03/12/2024 2:15 PM) Page 1 of 5
+
+[PAGE 2]
+BE 2:15 PM Thompson, R.M. (MR # 47829104)
+
+Continued: Page 2 of 5
+
+Thank you for the opportunity to participate in the care of this patient.
+
+Marcus Wellington, MD - Electronically Signed: 03/12/2024 3:42 PM
+Physician Signature
+
+FDA Site Name:
+Riverside Imaging Center
+1550 Park Boulevard, NY
+
+Confidential
+Tel: (212) 555-0198 - Fax: (212) 555-0199 www.riversideimaging.com
+Printed: 03/12/2024 3:45 PM THOMPSON, R.M. (Exam: 03/12/2024 2:15 PM) Page 2 of 5
+
+[PAGE 3]
+BE 4:30 PM Thompson, R.M. (MR # 47829104)
+
+SITE PERFORMED: RIVERSIDE IMAGING CENTER
+REFERRING PHYSICIAN: CHEN, ALICE MD
+MRN: 47829104 Acc: 2024-US-8851
+Date of Exam: 03/14/2024
+
+EXAM: TARGETED RIGHT BREAST ULTRASOUND
+
+HISTORY: 58-year-old female with BI-RADS 5 lesion on mammogram dated 03/12/2024. Palpable mass right breast upper outer quadrant.
+
+TECHNIQUE: Targeted ultrasound of the right breast was performed using a high-frequency linear transducer. Radial and anti-radial images were obtained.
+
+COMPARISON: Mammogram dated 03/12/2024.
+
+FINDINGS:
+
+RIGHT BREAST: Correlating with the mammographic finding at 2 o'clock, 4 cm from the nipple, there is an irregular hypoechoic mass measuring 2.4 x 1.8 x 2.1 cm (AP x T x L). The mass demonstrates irregular margins, posterior acoustic shadowing, and appears taller-than-wide on orthogonal views. No associated cystic component. The lesion is located in the upper outer quadrant at mid-depth.
+
+No additional suspicious masses identified in the remainder of the right breast.
+
+LEFT BREAST: No sonographic abnormality detected.
+
+AXILLA: Normal-appearing lymph nodes bilaterally. No suspicious axillary lymphadenopathy.
+
+IMPRESSION: Irregular hypoechoic mass right breast 2 o'clock, 4 cm from nipple, measuring 2.4 cm, corresponding to mammographic finding. Features highly suspicious for malignancy. BI-RADS 5.
+
+PROCEDURE PERFORMED: Ultrasound-guided core needle biopsy of right breast mass.
+
+The patient was positioned supine. The right breast was prepped and draped in sterile fashion. Local anesthesia was administered using 1% lidocaine. Under direct ultrasound visualization, a 14-gauge core needle biopsy device was used to obtain five core samples from the mass. A titanium marker clip was successfully deployed at the biopsy site within the mass for future localization. Post-procedure mammogram confirmed appropriate clip placement within the targeted lesion. Hemostasis was achieved. The patient tolerated the procedure well without immediate complications.
+
+FOLLOW-UP: Pathology correlation required.
+
+ASSESSMENT: BI-RADS Category 5: Highly suggestive of malignancy.
+
+Marcus Wellington, MD - Electronically Signed: 03/14/2024 5:15 PM
+
+Confidential
+Tel: (212) 555-0198 - Fax: (212) 555-0199 www.riversideimaging.com
+Printed: 03/14/2024 5:30 PM THOMPSON, R.M. (Exam: 03/14/2024 4:30 PM) Page 3 of 5
+
+[PAGE 4]
+PATHOLOGY REPORT
+
+Patient Name: Thompson, R.M.
+MRN: 47829104
+Date of Birth: 08/22/1965
+Accession Number: S24-7841
+Date of Collection: 03/14/2024
+Date of Report: 03/18/2024
+
+SPECIMEN: Right breast, 2 o'clock, 4 cm from nipple, ultrasound-guided core needle biopsy.
+
+CLINICAL HISTORY: Palpable mass, BI-RADS 5 lesion on imaging.
+
+GROSS DESCRIPTION: Received fresh labeled "right breast 2 o'clock" are five cores of tan-white tissue measuring 1.2 to 1.5 cm in length and 0.1 cm in diameter. Entirely submitted in cassette A1.
+
+MICROSCOPIC DESCRIPTION: Sections demonstrate invasive ductal carcinoma, grade 2 (tubule formation 3, nuclear pleomorphism 2, mitotic activity 1). The invasive carcinoma is associated with intermediate to high-grade ductal carcinoma in situ (DCIS), solid and cribriform patterns, with focal necrosis. DCIS comprises approximately 30% of the specimen. Calcifications are present within areas of DCIS.
+
+DIAGNOSIS:
+RIGHT BREAST, 2 O'CLOCK, 4 CM FROM NIPPLE, CORE NEEDLE BIOPSY:
+- INVASIVE DUCTAL CARCINOMA, GRADE 2 (NOTTINGHAM SCORE 6/9)
+- ASSOCIATED DUCTAL CARCINOMA IN SITU, INTERMEDIATE TO HIGH GRADE
+
+IMMUNOHISTOCHEMISTRY:
+Estrogen Receptor (ER): POSITIVE (95% of tumor cells, strong intensity)
+     Internal controls: Positive
+Progesterone Receptor (PR): POSITIVE (80% of tumor cells, moderate to strong intensity)
+     Internal controls: Positive
+HER2 (IHC): EQUIVOCAL (2+, incomplete membrane staining in >10% of tumor cells)
+     Internal controls: Positive
+
+REFLEX HER2 FISH TESTING PERFORMED:
+
+HER2/CEP17 Ratio: 1.8
+HER2 Copy Number: 5.2 signals/cell
+CEP17 Copy Number: 2.9 signals/cell
+
+INTERPRETATION: HER2 NEGATIVE per ASCO/CAP 2018 guidelines (ratio <2.0 and HER2 copy number <4 signals/cell threshold not met; however, HER2 average 4.0-6.0 in the equivocal range per updated criteria).
+
+Note: Due to equivocal range, repeat testing on surgical specimen is recommended.
+
+Ki-67 Proliferation Index: Approximately 25%
+
+COMMENT: Surgical excision is recommended for definitive assessment of tumor size, margins, and lymph node status. Repeat HER2 testing on excision specimen is advised given equivocal FISH result.
+
+Electronically signed by: Jennifer Park, MD
+Department of Pathology
+Riverside Medical Center
+Date: 03/18/2024 2:35 PM
+
+Confidential
+Printed: 03/18/2024 3:00 PM THOMPSON, R.M. Page 4 of 5
+
+[PAGE 5]
+Document Information
+Pathology (Pathology Reports)
+CORE NEEDLE BIOPSY - BREAST
+
+Thompson, R.M. (MR # 47829104) Printed by Jennifer Park, MD at 3:00 PM
+
+Attached To:
+R.M. Thompson
+
+Source Information
+Riverside Medical Center
+Last update on 03/18/2024 2:35 PM
+
+Thompson, R.M. (MR # 47829104) Page 5 of 5

@@ -1,0 +1,129 @@
+MEMORIAL REGIONAL BREAST CENTER
+Breast Imaging and Pathology Report
+
+Patient: [PATIENT]
+Date of Birth: [REDACTED]
+Accession #: BIC-2024-08841
+Referring Physician: Dr. M. Okafor, MD
+Ordering Indication: Screening-detected calcifications, left breast; callback for diagnostic evaluation.
+
+─────────────────────────────────────────────────────────────
+MAMMOGRAM — DIAGNOSTIC
+Date of Examination: 03/14/2024
+Radiologist: Dr. A. Petrakis, MD
+
+CLINICAL HISTORY:
+[PATIENT] is a 54-year-old female presenting for diagnostic mammographic evaluation following recall from screening mammogram performed 03/06/2024. Screening images demonstrated a cluster of calcifications in the left breast warranting additional characterization.
+
+TECHNIQUE:
+Standard two-view diagnostic mammography of the left breast was performed (CC and MLO), supplemented by magnification views in the CC and ML projections centered over the region of concern.
+
+FINDINGS:
+Magnification views of the left breast demonstrate a cluster of amorphous calcifications located in the upper outer quadrant at the 10 o'clock position, approximately 5 cm from the nipple, in the anterior-to-middle depth of the breast. The cluster spans approximately 1.8 cm in its greatest dimension. The calcifications are punctate to amorphous in morphology and are distributed in a grouped (clustered) pattern confined to a focal region. There is no associated architectural distortion, discrete mass, or skin thickening.
+
+No suspicious calcifications are identified in the right breast. No axillary adenopathy is detected on the imaged portion of the left axilla.
+
+IMPRESSION:
+Left breast, upper outer quadrant, 10 o'clock position, 5 cm from the nipple: Grouped amorphous calcifications spanning 1.8 cm.
+
+BI-RADS CATEGORY: 4B — Suspicious. Tissue sampling recommended.
+
+RECOMMENDATION:
+Stereotactic vacuum-assisted core needle biopsy of the left breast calcifications is recommended. Correlation with pathology results advised.
+
+Electronically signed: Dr. A. Petrakis, MD
+Board-Certified Radiologist, Breast Imaging
+03/14/2024 at 14:22
+
+─────────────────────────────────────────────────────────────
+STEREOTACTIC VACUUM-ASSISTED BIOPSY — LEFT BREAST
+Date of Procedure: 03/21/2024
+Performing Radiologist: Dr. A. Petrakis, MD
+Assisting Technologist: R. Holloway, RT(R)(M)
+
+PROCEDURE NOTE:
+Informed consent was obtained from [PATIENT] prior to the procedure. The left breast was positioned in the stereotactic biopsy unit in the prone position. Stereo pair images were obtained confirming localization of the target cluster of amorphous calcifications at the 10 o'clock position, upper outer quadrant, approximately 5 cm from the nipple.
+
+Following sterile preparation and local anesthesia with 1% lidocaine with epinephrine, a 9-gauge vacuum-assisted biopsy needle (Mammotome, Hologic) was introduced via a lateral approach. Stereotactic pre-fire and post-fire images confirmed accurate needle placement within the target calcification cluster.
+
+A total of twelve (12) core specimens were obtained. Specimen radiograph confirmed the presence of calcifications within the retrieved tissue cores. The cores were submitted in formalin for pathologic evaluation.
+
+CLIP PLACEMENT:
+Following specimen retrieval, a titanium biopsy clip marker (oval/elliptical configuration) was deployed at the biopsy site. Post-deployment mammographic images in two projections confirmed satisfactory clip placement within the biopsy cavity corresponding to the 10 o'clock position, upper outer quadrant of the left breast, 5 cm from the nipple.
+
+COMPLICATIONS: None.
+
+Post-procedure instructions were provided to the patient. Pathology follow-up recommended.
+
+Electronically signed: Dr. A. Petrakis, MD
+03/21/2024 at 11:47
+
+─────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+Specimen: Left Breast Stereotactic Core Biopsy
+Accession #: PATH-2024-03412
+Date Received: 03/21/2024
+Date Reported: 03/25/2024
+Pathologist: Dr. C. Vandermeer, MD, FRCPC
+
+CLINICAL INFORMATION:
+Stereotactic biopsy, left breast, 10 o'clock position, upper outer quadrant. Grouped amorphous calcifications, 1.8 cm cluster. BI-RADS 4B.
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "left breast stereotactic biopsy cores," are twelve (12) tan-white cylindrical core tissue fragments ranging from 0.9 to 1.4 cm in length. The specimen is entirely submitted in six cassettes.
+
+MICROSCOPIC DESCRIPTION:
+Sections show fibroadipose and fibroglandular breast tissue. Within the ductal structures, there is a proliferation of intermediate-grade ductal carcinoma in situ (DCIS). The involved ducts demonstrate a predominantly solid and cribriform growth pattern. Nuclear grade is intermediate (grade 2), with moderate nuclear pleomorphism, inconspicuous-to-occasional nucleoli, and moderate mitotic activity. Necrosis is focal and comedo-type necrosis is not a prominent feature.
+
+Calcifications of the amorphous type are identified within and adjacent to the involved ducts, consistent with the imaging findings. The DCIS appears localized in distribution, involving a contiguous region estimated at approximately 1.5 cm based on the involved core distribution.
+
+No invasive carcinoma is identified in the material submitted. No lymphovascular invasion is seen. Surrounding breast parenchyma shows fibrocystic changes including mild stromal fibrosis and columnar cell change.
+
+PATHOLOGIC DIAGNOSIS:
+Left breast, upper outer quadrant, stereotactic core biopsy:
+DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE GRADE (nuclear grade 2), solid and cribriform pattern, with associated amorphous-type calcifications. Estimated extent: approximately 1.5 cm. No invasive carcinoma identified.
+
+─────────────────────────────────────────────────────────────
+RECEPTOR STATUS
+Date: 03/25/2024
+Pathologist: Dr. C. Vandermeer, MD, FRCPC
+Laboratory: Memorial Regional Breast Center — Immunohistochemistry Laboratory
+CLIA #: [REDACTED]
+
+ESTROGEN RECEPTOR (ER) — IHC:
+Result: POSITIVE
+Percentage of positive nuclei: 90%
+Staining intensity: Strong (3+)
+Internal positive control: Satisfactory
+Interpretation: ER Positive
+
+PROGESTERONE RECEPTOR (PR) — IHC:
+Result: POSITIVE
+Percentage of positive nuclei: 75%
+Staining intensity: Moderate-to-strong (2–3+)
+Internal positive control: Satisfactory
+Interpretation: PR Positive
+
+HER2/neu — IHC:
+Result: NEGATIVE
+Staining score: 1+ (incomplete, faint membrane staining in <10% of cells)
+Internal positive control: Satisfactory
+Interpretation: HER2 IHC Negative (1+); no reflex ISH testing required per institutional protocol for DCIS.
+
+NOTE: Receptor testing on DCIS is performed per institutional protocol for completeness of staging documentation. Ki-67 proliferative index: approximately 15% (intermediate).
+
+─────────────────────────────────────────────────────────────
+CONCORDANCE ASSESSMENT AND FINAL RECOMMENDATION:
+Date: 03/26/2024
+Radiologist: Dr. A. Petrakis, MD
+
+Radiologic-pathologic concordance review performed. Pathologic diagnosis of intermediate-grade DCIS with associated amorphous calcifications is concordant with the mammographic findings of grouped amorphous calcifications spanning 1.8 cm in the left upper outer quadrant. Biopsy clip marker has been confirmed in satisfactory position at the biopsy site.
+
+RECOMMENDATION: Surgical evaluation is recommended. The patient should be referred to a breast surgeon for discussion of excision options, including breast-conserving surgery with margin assessment versus mastectomy, based on final surgical planning. Sentinel lymph node biopsy consideration at the discretion of the operating surgeon.
+
+Electronically signed: Dr. A. Petrakis, MD
+03/26/2024 at 09:15
+
+─────────────────────────────────────────────────────────────
+END OF REPORT
+Memorial Regional Breast Center | Confidential Medical Record

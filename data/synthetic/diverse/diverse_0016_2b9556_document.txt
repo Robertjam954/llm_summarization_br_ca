@@ -1,0 +1,211 @@
+MERCY REGIONAL MEDICAL CENTER
+Department of Radiology and Breast Imaging
+Department of Pathology and Laboratory Medicine
+
+Patient: [PATIENT]
+Date of Birth: [REDACTED]
+Accession #: BR-2024-04471
+Ordering Physician: Dr. L. Hartwell, MD
+
+─────────────────────────────────────────────────────────────────
+MAMMOGRAM
+Date of Examination: 03/12/2024
+Indication: Screening mammogram; patient presents for annual screening. No new symptoms reported. No personal history of breast cancer.
+
+TECHNIQUE: Standard bilateral digital screening mammography, craniocaudal (CC) and mediolateral oblique (MLO) views were obtained.
+
+FINDINGS:
+Breast composition: Heterogeneously dense tissue (ACR category C), which may lower the sensitivity for detection of small lesions.
+
+RIGHT BREAST: There is a subtle low-density oval mass measuring approximately 0.8 cm in greatest dimension identified at the 10 o'clock position of the right breast, mid-depth, approximately 3.5 cm from the nipple. The margins appear partially obscured by surrounding dense parenchyma. No associated pleomorphic or suspicious-appearing calcifications are identified. No architectural distortion is noted. No skin thickening or nipple retraction.
+
+LEFT BREAST: No suspicious masses, calcifications, or architectural distortion identified.
+
+AXILLARY REGIONS: No suspicious axillary lymphadenopathy bilaterally on the imaged portions.
+
+IMPRESSION:
+Right breast, 10 o'clock position, mid-depth: Subtle low-density oval mass, 0.8 cm, partially obscured margins. Recommend targeted right breast ultrasound for further characterization.
+BI-RADS CATEGORY: 0 — Incomplete; additional imaging evaluation recommended.
+
+Interpreting Radiologist: Dr. A. Osei, MD
+Electronically signed: 03/12/2024 at 14:33
+
+─────────────────────────────────────────────────────────────────
+ULTRASOUND
+Date of Examination: 03/19/2024
+Indication: Follow-up for right breast mass identified on screening mammogram (03/12/2024). Targeted evaluation of right breast 10 o'clock position.
+
+TECHNIQUE: High-resolution B-mode ultrasound of the right breast was performed using a 15 MHz linear array transducer. Targeted evaluation of the right breast was performed in real time. Left axilla also assessed.
+
+FINDINGS:
+
+RIGHT BREAST:
+At the 10 o'clock position, mid-depth, approximately 3.5 cm from the nipple, a solid hypoechoic oval mass was identified measuring 0.8 cm x 0.6 cm x 0.5 cm. The mass demonstrates parallel orientation (wider than tall), circumscribed to mildly irregular margins, and posterior acoustic features that are isoechoic/no significant shadowing. No internal vascularity on color Doppler. No associated calcifications identified sonographically. No skin thickening or ductal dilation in the region.
+
+RIGHT AXILLA: The imaged right axillary lymph nodes demonstrate normal morphology with preserved fatty hila. No abnormally enlarged or rounded lymph nodes identified.
+
+LEFT AXILLA: No abnormal lymph nodes identified.
+
+IMPRESSION:
+Right breast 10 o'clock position, mid-depth, 3.5 cm from the nipple: Solid hypoechoic oval mass, 0.8 cm (largest dimension). Mildly irregular margins. Given the mammographic and sonographic findings, tissue sampling is recommended.
+BI-RADS CATEGORY: 4B — Moderate suspicion for malignancy. Recommend ultrasound-guided core needle biopsy.
+
+Interpreting Radiologist: Dr. A. Osei, MD
+Electronically signed: 03/19/2024 at 11:07
+
+─────────────────────────────────────────────────────────────────
+US-GUIDED BIOPSY PROCEDURE NOTE
+Date of Procedure: 03/26/2024
+Indication: BI-RADS 4B right breast mass, 10 o'clock position, 3.5 cm from nipple. Ultrasound-guided core needle biopsy requested for tissue diagnosis.
+
+PROCEDURE:
+Informed consent was obtained from the patient prior to the procedure. The patient was placed in the supine oblique position. The right breast was prepped and draped in the usual sterile fashion. Using real-time ultrasound guidance, the 10 o'clock right breast mass was re-identified at mid-depth, 3.5 cm from the nipple. Local anesthesia was administered with 1% lidocaine without epinephrine. An ultrasound-guided 14-gauge core needle biopsy was performed using a spring-loaded automated biopsy device (Bard Monopty). A total of five (5) cores were obtained and submitted in formalin to surgical pathology. Representative tissue was sampled from the central and peripheral portions of the lesion.
+
+CLIP PLACEMENT:
+Following the biopsy, a titanium biopsy marker clip (HydroMARK coil-shaped clip) was deployed into the biopsy cavity under real-time ultrasound guidance. Post-deployment images confirm the clip to be appropriately positioned within the biopsy site at the 10 o'clock right breast, mid-depth, 3.5 cm from the nipple. No immediate complications were noted.
+
+POST-PROCEDURE MAMMOGRAM: Post-biopsy mammogram (CC and MLO views, right breast) was obtained to confirm clip placement. The coil-shaped clip is visualized in the expected region of the biopsy site corresponding to the 10 o'clock right breast mass.
+
+Performing Radiologist: Dr. A. Osei, MD
+Electronically signed: 03/26/2024 at 09:52
+
+─────────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+Date of Receipt: 03/26/2024
+Date of Final Report: 03/29/2024
+Specimen Type: Right breast core needle biopsy, 10 o'clock position
+Accession #: SP-2024-08812
+Submitted By: Dr. A. Osei, MD
+Clinical History: 0.8 cm hypoechoic right breast mass, BI-RADS 4B. Rule out malignancy.
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "right breast 10 o'clock core biopsy," are five (5) tan-white cylindrical cores of tissue ranging from 1.0 to 1.6 cm in length. All cores are entirely submitted in two cassettes.
+
+MICROSCOPIC DESCRIPTION:
+The sections show cores of fibrofatty breast tissue containing a well-circumscribed proliferation of neoplastic epithelial cells arranged in tubular glands, small nests, and cords. The neoplastic cells have small, round to oval nuclei with inconspicuous nucleoli and scant to moderate pale eosinophilic cytoplasm. Nuclear pleomorphism is low grade (nuclear grade 1). Tubule formation is prominent (tubule score 1). Mitotic activity is low (< 1 mitosis per 10 HPF; mitotic score 1). No necrosis, lymphovascular invasion, or perineural invasion is identified in the sampled cores. The background breast parenchyma shows fibrocystic changes and columnar cell change without atypia. No in situ carcinoma (DCIS) is identified in the submitted material.
+
+DIAGNOSIS:
+RIGHT BREAST, 10 O'CLOCK, CORE NEEDLE BIOPSY:
+INVASIVE DUCTAL CARCINOMA (INVASIVE CARCINOMA OF NO SPECIAL TYPE), NOTTINGHAM HISTOLOGIC GRADE 1 (SCORE 3/9: TUBULE SCORE 1 + NUCLEAR SCORE 1 + MITOTIC SCORE 1).
+Estimated invasive carcinoma size based on core biopsy: at least 0.7 cm (correlate with imaging measurement of 0.8 cm).
+No DCIS identified in submitted material.
+No lymphovascular invasion identified.
+
+NOTE: Receptor status and HER2 testing to follow under a separate addendum.
+
+Pathologist: Dr. M. Delacroix, MD, FCAP
+Electronically signed: 03/29/2024 at 16:14
+
+─────────────────────────────────────────────────────────────────
+RECEPTOR STATUS / ANCILLARY STUDIES — ADDENDUM
+Date of Final Report: 04/02/2024
+Accession #: SP-2024-08812 (Addendum)
+Specimen: Right breast core needle biopsy, 10 o'clock position
+
+IMMUNOHISTOCHEMISTRY AND IN SITU HYBRIDIZATION:
+
+ESTROGEN RECEPTOR (ER):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 98%
+Staining intensity: Strong (3+)
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+Interpretation: ER Positive (Allred Score 8/8)
+
+PROGESTERONE RECEPTOR (PgR):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 85%
+Staining intensity: Moderate to strong (2–3+)
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+Interpretation: PgR Positive
+
+HER2 IMMUNOHISTOCHEMISTRY (IHC):
+Result: NEGATIVE
+Staining pattern: Incomplete and faint membrane staining in < 10% of tumor cells
+Score: 1+ (Negative)
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+
+HER2 IN SITU HYBRIDIZATION (ISH): Not performed (IHC score 1+; ISH reflex testing not indicated per current ASCO/CAP guidelines).
+
+Ki-67 PROLIFERATION INDEX:
+Result: 8% (Low)
+Interpretation: Low proliferative activity, consistent with luminal A-type biology.
+
+OVERALL INTERPRETATION:
+The immunoprofile of this Nottingham Grade 1 invasive ductal carcinoma is consistent with Luminal A subtype:
+— ER Positive (98%, strong)
+— PgR Positive (85%, moderate-strong)
+— HER2 Negative (IHC 1+)
+— Ki-67 Low (8%)
+
+No additional ISH testing required.
+
+Pathologist: Dr. M. Delacroix, MD, FCAP
+Electronically signed: 04/02/2024 at 13:55
+
+─────────────────────────────────────────────────────────────────
+MULTIDISCIPLINARY TEAM NOTE / CLINICAL SUMMARY
+Date: 04/05/2024
+
+This is a case of a right breast invasive ductal carcinoma, Nottingham Grade 1, Luminal A subtype, identified as a 0.8 cm mass at the 10 o'clock position, mid-depth, 3.5 cm from the nipple. The lesion was identified on screening mammography and confirmed on targeted ultrasound. Biopsy clip has been placed. No lymphovascular invasion identified on biopsy material. Right axillary lymph nodes appear morphologically normal on ultrasound imaging. No lymphadenopathy identified. No evidence of multifocal, multicentric, or bilateral disease on available imaging. Disease extent is localized. The case is referred for surgical oncology consultation and discussion of surgical options. Sentinel lymph node biopsy to be discussed at time of surgery per surgical oncology team. No MRI breast performed at this time.
+
+Coordinating Physician: Dr. L. Hartwell, MD
+Electronically signed: 04/05/2024
+
+─────────────────────────────────────────────────────────────────
+END OF REPORT
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "0.8 cm",
+        "evidence": "a solid hypoechoic oval mass was identified measuring 0.8 cm x 0.6 cm x 0.5 cm ... largest dimension 0.8 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, 10 o'clock position, mid-depth, 3.5 cm from the nipple",
+        "evidence": "At the 10 o'clock position, mid-depth, approximately 3.5 cm from the nipple, a solid hypoechoic oval mass was identified"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "No calcifications identified; no architectural distortion or asymmetry",
+        "evidence": "No associated pleomorphic or suspicious-appearing calcifications are identified. No architectural distortion is noted. No associated calcifications identified sonographically."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": "No MRI breast performed at this time."
+      },
+      "feature_5_extent": {
+        "value": "Localized",
+        "evidence": "No evidence of multifocal, multicentric, or bilateral disease on available imaging. Disease extent is localized."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes; titanium HydroMARK coil-shaped clip deployed at 10 o'clock right breast, mid-depth, 3.5 cm from the nipple; confirmed on post-biopsy mammogram",
+        "evidence": "a titanium biopsy marker clip (HydroMARK coil-shaped clip) was deployed into the biopsy cavity under real-time ultrasound guidance. Post-deployment images confirm the clip to be appropriately positioned within the biopsy site at the 10 o'clock right breast, mid-depth, 3.5 cm from the nipple."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Referred for surgical oncology consultation and discussion of surgical options. Sentinel lymph node biopsy to be discussed at time of surgery per surgical oncology team.",
+        "evidence": "The case is referred for surgical oncology consultation and discussion of surgical options. Sentinel lymph node biopsy to be discussed at time of surgery per surgical oncology team."
+      },
+      "feature_8_lymph_node": {
+        "value": "Right axillary lymph nodes morphologically normal on ultrasound; no lymphadenopathy identified",
+        "evidence": "The imaged right axillary lymph nodes demonstrate normal morphology with preserved fatty hila. No abnormally enlarged or rounded lymph nodes identified. No lymphadenopathy identified."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided 14-gauge core needle biopsy (spring-loaded automated biopsy device, Bard Monopty), 5 cores",
+        "evidence": "An ultrasound-guided 14-gauge core needle biopsy was performed using a spring-loaded automated biopsy device (Bard Monopty). A total of five (5) cores were obtained"
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "at least 0.7 cm",
+        "evidence": "Estimated invasive carcinoma size based on core biopsy: at least 0.7 cm (correlate with imaging measurement of 0.8 cm)."
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive Ductal Carcinoma (Invasive Carcinoma of No Special Type), Nottingham Histologic Grade 1 (Score 3/9), right breast, 10 o'clock, core needle biopsy",
+        "evidence": "RIGHT BREAST, 10 O'CLOCK, CORE NEEDLE BIOPSY: INVASIVE DUCTAL CARCINOMA (INVASIVE CARCINOMA OF NO SPECIAL TYPE), NOTTINGHAM HISTOLOGIC GRADE 1 (SCORE 3/9: TUBULE SCORE 1 + NUCLEAR SCORE 1 + MITOTIC SCORE 1)."
+      },
+      "feature_13_receptor_status": {
+        "value": "ER Positive (98%, strong 3+, Allred Score 8/8); PgR Positive (85%, moderate to strong 2–3+); HER2 IHC Negative (1+, incomplete faint membrane staining <10% of cells); HER2 ISH not performed; Ki-67 8% (low)",
+        "evidence": "ESTROGEN RECEPTOR (ER): POSITIVE, 98%, Strong (3+), Allred Score 8/8. PROGESTERONE RECEPTOR (PgR): POSITIVE, 85%, Moderate to strong (2–3+). HER2 IHC: NEGATIVE, Score 1+, incomplete and faint membrane staining in

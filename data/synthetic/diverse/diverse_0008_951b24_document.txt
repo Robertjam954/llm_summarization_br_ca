@@ -1,0 +1,195 @@
+MEMORIAL BREAST CARE CENTER
+Department of Radiology and Breast Imaging
+Department of Surgical Pathology
+
+Patient: [PATIENT]                          DOB: [REDACTED]
+Accession #: BC-2024-00841                  Date of Service: See individual reports
+Referring Physician: Dr. R. Flanagan        Study Type: Left Breast Mammogram /
+                                            Stereotactic Core Biopsy / Pathology
+
+
+──────────────────────────────────────────────────────────────────────
+MAMMOGRAM — LEFT BREAST DIAGNOSTIC
+──────────────────────────────────────────────────────────────────────
+Date of Exam: 02/14/2024
+Indication: 58-year-old female presenting for annual screening mammogram. Recalled
+for additional diagnostic views of the left breast following detection of suspicious
+calcifications on prior screening exam dated 01/29/2024.
+
+TECHNIQUE: Standard CC and MLO views were obtained bilaterally for screening on
+01/29/2024. Subsequent diagnostic views of the left breast including spot-compression
+magnification CC and ML projections were obtained on 02/14/2024.
+
+COMPARISON: Prior screening mammogram dated 01/29/2024 and prior annual mammogram
+dated 02/01/2023.
+
+FINDINGS:
+
+LEFT BREAST: Spot-compression magnification views of the left upper outer quadrant
+demonstrate a cluster of amorphous calcifications at approximately the 10 o'clock
+position, located in the anterior-to-mid depth of the breast, approximately 3.5 cm
+from the nipple. The calcifications span an estimated extent of 1.8 cm in greatest
+linear dimension. The distribution is grouped/clustered. No dominant mass, architectural
+distortion, or skin changes are identified in association with the calcifications.
+There is no evidence of a dominant mass lesion.
+
+On comparison with the 02/01/2023 mammogram, these calcifications are new and were
+not present on the prior study.
+
+RIGHT BREAST: No suspicious masses, calcifications, or architectural distortion. No
+new findings. Stable benign-appearing calcifications in the right upper outer quadrant
+consistent with vascular or dermal origin.
+
+AXILLARY REGIONS: No pathologically enlarged axillary lymph nodes identified bilater-
+ally. Left axillary lymph nodes demonstrate normal morphology with preserved fatty
+hilum.
+
+IMPRESSION:
+Left breast: New grouped amorphous calcifications at the 10 o'clock position, anterior-
+to-mid depth, approximately 3.5 cm from the nipple, spanning 1.8 cm in greatest
+dimension. These calcifications are suspicious in morphology and warrant tissue sampling.
+
+BI-RADS CATEGORY: 4B — Suspicious. Recommend stereotactic vacuum-assisted core needle
+biopsy of the left breast calcifications.
+
+Electronically signed by:
+Sandra L. Morse, M.D., FACR
+Breast Imaging Radiologist
+02/14/2024  14:22
+
+
+──────────────────────────────────────────────────────────────────────
+STEREOTACTIC BIOPSY PROCEDURE NOTE
+──────────────────────────────────────────────────────────────────────
+Date of Procedure: 02/22/2024
+Indication: Left breast grouped amorphous calcifications at 10 o'clock, BI-RADS 4B,
+as described on diagnostic mammogram 02/14/2024. Informed consent obtained.
+
+PROCEDURE: Stereotactic vacuum-assisted biopsy (VAB), 9-gauge, left breast.
+
+TECHNIQUE: The patient was positioned prone on the stereotactic biopsy table. The
+left breast was compressed. Scout, stereo pair, and pre-fire images were obtained.
+The target calcifications at the 10 o'clock position, anterior-to-mid depth, 3.5 cm
+from the nipple were localized under stereotactic guidance. The skin was prepped
+and draped in standard sterile fashion. Local anesthesia was administered with 1%
+lidocaine with epinephrine. A small skin nick was made and a 9-gauge vacuum-assisted
+needle was advanced to the target site. Multiple cores (12 passes) were obtained and
+submitted in formalin-filled specimen containers labeled "left breast stereotactic
+biopsy — 10 o'clock."
+
+SPECIMEN RADIOGRAPH: A specimen radiograph was performed and confirmed retrieval of
+representative calcifications within the core specimens.
+
+CLIP PLACEMENT: A titanium biopsy marker clip (MicroMark II, oval-shaped) was deployed
+at the biopsy site upon completion of sampling. Post-deployment mammographic images
+(CC and lateral) confirmed accurate clip placement at the 10 o'clock position, anterior-
+to-mid depth of the left breast, co-incident with the calcification cluster. No
+significant hematoma or procedural complication was identified.
+
+POST-PROCEDURE MAMMOGRAM: Post-biopsy two-view mammogram confirmed the marker clip
+is in appropriate position within the targeted area. Residual calcifications may
+remain; pathologic-radiologic correlation is recommended.
+
+Electronically signed by:
+Sandra L. Morse, M.D., FACR
+Breast Imaging Radiologist
+02/22/2024  11:47
+
+
+──────────────────────────────────────────────────────────────────────
+SURGICAL PATHOLOGY REPORT
+──────────────────────────────────────────────────────────────────────
+Facility: Memorial Breast Care Center — Surgical Pathology Laboratory
+Accession: SP-2024-03317
+Date Received: 02/22/2024
+Date Reported: 02/26/2024
+
+SPECIMEN SUBMITTED:
+Left breast stereotactic vacuum-assisted biopsy, 10 o'clock position.
+
+CLINICAL HISTORY: 58-year-old female. New grouped amorphous calcifications, left
+breast, 10 o'clock, BI-RADS 4B. Stereotactic VAB performed.
+
+──────────────────────────────────────
+GROSS DESCRIPTION
+──────────────────────────────────────
+Received in formalin, labeled "left breast stereotactic biopsy — 10 o'clock," are
+twelve cylindrical core fragments ranging from 0.6 to 1.4 cm in length, aggregate
+volume approximately 1.8 cm in greatest extent. The cores are tan-white and firm.
+Representative sections entirely submitted in cassettes A1–A4.
+
+──────────────────────────────────────
+MICROSCOPIC DESCRIPTION
+──────────────────────────────────────
+Sections demonstrate fibrofatty breast parenchyma with ductal structures showing
+intraluminal proliferation. There is expansion of the ductal spaces by a monomorphic
+population of intermediate-grade epithelial cells exhibiting mild-to-moderate nuclear
+pleomorphism with occasional mitoses. The cells are arranged in a cribriform and
+micropapillary architectural pattern. Necrosis is focal and not of the comedo type.
+Calcifications are present within the involved ducts and are consistent with the
+mammographically identified amorphous calcifications. No stromal invasion is identified
+in the sampled tissue. No lymphovascular invasion is seen. The findings span an
+estimated extent of 1.8 cm across the submitted core material.
+
+──────────────────────────────────────
+PATHOLOGIC DIAGNOSIS
+──────────────────────────────────────
+LEFT BREAST, 10 O'CLOCK POSITION, STEREOTACTIC VACUUM-ASSISTED BIOPSY:
+
+  - DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE GRADE, CRIBRIFORM AND
+    MICROPAPILLARY TYPES, WITH ASSOCIATED AMORPHOUS-TYPE CALCIFICATIONS.
+    ESTIMATED EXTENT: 1.8 cm (localized).
+  - NO INVASIVE CARCINOMA IDENTIFIED.
+  - CALCIFICATIONS CONFIRMED PRESENT IN SUBMITTED SECTIONS (RADIOLOGIC-
+    PATHOLOGIC CONCORDANCE ACHIEVED).
+
+──────────────────────────────────────
+RECEPTOR STATUS
+──────────────────────────────────────
+Performed: 02/26/2024
+Block: A2
+Method: Immunohistochemistry (IHC) performed on formalin-fixed, paraffin-embedded
+tissue sections using validated antibody panels per CAP/ASCO guidelines.
+
+ESTROGEN RECEPTOR (ER):
+  Result: POSITIVE
+  Allred Score: 7/8 (proportion score 3, intensity score 4 [strong])
+  Percentage of positive nuclei: 90%
+  Internal positive control: Satisfactory
+  Interpretation: ER POSITIVE
+
+PROGESTERONE RECEPTOR (PR):
+  Result: POSITIVE
+  Percentage of positive nuclei: 65%
+  Staining intensity: Moderate-to-strong
+  Internal positive control: Satisfactory
+  Interpretation: PR POSITIVE
+
+HER2 (IHC):
+  Result: 1+ (Incomplete, faint membrane staining in < 10% of cells)
+  Interpretation: HER2 NEGATIVE by IHC (1+). ISH testing not indicated per
+  current ASCO/CAP guidelines for this result.
+
+COMMENT: The morphologic and immunophenotypic findings are consistent with intermediate-
+grade DCIS. The disease appears localized on core biopsy material. Excision with
+margin assessment is recommended for definitive evaluation. Clip placement has been
+confirmed radiologically. Pathologic-radiologic concordance is confirmed.
+
+──────────────────────────────────────
+RECOMMENDATIONS / CLINICAL CORRELATION
+──────────────────────────────────────
+Surgical excision (lumpectomy or wide local excision) with intraoperative or
+post-excision specimen radiograph is recommended to confirm clip and calcification
+removal. Multidisciplinary tumor board review is advised. Sentinel lymph node biopsy
+may be considered at the time of definitive surgery per surgical and oncologic
+judgment.
+
+Electronically signed by:
+Patricia M. O'Hara, M.D.
+Staff Pathologist, Surgical Pathology
+Memorial Breast Care Center
+02/26/2024  09:14
+
+──────────────────────────────────────────────────────────────────────
+END OF REPORT
+──────────────────────────────────────────────────────────────────────

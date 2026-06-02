@@ -1,0 +1,64 @@
+{
+  "doc_id": "naive_0002_effa95",
+  "setting": "naive",
+  "index": 2,
+  "profile": {},
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "2.4 cm",
+          "evidence": "Correlating with the mammographic finding at 2 o'clock, 4 cm from the nipple, there is an irregular hypoechoic mass measuring 2.4 x 1.8 x 2.1 cm (AP x T x L)."
+        },
+        "feature_2_lesion_location": {
+          "value": "Right breast, upper outer quadrant, 2 o'clock, 4 cm from nipple, mid-depth",
+          "evidence": "irregular high-density mass in the right breast upper outer quadrant at approximately 2 o'clock, 4 cm from the nipple... The lesion is located in the upper outer quadrant at mid-depth."
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Present. Associated clustered pleomorphic calcifications within and adjacent to the mass. Calcifications present within areas of DCIS.",
+          "evidence": "Associated clustered pleomorphic calcifications are present within and adjacent to the mass... Calcifications are present within areas of DCIS."
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI was performed or described in this document."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "No additional suspicious masses identified in the remainder of the right breast... LEFT BREAST: No dominant mass, suspicious calcifications, or architectural distortion detected."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Yes. Titanium marker clip deployed at biopsy site within the mass. Post-procedure mammogram confirmed appropriate clip placement within the targeted lesion.",
+          "evidence": "A titanium marker clip was successfully deployed at the biopsy site within the mass for future localization. Post-procedure mammogram confirmed appropriate clip placement within the targeted lesion."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Recommend ultrasound-guided core needle biopsy of right breast mass. Surgical excision is recommended for definitive assessment of tumor size, margins, and lymph node status.",
+          "evidence": "FOLLOW-UP: Recommend ultrasound-guided core needle biopsy of right breast mass... COMMENT: Surgical excision is recommended for definitive assessment of tumor size, margins, and lymph node status."
+        },
+        "feature_8_lymph_node": {
+          "value": "No suspicious axillary adenopathy identified bilaterally. Normal-appearing lymph nodes bilaterally.",
+          "evidence": "AXILLA: No suspicious axillary adenopathy is identified bilaterally... AXILLA: Normal-appearing lymph nodes bilaterally. No suspicious axillary lymphadenopathy."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Ultrasound-guided 14-gauge core needle biopsy",
+          "evidence": "Under direct ultrasound visualization, a 14-gauge core needle biopsy device was used to obtain five core samples from the mass."
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "The pathology report describes invasive ductal carcinoma but does not explicitly state the size of the invasive component in the core biopsy specimen."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "RIGHT BREAST, 2 O'CLOCK, 4 CM FROM NIPPLE, CORE NEEDLE BIOPSY: INVASIVE DUCTAL CARCINOMA, GRADE 2 (NOTTINGHAM SCORE 6/9); ASSOCIATED DUCTAL CARCINOMA IN SITU, INTERMEDIATE TO HIGH GRADE",
+          "evidence": "DIAGNOSIS: RIGHT BREAST, 2 O'CLOCK, 4 CM FROM NIPPLE, CORE NEEDLE BIOPSY: - INVASIVE DUCTAL CARCINOMA, GRADE 2 (NOTTINGHAM SCORE 6/9) - ASSOCIATED DUCTAL CARCINOMA IN SITU, INTERMEDIATE TO HIGH GRADE"
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: POSITIVE (95% of tumor cells, strong intensity, internal controls positive). PR: POSITIVE (80% of tumor cells, moderate to strong intensity, internal controls positive). HER2 IHC: EQUIVOCAL (2+, incomplete membrane staining in >10% of tumor cells, internal controls positive). HER2 FISH: HER2/CEP17 Ratio 1.8, HER2 Copy Number 5.2 signals/cell, CEP17 Copy Number 2.9 signals/cell. INTERPRETATION: HER2 NEGATIVE per ASCO/CAP 2018 guidelines.",
+          "evidence": "Estrogen Receptor (ER): POSITIVE (95% of tumor cells, strong intensity) Internal controls: Positive. Progesterone Receptor (PR): POSITIVE (80% of tumor cells, moderate to strong intensity) Internal controls: Positive. HER2 (IHC): EQUIVOCAL (2+, incomplete membrane staining in >10% of tumor cells) Internal controls: Positive. REFLEX HER2 FISH TESTING PERFORMED: HER2/CEP17 Ratio: 1.8, HER2 Copy Number: 5.2 signals/cell, CEP17 Copy Number: 2.9 signals/cell. INTERPRETATION: HER2 NEGATIVE per ASCO/CAP 2018 guidelines"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12957,
+  "json_parse_ok": true
+}

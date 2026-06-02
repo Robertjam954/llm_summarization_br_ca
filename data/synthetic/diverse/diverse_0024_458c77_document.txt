@@ -1,0 +1,176 @@
+RIVERSIDE MEMORIAL HOSPITAL
+Department of Radiology and Breast Imaging
+7200 Lakeview Medical Parkway
+Springfield, IL 62704
+
+─────────────────────────────────────────────────────────────
+BREAST IMAGING REPORT — DIAGNOSTIC MAMMOGRAM
+─────────────────────────────────────────────────────────────
+
+Patient:         [PATIENT] / Initials: M.L.
+Date of Birth:   [REDACTED]
+Exam Date:       03/14/2024
+Accession No.:   BMG-2024-03871
+Referring Phys.: [REDACTED], MD
+Indication:      Screening-detected calcifications, left breast; called back for
+                 diagnostic evaluation.
+
+MAMMOGRAM
+
+Bilateral diagnostic mammography with magnification views of the left breast was
+performed. Breast parenchymal density is heterogeneously dense (ACR category C).
+
+LEFT BREAST:
+Magnification views of the left upper-outer quadrant were obtained at the 10 o'clock
+position, approximately 4.0 cm from the nipple (mid-depth). A cluster of amorphous
+calcifications is identified spanning an estimated greatest dimension of 1.8 cm in
+the craniocaudal projection. The calcifications are grouped in distribution, without
+associated mass, architectural distortion, or skin thickening. No enlarged or
+suspicious axillary lymph nodes are identified on the left.
+
+RIGHT BREAST:
+No suspicious mass, calcification, or architectural distortion. No axillary
+lymphadenopathy on the right.
+
+BI-RADS CATEGORY: 4B — Suspicious; intermediate suspicion for malignancy.
+
+IMPRESSION:
+1. Left breast, 10 o'clock position, approximately 4.0 cm from the nipple:
+   Grouped amorphous calcifications spanning approximately 1.8 cm. Findings are
+   localized to this region with no additional areas of suspicious calcification
+   identified in either breast.
+2. Stereotactic vacuum-assisted biopsy of the left breast calcifications is
+   recommended for histologic evaluation.
+
+Interpreting Radiologist: [REDACTED], MD, FACR
+Breast Imaging Fellowship Trained
+Electronically signed: 03/14/2024 at 14:37
+
+─────────────────────────────────────────────────────────────
+STEREOTACTIC BIOPSY REPORT
+─────────────────────────────────────────────────────────────
+
+Patient:         [PATIENT] / Initials: M.L.
+Procedure Date:  03/21/2024
+Accession No.:   SBX-2024-04102
+Performing Radiologist: [REDACTED], MD
+
+PROCEDURE: Stereotactic vacuum-assisted biopsy, left breast
+
+CLINICAL INDICATION:
+Grouped amorphous calcifications, left breast, 10 o'clock position,
+approximately 4.0 cm from the nipple, BI-RADS 4B on diagnostic mammography
+dated 03/14/2024.
+
+TECHNIQUE:
+The patient was positioned prone on the stereotactic biopsy table. The left breast
+was compressed and the target calcification cluster was localized using digital
+stereotactic imaging. Following administration of local anesthesia (1% lidocaine
+with epinephrine), a 9-gauge vacuum-assisted biopsy (VAB) device (Hologic Eviva)
+was introduced via a lateral approach. A total of twelve (12) core specimens were
+obtained. Representative specimens were submitted for specimen radiography, which
+confirmed retrieval of the target calcifications. A biopsy clip (titanium, omega-
+shaped marker) was deployed at the biopsy site and post-deployment mammographic
+images confirmed satisfactory clip placement within the area of calcification
+sampling in the left upper-outer quadrant at the 10 o'clock position. Hemostasis
+was achieved. The patient tolerated the procedure without complication.
+
+POST-PROCEDURE MAMMOGRAM:
+Post-biopsy mammographic images demonstrate the omega-shaped titanium clip marker
+within the targeted calcification cluster in the left breast at the 10 o'clock
+position, approximately 4.0 cm from the nipple. Clip placement is concordant with
+the biopsy target.
+
+SPECIMENS: Sent to Surgical Pathology in 10% formalin, labeled "Left breast, 10
+o'clock stereotactic biopsy cores," along with specimen radiograph.
+
+Performing Radiologist: [REDACTED], MD
+Electronically signed: 03/21/2024 at 11:52
+
+─────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+─────────────────────────────────────────────────────────────
+
+RIVERSIDE MEMORIAL HOSPITAL
+Department of Surgical Pathology
+
+Patient:         [PATIENT] / Initials: M.L.
+Specimen Date:   03/21/2024
+Report Date:     03/25/2024
+Accession No.:   SP-2024-04418
+Ordering Physician: [REDACTED], MD
+
+SPECIMEN:
+A.  Left breast, 10 o'clock stereotactic vacuum-assisted biopsy cores (12 cores
+    submitted; specimen radiograph confirms calcifications present)
+
+GROSS DESCRIPTION:
+Received in formalin, labeled as above: twelve cylindrical biopsy cores, tan-white,
+ranging from 0.8 to 1.4 cm in length. Representative sections entirely submitted in
+five cassettes (A1–A5). Specimen radiograph reviewed: calcifications present in
+submitted tissue.
+
+MICROSCOPIC DESCRIPTION:
+Sections show fibrofatty breast tissue with ducts containing an intraductal
+proliferation of intermediate-grade epithelial cells arranged in a cribriform and
+micropapillary pattern. The neoplastic cells display moderate nuclear pleomorphism,
+with conspicuous nucleoli and occasional mitotic figures. Necrosis is focal and
+punctate (comedonecrosis is not a predominant feature). Calcifications of the
+amorphous type are identified within involved ducts, consistent with the imaging
+findings. The process appears localized without evidence of multifocal or multicentric
+involvement within the submitted cores. No invasive carcinoma is identified. No
+lymphovascular invasion is seen.
+
+HISTOLOGIC DIAGNOSIS:
+Ductal carcinoma in situ (DCIS), intermediate nuclear grade, cribriform and
+micropapillary subtypes; spanning approximately 1.6 cm based on the extent across
+submitted cores; left breast, 10 o'clock position.
+Amorphous-type calcifications present within DCIS-involved ducts.
+No invasive carcinoma identified.
+
+─────────────────────────────────────────────────────────────
+RECEPTOR STATUS
+─────────────────────────────────────────────────────────────
+
+Estrogen Receptor (ER):
+  Result: POSITIVE
+  Percentage of positive nuclei: 90%
+  Staining intensity: Strong (3+)
+  Internal control: Positive (satisfactory)
+
+Progesterone Receptor (PR):
+  Result: POSITIVE
+  Percentage of positive nuclei: 75%
+  Staining intensity: Moderate-to-strong (2–3+)
+  Internal control: Positive (satisfactory)
+
+HER2 (IHC):
+  Result: 1+ (Negative)
+  Staining pattern: Incomplete, faint membrane staining in < 10% of cells
+  Internal control: Satisfactory
+
+HER2 ISH (FISH):
+  Not performed (HER2 IHC score 1+; ISH not indicated per institutional protocol)
+
+Ki-67 Proliferation Index: 15%
+
+─────────────────────────────────────────────────────────────
+COMMENT / CONCORDANCE NOTE
+─────────────────────────────────────────────────────────────
+The histologic findings of intermediate-grade DCIS with amorphous-type
+calcifications are concordant with the mammographic appearance of grouped
+amorphous calcifications in the left breast at the 10 o'clock position.
+Radiologic-pathologic concordance is confirmed.
+
+RECOMMENDATION:
+Surgical consultation is recommended for definitive management of left breast DCIS.
+Post-biopsy imaging follow-up and surgical evaluation should be coordinated with the
+treating multidisciplinary team.
+
+Pathologist: [REDACTED], MD
+Board-Certified Anatomic and Clinical Pathologist
+Electronically signed: 03/25/2024 at 09:14
+
+─────────────────────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────────────────────

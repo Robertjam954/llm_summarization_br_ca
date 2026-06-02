@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0002_ce349d",
+  "setting": "diverse",
+  "index": 2,
+  "profile": {
+    "cancer_type": "IDC grade 1 luminal A",
+    "laterality": "right",
+    "modalities": "mammogram + ultrasound + US-guided biopsy + pathology + receptor",
+    "special": "small lesion < 1 cm, no lymph node involvement"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "0.8 cm",
+          "evidence": "a hypoechoic irregular mass is identified measuring 0.8 cm x 0.6 cm x 0.7 cm (AP x TR x CC)... The invasive component measures 0.8 cm in greatest dimension on core biopsy material."
+        },
+        "feature_2_lesion_location": {
+          "value": "Right breast, 10 o'clock position, middle depth, 3.5 cm from the nipple",
+          "evidence": "At the 10 o'clock position, middle depth, 3.5 cm from the nipple, a hypoechoic irregular mass is identified measuring 0.8 cm x 0.6 cm x 0.7 cm"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Focal asymmetry present (right breast, 10 o'clock, partially persisting on spot compression); no calcifications identified",
+          "evidence": "There is a focal asymmetry in the right breast at the 10 o'clock position... No suspicious microcalcifications or macrocalcifications are identified bilaterally."
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI examination was performed or documented in this report."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "No satellite lesions are identified in the surrounding parenchyma... right breast invasive ductal carcinoma, grade 1, Luminal A profile, measuring 0.8 cm at the 10 o'clock position."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Titanium biopsy marker clip (diamond-shaped) deployed at the 10 o'clock position; post-deployment mammogram confirmed satisfactory clip placement within the right breast biopsy site",
+          "evidence": "A titanium biopsy marker clip (diamond-shaped) was deployed within the lesion under direct ultrasound visualization at the 10 o'clock position following specimen acquisition. Post-deployment mammogram confirmed satisfactory clip placement within the right breast biopsy site."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Patient is referred for surgical evaluation (breast conservation surgery vs. excision) and multidisciplinary tumor board review. Sentinel lymph node biopsy to be considered at time of surgery given no clinical or imaging evidence of nodal involvement.",
+          "evidence": "Patient is referred for surgical evaluation (breast conservation surgery vs. excision) and multidisciplinary tumor board review. Sentinel lymph node biopsy to be considered at time of surgery given no clinical or imaging evidence of nodal involvement."
+        },
+        "feature_8_lymph_node": {
+          "value": "Right axilla: several lymph nodes with preserved fatty hila and normal cortical thickness (\u2264 3 mm); no morphologically abnormal lymph nodes identified in the right or left axilla. No axillary lymphadenopathy bilaterally.",
+          "evidence": "The right axilla demonstrates several lymph nodes with preserved fatty hila and normal cortical thickness (\u2264 3 mm). No morphologically abnormal lymph nodes are identified in the right or left axilla... No axillary lymphadenopathy bilaterally."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Ultrasound-guided 14-gauge core needle biopsy (CNB), right breast; five (5) core passes",
+          "evidence": "Procedure: Ultrasound-guided 14-gauge core needle biopsy (CNB), right breast... Using a 14-gauge automated spring-loaded biopsy gun, five (5) core passes were performed"
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "0.8 cm",
+          "evidence": "The invasive component measures 0.8 cm in greatest dimension on core biopsy material."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "INVASIVE DUCTAL CARCINOMA (Invasive Carcinoma of No Special Type, NST), GRADE 1 (Nottingham Grade 1; tubular formation score 1, nuclear pleomorphism score 1, mitotic score 1; total score 3/9)",
+          "evidence": "Right breast, 10 o'clock, ultrasound-guided core needle biopsy: INVASIVE DUCTAL CARCINOMA (Invasive Carcinoma of No Special Type, NST), GRADE 1 (Nottingham Grade 1; tubular formation score 1, nuclear pleomorphism score 1, mitotic score 1; total score 3/9)."
+        },
+        "feature_13_receptor_status": {
+          "value": "ER Positive (98%, strong 3+); PgR Positive (85%, moderate to strong 2\u20133+); HER2 IHC Negative (score 1+, incomplete faint membrane staining in < 10% of tumor cells); HER2 ISH not performed; Ki-67 6%",
+          "evidence": "ESTROGEN RECEPTOR (ER): POSITIVE, 98%, Strong (3+)... PROGESTERONE RECEPTOR (PgR): POSITIVE, 85%, Moderate to strong (2\u20133+)... HER2 IHC: NEGATIVE, Score 1+... HER2 ISH: Not performed (IHC score 1+; ISH reflex not triggered)... Ki-67: 6% (low proliferative activity)"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 13363,
+  "json_parse_ok": true
+}

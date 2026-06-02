@@ -1,0 +1,218 @@
+[PAGE 1]
+TIME 2:18 PM Harper, S.K. MRN [REDACTED]
+Status: Edited Result - FINAL
+PACS Images
+(Link Unavailable) Show images for MAMMOGRAM BILATERAL SCREENING
+
+EXAMINATION: BILATERAL DIAGNOSTIC MAMMOGRAM WITH TOMOSYNTHESIS
+DATE OF SERVICE: 03/15/2024
+CLINICAL INDICATION: Palpable mass left breast upper outer quadrant
+COMPARISON: Prior mammogram dated 02/10/2023
+
+TECHNIQUE: Standard CC and MLO views of both breasts were obtained with digital 
+tomosynthesis. Additional spot compression views of the left breast were performed.
+
+BREAST COMPOSITION: The breasts are heterogeneously dense, which may obscure 
+small masses (BI-RADS Composition C).
+
+FINDINGS:
+
+LEFT BREAST: There is an irregular, spiculated mass measuring 1.8 cm in the left 
+breast upper outer quadrant at approximately 10:00 position, 6 cm from the nipple, 
+at mid depth. Associated pleomorphic calcifications are present within and adjacent 
+to this mass, demonstrating a segmental distribution. No architectural distortion 
+is identified elsewhere. No skin thickening or nipple retraction.
+
+RIGHT BREAST: Scattered fibroglandular densities. No suspicious mass, 
+calcifications, or architectural distortion.
+
+LYMPH NODES: No abnormal axillary lymphadenopathy is identified bilaterally.
+
+IMPRESSION:
+1. Irregular spiculated mass with associated pleomorphic calcifications in the 
+   left breast upper outer quadrant, 10:00 position, highly suspicious for 
+   malignancy. BI-RADS 5.
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy of left breast mass is 
+recommended for tissue diagnosis.
+
+Electronically signed by: MARIA GONZALEZ, MD on 03/15/2024 2:45 PM
+
+
+[PAGE 2]
+TIME 3:22 PM Harper, S.K. MRN [REDACTED]
+
+EXAMINATION: TARGETED LEFT BREAST ULTRASOUND
+DATE OF SERVICE: 03/18/2024
+CLINICAL INDICATION: Palpable mass left breast, mammographic mass at 10:00
+COMPARISON: Mammogram dated 03/15/2024
+
+TECHNIQUE: Targeted ultrasound of the left breast upper outer quadrant was 
+performed using high-resolution linear transducer.
+
+FINDINGS:
+
+LEFT BREAST: At the 10:00 position, 6 cm from the nipple, there is an irregular 
+hypoechoic mass with spiculated margins measuring 1.7 x 1.3 x 1.9 cm (AP x TR x 
+LONG). The mass demonstrates posterior acoustic shadowing. No internal 
+vascularity on color Doppler interrogation. This corresponds to the mammographic 
+finding.
+
+LEFT AXILLA: Normal-appearing lymph nodes with preserved fatty hila. No 
+morphologically abnormal left axillary lymph nodes identified.
+
+IMPRESSION:
+1. Irregular hypoechoic mass left breast 10:00, 1.9 cm, suspicious for malignancy, 
+   correlates with mammographic finding. BI-RADS 5.
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy is recommended.
+
+Electronically signed by: MARIA GONZALEZ, MD on 03/18/2024 3:40 PM
+
+
+[PAGE 3]
+TIME 10:15 AM Harper, S.K. MRN [REDACTED]
+
+EXAMINATION: ULTRASOUND-GUIDED CORE NEEDLE BIOPSY LEFT BREAST
+DATE OF SERVICE: 03/22/2024
+ACCESSION #: S24-8847
+CLINICAL HISTORY: Left breast mass 10:00, BI-RADS 5 lesion
+
+COMPARISON(S): Mammogram 03/15/2024, ultrasound 03/18/2024
+
+INFORMED CONSENT AND TIME OUT: The risks, benefits, and alternatives to the 
+procedure were explained to the patient in detail. The patient verbalized 
+understanding and signed the informed consent form. Universal protocol site 
+verification and Time-out were completed prior to procedure.
+
+OPERATORS: Dr. Gonzalez, the attending radiologist, performed the procedure with 
+assistance from radiology technologist M. Stevens.
+
+PREPARATION: The skin was prepped and draped in the usual sterile fashion. Skin 
+was cleansed with chlorhexidine solution.
+
+LOCAL ANESTHETIC: 8 cc of 1% lidocaine was administered for local anesthesia.
+
+BIOPSY DEVICE: Bard Mission spring-loaded 14 gauge core biopsy needle.
+
+TARGET LESION: 1 site, left breast 10:00, irregular hypoechoic mass
+
+NUMBER OF CORE SAMPLES: 5 core samples were obtained under direct real-time 
+ultrasound guidance and placed in formalin. Specimen was hand-delivered to 
+Pathology.
+
+POST-BIOPSY MARKER PLACEMENT: A UltraClip triangular marker was successfully 
+deployed within the biopsy cavity under ultrasound guidance. Post-deployment 
+images confirm appropriate positioning within the left breast mass at 10:00.
+
+POST-PROCEDURE MAMMOGRAM: Single CC view of the left breast confirms the 
+triangular marker is appropriately positioned at the site of biopsy.
+
+HEMOSTASIS: Manual compression was applied for 10 minutes. Hemostasis was 
+achieved. A sterile dressing was applied.
+
+PATIENT TOLERANCE: The patient tolerated the procedure well without immediate 
+complications.
+
+Electronically signed by: MARIA GONZALEZ, MD on 03/22/2024 11:05 AM
+
+
+[PAGE 4]
+TIME 4:32 PM Harper, S.K. MRN [REDACTED]
+Status: Edited Result - FINAL
+
+PATHOLOGY REPORT
+ACCESSION #: S24-8847
+DATE COLLECTED: 03/22/2024
+DATE REPORTED: 03/25/2024
+
+SPECIMEN: Left breast, 10:00; ultrasound-guided core needle biopsy
+
+CLINICAL HISTORY: Left breast mass, BI-RADS 5
+
+GROSS DESCRIPTION: Received in formalin labeled with the patient name and 
+"left breast 10:00" are five cores of tan-pink tissue measuring 1.4 cm in 
+aggregate length. Entirely submitted in cassette A1.
+
+MICROSCOPIC DESCRIPTION:
+Sections show breast tissue with invasive ductal carcinoma. The invasive 
+carcinoma demonstrates a solid growth pattern with moderate nuclear pleomorphism. 
+The invasive component measures 0.8 cm in greatest dimension in this biopsy 
+material. Adjacent ductal carcinoma in situ (DCIS) is present, demonstrating a 
+cribriform and solid architectural pattern with intermediate-grade nuclei and 
+central comedo-type necrosis. Pleomorphic calcifications are identified within 
+the DCIS. No lymphovascular invasion is identified in this biopsy specimen.
+
+DIAGNOSIS:
+Left breast, 10:00 position, ultrasound-guided core needle biopsy:
+- Invasive ductal carcinoma, moderately differentiated
+- Invasive component spans 0.8 cm in this biopsy material
+- Nuclear grade: II/III (moderate nuclear pleomorphism)
+- Associated ductal carcinoma in situ (DCIS), cribriform and solid patterns
+- DCIS nuclear grade: Intermediate
+- Necrosis: Present in DCIS (comedo-type)
+- Calcifications: Present in invasive carcinoma and DCIS
+- Lymphovascular invasion: Not identified
+
+Immunohistochemical studies are in progress and will be reported in an addendum.
+
+ASSESSMENT: The result is malignant.
+
+CONCORDANCE: This biopsy result is concordant with imaging findings.
+
+RECOMMENDED FOLLOW-UP: Surgical consultation for definitive treatment.
+
+NOTIFICATION: Critical result called to Dr. Thompson's office and discussed 
+with R.N. Peterson on 03/25/2024 at 4:45 PM.
+
+Electronically Signed By: ROBERT CHANG, MD on 03/25/2024 4:50 PM
+
+
+[PAGE 5]
+TIME 2:15 PM Harper, S.K. MRN [REDACTED]
+
+ADDENDUM TO PATHOLOGY REPORT
+ACCESSION #: S24-8847
+DATE: 03/27/2024
+
+ADDENDUM: IMMUNOHISTOCHEMICAL STUDIES
+
+DIAGNOSIS: Left breast, 10:00; ultrasound-guided core needle biopsy:
+
+IMMUNOHISTOCHEMISTRY RESULTS:
+
+Estrogen Receptor (ER):
+- Positive
+- Percentage of tumor nuclei: 85%
+- Intensity: Strong (3+)
+- Internal and external controls: Appropriate
+
+Progesterone Receptor (PR):
+- Positive
+- Percentage of tumor nuclei: 70%
+- Intensity: Moderate to strong (2-3+)
+- Internal and external controls: Appropriate
+
+HER2 (Immunohistochemistry):
+- Equivocal (2+)
+- Incomplete membrane staining, moderate intensity in >10% of invasive 
+  carcinoma cells
+- Internal and external controls: Appropriate
+- RECOMMENDATION: HER2 in situ hybridization (ISH) testing recommended
+
+HER2 (In Situ Hybridization by FISH):
+- Negative (not amplified)
+- HER2/CEP17 ratio: 1.4
+- Average HER2 copy number: 3.8 signals/cell
+- Classification: HER2-negative per ASCO/CAP guidelines
+
+Ki-67 Proliferation Index: Approximately 22%
+
+SUMMARY:
+- ER: Positive (85%, strong intensity)
+- PR: Positive (70%, moderate-strong intensity)
+- HER2: Negative (IHC 2+, ISH not amplified)
+- Ki-67: 22%
+
+Electronically Signed By: ROBERT CHANG, MD on 03/27/2024 2:30 PM
+Addended by Robert Chang, MD on 03/27/2024 2:30 PM

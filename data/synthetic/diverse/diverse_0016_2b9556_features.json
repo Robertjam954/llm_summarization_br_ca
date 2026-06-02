@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0016_2b9556",
+  "setting": "diverse",
+  "index": 16,
+  "profile": {
+    "cancer_type": "IDC grade 1 luminal A",
+    "laterality": "right",
+    "modalities": "mammogram + ultrasound + US-guided biopsy + pathology + receptor",
+    "special": "small lesion < 1 cm, no lymph node involvement"
+  },
+  "features": null,
+  "raw_output_chars": 13906,
+  "json_parse_ok": false
+}

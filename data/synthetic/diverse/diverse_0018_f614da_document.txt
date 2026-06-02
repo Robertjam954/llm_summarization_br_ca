@@ -1,0 +1,304 @@
+REGIONAL MEDICAL CENTER — BREAST IMAGING & PATHOLOGY SERVICES
+Department of Radiology / Department of Surgical Pathology
+Report generated via document scanning / OCR extraction
+
+Patient: [PATIENT]          DOB: [REDACTED]          MRN: [REDACTED]
+Ordering Physician: Dr. R. Callahan, MD          Referring Surgeon: Dr. T. Weston, MD
+Exam dates: see individual sections below
+
+─────────────────────────────────────────────────────────────────────────────
+
+MAMMOGRAM
+
+Date of Examination: 02/14/2024
+Procedure: Bilateral diagnostic mammography (CC and MLO projections, with spot-
+compression views of the right breast)
+
+CLINICAL INDICATION: 48-year-old female presenting with a palpable lump in the
+right upper outer breast, reported for approximately 3 weeks. No prior breast
+surgery. Family history of breast cancer in maternal aunt.
+
+TECHNIQUE: Standard CC and MLO projections were obtained bilaterally. Additional
+spot-compression and magnification views of the right upper outer quadrant
+were performed.
+
+FINDINGS:
+
+RIGHT BREAST: There is a focal asymmetry with associated architectural
+distortion identified in the right upper outer quadrant at approximately the
+10 o'clock position, estimated 5.5 cm from the nipple. The lesion measures
+approximately 1.8 cm in its greatest dimension on the CC projection. A cluster
+of pleomorphic calcifications is identified within and immediately adjacent to
+this asymmetry, distributed in a segmental pattern spanning approximately
+2.2 cm.
+
+LEFT BREAST: No dominant mass, suspicious calcification, or architectural
+distortion. Stable benign-appearing calcifications.
+
+BREAST DENSITY: Heterogeneously dense breast tissue (Category C), which may
+obscure small masses.
+
+IMPRESSION:
+1. Right upper outer quadrant focal asymmetry with architectural distortion and
+   associated pleomorphic segmental calcifications at the 10 o'clock position,
+   5.5 cm from the nipple. Highly suspicious for malignancy.
+2. Left breast: No suspicious finding.
+
+BI-RADS CATEGORY: 5 — Highly Suggestive of Malignancy. Tissue sampling
+recommended.
+
+Interpreting Radiologist: Dr. L. Okonkwo, MD (Breast Imaging)
+Electronically signed: 02/14/2024 at 16:42
+
+─────────────────────────────────────────────────────────────────────────────
+
+ULTRASOUND
+
+Date of Examination: 02/14/2024
+Procedure: Targeted right breast ultrasound and right axilla ultrasound
+
+CLINICAL INDICATION: Palpable right breast lump; correlate with mammographic
+finding at 10 o'clock.
+
+TECHNIQUE: High-frequency linear transducer (15 MHz). Real-time grayscale
+and Doppler imaging of the right breast and right axilla.
+
+FINDINGS:
+
+RIGHT BREAST: At the 10 o'clock position, 5.5 cm from the nipple, in the
+anterior-to-mid depth, there is an irregular hypoechoic mass measuring
+1.9 cm × 1.4 cm × 1.6 cm with angular margins and posterior acoustic shadowing.
+Internal vascularity is noted on color Doppler. This corresponds to the
+mammographic asymmetry and calcification cluster.
+
+RIGHT AXILLA: A single lymph node is identified in the low axilla measuring
+1.3 cm in short axis with focal cortical thickening up to 6 mm and loss of
+the fatty hilum, raising concern for nodal involvement.
+
+LEFT BREAST AND LEFT AXILLA: No suspicious findings.
+
+IMPRESSION:
+1. Right breast, 10 o'clock, 5.5 cm from nipple: irregular hypoechoic mass,
+   1.9 cm (greatest sonographic dimension), with angular margins and internal
+   vascularity — highly suspicious for malignancy.
+2. Right axilla: single low axillary lymph node with cortical thickening and
+   loss of fatty hilum, suspicious for metastatic involvement.
+
+BI-RADS CATEGORY: 5 — Highly Suggestive of Malignancy. Ultrasound-guided
+core needle biopsy of the right breast mass and right axillary lymph node
+recommended.
+
+Interpreting Radiologist: Dr. L. Okonkwo, MD (Breast Imaging)
+Electronically signed: 02/14/2024 at 17:05
+
+─────────────────────────────────────────────────────────────────────────────
+
+MRI — BREAST
+
+Date of Examination: 02/19/2024
+Procedure: Bilateral breast MRI with and without contrast (3.0 Tesla)
+
+CLINICAL INDICATION: Known right breast mass at 10 o'clock, BI-RADS 5 on
+mammogram and ultrasound. MRI requested for extent of disease evaluation prior
+to surgical planning.
+
+TECHNIQUE: 3.0 T MRI using a dedicated 16-channel bilateral breast coil.
+Axial T1 fat-saturated pre-contrast, T2, and dynamic contrast-enhanced (DCE)
+series obtained following IV administration of gadolinium-based contrast agent
+(Gadobutrol, 0.1 mmol/kg). Subtraction and MIP images generated.
+
+FINDINGS:
+
+RIGHT BREAST:
+Primary mass: An irregular, spiculated enhancing mass is identified at the
+10 o'clock position in the anterior-to-mid depth of the right breast, 5.4 cm
+from the nipple. The mass measures 2.1 cm × 1.6 cm × 1.8 cm (AP × TR × CC).
+Kinetic curve analysis demonstrates rapid initial enhancement with washout
+kinetics (type III curve), highly suspicious for malignancy.
+
+Additional enhancement: Non-mass enhancement (NME) is identified extending
+posteriorly from the primary lesion in a segmental distribution, spanning
+approximately 3.0 cm toward the chest wall, suspicious for an in-situ component
+(DCIS) or satellite disease. No additional discrete satellite nodules are
+identified in the right breast separate from this region.
+
+Nipple/skin/chest wall: No nipple retraction, skin thickening, or chest wall
+involvement.
+
+RIGHT AXILLA: The previously noted low axillary lymph node (short axis 1.3 cm)
+demonstrates pathologic-appearing cortical thickening on MRI, consistent with
+the ultrasound finding.
+
+LEFT BREAST AND LEFT AXILLA: No suspicious enhancing lesion. No axillary
+adenopathy.
+
+IMPRESSION:
+1. Right breast, 10 o'clock, anterior-to-mid depth, 5.4 cm from nipple:
+   Irregular spiculated mass, 2.1 cm greatest dimension, with type III kinetics —
+   highly suspicious for malignancy (primary lesion).
+2. Segmental non-mass enhancement extending posteriorly from the primary mass
+   over 3.0 cm, suspicious for associated DCIS or satellite involvement.
+3. Suspicious low right axillary lymph node with cortical thickening.
+4. No contralateral or multicentric disease identified.
+5. Disease appears locoregional to the right upper outer quadrant (localized).
+
+BI-RADS CATEGORY: 6 (following biopsy confirmation at time of MRI referral)
+
+Interpreting Radiologist: Dr. S. Mehta, MD, FSBI (Breast MRI)
+Electronically signed: 02/19/2024 at 13:27
+
+─────────────────────────────────────────────────────────────────────────────
+
+BIOPSY REPORT
+
+Date of Procedure: 02/21/2024
+Procedure: Ultrasound-guided 14-gauge core needle biopsy (CNB), right breast
+mass, 10 o'clock position; clip (BB marker) placement
+
+Performing Radiologist: Dr. L. Okonkwo, MD
+
+PROCEDURE NOTE:
+Written informed consent was obtained. The patient was positioned supine with
+the right arm abducted. Using real-time ultrasound guidance (15 MHz linear
+transducer), the right breast mass at the 10 o'clock position, 5.5 cm from
+the nipple, was localized. The skin was prepped and local anesthesia (1%
+lidocaine) administered. A 14-gauge co-axial core needle biopsy device was
+advanced into the mass under continuous ultrasound visualization. Five (5) core
+samples were obtained; all appeared adequate (pale tan, cylindrical tissue
+cores). Following sampling, a metallic biopsy clip (BB marker) was deployed
+at the biopsy site under ultrasound guidance. Post-procedure mammography
+(CC and MLO views) was performed to confirm clip placement within the target
+lesion at the 10 o'clock position, right breast. Clip position was confirmed
+to be accurate within the lesion.
+
+The patient tolerated the procedure without complication. Specimens were
+submitted to Surgical Pathology in 10% neutral buffered formalin.
+
+AXILLARY NODE: On the same date, ultrasound-guided fine-needle aspiration (FNA)
+of the suspicious right low axillary lymph node was performed by Dr. L. Okonkwo.
+Specimen sent to cytopathology separately.
+
+Post-procedure instruction s provided. Follow-up with referring surgeon
+Dr. T. Weston recommended for surgical evaluation and treatment planning.
+
+─────────────────────────────────────────────────────────────────────────────
+
+PATHOLOGY REPORT
+
+Date Received: 02/21/2024
+Date Reported: 02/23/2024
+Accession Number: SP-2024-04817
+
+Specimen(s):
+  A. Right breast, 10 o'clock — ultrasound-guided core needle biopsy (5 cores)
+  B. Right low axillary lymph node — fine-needle aspiration
+
+GROSS DESCRIPTION:
+Specimen A: Received in formalin, labeled "right breast core biopsy." Five
+cylindrical cores of pale tan-white tissue, each approximately 1.2–1.5 cm in
+length and 0.2 cm in diameter. Representative sections submitted entirely.
+
+Specimen B: Cellular smear material on two slides, labeled "right axillary
+lymph node FNA." Smears stained with Diff-Quik and Papanicolaou stain.
+
+MICROSCOPIC DESCRIPTION:
+
+Specimen A (Right Breast Core Biopsy):
+Histologic sections demonstrate fragments of fibrofatty breast tissue infiltrated
+by an invasive carcinoma with ductal architecture. The tumor cells are arranged
+in nests and cords, with moderate nuclear pleomorphism and occasional mitotic
+figures. The nuclear grade is intermediate (grade 2). Background stromal
+desmoplasia is present. Foci of associated high nuclear grade ductal carcinoma
+in situ (DCIS) are identified at the periphery of the cores, with comedo-type
+necrosis. No lymphovascular invasion identified in the cores.
+
+The invasive component measures at least 1.9 cm in greatest extent across
+submitted cores (core biopsy; final size pending excision).
+
+DIAGNOSIS — Specimen A:
+RIGHT BREAST, 10 O'CLOCK POSITION, ULTRASOUND-GUIDED CORE NEEDLE BIOPSY:
+INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 (SCORE: 6/9;
+tubule formation 3, nuclear pleomorphism 2, mitotic count 1), with associated
+HIGH-GRADE DCIS WITH COMEDO-TYPE NECROSIS.
+
+DIAGNOSIS — Specimen B:
+RIGHT LOW AXILLARY LYMPH NODE, FINE-NEEDLE ASPIRATION:
+POSITIVE FOR MALIGNANT CELLS, consistent with metastatic carcinoma.
+Cytomorphologic features consistent with metastatic ductal carcinoma.
+
+Pathologist: Dr. A. Fernandez, MD (Surgical Pathology / Cytopathology)
+Electronically signed: 02/23/2024 at 09:15
+
+─────────────────────────────────────────────────────────────────────────────
+
+RECEPTOR STATUS / ANCILLARY STUDIES
+
+Date Reported: 02/25/2024
+Accession: SP-2024-04817 (Addendum — Immunohistochemistry and ISH)
+Laboratory: [REGIONAL MEDICAL CENTER] — Molecular Pathology
+
+Specimen: Right breast, 10 o'clock, core needle biopsy (Specimen A)
+
+ESTROGEN RECEPTOR (ER) — IHC (Clone SP1, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Intensity: N/A
+Internal positive control: Present and reactive
+INTERPRETATION: ER NEGATIVE
+
+PROGESTERONE RECEPTOR (PR) — IHC (Clone 1E2, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Intensity: N/A
+Internal positive control: Present and reactive
+INTERPRETATION: PR NEGATIVE
+
+HER2 — IHC (Clone 4B5, Ventana PATHWAY):
+Result: 3+ (POSITIVE)
+Staining pattern: Complete, intense circumferential membrane staining
+Percentage of tumor cells with staining: >10% of invasive tumor cells
+INTERPRETATION: HER2 IHC POSITIVE (3+)
+
+HER2 — IN SITU HYBRIDIZATION (ISH) (INFORM HER2 Dual ISH, Ventana):
+Result: AMPLIFIED
+HER2 signals per cell (mean): 8.4
+CEP17 signals per cell (mean): 1.9
+HER2/CEP17 ratio: 4.4
+INTERPRETATION: HER2 ISH POSITIVE (AMPLIFIED); HER2/CEP17 ratio > 2.0,
+average HER2 copy number > 4.0 signals/cell.
+
+Ki-67 Proliferation Index (MIB-1): 32%
+
+OVERALL RECEPTOR SUMMARY:
+ER: Negative (0%)
+PR: Negative (0%)
+HER2: Positive (IHC 3+; ISH amplified, ratio 4.4)
+Molecular subtype: HER2-enriched
+
+Pathologist: Dr. A. Fernandez, MD
+Electronically signed: 02/25/2024 at 11:48
+
+─────────────────────────────────────────────────────────────────────────────
+END OF REPORT — Document ID: RMC-BR-2024-018
+All reports reviewed and co-signed by Department Chief, Breast Pathology.
+─────────────────────────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "2.1 cm (MRI, greatest dimension); 1.9 cm (ultrasound, greatest dimension); 1.8 cm (mammogram, greatest dimension); invasive component at least 1.9 cm on core biopsy",
+        "evidence": "MRI: 'The mass measures 2.1 cm × 1.6 cm × 1.8 cm'; Ultrasound: 'irregular hypoechoic mass measuring 1.9 cm × 1.4 cm × 1.6 cm'; Mammogram: 'The lesion measures approximately 1.8 cm in its greatest dimension'; Pathology: 'The invasive component measures at least 1.9 cm in greatest extent across submitted cores'"
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, 10 o'clock position, anterior-to-mid depth, 5.5 cm from the nipple (ultrasound/mammogram); 5.4 cm from nipple (MRI)",
+        "evidence": "Mammogram: 'right upper outer quadrant at approximately the 10 o'clock position, estimated 5.5 cm from the nipple'; Ultrasound: 'At the 10 o'clock position, 5.5 cm from the nipple, in the anterior-to-mid depth'; MRI: '10 o'clock position in the anterior-to-mid depth of the right breast, 5.4 cm from the nipple'"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Focal asymmetry with architectural distortion; associated pleomorphic calcifications in a segmental distribution spanning approximately 2.2 cm",
+        "evidence": "Mammogram: 'focal asymmetry with associated architectural distortion...A cluster of pleomorphic calcifications is identified within and immediately adjacent to this asymmetry, distributed in a segmental pattern spanning approximately 2.2 cm'"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value

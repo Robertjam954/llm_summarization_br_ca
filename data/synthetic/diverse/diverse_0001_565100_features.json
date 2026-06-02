@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0001_565100",
+  "setting": "diverse",
+  "index": 1,
+  "profile": {
+    "cancer_type": "DCIS intermediate-grade",
+    "laterality": "left",
+    "modalities": "mammogram + stereotactic biopsy + pathology",
+    "special": "amorphous calcifications, localized extent"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm",
+          "evidence": "The calcification cluster spans approximately 1.8 cm in greatest linear extent on the spot-compression magnification view."
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10 o'clock position, middle depth, approximately 4.5 cm from the nipple",
+          "evidence": "There is a cluster of amorphous calcifications identified in the left upper outer quadrant at the 10 o'clock position, located approximately 4.5 cm from the nipple, at a middle depth."
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Present; amorphous morphology; grouped distribution",
+          "evidence": "New cluster of amorphous calcifications, left upper outer quadrant, 10 o'clock position, ~4.5 cm from the nipple, spanning 1.8 cm. Grouped distribution."
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI modality was performed or reported in this document."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "The calcifications are grouped in distribution and do not have a segmental or diffuse pattern, consistent with a localized extent of involvement."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Biopsy marker clip placed; MicroMark II, oval-shaped; confirmed in left upper outer quadrant, 10 o'clock position within biopsy cavity",
+          "evidence": "A metallic biopsy marker clip (MicroMark II, oval-shaped) was deployed at the biopsy site following specimen collection. Post-clip deployment scout image confirmed satisfactory clip placement within the biopsy cavity in the left upper outer quadrant, 10 o'clock position."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Surgical evaluation for excision of the DCIS with clip-targeted wire or SAVI SCOUT localization. Sentinel lymph node biopsy to be discussed at surgical consultation. Imaging follow-up post-excision as clinically indicated.",
+          "evidence": "Recommendation: Surgical evaluation for excision of the DCIS with clip-targeted wire or SAVI SCOUT localization. Sentinel lymph node biopsy to be discussed at surgical consultation. Imaging follow-up post-excision as clinically indicated."
+        },
+        "feature_8_lymph_node": {
+          "value": "No suspicious axillary lymphadenopathy on the left; no axillary lymphadenopathy on the right",
+          "evidence": "No suspicious axillary lymphadenopathy is present on the left. / No axillary lymphadenopathy is seen. [right breast]"
+        },
+        "feature_10_biopsy_method": {
+          "value": "Stereotactic vacuum-assisted biopsy (VAB), 9-gauge",
+          "evidence": "Procedure: Left breast stereotactic vacuum-assisted biopsy (VAB), 9-gauge"
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "No evidence of invasive carcinoma is identified within the submitted cores."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Ductal Carcinoma In Situ (DCIS), intermediate grade, cribriform and micropapillary patterns, with focal punctate comedonecrosis; spanning approximately 1.8 cm by imaging correlation. Left breast, 10 o'clock position.",
+          "evidence": "DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE GRADE, cribriform and micropapillary patterns, with focal punctate comedonecrosis; spanning approximately 1.8 cm by imaging correlation. Calcifications present."
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: Positive, 90%, strong (3+), internal control satisfactory; PR: Positive, 75%, moderate to strong (2\u20133+), internal control satisfactory; HER2 IHC: Negative, score 1+, incomplete faint membrane staining in <10% of cells; HER2 ISH: Not performed",
+          "evidence": "ESTROGEN RECEPTOR (ER): POSITIVE, 90%, Strong (3+). PROGESTERONE RECEPTOR (PR): POSITIVE, 75%, Moderate to strong (2\u20133+). HER2 IHC Score 1+ (Negative). HER2 ISH (FISH, PathVysion): NOT PERFORMED (IHC 1+; reflex testing not indicated per institutional protocol)."
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 11588,
+  "json_parse_ok": true
+}

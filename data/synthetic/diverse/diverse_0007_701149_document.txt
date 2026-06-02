@@ -1,0 +1,254 @@
+METROPOLITAN BREAST IMAGING CENTER
+Department of Radiology and Breast Imaging
+Affiliated with University Medical Group
+
+Patient: [PATIENT]                          DOB: [REDACTED]
+MRN: [REDACTED]                             Accession #: BIC-2023-04471
+Referring Physician: Dr. R. Holloway        Date of Service: See individual reports
+Clinical Indication: Right breast density, palpable thickening noted on clinical exam, right upper outer quadrant.
+
+
+═══════════════════════════════════════════════════════════════
+MAMMOGRAM — RIGHT AND LEFT BREASTS (DIAGNOSTIC)
+Date of Examination: 03/14/2023
+Technologist: M. Vance, RT(R)(M)
+Interpreting Radiologist: Dr. Sandra Okonkwo, MD
+═══════════════════════════════════════════════════════════════
+
+CLINICAL HISTORY:
+58-year-old female with palpable thickening in the right upper outer quadrant. Presenting for diagnostic mammography.
+
+TECHNIQUE:
+Standard craniocaudal (CC) and mediolateral oblique (MLO) views were obtained bilaterally. Spot compression views of the right upper outer quadrant were also performed.
+
+FINDINGS:
+
+Breast Composition: The breasts are heterogeneously dense (c), which may obscure small masses.
+
+Right Breast:
+A subtle architectural distortion is identified in the right breast upper outer quadrant, approximately 3 o'clock to 2 o'clock position, at mid to posterior depth, estimated 4.5 cm from the nipple. The distortion measures approximately 1.8 cm in greatest dimension on the MLO projection. No associated calcifications are identified. No skin thickening or nipple retraction is noted on the mammographic images.
+
+Left Breast:
+No suspicious mass, architectural distortion, or calcifications identified.
+
+Axillary Lymph Nodes:
+Bilateral axillary lymph nodes are visualized and appear normal in morphology with preserved fatty hila. No pathologically enlarged lymph nodes identified on mammographic views.
+
+IMPRESSION:
+1. Architectural distortion, right breast, upper outer quadrant, 2–3 o'clock position, mid-to-posterior depth, approximately 4.5 cm from the nipple, measuring approximately 1.8 cm. No calcifications.
+2. BI-RADS Category 4B — Moderate suspicion for malignancy.
+
+RECOMMENDATION:
+Ultrasound-guided evaluation of the right breast is recommended for further characterization and tissue sampling. Breast MRI is also recommended for further extent-of-disease evaluation given the clinical and mammographic findings.
+
+Electronically signed: Dr. Sandra Okonkwo, MD
+Date: 03/14/2023 | 14:37
+
+
+═══════════════════════════════════════════════════════════════
+BREAST MRI — BILATERAL WITH AND WITHOUT CONTRAST
+Date of Examination: 03/22/2023
+Interpreting Radiologist: Dr. Sandra Okonkwo, MD
+MR Technologist: P. Nguyen, RT(MR)
+═══════════════════════════════════════════════════════════════
+
+CLINICAL HISTORY:
+58-year-old female with right breast architectural distortion on recent diagnostic mammogram. Referred for extent-of-disease evaluation prior to tissue sampling.
+
+TECHNIQUE:
+Bilateral breast MRI performed on a 3.0-Tesla magnet. Protocol included axial T1-weighted pre- and post-contrast sequences, T2-weighted fat-suppressed sequences, and dynamic contrast-enhanced (DCE) subtraction series. Gadolinium-based contrast agent administered intravenously at standard dosing.
+
+FINDINGS:
+
+Background Parenchymal Enhancement (BPE): Mild, symmetric bilateral.
+
+Right Breast:
+A region of non-mass enhancement (NME) is identified in the right breast at the 2–3 o'clock position, mid-to-posterior depth, spanning an area of approximately 2.2 cm in greatest dimension, located approximately 4.5 cm from the nipple. The enhancement pattern is segmental with an internal heterogeneous clumped distribution. Kinetic analysis demonstrates early rapid initial phase enhancement with delayed plateau kinetics. No associated T2 signal abnormality to suggest a simple cyst. No discrete dominant mass identified within this region of NME.
+
+No additional satellite nodules or foci of enhancement are identified elsewhere in the right breast.
+
+Left Breast:
+No suspicious enhancement, mass, or non-mass enhancement identified in the left breast.
+
+Axillary and Internal Mammary Lymph Nodes:
+Right axillary lymph nodes appear normal in size and morphology; preserved fatty hila are noted. No abnormal right axillary lymphadenopathy. Left axillary nodes are unremarkable. No internal mammary lymphadenopathy bilaterally.
+
+Chest Wall and Skin:
+No chest wall involvement. No skin thickening or abnormal skin enhancement.
+
+IMPRESSION:
+1. Non-mass enhancement (NME), segmental, clumped distribution, right breast, 2–3 o'clock position, mid-to-posterior depth, approximately 4.5 cm from the nipple, spanning approximately 2.2 cm. Kinetics are suspicious (rapid initial phase, plateau delayed). No calcifications identified on MRI.
+2. No additional suspicious foci in the right breast. No left breast suspicious findings.
+3. No pathologic axillary lymphadenopathy bilaterally.
+4. BI-RADS Category 4C — High suspicion for malignancy.
+
+RECOMMENDATION:
+Ultrasound-guided core needle biopsy of the right breast lesion (2–3 o'clock, mid-to-posterior depth) is recommended. Correlation with MRI for targeting. If the lesion is amenable to ultrasound targeting, US-guided biopsy is preferred. Biopsy clip placement recommended at time of biopsy. Surgical oncology referral is advised following tissue diagnosis.
+
+Electronically signed: Dr. Sandra Okonkwo, MD
+Date: 03/22/2023 | 11:04
+
+
+═══════════════════════════════════════════════════════════════
+ULTRASOUND — RIGHT BREAST (TARGETED/DIAGNOSTIC)
+Performed in conjunction with US-Guided Core Needle Biopsy
+Date of Examination: 03/29/2023
+Interpreting Radiologist: Dr. Sandra Okonkwo, MD
+Sonographer: T. Abrams, RDMS
+═══════════════════════════════════════════════════════════════
+
+CLINICAL HISTORY:
+58-year-old female. Correlating with right breast architectural distortion on mammogram and non-mass enhancement on MRI.
+
+TECHNIQUE:
+Real-time high-frequency linear transducer ultrasound examination of the right breast. Targeted evaluation of the 2–3 o'clock region. Color Doppler interrogation performed.
+
+FINDINGS:
+At the 2–3 o'clock position, mid-to-posterior depth, approximately 4.5 cm from the nipple, a hypoechoic irregular area with subtle acoustic shadowing was identified, measuring 1.9 cm in greatest dimension (AP × transverse × longitudinal: 1.9 × 1.4 × 1.6 cm). The margins are non-circumscribed with indistinct borders. No posterior acoustic enhancement. Color Doppler demonstrates mild internal vascularity. No associated calcifications or echogenic foci identified on ultrasound.
+
+No abnormal-appearing axillary lymph nodes were identified on right axillary survey. Lymph nodes with preserved cortical thickness (≤3 mm) and fatty hila were noted.
+
+IMPRESSION:
+1. Hypoechoic irregular area with acoustic shadowing, right breast, 2–3 o'clock, mid-to-posterior depth, 4.5 cm from nipple, measuring 1.9 cm. This correlates with the mammographic architectural distortion and MRI non-mass enhancement.
+2. No suspicious axillary lymphadenopathy on the right.
+3. BI-RADS Category 4C — Biopsy was performed (see below).
+
+RECOMMENDATION:
+Correlation with pathology results. Surgical oncology referral recommended following diagnosis.
+
+Electronically signed: Dr. Sandra Okonkwo, MD
+Date: 03/29/2023 | 09:52
+
+
+═══════════════════════════════════════════════════════════════
+ULTRASOUND-GUIDED CORE NEEDLE BIOPSY — RIGHT BREAST
+Date of Procedure: 03/29/2023
+Performing Radiologist: Dr. Sandra Okonkwo, MD
+Assisting: T. Abrams, RDMS
+═══════════════════════════════════════════════════════════════
+
+PROCEDURE NOTE:
+
+Informed consent was obtained. The right breast was prepped and draped in sterile fashion. Local anesthesia was administered with 1% lidocaine. Under continuous real-time ultrasound guidance, a 14-gauge automated core needle was introduced into the hypoechoic irregular lesion at the right breast 2–3 o'clock position, mid-to-posterior depth, 4.5 cm from the nipple. Five (5) cores were obtained. Cores demonstrated adequate tissue on gross inspection (white/tan tissue cores, each approximately 1.5 cm in length). Samples were placed in 10% neutral buffered formalin and submitted to pathology.
+
+Following biopsy, a titanium ribbon-shaped biopsy clip/marker was deployed at the biopsy site under real-time ultrasound guidance. Post-deployment ultrasound confirmed the clip was visualized within the biopsy cavity at the 2–3 o'clock mid-to-posterior depth location. Post-biopsy mammographic views (CC and MLO) were obtained and confirmed the ribbon-shaped clip to be in appropriate position within the right breast upper outer quadrant, consistent with the targeted lesion site.
+
+Hemostasis was achieved with manual compression. No immediate complications.
+
+SAMPLES SUBMITTED:
+Right breast, 2–3 o'clock, mid-to-posterior depth — US-guided 14-gauge core needle biopsy, 5 cores. Submitted in formalin to Surgical Pathology.
+
+Electronically signed: Dr. Sandra Okonkwo, MD
+Date: 03/29/2023 | 10:18
+
+
+═══════════════════════════════════════════════════════════════
+SURGICAL PATHOLOGY REPORT
+Date Received: 03/29/2023
+Date Reported: 04/01/2023
+Pathologist: Dr. Hema Krishnamurthy, MD, FCAP
+Laboratory: Metropolitan Medical Center — Anatomic Pathology
+Specimen #: SP-2023-09841
+═══════════════════════════════════════════════════════════════
+
+SPECIMEN:
+Right breast, 2–3 o'clock, mid-to-posterior depth, ultrasound-guided core needle biopsy.
+
+CLINICAL HISTORY:
+58-year-old female with right breast architectural distortion on mammogram and segmental non-mass enhancement on MRI.
+
+GROSS DESCRIPTION:
+Received in formalin, labeled with patient identifier and site "right breast 2–3 o'clock core biopsy," are five (5) tan-white cylindrical tissue cores ranging from 1.3 to 1.6 cm in length and 0.1 to 0.2 cm in diameter. All cores submitted entirely in two cassettes.
+
+MICROSCOPIC DESCRIPTION:
+Sections show invasive lobular carcinoma composed of small uniform discohesive cells arranged in single-file linear cords and targetoid patterns infiltrating a fibrous stroma. The tumor cells demonstrate mild nuclear pleomorphism. Nuclei are small and round with inconspicuous nucleoli. Mitotic figures are infrequent (mitotic index: 1–2 per 10 high-power fields). No ductal carcinoma in situ (DCIS) component is identified. No necrosis. No lymphovascular invasion identified on the sampled cores. No calcifications present in the sampled tissue.
+
+The invasive carcinoma is present across multiple cores, with the aggregate greatest dimension of invasive carcinoma measuring at least 1.8 cm across the biopsy cores; however, definitive size determination will require excision specimen evaluation.
+
+HISTOLOGIC GRADE (Modified Bloom-Richardson / Nottingham):
+- Glandular/tubule formation: Score 3
+- Nuclear pleomorphism: Score 1
+- Mitotic count: Score 1
+- Total Score: 5 — Grade 1 (Well Differentiated)
+
+DIAGNOSIS:
+Right breast, 2–3 o'clock, mid-to-posterior depth, ultrasound-guided core needle biopsy:
+INVASIVE LOBULAR CARCINOMA, GRADE 1 (WELL DIFFERENTIATED).
+Aggregate invasive carcinoma size on core biopsy: at least 1.8 cm.
+No in situ component identified.
+No calcifications identified in sampled tissue.
+
+Electronically signed: Dr. Hema Krishnamurthy, MD, FCAP
+Date: 04/01/2023 | 15:22
+
+
+═══════════════════════════════════════════════════════════════
+RECEPTOR STATUS / IMMUNOHISTOCHEMISTRY REPORT
+Date Reported: 04/03/2023
+Pathologist: Dr. Hema Krishnamurthy, MD, FCAP
+Specimen Reference: SP-2023-09841 (Right breast core biopsy)
+═══════════════════════════════════════════════════════════════
+
+IMMUNOHISTOCHEMISTRY AND IN SITU HYBRIDIZATION RESULTS:
+
+ESTROGEN RECEPTOR (ER):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 95%
+Staining intensity: Strong (3+)
+Allred Score: 8/8
+Internal control: Adequate (positive normal ductal epithelium)
+External control: Satisfactory
+
+PROGESTERONE RECEPTOR (PR/PgR):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 70%
+Staining intensity: Moderate-to-strong (2–3+)
+Allred Score: 7/8
+Internal control: Adequate
+External control: Satisfactory
+
+HER2 IMMUNOHISTOCHEMISTRY (IHC):
+Result: NEGATIVE
+Score: 1+ (Incomplete faint membrane staining in ≤10% of tumor cells)
+No further ISH testing indicated per ASCO/CAP guidelines.
+
+HER2 IN SITU HYBRIDIZATION (ISH): Not performed (HER2 IHC 1+, reflex ISH not indicated).
+
+Ki-67 Proliferative Index:
+Result: 8% (Low)
+
+SUMMARY:
+- ER: Positive (95%, 3+, Allred 8/8)
+- PR/PgR: Positive (70%, 2–3+, Allred 7/8)
+- HER2: Negative (IHC 1+; ISH not performed)
+- Molecular Subtype (by surrogate IHC): Luminal A
+
+Electronically signed: Dr. Hema Krishnamurthy, MD, FCAP
+Date: 04/03/2023 | 09:44
+
+
+═══════════════════════════════════════════════════════════════
+ADDENDUM — RADIOLOGIC-PATHOLOGIC CORRELATION
+Date: 04/04/2023
+Radiologist: Dr. Sandra Okonkwo, MD
+═══════════════════════════════════════════════════════════════
+
+Radiologic-pathologic concordance is confirmed. The imaging findings of architectural distortion on mammography and segmental non-mass enhancement on MRI are concordant with the pathologic diagnosis of invasive lobular carcinoma, grade 1. The biopsy clip (titanium ribbon-shaped marker) remains in appropriate position within the right breast upper outer quadrant at the 2–3 o'clock position per post-biopsy mammographic confirmation. No discordance. The patient has been referred to surgical oncology for treatment planning.
+
+Electronically signed: Dr. Sandra Okonkwo, MD
+Date: 04/04/2023 | 08:15
+
+— END OF REPORT —
+
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "2.2 cm (MRI, greatest dimension of non-mass enhancement); 1.9 cm (ultrasound); 1.8 cm (mammogram and pathology aggregate)",
+        "evidence": "MRI: 'spanning an area of approximately 2.2 cm in greatest dimension'; Ultrasound: 'measuring 1.9 cm in greatest dimension'; Mammogram: 'measures approximately 1.8 cm in greatest dimension on the MLO projection'; Pathology: 'aggregate greatest dimension of invasive carcinoma measuring at least 1.8 cm across the biopsy cores'"
+      },
+      "feature_2_lesion_location": {
+        "

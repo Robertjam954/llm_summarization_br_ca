@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0012_254efa",
+  "setting": "diverse",
+  "index": 12,
+  "profile": {
+    "cancer_type": "DCIS high-grade",
+    "laterality": "right",
+    "modalities": "mammogram + MRI + stereotactic biopsy + pathology",
+    "special": "extensive calcifications, no invasion"
+  },
+  "features": null,
+  "raw_output_chars": 14378,
+  "json_parse_ok": false
+}

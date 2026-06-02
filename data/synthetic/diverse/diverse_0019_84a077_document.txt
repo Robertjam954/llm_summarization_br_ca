@@ -1,0 +1,190 @@
+LAKEVIEW REGIONAL MEDICAL CENTER
+Department of Radiology and Breast Imaging
+Department of Surgical Pathology
+
+PATIENT: [PATIENT]
+DOB: [REDACTED]
+ACCESSION #: BR-2024-04471
+ORDERING PHYSICIAN: Dr. C. Hartwell, MD
+
+============================================================
+MAMMOGRAM — BILATERAL DIAGNOSTIC MAMMOGRAPHY
+============================================================
+
+DATE OF EXAM: 03/14/2024
+REFERRING PROVIDER: C. Hartwell, MD
+INDICATION: 57-year-old female presenting for evaluation of left breast calcifications
+  identified on routine screening mammogram performed 02/28/2024. No palpable
+  abnormality. No personal or family history of breast cancer.
+
+TECHNIQUE: Standard bilateral CC and MLO views with additional left breast spot-
+  magnification views in CC and ML projections.
+
+COMPARISON: Screening mammogram dated 02/28/2024 and prior diagnostic mammogram
+  dated 03/10/2021.
+
+FINDINGS:
+
+RIGHT BREAST: The breast parenchyma is heterogeneously dense (ACR category C),
+  which may obscure small masses. No suspicious mass, architectural distortion,
+  or calcification is identified. No axillary lymphadenopathy detected.
+
+LEFT BREAST: Spot-magnification views of the left upper outer quadrant at the
+  10 o'clock position, approximately 4.5 cm from the nipple, demonstrate a cluster
+  of amorphous calcifications measuring approximately 1.8 cm in greatest extent.
+  The calcifications are distributed in a grouped (clustered) pattern. There is
+  no associated mass, skin thickening, or nipple retraction. No additional suspi-
+  cious calcification clusters are identified elsewhere in the left breast.
+
+LEFT AXILLA: No suspicious lymphadenopathy. Axillary nodes appear normal in
+  morphology.
+
+IMPRESSION:
+  Left breast grouped amorphous calcifications, left upper outer quadrant, 10 o'clock
+  position, approximately 4.5 cm from the nipple, measuring 1.8 cm in greatest extent.
+
+BI-RADS CATEGORY: 4B — Moderate suspicion for malignancy.
+
+RECOMMENDATION: Stereotactic vacuum-assisted core needle biopsy of the left breast
+  calcifications is recommended. Correlation with pathology results advised. Surgical
+  consultation to follow pending biopsy results.
+
+Electronically signed: Dr. M. Okafor, MD (Breast Imaging)
+Date signed: 03/14/2024 at 14:32
+
+============================================================
+STEREOTACTIC BIOPSY — LEFT BREAST
+============================================================
+
+DATE OF PROCEDURE: 03/21/2024
+PERFORMING RADIOLOGIST: Dr. M. Okafor, MD
+ASSISTING STAFF: R. Nguyen, RT(R)(M)
+INDICATION: Left breast grouped amorphous calcifications, BI-RADS 4B, as described
+  on diagnostic mammogram dated 03/14/2024.
+
+PROCEDURE DETAILS:
+  The patient was placed in the prone position on the stereotactic biopsy table.
+  The left upper outer quadrant was targeted. Following sterile preparation and
+  draping, local anesthesia was achieved with 1% lidocaine with epinephrine.
+  Stereotactic images were obtained to confirm accurate targeting of the amorphous
+  calcification cluster at the 10 o'clock position, left breast, approximately
+  4.5 cm from the nipple, at mid depth.
+
+  A stereotactic vacuum-assisted biopsy (VAB) was performed using an 9-gauge
+  Mammotome device. Multiple core specimens (12 passes) were obtained. Specimen
+  radiograph confirmed retrieval of calcifications within the submitted cores.
+
+CLIP PLACEMENT: A titanium biopsy marker clip (MicroMark II, oval configuration)
+  was deployed at the biopsy site within the left upper outer quadrant at the
+  10 o'clock position following specimen collection. Post-deployment mammographic
+  images confirmed accurate clip placement at the target site.
+
+SPECIMENS: Twelve core specimens submitted in formalin, labeled "left breast
+  calcifications, 10 o'clock, stereotactic VAB," sent to Surgical Pathology.
+
+COMPLICATIONS: None. Patient tolerated the procedure well.
+
+POST-PROCEDURE INSTRUCTIONS: Standard post-biopsy care instructions provided.
+  Follow-up per pathology results.
+
+Electronically signed: Dr. M. Okafor, MD (Breast Imaging / Interventional)
+Date signed: 03/21/2024 at 11:07
+
+============================================================
+PATHOLOGY REPORT — SURGICAL PATHOLOGY
+============================================================
+
+DATE RECEIVED: 03/21/2024
+DATE REPORTED: 03/25/2024
+ACCESSION #: SP-2024-09842
+SPECIMEN SOURCE: Left breast, 10 o'clock position, stereotactic VAB cores
+CLINICAL HISTORY: 57-year-old female. Grouped amorphous calcifications, left upper
+  outer quadrant, BI-RADS 4B.
+
+GROSS DESCRIPTION:
+  Received in formalin, labeled "left breast calcifications, 10 o'clock, VAB," are
+  twelve cream-tan cylindrical core biopsy fragments ranging from 0.6 to 1.4 cm in
+  length. Specimen radiograph confirms calcifications within submitted material.
+  All cores submitted entirely in cassettes A1–A4.
+
+MICROSCOPIC DESCRIPTION:
+  Sections show fibroglandular breast tissue with ductal spaces partially and
+  completely filled by a monomorphic population of intermediate-grade epithelial
+  cells displaying mild to moderate nuclear pleomorphism with visible nucleoli.
+  Mitotic activity is low. The neoplastic cells demonstrate a cribriform and
+  micropapillary architectural pattern. Psammomatoid and amorphous-type microcalci-
+  fications are present within involved ducts. The process is confined to the ductal
+  spaces with no convincing evidence of stromal invasion identified in the sampled
+  material. No lymphovascular invasion is seen.
+
+  The extent of involvement across the submitted cores is localized, spanning
+  approximately 1.8 cm based on the distribution of involved cores and correlating
+  with imaging findings.
+
+  No invasive carcinoma is identified.
+
+HISTOLOGIC DIAGNOSIS:
+  LEFT BREAST, 10 O'CLOCK POSITION, STEREOTACTIC VAB:
+  DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE NUCLEAR GRADE, CRIBRIFORM AND
+  MICROPAPILLARY PATTERN, WITH ASSOCIATED CALCIFICATIONS. EXTENT APPROXIMATELY
+  1.8 CM (LOCALIZED). NO INVASIVE CARCINOMA IDENTIFIED.
+
+============================================================
+RECEPTOR STATUS
+============================================================
+
+DATE REPORTED: 03/25/2024
+SPECIMEN: Left breast core biopsy, 10 o'clock, stereotactic VAB (SP-2024-09842)
+
+ESTROGEN RECEPTOR (ER) — IHC:
+  Result: POSITIVE
+  Percentage of positive nuclei: 90%
+  Staining intensity: Strong (3+)
+  Internal control: Adequate (normal ductal epithelium positive)
+  External control: Satisfactory
+
+PROGESTERONE RECEPTOR (PR) — IHC:
+  Result: POSITIVE
+  Percentage of positive nuclei: 75%
+  Staining intensity: Moderate-to-strong (2–3+)
+  Internal control: Adequate
+  External control: Satisfactory
+
+HER2 (ERBB2) — IHC:
+  Result: NEGATIVE
+  Score: 1+ (incomplete, faint membrane staining in < 10% of cells)
+  Reflex ISH testing: NOT PERFORMED (IHC score 1+, does not meet criteria)
+  Internal control: Adequate
+  External control: Satisfactory
+
+Ki-67 proliferation index: Approximately 8% (low)
+
+SUMMARY OF RECEPTOR STATUS:
+  ER: Positive (90%, 3+)
+  PR: Positive (75%, 2–3+)
+  HER2: Negative (IHC 1+; ISH not performed)
+
+============================================================
+OVERALL IMPRESSION / CLINICAL CORRELATION
+============================================================
+
+The morphologic and receptor findings are consistent with intermediate-grade DCIS,
+ER-positive, PR-positive, HER2-negative, of localized extent (approximately 1.8 cm),
+left upper outer quadrant, 10 o'clock position. No invasive component is identified
+on the sampled material. A titanium clip marker was placed at the biopsy site.
+
+RECOMMENDATION: Surgical evaluation is recommended for definitive management,
+  including discussion of breast-conserving surgery versus mastectomy. Post-surgical
+  pathology will be required to assess final margin status. Oncologic and radiation
+  oncology consultation advised as clinically appropriate.
+
+Pathologist: Dr. A. Brennan, MD, FCAP
+  Surgical Pathology, Lakeview Regional Medical Center
+Date signed: 03/25/2024 at 09:48
+
+Radiologist (Correlating): Dr. M. Okafor, MD
+Date of correlation note: 03/25/2024
+
+============================================================
+END OF REPORT — LAKEVIEW REGIONAL MEDICAL CENTER
+============================================================

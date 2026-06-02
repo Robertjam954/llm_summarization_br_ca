@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0024_458c77",
+  "setting": "diverse",
+  "index": 24,
+  "profile": {
+    "cancer_type": "DCIS intermediate-grade",
+    "laterality": "left",
+    "modalities": "mammogram + stereotactic biopsy + pathology",
+    "special": "amorphous calcifications, localized extent"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm (imaging); approximately 1.6 cm (pathology)",
+          "evidence": "Mammogram: 'A cluster of amorphous calcifications is identified spanning an estimated greatest dimension of 1.8 cm in the craniocaudal projection.' Pathology: 'spanning approximately 1.6 cm based on the extent across submitted cores.'"
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper-outer quadrant, 10 o'clock position, mid-depth, approximately 4.0 cm from the nipple",
+          "evidence": "Mammogram: 'left upper-outer quadrant were obtained at the 10 o'clock position, approximately 4.0 cm from the nipple (mid-depth).'"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Calcifications present; amorphous morphology; grouped distribution",
+          "evidence": "Mammogram: 'A cluster of amorphous calcifications is identified spanning an estimated greatest dimension of 1.8 cm... The calcifications are grouped in distribution, without associated mass, architectural distortion, or skin thickening.' Pathology: 'Calcifications of the amorphous type are identified within involved ducts.'"
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI was performed or documented in this report."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "Pathology: 'The process appears localized without evidence of multifocal or multicentric involvement within the submitted cores.' Mammogram: 'Findings are localized to this region with no additional areas of suspicious calcification identified in either breast.'"
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Biopsy clip placed; titanium, omega-shaped marker; deployed at biopsy site in left upper-outer quadrant, 10 o'clock position, approximately 4.0 cm from the nipple; post-deployment images confirmed satisfactory placement",
+          "evidence": "Biopsy Report: 'A biopsy clip (titanium, omega-shaped marker) was deployed at the biopsy site and post-deployment mammographic images confirmed satisfactory clip placement within the area of calcification sampling in the left upper-outer quadrant at the 10 o'clock position.' Post-Procedure Mammogram: 'Clip placement is concordant with the biopsy target.'"
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Surgical consultation is recommended for definitive management of left breast DCIS. Post-biopsy imaging follow-up and surgical evaluation should be coordinated with the treating multidisciplinary team.",
+          "evidence": "Comment/Concordance Note: 'Surgical consultation is recommended for definitive management of left breast DCIS. Post-biopsy imaging follow-up and surgical evaluation should be coordinated with the treating multidisciplinary team.'"
+        },
+        "feature_8_lymph_node": {
+          "value": "No enlarged or suspicious axillary lymph nodes on the left; no axillary lymphadenopathy on the right",
+          "evidence": "Mammogram: 'No enlarged or suspicious axillary lymph nodes are identified on the left.' and 'No axillary lymphadenopathy on the right.'"
+        },
+        "feature_10_biopsy_method": {
+          "value": "Stereotactic vacuum-assisted biopsy (VAB), 9-gauge, Hologic Eviva device, left breast",
+          "evidence": "Biopsy Report: 'a 9-gauge vacuum-assisted biopsy (VAB) device (Hologic Eviva) was introduced via a lateral approach. A total of twelve (12) core specimens were obtained.'"
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "Pathology: 'No invasive carcinoma is identified.'"
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Ductal carcinoma in situ (DCIS), intermediate nuclear grade, cribriform and micropapillary subtypes; spanning approximately 1.6 cm based on the extent across submitted cores; left breast, 10 o'clock position. Amorphous-type calcifications present within DCIS-involved ducts. No invasive carcinoma identified.",
+          "evidence": "Histologic Diagnosis section: 'Ductal carcinoma in situ (DCIS), intermediate nuclear grade, cribriform and micropapillary subtypes; spanning approximately 1.6 cm based on the extent across submitted cores; left breast, 10 o'clock position. Amorphous-type calcifications present within DCIS-involved ducts. No invasive carcinoma identified.'"
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: Positive, 90% positive nuclei, strong (3+), internal control positive. PR: Positive, 75% positive nuclei, moderate-to-strong (2\u20133+), internal control positive. HER2 IHC: 1+ (Negative), incomplete faint membrane staining in <10% of cells. HER2 ISH (FISH): Not performed (IHC score 1+, not indicated per institutional protocol). Ki-67: 15%.",
+          "evidence": "Receptor Status section: 'Estrogen Receptor (ER): Result: POSITIVE; Percentage of positive nuclei: 90%; Staining intensity: Strong (3+)... Progesterone Receptor (PR): Result: POSITIVE; Percentage of positive nuclei: 75%; Staining intensity: Moderate-to-strong (2\u20133+)... HER2 (IHC): Result: 1+ (Negative)... HER2 ISH (FISH): Not performed (HER2 IHC score 1+; ISH not indicated per institutional protocol)... Ki-67 Proliferation Index: 15%.'"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12881,
+  "json_parse_ok": true
+}

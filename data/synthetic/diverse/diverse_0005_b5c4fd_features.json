@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0005_b5c4fd",
+  "setting": "diverse",
+  "index": 5,
+  "profile": {
+    "cancer_type": "IDC grade 2",
+    "laterality": "left",
+    "modalities": "mammogram + ultrasound + pathology + receptor",
+    "special": "clip placed, calcifications present"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm (greatest dimension on mammogram and ultrasound; at least 1.8 cm on core biopsy pathology estimate)",
+          "evidence": "Mammogram: 'irregular, high-density mass measuring approximately 1.8 cm in greatest dimension'; Ultrasound: 'mass measures 1.8 cm \u00d7 1.3 cm \u00d7 1.2 cm'; Pathology: 'Invasive component size (core biopsy estimate): At least 1.8 cm'"
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10 o'clock position, mid depth, 4.5 cm from the left nipple",
+          "evidence": "Mammogram: 'upper outer quadrant at the 10 o'clock position, approximately 4.5 cm from the left nipple, at mid depth'; Ultrasound: 'at the 10 o'clock position, approximately 4.5 cm from the left nipple, at mid depth'"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Calcifications present; fine pleomorphic morphology; segmental distribution spanning approximately 2.5 cm; within and immediately adjacent to the mass",
+          "evidence": "Mammogram: 'Associated fine pleomorphic calcifications are identified within and immediately adjacent to the mass, distributed in a segmental pattern over a region spanning approximately 2.5 cm'; Pathology: 'Scattered fine calcifications are identified within and adjacent to tumor nests'"
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI was performed or documented in this report."
+        },
+        "feature_5_extent": {
+          "value": "Localized; associated DCIS present at biopsy margins",
+          "evidence": "Pathology: 'Associated high-grade ductal carcinoma in situ (DCIS) with cribriform and solid architecture is present at the biopsy margins.' No multifocal, multicentric, or bilateral disease stated."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Titanium biopsy clip, omega-shaped, deployed at the biopsy site within the 10 o'clock left breast mass; confirmed by post-procedural mammographic image to be in satisfactory position",
+          "evidence": "Biopsy Procedure Note: 'A titanium biopsy clip (omega-shaped) was deployed at the biopsy site following specimen retrieval, confirmed by post-procedural mammographic image to be in satisfactory position within the 10 o'clock left breast mass.'"
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Ultrasound-guided core needle biopsy of the left breast mass is recommended. Ultrasound-guided fine needle aspiration or core needle biopsy of the left axillary lymph node is also recommended. Surgical evaluation is advised upon pathologic confirmation.",
+          "evidence": "Ultrasound report Recommendation section: 'Ultrasound-guided core needle biopsy of the left breast mass is recommended. Ultrasound-guided fine needle aspiration or core needle biopsy of the left axillary lymph node is also recommended. Surgical evaluation is advised upon pathologic confirmation.'"
+        },
+        "feature_8_lymph_node": {
+          "value": "Left axillary lymph node measuring 1.4 cm with eccentric cortical thickening of 5 mm and compressed fatty hilum, suspicious for metastatic involvement; no suspicious right axillary adenopathy",
+          "evidence": "Mammogram: 'A prominent left axillary lymph node measuring 1.4 cm with cortical thickening of 5 mm is noted. No suspicious right axillary adenopathy.' Ultrasound: 'A lymph node measuring 1.4 cm is identified with eccentric cortical thickening of 5 mm and a compressed fatty hilum, suspicious for metastatic involvement.'"
+        },
+        "feature_10_biopsy_method": {
+          "value": "Ultrasound-guided 14-gauge core needle biopsy (CNB)",
+          "evidence": "Biopsy Procedure Note: 'Ultrasound-guided 14-gauge core needle biopsy (CNB) of the left breast mass was performed using real-time ultrasound guidance. Five core specimens were obtained.'"
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "At least 1.8 cm",
+          "evidence": "Pathology report: 'INVASIVE COMPONENT SIZE (core biopsy estimate): At least 1.8 cm (correlate with excision specimen for definitive sizing).'"
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Invasive ductal carcinoma (IDC), Nottingham grade 2, measuring at least 1.8 cm, left breast 10 o'clock; associated ductal carcinoma in situ (DCIS), cribriform and solid type, high nuclear grade, with associated calcifications",
+          "evidence": "Pathology: 'Invasive ductal carcinoma (IDC), Nottingham grade 2, measuring at least 1.8 cm; Associated ductal carcinoma in situ (DCIS), cribriform and solid type, high nuclear grade, with associated calcifications'"
+        },
+        "feature_13_receptor_status": {
+          "value": "ER: Positive (85%, strong 3+, internal control satisfactory); PR: Positive (60%, moderate 2+, internal control satisfactory); HER2 IHC: Negative (1+, incomplete faint membranous staining in <10% of tumor cells); HER2 ISH: Not performed (IHC 1+, ISH not indicated per ASCO/CAP guidelines); Ki-67: 20%",
+          "evidence": "Receptor Status report: 'ER: Positive (85%, strong 3+)'; 'PR: Positive (60%, moderate 2+)'; 'HER2: Negative (IHC 1+)'; 'Staining pattern: Incomplete, faint membranous staining in <10% of tumor cells'; 'HER2 \u2014 ISH: Not performed (IHC result 1+; ISH not indicated)'; 'KI-67 PROLIFERATION INDEX: 20%'"
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12801,
+  "json_parse_ok": true
+}

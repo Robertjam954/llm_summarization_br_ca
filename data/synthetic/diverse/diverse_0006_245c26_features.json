@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0006_245c26",
+  "setting": "diverse",
+  "index": 6,
+  "profile": {
+    "cancer_type": "IDC triple-negative grade 3",
+    "laterality": "left",
+    "modalities": "ultrasound + MRI + core biopsy + pathology + receptor",
+    "special": "large tumor > 3 cm, no clip placed"
+  },
+  "features": null,
+  "raw_output_chars": 14181,
+  "json_parse_ok": false
+}

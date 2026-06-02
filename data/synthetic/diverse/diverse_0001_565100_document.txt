@@ -1,0 +1,173 @@
+MEMORIAL COASTAL HEALTH SYSTEM
+Department of Radiology and Breast Imaging
+Department of Anatomic Pathology
+
+Patient: [PATIENT]
+DOB: [REDACTED]
+Accession #: MCHS-2024-08841
+Ordering Physician: Dr. R. Calloway, MD
+
+─────────────────────────────────────────────────────────────
+MAMMOGRAM
+Date of Examination: 03/14/2024
+Exam Type: Diagnostic Bilateral Mammography
+Indication: Screening recall; left breast calcifications identified on 02/28/2024 screening study.
+
+TECHNIQUE:
+Standard CC and MLO projections were obtained bilaterally. Additional left  breast
+spot-compression magnification views in the CC and ML projections were performed
+targeting the left upper outer quadrant.
+
+COMPARISON: Screening mammogram dated 02/28/2024 and prior study dated 03/01/2022.
+
+FINDINGS:
+
+RIGHT BREAST:
+The breast parenchyma is heterogeneously dense (ACR category C). No suspicious
+mass, architectural distortion, or calcifications are identified. No axillary
+lymphadenopathy is seen.
+
+LEFT BREAST:
+There is a cluster of amorphous calcifications identified in the  left upper outer
+quadrant at the 10 o'clock position, located approximately 4.5 cm from the nipple,
+at a middle depth. The calcification cluster spans approximately 1.8 cm in greatest
+linear extent on the spot-compression magnification view. The calcifications are
+grouped in distribution and do not have a segmental or diffuse pattern, consistent
+with a localized extent of involvement. No associated mass, architectural
+distortion, or skin changes are identified. No suspicious axillary lymphadenopathy
+is present on the left.
+
+Comparison with the 02/28/2024 screening mammogram confirms these calcifications
+are new relative to the 03/01/2022 prior study.
+
+IMPRESSION:
+Left breast: New cluster of amorphous calcifications, left upper outer quadrant,
+10 o'clock position, ~4.5 cm from the nipple, spanning 1.8 cm. Grouped distribution.
+No associated mass. Localized extent.
+
+BI-RADS CATEGORY: 4B — Moderate suspicion for malignancy.
+
+RECOMMENDATION: Stereotactic vacuum-assisted biopsy of the left breast calcifications
+is recommended. Clinical correlation and surgical evaluation to follow pending
+pathology results.
+
+Interpreting Radiologist: Sarah T. Mensah, MD, FSBI
+Date Signed: 03/14/2024
+─────────────────────────────────────────────────────────────
+
+STEREOTACTIC BIOPSY
+Date of Procedure: 03/21/2024
+Procedure: Left breast stereotactic vacuum-assisted biopsy (VAB), 9-gauge
+Indication: BI-RADS 4B amorphous calcifications, left upper outer quadrant,
+10 o'clock, middle depth, ~4.5 cm from nipple.
+
+PROCEDURE DETAILS:
+The patient was positioned prone on the stereotactic biopsy table. The left breast
+was compressed and the target calcification cluster was identified stereotactically.
+Local anesthesia was administered with 1% lidocaine with epinephrine. A 9-gauge
+vacuum-assisted biopsy device (Hologic Eviva) was deployed via a lateral approach.
+Multiple core specimens (12 cores) were obtained. Calcifications were confirmed
+present within the specimen radiograph. Post-fire stereo pair images confirmed
+adequate sampling of the target.
+
+CLIP PLACEMENT:
+A metallic biopsy marker clip (MicroMark II, oval-shaped) was deployed at the
+biopsy site following specimen collection. Post-clip deployment scout image confirmed
+satisfactory clip placement within the biopsy cavity in the left upper outer quadrant,
+10 o'clock position.
+
+Post-procedure mammographic images were obtained confirming clip position. The patient
+tolerated the procedure well without complication. Specimen was submitted to pathology
+in formalin-fixed containers labeled "Left breast stereotactic core biopsy —
+10 o'clock, 4.5 cm FN."
+
+Performing Radiologist: Andrew P. Voss, MD
+Date Signed: 03/21/2024
+─────────────────────────────────────────────────────────────
+
+PATHOLOGY REPORT
+Date of Receipt: 03/21/2024
+Date of Signout: 03/25/2024
+Specimen Accession: PATH-2024-14302
+Specimen Label: Left breast, stereotactic core biopsy, 10 o'clock, 4.5 cm FN
+Specimen Type: Needle core biopsy (12 cores submitted)
+
+GROSS DESCRIPTION:
+Received in formalin, labeled as above, are 12 tan-white cylindrical core tissue
+fragments, ranging from 0.8 to 1.4 cm in length. Representative sections entirely
+submitted in cassettes A1–A4. Specimen radiograph confirmed presence of calcifications
+in submitted cores.
+
+MICROSCOPIC DESCRIPTION:
+Sections show breast core tissue with ductal structures. There is intraductal
+proliferation characterized by uniform, low-to-intermediate nuclear grade cells
+arranged in cribriform and micropapillary patterns filling and distending the involved
+ducts. Necrosis is focal and punctate (comedonecrosis, limited). The nuclear atypia
+is intermediate grade with moderate nuclear pleomorphism, inconspicuous nucleoli,
+and a mitotic index of approximately 2–3 per 10 HPF.
+
+Calcifications are identified within the lesional ducts, consistent with the
+imaging-detected amorphous calcifications. The process appears localized to a
+small region of tissue sampled.
+
+No evidence of invasive carcinoma is identified within the submitted cores.
+No lymphovascular invasion is seen.
+
+DIAGNOSIS:
+Left breast, 10 o'clock position, stereotactic vacuum-assisted core needle biopsy:
+DUCTAL CARCINOMA IN SITU (DCIS), INTERMEDIATE GRADE, cribriform and micropapillary
+patterns, with focal punctate comedonecrosis; spanning approximately 1.8 cm by
+imaging correlation. Calcifications present.
+
+─────────────────────────────────────────────────────────────
+
+RECEPTOR STATUS / ANCILLARY STUDIES
+Date Performed: 03/25/2024
+Block: A2
+
+ESTROGEN RECEPTOR (ER) — IHC (Ventana SP1):
+Result: POSITIVE
+Percentage of positive nuclei: 90%
+Staining intensity: Strong (3+)
+Internal positive control: Satisfactory
+Interpretation: ER Positive
+
+PROGESTERONE RECEPTOR (PR) — IHC (Ventana 1E2):
+Result: POSITIVE
+Percentage of positive nuclei: 75%
+Staining intensity: Moderate to strong (2–3+)
+Internal positive control: Satisfactory
+Interpretation: PR Positive
+
+HER2 (ERBB2) — IHC (Ventana 4B5):
+Result: NEGATIVE
+Staining: 1+ incomplete, faint membrane staining in <10% of cells
+Interpretation: HER2 IHC Score 1+ (Negative)
+HER2 ISH (FISH, PathVysion): NOT PERFORMED (IHC 1+; reflex testing not indicated
+per institutional protocol)
+
+Ki-67 Proliferation Index: Approximately 12% (intermediate proliferation)
+
+─────────────────────────────────────────────────────────────
+
+PATHOLOGIST ATTESTATION:
+The above findings represent my interpretation of the histologic sections reviewed.
+
+Interpreting Pathologist: Diane L. Okafor, MD, PhD
+Board-Certified Anatomic and Clinical Pathology
+Date Signed: 03/25/2024
+
+─────────────────────────────────────────────────────────────
+
+ADDENDUM — MULTIDISCIPLINARY NOTE:
+Date: 04/01/2024
+A multidisciplinary breast conference reviewed this case on 04/01/2024. Findings
+are consistent with intermediate-grade DCIS, left breast, localized extent.
+Recommendation: Surgical evaluation for excision of the DCIS with clip-targeted
+wire or SAVI SCOUT localization. Sentinel lymph node biopsy to be discussed at
+surgical consultation. Imaging follow-up post-excision as clinically indicated.
+
+─────────────────────────────────────────────────────────────
+END OF REPORT
+MCHS-2024-08841 | PATH-2024-14302
+─────────────────────────────────────────────────────────────
