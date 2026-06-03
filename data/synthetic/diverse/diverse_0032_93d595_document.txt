@@ -1,0 +1,266 @@
+MERCY REGIONAL MEDICAL CENTER
+Department of Radiology & Breast Imaging
+Department of Surgical Pathology
+
+PATIENT: [PATIENT]
+DOB: [REDACTED]
+MRN: [REDACTED]
+ORDERING PHYSICIAN: Dr. R. Haines, MD
+DATE OF SERVICE (ULTRASOUND): 03/04/2024
+DATE OF SERVICE (MRI): 03/11/2024
+DATE OF SERVICE (BIOPSY): 03/14/2024
+DATE OF SERVICE (PATHOLOGY FINAL): 03/19/2024
+
+─────────────────────────────────────────────────────────────
+ULTRASOUND — LEFT BREAST
+DATE: 03/04/2024
+─────────────────────────────────────────────────────────────
+
+CLINICAL INDICATION: Palpable left breast mass. Patient is a 47-year-old female
+presenting with a firm, immobile left breast lump noted for approximately six weeks.
+No prior breast imaging on file at this institution.
+
+TECHNIQUE: High-resolution grayscale and Doppler ultrasound of the left breast and
+left axilla was performed using a 12–5 MHz linear transducer.
+
+FINDINGS:
+
+LEFT BREAST: A large, irregular, hypoechoic mass was identified in the left breast
+at the 10 o'clock position, posterior depth, approximately 4.2 cm from the nipple.
+The mass measures 3.8 x 3.2 x 3.5 cm (AP x TR x CC). Margins are spiculated and
+angulated. There is posterior acoustic shadowing. Internal vascularity is increased
+on color Doppler interrogation. No discrete calcifications were identified on
+ultrasound. No secondary asymmetry identified.
+
+LEFT AXILLA: Two morphologically abnormal lymph nodes were identified in the left
+axilla. These nodes demonstrate cortical thickening measuring up to 8 mm with
+effacement of the fatty hilum, suspicious for metastatic involvement.
+
+RIGHT BREAST AND RIGHT AXILLA: Not evaluated on this examination.
+
+IMPRESSION:
+1. Large irregular spiculated hypoechoic mass, left breast, 10 o'clock position,
+   posterior depth, 4.2 cm from the nipple, measuring 3.8 x 3.5 x 3.2 cm.
+   Findings are highly suspicious for malignancy.
+2. Two morphologically abnormal left axillary lymph nodes with cortical thickening,
+   suspicious for nodal metastases.
+BI-RADS CATEGORY: 5 — Highly Suspicious. Tissue sampling recommended.
+
+Interpreting Radiologist: M. Okonkwo, MD, Breast Imaging Fellow Supervisor
+Electronic Signature: M. Okonkwo, MD | 03/04/2024 17:42
+
+─────────────────────────────────────────────────────────────
+MRI — BILATERAL BREASTS WITH AND WITHOUT CONTRAST
+DATE: 03/11/2024
+─────────────────────────────────────────────────────────────
+
+CLINICAL INDICATION: Known left breast mass, BI-RADS 5 on ultrasound. MRI requested
+for extent of disease evaluation prior to surgical planning.
+
+TECHNIQUE: Bilateral breast MRI was performed on a 3.0 Tesla scanner using a dedicated
+breast coil. Pre- and post-contrast sequences were obtained following intravenous
+administration of gadolinium-based contrast agent (Gadobutrol, 0.1 mmol/kg).
+Subtraction and dynamic kinetic curve analysis were performed.
+
+FINDINGS:
+
+LEFT BREAST:
+An irregularly shaped, heterogeneously enhancing mass is identified in the left breast
+at the 10 o'clock position, posterior depth, approximately 4.3 cm from the nipple. The
+mass measures 4.1 x 3.6 x 3.4 cm on MRI (CC x AP x ML). Margins are irregular and
+spiculated. Dynamic kinetic curve analysis demonstrates initial rapid enhancement
+with washout kinetics (type III curve), consistent with high suspicion for malignancy.
+There is associated skin thickening overlying the mass measuring up to 4 mm. No
+nipple-areolar complex involvement is identified.
+
+In addition to the primary mass, there is a region of non-mass enhancement (NME)
+in the left breast at the 9 o'clock position, anterior depth, spanning approximately
+2.1 cm in segmental distribution, located approximately 2.8 cm from the nipple. This
+NME is separate from and not contiguous with the primary mass, raising concern for an
+additional site of disease within the same breast.
+
+No enhancement is identified in the right breast. No abnormal enhancement is identified
+in the right axilla.
+
+LEFT AXILLA: Two enlarged lymph nodes are identified in the left axilla with cortical
+thickening and loss of normal fatty hilum, consistent with the ultrasound findings
+and suspicious for metastatic involvement.
+
+CHEST WALL: Pectoralis muscle does not appear involved.
+
+IMPRESSION:
+1. Large irregularly enhancing mass, left breast, 10 o'clock position, posterior depth,
+   4.1 cm (greatest dimension), approximately 4.3 cm from the nipple. Type III kinetic
+   curve. BI-RADS 6 (known biopsy-proven or highly suspicious pending biopsy —
+   noted pre-biopsy MRI).
+2. Separate focus of non-mass enhancement (NME), left breast, 9 o'clock, anterior depth,
+   spanning 2.1 cm, segmental distribution, 2.8 cm from the nipple. This likely
+   represents a second site of disease within the left breast — multicentric versus
+   multifocal disease cannot be excluded without histologic sampling.
+3. Two morphologically abnormal left axillary lymph nodes, suspicious for metastatic
+   involvement.
+4. No contralateral breast abnormality.
+
+BI-RADS CATEGORY: 6 (primary lesion; known ultrasound BI-RADS 5) / 4B (secondary NME
+lesion — suspicious, biopsy recommended)
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the dominant left breast mass.
+Consider MRI-guided biopsy of the secondary NME at 9 o'clock left breast if primary
+biopsy is confirmed malignant and if histologic characterization of the secondary lesion
+would alter surgical planning. Surgical oncology consultation recommended.
+
+Interpreting Radiologist: M. Okonkwo, MD
+Electronic Signature: M. Okonkwo, MD | 03/11/2024 09:18
+
+─────────────────────────────────────────────────────────────
+ULTRASOUND-GUIDED CORE NEEDLE BIOPSY — LEFT BREAST
+DATE: 03/14/2024
+─────────────────────────────────────────────────────────────
+
+INDICATION: 47-year-old female. Large left breast mass, 10 o'clock, BI-RADS 5 on
+ultrasound and MRI. Biopsy for histologic diagnosis.
+
+TECHNIQUE: The patient was positioned supine with the left arm raised. The target
+lesion was identified under real-time ultrasound guidance using a 12–5 MHz linear
+transducer. The skin was prepped and draped in the usual sterile fashion. Local
+anesthesia was achieved with 1% lidocaine without epinephrine. A coaxial technique
+was used. Core needle biopsy was performed using a 14-gauge automated spring-loaded
+biopsy device. Six (6) cores were obtained from the left breast mass at the 10 o'clock
+position. Cores were placed in 10% neutral buffered formalin and submitted to
+Surgical Pathology.
+
+NOTE: A biopsy clip/marker was NOT placed at the time of biopsy per the performing
+radiologist's discretion given the size and palpability of the mass. Specimen
+radiograph was not performed.
+
+POST-PROCEDURE CONDITION: Patient tolerated the procedure well. No immediate
+complications noted. Pressure dressing applied.
+
+RECOMMENDATION: Pathology results to be correlated clinically. Surgical oncology
+evaluation recommended upon result availability.
+
+Performing Radiologist: A. Tran, MD
+Electronic Signature: A. Tran, MD | 03/14/2024 11:55
+
+─────────────────────────────────────────────────────────────
+PATHOLOGY REPORT — SURGICAL PATHOLOGY
+DATE RECEIVED: 03/14/2024
+DATE REPORTED: 03/19/2024
+─────────────────────────────────────────────────────────────
+
+SPECIMEN: Left breast mass, 10 o'clock position — ultrasound-guided core needle biopsy
+(6 cores, formalin-fixed)
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "left breast core biopsy," are six tan-white cylindrical
+core fragments ranging from 1.2 to 1.7 cm in length. All cores are submitted entirely
+in two cassettes (A1–A2).
+
+MICROSCOPIC DESCRIPTION:
+Sections show cores of fibroadipose breast tissue with a malignant epithelial
+proliferation. The tumor is composed of sheets and nests of highly pleomorphic cells
+with vesicular nuclei, prominent nucleoli, and a moderate amount of eosinophilic
+cytoplasm. Mitotic figures are numerous (>20 per 10 high-power fields), including
+atypical forms. There is central comedo-type necrosis within nests. Stromal desmoplastic
+reaction is prominent. No in situ component is identified on the sampled cores.
+No lymphovascular invasion is identified in the cores; however, this assessment
+is limited given the biopsy nature of the specimen.
+
+HISTOLOGIC DIAGNOSIS:
+Invasive ductal carcinoma (invasive carcinoma of no special type, NST), left breast,
+10 o'clock position, measuring at least 3.8 cm by imaging correlation.
+Nuclear grade: 3 (high grade).
+Nottingham histologic grade: 3/3 (tubule formation: 3; nuclear pleomorphism: 3;
+mitotic count: 3). Elston-Ellis Grade 3.
+
+ANCILLARY STUDIES: See Receptor Status Report (below).
+
+Pathologist: C. Vasquez, MD, Surgical Pathology
+Electronic Signature: C. Vasquez, MD | 03/19/2024 14:30
+
+─────────────────────────────────────────────────────────────
+RECEPTOR STATUS REPORT — IMMUNOHISTOCHEMISTRY AND ISH
+DATE: 03/19/2024
+─────────────────────────────────────────────────────────────
+
+SPECIMEN: Left breast core biopsy (same specimen as pathology report dated 03/19/2024)
+
+ESTROGEN RECEPTOR (ER) — IHC (SP1 clone, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Staining intensity: None
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+Interpretation: ER Negative (Allred score 0/8)
+
+PROGESTERONE RECEPTOR (PgR) — IHC (1E2 clone, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Staining intensity: None
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+Interpretation: PgR Negative (Allred score 0/8)
+
+HER2 — IHC (4B5 clone, Ventana):
+Result: NEGATIVE (Score 1+)
+Staining pattern: Incomplete, faint membrane staining in <10% of tumor cells
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+
+HER2 — IN SITU HYBRIDIZATION (ISH) (DISH, dual-probe):
+Result: NEGATIVE
+HER2 copy number (average per cell): 2.1
+CEP17 copy number (average per cell): 1.9
+HER2/CEP17 ratio: 1.1
+Interpretation: HER2 Not Amplified (per ASCO/CAP 2018 guidelines)
+
+OVERALL BIOMARKER SUMMARY:
+ER: Negative | PgR: Negative | HER2: Negative
+Molecular subtype by IHC surrogate: Triple-Negative (Basal-like phenotype possible;
+Ki-67 and further molecular profiling may be considered)
+
+Reporting Pathologist: C. Vasquez, MD
+Electronic Signature: C. Vasquez, MD | 03/19/2024 15:05
+
+─────────────────────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "3.8 x 3.2 x 3.5 cm (ultrasound); 4.1 x 3.6 x 3.4 cm (MRI greatest dimension 4.1 cm)",
+        "evidence": "The mass measures 3.8 x 3.2 x 3.5 cm (AP x TR x CC) [ultrasound]; The mass measures 4.1 x 3.6 x 3.4 cm on MRI (CC x AP x ML) [MRI]"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 10 o'clock position, posterior depth, approximately 4.2–4.3 cm from the nipple",
+        "evidence": "A large, irregular, hypoechoic mass was identified in the left breast at the 10 o'clock position, posterior depth, approximately 4.2 cm from the nipple [ultrasound]; left breast at the 10 o'clock position, posterior depth, approximately 4.3 cm from the nipple [MRI]"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "No discrete calcifications identified on ultrasound. No secondary asymmetry identified.",
+        "evidence": "No discrete calcifications were identified on ultrasound. No secondary asymmetry identified."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Non-mass enhancement (NME), left breast, 9 o'clock position, anterior depth, spanning approximately 2.1 cm, segmental distribution, approximately 2.8 cm from the nipple",
+        "evidence": "there is a region of non-mass enhancement (NME) in the left breast at the 9 o'clock position, anterior depth, spanning approximately 2.1 cm in segmental distribution, located approximately 2.8 cm from the nipple"
+      },
+      "feature_5_extent": {
+        "value": "Multicentric versus multifocal disease cannot be excluded; two separate sites of disease within the left breast identified on MRI",
+        "evidence": "This likely represents a second site of disease within the left breast — multicentric versus multifocal disease cannot be excluded without histologic sampling."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "No biopsy clip/marker placed",
+        "evidence": "A biopsy clip/marker was NOT placed at the time of biopsy per the performing radiologist's discretion given the size and palpability of the mass."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided core needle biopsy of the dominant left breast mass. Consider MRI-guided biopsy of the secondary NME at 9 o'clock left breast if primary biopsy is confirmed malignant and if histologic characterization of the secondary lesion would alter surgical planning. Surgical oncology consultation recommended.",
+        "evidence": "RECOMMENDATION: Ultrasound-guided core needle biopsy of the dominant left breast mass. Consider MRI-guided biopsy of the secondary NME at 9 o'clock left breast if primary biopsy is confirmed malignant and if histologic characterization of the secondary lesion would alter surgical planning. Surgical oncology consultation recommended."
+      },
+      "feature_8_lymph_node": {
+        "value": "Two morphologically abnormal left axillary lymph nodes with cortical thickening measuring up to 8 mm and effacement of the fatty hilum, suspicious for metastatic involvement",
+        "evidence": "Two morphologically abnormal lymph nodes were identified in the left axilla. These nodes demonstrate cortical thickening measuring up to 8 mm with effacement of the fatty hilum, suspicious for metastatic involvement. [ultrasound]; Two enlarged lymph nodes are identified in the left axilla with cortical thickening and loss of normal fatty hilum... suspicious for metastatic involvement. [MRI]"
+      },
+      "feature_10_biop

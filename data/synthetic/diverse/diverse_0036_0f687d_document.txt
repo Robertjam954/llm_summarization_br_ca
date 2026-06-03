@@ -1,0 +1,203 @@
+MEMORIAL BREAST CENTER
+DEPARTMENT OF RADIOLOGY AND PATHOLOGY
+Comprehensive Breast Imaging and Diagnostic Report
+
+PATIENT: [PATIENT]
+DATE OF BIRTH: [REDACTED]
+ACCESSION #: MBC-2024-00836
+REFERRING PHYSICIAN: Dr. T. Harmon, MD
+CLINICAL INDICATION: Palpable abnormality, left breast. Patient self-detected lump approximately 3 weeks prior. No prior breast surgery. Family history: maternal aunt with breast cancer diagnosed at age 62.
+
+─────────────────────────────────────────────────────────────────
+MAMMOGRAM
+─────────────────────────────────────────────────────────────────
+DATE OF STUDY: 03/07/2024
+TECHNIQUE: Standard bilateral digital diagnostic mammography with CC and MLO projections, supplemented by left spot compression and magnification views.
+
+FINDINGS:
+The breasts are heterogeneously dense (ACR density category C), which may lower sensitivity for non-calcified lesions.
+
+LEFT BREAST: There is an irregular, hyperdense mass measuring approximately 1.8 cm in greatest dimension, located in the upper outer quadrant at the 10 o'clock position, at mid-depth, approximately 5 cm from the left nipple. The margins are partially obscured and partially spiculated. Associated with the mass are pleomorphic calcifications in a grouped distribution, concentrated at the anterior aspect of the mass. No evidence of skin thickening or nipple retraction on this study.
+
+RIGHT BREAST: No suspicious masses, calcifications, or architectural distortion identified.
+
+LYMPH NODES: The visualized left axillary tail demonstrates no definitely enlarged or morphologically suspicious lymph nodes on the mammogram. Right axilla unremarkable.
+
+IMPRESSION:
+Left upper outer quadrant irregular mass with associated pleomorphic grouped calcifications. Highly suspicious for malignancy.
+
+BI-RADS CATEGORY: 5 — Highly Suggestive of Malignancy. Tissue sampling recommended.
+
+Interpreting Radiologist: Dr. L. Okafor, MD, FSBI
+Signed: 03/07/2024 at 14:32
+
+─────────────────────────────────────────────────────────────────
+ULTRASOUND
+─────────────────────────────────────────────────────────────────
+DATE OF STUDY: 03/07/2024
+TECHNIQUE: High-resolution targeted left breast and bilateral axillary ultrasound performed using a 12–5 MHz linear array transducer.
+
+FINDINGS:
+
+LEFT BREAST: At the 10 o'clock position, approximately 5 cm from the nipple, at mid-depth within the breast parenchyma, there is an irregular hypoechoic mass measuring 1.8 x 1.4 x 1.3 cm. The mass demonstrates angular and micro lobulated margins with posterior acoustic shadowing. No definite satellite nodules identified in the immediate vicinity. Increased vascularity is noted on color Doppler evaluation. The mass corresponds to the mammographic finding and the area of clinical concern.
+
+CALCIFICATIONS: Punctate echogenic foci are identified within the mass, consistent with calcifications seen on mammography.
+
+LEFT AXILLA: A left axillary lymph node is identified measuring 1.5 cm in short axis with eccentric cortical thickening measuring up to 5 mm. The fatty hilum is diminished. This node is morphologically abnormal and suspicious for metastatic involvement.
+
+RIGHT AXILLA: Right axillary lymph nodes appear normal in size and morphology with preserved fatty hila.
+
+IMPRESSION:
+1. Left breast, 10 o'clock, 5 cm from nipple: Irregular hypoechoic mass measuring 1.8 cm, with posterior shadowing and internal calcifications, highly suspicious for malignancy. Corresponds to mammographic mass with pleomorphic calcifications.
+2. Left axillary lymph node with eccentric cortical thickening, suspicious for metastatic involvement.
+
+BI-RADS CATEGORY: 5 — Highly Suggestive of Malignancy.
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the left breast mass and left axillary lymph node sampling are recommended.
+
+Interpreting Radiologist: Dr. L. Okafor, MD, FSBI
+Signed: 03/07/2024 at 15:10
+
+─────────────────────────────────────────────────────────────────
+BIOPSY PROCEDURE NOTE
+─────────────────────────────────────────────────────────────────
+DATE OF PROCEDURE: 03/12/2024
+PROCEDURE: Ultrasound-guided 14-gauge core needle biopsy, left breast mass; ultrasound-guided fine needle aspiration (FNA), left axillary lymph node.
+OPERATOR: Dr. L. Okafor, MD, FSBI
+ANESTHESIA: Local — 1% lidocaine without epinephrine.
+PATIENT POSITION: Supine, left arm raised.
+
+PROCEDURE DETAILS:
+Informed consent was obtained. Under continuous ultrasound guidance, the left breast mass at 10 o'clock, 5 cm from the nipple, was identified and targeted. The skin was prepped and draped in sterile fashion. After local anesthesia was administered, a 14-gauge spring-loaded core needle biopsy device was used to obtain five cores from the mass. All cores were submitted in formalin. Upon completion of sampling, a titanium biopsy clip (omega-shaped marker) was deployed under ultrasound guidance at the biopsy site within the mass. Post-deployment ultrasound confirmed appropriate clip placement at the 10 o'clock position within the left breast mass. Post-procedure mammography was performed to confirm clip position.
+
+Additionally, the morphologically suspicious left axillary lymph node was sampled via ultrasound-guided fine needle aspiration using a 22-gauge needle, with three passes performed. Material submitted for cytopathology.
+
+COMPLICATIONS: None. Hemostasis achieved with manual compression. Post-biopsy instructions provided.
+
+Post-biopsy Mammography (03/12/2024): Clip is identified in the left upper outer quadrant at 10 o'clock, consistent with targeted biopsy site. Position appears accurate.
+
+Performing Radiologist: Dr. L. Okafor, MD, FSBI
+Signed: 03/12/2024 at 11:45
+
+─────────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+─────────────────────────────────────────────────────────────────
+DATE OF RECEIPT: 03/12/2024
+DATE REPORTED: 03/15/2024
+SPECIMEN LABEL: Left breast mass, UOQ, 10 o'clock — core needle biopsy (5 cores)
+ACCESSION #: PATH-2024-04417
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "left breast mass core biopsy," are five tan-white cylindrical cores ranging from 0.8 to 1.4 cm in length. All cores submitted entirely in one block.
+
+MICROSCOPIC DESCRIPTION:
+Sections show fibroadi pose tissue infiltrated by a malignant epithelial neoplasm arranged in irregular nests, solid sheets, and glandular structures. The tumor cells demonstrate moderate nuclear pleomorphism with vesicular nuclei and prominent nucleoli. Mitotic figures are identified (estimated 8 per 10 high- power fields). Tubule formation is present but limited (tubule score 3, nuclear score 2, mitotic score 2; Nottingham histologic grade 2, total score 7/9). There is associated desmoplastic stroma. Pleomorphic microcalcifications are identified within and adjacent to the tumor nests, consistent with the imaging findings.
+
+DIAGNOSIS:
+LEFT BREAST, UPPER OUTER QUADRANT (10 O'CLOCK), CORE NEEDLE BIOPSY:
+INVASIVE DUCTAL CARCINOMA (INVASIVE CARCINOMA OF NO SPECIAL TYPE), NOTTINGHAM GRADE 2 (SCORE 7/9).
+— Invasive component measures at least 1.8 cm on core biopsy (consistent with imaging).
+— Associated pleomorphic microcalcifications present.
+— No lymphovascular invasion identified on biopsy material (assessment limited on core).
+
+AXILLARY LYMPH NODE FNA (LEFT):
+CYTOPATHOLOGY: Positive for malignant cells consistent with metastatic carcinoma. Background lymphoid cells present.
+
+Pathologist: Dr. G. Vasquez, MD
+Signed: 03/15/2024 at 09:22
+
+─────────────────────────────────────────────────────────────────
+RECEPTOR STATUS
+─────────────────────────────────────────────────────────────────
+DATE REPORTED: 03/15/2024
+SPECIMEN: Left breast core needle biopsy (PATH-2024-04417)
+METHOD: Immunohistochemistry (IHC) performed on formalin-fixed paraffin-embedded tissue sections using validated antibody panels per ASCO/CAP guidelines.
+
+ESTROGEN RECEPTOR (ER):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 85%
+Intensity: Strong (3+)
+Allred Score: 8/8
+Internal positive control: Satisfactory. Internal negative control: Satisfactory.
+
+PROGESTERONE RECEPTOR (PgR):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 55%
+Intensity: Moderate (2+)
+Allred Score: 6/8
+Internal positive control: Satisfactory. Internal negative control: Satisfactory.
+
+HER2 (IHC):
+Result: NEGATIVE (1+, Incomplete faint membranous staining in <10% of tumor cells)
+HER2/CEP17 ISH (FISH): Performed due to IHC result of 1+.
+HER2 gene copy number: 1.9 (average signals/cell)
+CEP17 copy number: 1.8 (average signals/cell)
+HER2/CEP17 Ratio: 1.05
+RESULT: NOT AMPLIFIED (HER2/CEP17 ratio <2.0; average HER2 copy number <4.0)
+Internal controls: Within acceptable range.
+
+KI-67 PROLIFERATION INDEX: 22% (moderate)
+
+SUMMARY:
+ER Positive / PgR Positive / HER2 Negative (IHC 1+, ISH not amplified)
+Molecular subtype: Luminal B (HR+/HER2-)
+
+RECOMMENDATION: Surgical oncology consultation recommended for definitive surgical planning. Oncology referral for discussion of neoadjuvant vs. adjuvant systemic therapy. Consideration of genomic testing (e.g., Oncotype DX) per multidisciplinary tumor board discussion.
+
+Pathologist: Dr. G. Vasquez, MD
+Signed: 03/15/2024 at 09:35
+
+─────────────────────────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "1.8 cm",
+        "evidence": "irregular hypoechoic mass measuring 1.8 x 1.4 x 1.3 cm (ultrasound); irregular, hyperdense mass measuring approximately 1.8 cm in greatest dimension (mammogram); Invasive component measures at least 1.8 cm on core biopsy (pathology)"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, upper outer quadrant, 10 o'clock position, mid-depth, approximately 5 cm from the left nipple",
+        "evidence": "located in the upper outer quadrant at the 10 o'clock position, at mid-depth, approximately 5 cm from the left nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Calcifications present; pleomorphic morphology; grouped distribution, concentrated at the anterior aspect of the mass (mammogram); pleomorphic microcalcifications within and adjacent to tumor nests (pathology)",
+        "evidence": "Associated with the mass are pleomorphic calcifications in a grouped distribution, concentrated at the anterior aspect of the mass. / Pleomorphic microcalcifications are identified within and adjacent to the tumor nests, consistent with the imaging findings."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": "No MRI modality included in this document."
+      },
+      "feature_5_extent": {
+        "value": "Localized (no satellite nodules identified; single mass described)",
+        "evidence": "No definite satellite nodules identified in the immediate vicinity."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Titanium biopsy clip (omega-shaped marker) deployed at biopsy site; post-deployment ultrasound and post-biopsy mammography confirmed accurate clip placement at 10 o'clock position within the left breast mass",
+        "evidence": "a titanium biopsy clip (omega-shaped marker) was deployed under ultrasound guidance at the biopsy site within the mass. Post-deployment ultrasound confirmed appropriate clip placement at the 10 o'clock position within the left breast mass. Post-procedure mammography was performed to confirm clip position. / Clip is identified in the left upper outer quadrant at 10 o'clock, consistent with targeted biopsy site. Position appears accurate."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical oncology consultation recommended for definitive surgical planning. Oncology referral for discussion of neoadjuvant vs. adjuvant systemic therapy. Consideration of genomic testing (e.g., Oncotype DX) per multidisciplinary tumor board discussion.",
+        "evidence": "Surgical oncology consultation recommended for definitive surgical planning. Oncology referral for discussion of neoadjuvant vs. adjuvant systemic therapy. Consideration of genomic testing (e.g., Oncotype DX) per multidisciplinary tumor board discussion."
+      },
+      "feature_8_lymph_node": {
+        "value": "Left axillary lymph node with eccentric cortical thickening measuring up to 5 mm, diminished fatty hilum, suspicious for metastatic involvement; FNA cytopathology positive for malignant cells consistent with metastatic carcinoma. Right axillary lymph nodes normal.",
+        "evidence": "A left axillary lymph node is identified measuring 1.5 cm in short axis with eccentric cortical thickening measuring up to 5 mm. The fatty hilum is diminished. This node is morphologically abnormal and suspicious for metastatic involvement. / CYTOPATHOLOGY: Positive for malignant cells consistent with metastatic carcinoma. / Right axillary lymph nodes appear normal in size and morphology with preserved fatty hila."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided 14-gauge core needle biopsy, left breast mass; ultrasound-guided fine needle aspiration (FNA) 22-gauge, left axillary lymph node",
+        "evidence": "Ultrasound-guided 14-gauge core needle biopsy, left breast mass; ultrasound-guided fine needle aspiration (FNA), left axillary lymph node. / the morphologically suspicious left axillary lymph node was sampled via ultrasound-guided fine needle aspiration using a 22-gauge needle, with three passes performed."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "At least 1.8 cm",
+        "evidence": "Invasive component measures at least 1.8 cm on core biopsy (consistent with imaging)."
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "Invasive Ductal Carcinoma (Invasive Carcinoma of No Special Type), Nottingham Grade 2 (Score 7/9), left breast upper outer quadrant (10 o'clock), core needle biopsy",
+        "evidence": "LEFT BREAST, UPPER OUTER QUADRANT (10 O'CLOCK), CORE NEEDLE BIOPSY: INVASIVE DUCTAL CARCINOMA (INVASIVE CARCINOMA OF NO SPECIAL TYPE), NOTTINGHAM GRADE 2 (SCORE 7/9)."
+      },
+      "feature_13_receptor_status": {
+        "value": "ER Positive (85%, strong 3+, Allred 8/8); PgR Positive (55%, moderate 2+, Allred 6/8); HER2 IHC Negative (1+, incomplete faint membranous staining <10%); HER2 ISH

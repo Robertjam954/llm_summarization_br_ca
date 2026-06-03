@@ -1,0 +1,69 @@
+{
+  "doc_id": "diverse_0047_921219",
+  "setting": "diverse",
+  "index": 47,
+  "profile": {
+    "cancer_type": "DCIS intermediate-grade",
+    "laterality": "left",
+    "modalities": "mammogram + stereotactic biopsy + pathology",
+    "special": "amorphous calcifications, localized extent"
+  },
+  "features": {
+    "lesions": [
+      {
+        "lesion_id": "L1",
+        "feature_1_lesion_size": {
+          "value": "1.8 cm",
+          "evidence": "a cluster of amorphous calcifications spanning approximately 1.8 cm in its greatest dimension ... extent approximately 1.8 cm span based on imaging and histologic correlation."
+        },
+        "feature_2_lesion_location": {
+          "value": "Left breast, upper outer quadrant, 10 o'clock position, 4.5 cm from the nipple",
+          "evidence": "Within the upper outer quadrant of the left breast, at approximately the 10 o'clock position, 4.5 cm from the nipple"
+        },
+        "feature_3_calcifications_asymmetry": {
+          "value": "Present; amorphous morphology, regional distribution, localized cluster in left upper outer quadrant",
+          "evidence": "cluster of amorphous calcifications spanning approximately 1.8 cm ... The morphology is predominantly amorphous with a regional distribution."
+        },
+        "feature_4_additional_enhancement_mri": {
+          "value": "Not reported",
+          "evidence": "No MRI modality present in this document."
+        },
+        "feature_5_extent": {
+          "value": "Localized",
+          "evidence": "The calcifications are localized to this single region and do not appear to extend to other quadrants. ... EXTENT: Localized to upper outer quadrant, left breast; approximately 1.8 cm span based on imaging and histologic correlation."
+        },
+        "feature_6_accurate_clip_placement": {
+          "value": "Yes; titanium biopsy marker clip (MicroMark II, oval configuration) deployed at the biopsy site within the upper outer quadrant of the left breast at the 10 o'clock position; post-deployment views confirmed satisfactory placement",
+          "evidence": "a titanium biopsy marker clip (MicroMark II, oval configuration) was deployed at the biopsy site within the upper outer quadrant of the left breast at the 10 o'clock position. Post-deployment orthogonal mammographic views confirmed satisfactory clip placement at the biopsy site, concordant with the targeted calcification cluster."
+        },
+        "feature_7_workup_recommendation": {
+          "value": "Stereotactic vacuum-assisted core needle biopsy of the left breast calcifications is recommended for tissue sampling and histologic evaluation. Correlation with pathology results is advised. Surgical evaluation to follow pending pathology.",
+          "evidence": "Stereotactic vacuum-assisted core needle biopsy of the left breast calcifications is recommended for tissue sampling and histologic evaluation. Correlation with pathology results is advised. Surgical evaluation to follow pending pathology."
+        },
+        "feature_8_lymph_node": {
+          "value": "Left axillary lymph nodes unremarkable; no pathologically enlarged nodes identified. Right axillary lymph nodes within normal limits.",
+          "evidence": "Axillary lymph nodes on the left appear unremarkable with no pathologically enlarged nodes identified. ... Axillary lymph nodes are within normal limits on the right."
+        },
+        "feature_10_biopsy_method": {
+          "value": "Stereotactic vacuum-assisted biopsy, 9-gauge needle, left breast",
+          "evidence": "a 9-gauge vacuum-assisted biopsy needle was advanced to the target calcification cluster under stereotactic guidance."
+        },
+        "feature_11_invasive_component_size_pathology": {
+          "value": "Not reported",
+          "evidence": "No invasive carcinoma is identified on the sampled cores."
+        },
+        "feature_12_histologic_diagnosis": {
+          "value": "Ductal carcinoma in situ (DCIS), intermediate nuclear grade, solid and cribriform patterns, with associated amorphous calcifications; extent approximately 1.8 cm. No invasive carcinoma identified.",
+          "evidence": "Left breast, upper outer quadrant, 10 o'clock \u2014 Ductal carcinoma in situ (DCIS), intermediate nuclear grade, solid and cribriform patterns, with associated amorphous calcifications; extent approximately 1.8 cm. No invasive carcinoma identified."
+        },
+        "feature_13_receptor_status": {
+          "value": "ER Positive (90%, strong 3+, internal control positive); PR Positive (75%, moderate-to-strong 2\u20133+, internal control positive); HER2 IHC Negative (score 1+, incomplete faint membranous staining in <10% of cells); HER2 ISH not performed (IHC 1+, reflex not triggered)",
+          "evidence": "ER: POSITIVE, 90%, Strong (3+), internal control positive. PR: POSITIVE, 75%, Moderate-to-strong (2\u20133+), internal control positive. HER2 IHC: NEGATIVE, Score 1+. HER2 ISH (FISH): Not performed (IHC 1+, reflex testing not triggered)."
+        }
+      }
+    ],
+    "feature_9_chronology_preserved": true
+  },
+  "raw_output_chars": 12732,
+  "json_parse_ok": true
+}

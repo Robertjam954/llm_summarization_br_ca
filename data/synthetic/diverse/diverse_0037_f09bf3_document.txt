@@ -1,0 +1,302 @@
+METROPOLITAN BREAST IMAGING CENTER
+Department of Radiology and Breast Imaging
+Affiliated with University Medical System
+
+PATIENT: [PATIENT]
+DOB: [REDACTED]
+ACCESSION: [REDACTED]
+DATE OF SERVICE (MAMMOGRAM): 03/14/2023
+ORDERING PROVIDER: Dr. C. Whitfield, MD
+
+─────────────────────────────────────────────
+MAMMOGRAM — BILATERAL DIAGNOSTIC
+─────────────────────────────────────────────
+
+CLINICAL INDICATION: 58-year-old female presenting for diagnostic mammogram following
+patient-reported right breast skin changes and nipple inversion of four weeks duration.
+Personal history: no prior breast cancer. Family history: maternal aunt with breast
+cancer diagnosed in her 60s.
+
+TECHNIQUE: Standard bilateral CC and MLO views were obtained, with additional right
+ML and right spot-compression magnification views over the upper outer quadrant.
+
+BREAST COMPOSITION: Heterogeneously dense breast tissue (category C), which may
+obscure small masses.
+
+FINDINGS:
+
+RIGHT BREAST: There is an extensive cluster of pleomorphic calcifications with
+a regional distribution spanning the right breast upper outer quadrant at
+approximately the 10 o'clock position, extending from roughly 3.0 cm to 7.5 cm
+from the nipple. The calcifications are punctate to fine linear and branching
+in morphology, with a total extent measuring approximately 6.5 cm in the longest
+dimension on CC view. No discrete associated soft tissue mass is identified. No
+architectural distortion is seen on the standard or spot-compression views. The
+overlying skin and nipple-areolar complex appear unremarkable on mammographic
+assessment; the clinically reported nipple inversion was not fully assessed
+mammographically and requires clinical correlation.
+
+LEFT BREAST: No suspicious masses, calcifications, or architectural distortion.
+Scattered benign- appearing calcifications are noted bilaterally.
+
+LYMPH NODES: No pathologically enlarged axillary lymph nodes are identified
+bilaterally on the imaged portions of the axillae.
+
+IMPRESSION:
+Right breast — Regional cluster of pleomorphic, fine linear, and branching
+calcifications in the upper outer quadrant at the 10 o'clock position,
+spanning approximately 6.5 cm. This morphology and distribution are highly
+suspicious for malignancy.
+
+BI-RADS CATEGORY: 5 — Highly Suggestive of Malignancy.
+
+RECOMMENDATION: Breast MRI for extent-of-disease evaluation prior to biopsy,
+followed by stereotactic vacuum-assisted biopsy of the right breast
+calcifications. Surgical consultation recommended.
+
+Electronically signed: R. Okonkwo, MD, Breast Imaging Radiologist
+Date signed: 03/14/2023
+
+─────────────────────────────────────────────
+MRI — BILATERAL BREAST WITH AND WITHOUT CONTRAST
+─────────────────────────────────────────────
+
+DATE OF SERVICE: 03/21/2023
+ACCESSION: [REDACTED]
+ORDERING PROVIDER: Dr. C. Whitfield, MD
+CLINICAL INDICATION: Right breast pleomorphic calcifications with BI-RADS 5 on
+mammogram. Extent-of-disease evaluation prior to biopsy and surgical planning.
+
+TECHNIQUE: Bilateral breast MRI performed on a 3.0 Tesla MR system using a
+dedicated 16-channel breast coil. Dynamic contrast-enhanced sequences were
+acquired before and after intravenous administration of 0.1 mmol/kg gadobutrol.
+Subtraction, MIP, and multiplanar reconstructions were reviewed.
+
+BACKGROUND PARENCHYMAL ENHANCEMENT: Mild bilateral background parenchymal
+enhancement.
+
+FINDINGS:
+
+RIGHT BREAST:
+Non-mass enhancement (NME) is identified in the right breast upper outer
+quadrant at the 10 o'clock position, exhibiting a regional distribution. The
+NME demonstrates clumped internal enhancement with linear ductal extension.
+The total craniocaudal extent of the enhancing region measures approximately
+6.8 cm, with anteroposterior extent of 2.1 cm and transverse extent of 2.7 cm.
+The center of the NME is located at mid-depth, approximately 5.5 cm posterior
+to the nipple. No discrete enhancing mass is identified within or adjacent to
+the NME to suggest an invasive component. Enhancement kinetics demonstrate
+an initial rapid rise with plateau-to-washout pattern in the majority of the
+region, which is suspicious.
+
+There is no evidence of chest wall or skin involvement.
+
+Axillary lymph nodes: No morphologically abnormal right axillary lymph nodes
+are identified. The nodes are small with preserved fatty hila.
+
+LEFT BREAST:
+No suspicious mass or non-mass enhancement is identified in the left breast.
+No left axillary lymphadenopathy.
+
+IMPRESSION:
+1. Right breast upper outer quadrant at 10 o'clock: regional non-mass
+   enhancement spanning approximately 6.8 cm in greatest dimension, consistent
+   with the known extensive calcification field identified on mammography.
+   Kinetics are suspicious. No discrete mass to suggest invasive component.
+2. Findings are consistent with localized right breast disease. No evidence
+   of multicentric or contralateral involvement.
+3. No pathologically enlarged axillary lymph nodes bilaterally.
+
+BI-RADS CATEGORY: 6 (following tissue diagnosis per clinical workflow;
+classified as BI-RADS 5 for pre-biopsy planning purposes).
+
+RECOMMENDATION: Proceed with stereotactic vacuum-assisted biopsy as planned.
+Multidisciplinary surgical consultation to review full imaging extent.
+
+Electronically signed: R. Okonkwo, MD, Breast Imaging Radiologist
+Date signed: 03/21/2023
+
+─────────────────────────────────────────────
+STEREOTACTIC VACUUM-ASSISTED BIOPSY REPORT
+─────────────────────────────────────────────
+
+DATE OF PROCEDURE: 03/28/2023
+PROCEDURE PERFORMED: Right breast stereotactic vacuum-assisted biopsy (VAB),
+11-gauge
+PERFORMING RADIOLOGIST: R. Okonkwo, MD
+CLINICAL INDICATION: Right breast upper outer quadrant pleomorphic calcifications,
+BI-RADS 5. Patient consented and positioned prone on the stereotactic table.
+
+PROCEDURE DETAILS:
+The patient was positioned prone on the digital stereotactic biopsy table. The
+right breast was compressed and the target calcification cluster in the upper
+outer quadrant (10 o'clock, mid-depth, approximately 5.5 cm from the nipple)
+was localized using scout and stereo pair images. Local anesthesia was
+administered with 1% lidocaine with epinephrine. An 11-gauge vacuum-assisted
+biopsy needle (Mammotome) was advanced to the target. Twelve core specimens
+were obtained. Specimen radiographs confirmed retrieval of representative
+calcifications in multiple cores.
+
+CLIP PLACEMENT: A titanium biopsy clip marker (Hydromark coil-shaped marker)
+was deployed at the biopsy site within the right breast upper outer quadrant
+at the 10 o'clock position following specimen retrieval. Post-clip deployment
+stereotactic images confirmed satisfactory clip positioning within the sampled
+calcification field. Post-procedure mammogram (CC and ML views) performed to
+document clip location.
+
+SPECIMENS: Twelve core specimens submitted in formalin, labeled "right breast
+stereotactic biopsy." Specimen radiograph confirmed calcifications in 9 of 12
+cores.
+
+COMPLICATIONS: None. Patient tolerated the procedure well.
+
+POST-PROCEDURE RECOMMENDATION: Pathology correlation. Surgical consultation
+recommended upon tissue diagnosis.
+
+Electronically signed: R. Okonkwo, MD
+Date: 03/28/2023
+
+─────────────────────────────────────────────
+PATHOLOGY REPORT
+─────────────────────────────────────────────
+
+SPECIMEN RECEIVED: 03/28/2023
+REPORT DATE: 03/31/2023
+PATHOLOGIST: S. Halvorsen, MD, Surgical Pathology
+INSTITUTION: Metropolitan Breast Imaging Center / University Medical System
+Pathology Laboratory
+
+SPECIMEN LABEL: Right breast stereotactic biopsy — 10 o'clock, UOQ
+
+CLINICAL HISTORY: 58-year-old female. Right breast extensive pleomorphic
+calcifications, BI-RADS 5 on mammogram. Pre-operative biopsy.
+
+GROSS DESCRIPTION:
+Received in formalin, labeled as above, are twelve core needle biopsy specimens
+ranging from 0.7 to 1.6 cm in length and 0.1 to 0.2 cm in diameter. The
+cores are tan-white to pink and firm. Specimen radiograph confirms calcifications
+present within multiple fragments. All cores are entirely submitted in six cassettes.
+
+MICROSCOPIC DESCRIPTION:
+Sections show breast tissue with extensive ductal carcinoma in situ, high nuclear
+grade, solid and cribriform architectural patterns, with central comedo-type
+necrosis. The neoplastic cells are large with pleomorphic nuclei, prominent
+nucleoli, and frequent mitotic figures. Dystrophic calcifications are identified
+within the necrotic centers and within the lumina of the involved ducts, which
+are numerous and extensively distributed throughout the submitted tissue.
+No evidence of invasive carcinoma is identified in the submitted material.
+No lymphovascular invasion is identified.
+The background breast parenchyma shows usual ductal hyperplasia and fibrocystic
+changes.
+
+PATHOLOGIC DIAGNOSIS:
+Right breast, stereotactic core biopsy, 10 o'clock, upper outer quadrant:
+DUCTAL CARCINOMA IN SITU (DCIS), HIGH NUCLEAR GRADE, solid and cribriform
+types with comedo necrosis and extensive associated calcifications.
+NO INVASIVE CARCINOMA IDENTIFIED.
+
+STAGING NOTE: Based on biopsy material only; pathologic staging deferred to
+excision specimen.
+
+─────────────────────────────────────────────
+RECEPTOR STATUS / ANCILLARY STUDIES
+─────────────────────────────────────────────
+
+REPORT DATE: 04/02/2023
+PATHOLOGIST: S. Halvorsen, MD; reviewed by T. Nguyen, MD (IHC Supervisor)
+
+SPECIMEN: Right breast stereotactic core biopsy — 10 o'clock, UOQ
+DIAGNOSIS: DCIS, high nuclear grade
+
+ESTROGEN RECEPTOR (ER) — IHC (Clone SP1, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 2%
+Staining intensity: Weak
+Interpretation: Negative (< 10% threshold per ASCO/CAP guidelines)
+Internal positive control: Satisfactory (normal ductal epithelium positive)
+External positive control: Satisfactory
+
+PROGESTERONE RECEPTOR (PgR) — IHC (Clone 1E2, Ventana):
+Result: NEGATIVE
+Percentage of positive nuclei: 0%
+Staining intensity: None
+Interpretation: Negative
+Internal positive control: Satisfactory
+External positive control: Satisfactory
+
+HER2 (ERBB2) — IHC (Clone 4B5, Ventana):
+Result: 3+ (POSITIVE)
+Staining pattern: Complete, intense circumferential membranous staining
+Percentage of cells with 3+ staining: > 10%
+Interpretation: Positive
+Internal control: Satisfactory
+External control: Satisfactory
+
+HER2 ISH (DUAL-PROBE FISH, PathVysion):
+HER2 signals per cell (mean): 8.4
+CEP17 signals per cell (mean): 2.1
+HER2/CEP17 ratio: 4.0
+Interpretation: AMPLIFIED (ratio > 2.0; average HER2 copy number > 4.0)
+Internal control: Satisfactory
+
+SUMMARY:
+ER: Negative (2%, weak)
+PgR: Negative (0%)
+HER2 IHC: 3+ Positive
+HER2 ISH: Amplified (HER2/CEP17 ratio 4.0)
+
+NOTE: Receptor status reported on DCIS component only. No invasive component
+was present in this biopsy specimen to allow separate receptor profiling.
+
+Electronically signed: S. Halvorsen, MD / T. Nguyen, MD
+Date: 04/02/2023
+
+─────────────────────────────────────────────
+ADDENDUM — MULTIDISCIPLINARY TUMOR BOARD NOTE
+─────────────────────────────────────────────
+
+DATE: 04/06/2023
+Case reviewed at weekly Breast Multidisciplinary Tumor Board.
+Consensus recommendation: Surgical evaluation for right breast DCIS, high
+nuclear grade, with extent of disease spanning approximately 6.8 cm on MRI.
+Options for surgical management (lumpectomy with bracketed localization vs.
+mastectomy) to be discussed with patient by surgical oncology. Sentinel lymph
+node biopsy to be considered at time of surgical excision given the extent of
+disease. Radiation oncology and medical oncology consultations requested.
+
+─────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "6.8 cm (greatest dimension on MRI); 6.5 cm on mammogram",
+        "evidence": "The total craniocaudal extent of the enhancing region measures approximately 6.8 cm... spanning approximately 6.5 cm in the longest dimension on CC view."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, 10 o'clock position, mid-depth, approximately 5.5 cm posterior to the nipple",
+        "evidence": "non-mass enhancement is identified in the right breast upper outer quadrant at the 10 o'clock position... mid-depth, approximately 5.5 cm posterior to the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Present; pleomorphic, fine linear, and branching morphology; regional distribution spanning approximately 6.5 cm; extensive dystrophic calcifications within necrotic ductal centers",
+        "evidence": "extensive cluster of pleomorphic calcifications with a regional distribution... The calcifications are punctate to fine linear and branching in morphology... Dystrophic calcifications are identified within the necrotic centers and within the lumina of the involved ducts"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Regional non-mass enhancement (NME) with clumped internal enhancement and linear ductal extension, spanning 6.8 cm x 2.1 cm x 2.7 cm; no discrete enhancing mass identified",
+        "evidence": "Non-mass enhancement (NME) is identified in the right breast upper outer quadrant... exhibiting a regional distribution. The NME demonstrates clumped internal enhancement with linear ductal extension. The total craniocaudal extent of the enhancing region measures approximately 6.8 cm, with anteroposterior extent of 2.1 cm and transverse extent of 2.7 cm. No discrete enhancing mass is identified within or adjacent to the NME to suggest an invasive component."
+      },
+      "feature_5_extent": {
+        "value": "Localized right breast disease; no evidence of multicentric or contralateral involvement",
+        "evidence": "Findings are consistent with localized right breast disease. No evidence of multicentric or contralateral involvement."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Titanium biopsy clip marker placed; Hydromark coil-shaped marker; right breast upper outer quadrant, 10 o'clock position; post-clip stereotactic images confirmed satisfactory positioning",
+        "evidence": "A titanium biopsy clip marker (Hydromark coil-shaped marker) was deployed at the biopsy site within the right breast upper outer quadrant at the 10 o'clock position following specimen retrieval. Post-clip deployment stereotactic images confirmed satisfactory clip positioning within the sampled calcification field."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Breast MRI for extent-of-disease evaluation prior to biopsy, followed by stereotactic vacuum-assisted biopsy of the right breast calcifications. Surgical consultation recommended. / Surgical evaluation for right breast DCIS; options for surgical management (lumpectomy with bracketed localization vs. mastectomy) to be discussed with patient by surgical oncology. Sentinel lymph node biopsy to be considered at time of surgical excision. Radiation oncology and medical oncology consultations requested.",
+        "evidence": "RECOMMENDATION: Breast MRI for extent-of-disease evaluation prior to biopsy, followed by stereotactic vacuum-assisted biopsy of the right breast calc

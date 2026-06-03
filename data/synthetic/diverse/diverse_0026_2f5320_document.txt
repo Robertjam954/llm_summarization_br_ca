@@ -1,0 +1,160 @@
+REGIONAL MEDICAL CENTER — BREAST IMAGING & PATHOLOGY SERVICES
+De-identified Report — Research Copy
+Patient: [PATIENT] | DOB: [REDACTED] | Accession: BRE-2024-04471
+
+===============================================================
+MAMMOGRAM
+Date of Exam: 03/14/2024
+Ordering Physician: Dr. M. Hargrove, MD
+Technologist: S. Okafor, RT(R)(M)
+===============================================================
+
+CLINICAL INDICATION: Palpable lump, left breast, noted by patient for approximately three weeks. No prior imaging on file at this institution.
+
+TECHNIQUE: Standard bilateral digital mammography was performed in craniocaudal (CC) and mediolateral oblique (MLO) projections. Tomosynthesis (DBT) was also acquired.
+
+BREAST COMPOSITION: Heterogeneously dense breast tissue (ACR category C), which may lower sensitivity of mammography.
+
+FINDINGS:
+
+LEFT BREAST: An irregular, high-density mass measuring approximately 2.1 cm in greatest dimension was identified in the upper outer quadrant at the 10 o'clock position, approximately 5 cm from the left nipple. Associated pleomorphic calcifications were noted within and immediately adjacent to the mass, distributed in a segmental pattern. No skin thickening or nipple retraction was identified on mammographic imaging. A focal architectural distortion was noted at the periphery of the mass.
+
+RIGHT BREAST: No suspicious mass, calcification, or architectural distortion.
+
+LYMPH NODES: Left axillary lymph nodes are partially visualized; one node appears mildly enlarged with possible cortical thickening. Right axillary lymph nodes appear within normal limits.
+
+IMPRESSION:
+Left breast: Irregular high-density mass with associated pleomorphic, segmentally distributed calcifications at the 10 o'clock position, upper outer quadrant, approximately 5 cm from the nipple. Suspicious for malignancy.
+
+BI-RADS CATEGORY: 5 — Highly suggestive of malignancy. Tissue sampling recommended.
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the left breast mass is recommended. Correlation with ultrasound to follow.
+
+Interpreting Radiologist: Jennifer L. Castillo, MD
+Board Certified, Breast Imaging
+Electronically signed: 03/14/2024 at 14:22
+
+===============================================================
+ULTRASOUND
+Date of Exam: 03/14/2024
+Ordering Physician: Dr. M. Hargrove, MD
+===============================================================
+
+CLINICAL INDICATION: Correlation with mammographic abnormality, left breast mass, 10 o'clock position. Possible left axillary lymphadenopathy on mammogram.
+
+TECHNIQUE: Real-time grayscale and color Doppler ultrasound of the left breast and left axilla was performed using a high-frequency linear transducer (12–5 MHz).
+
+FINDINGS:
+
+LEFT BREAST: At the 10 o'clock position, approximately 5 cm from the nipple, in the anterior-to-mid depth of the breast, there is an irregular hypoechoic mass measuring 2.2 cm x 1.8 cm x 1.6 cm. The mass demon strates spiculated margins, posterior acoustic shadowing, and internal heterogeneous echotexture. Increased vascularity is present on color Doppler imaging. Associated echogenic foci within the mass are consistent with calcifications seen on mammography.
+
+LEFT AXILLA: A lymph node measuring 1.7 cm is identified in the left axilla, displaying eccentric cortical thickening measuring up to 6 mm. This is suspicious for nodal involvement.
+
+RIGHT BREAST AND AXILLA: No suspicious mass or abnormal lymph node identified.
+
+IMPRESSION:
+1. Left breast, 10 o'clock position, anterior-to-mid depth, approximately 5 cm from nipple: Irregular hypoechoic mass with spiculated margins, measuring 2.2 cm (greatest dimension). Highly suspicious for malignancy.
+2. Abnormal left axillary lymph node with eccentric cortical thickening — suspicious for metastatic involvement.
+
+BI-RADS CATEGORY: 5 — Highly suggestive of malignancy.
+
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the left breast mass with clip placement. Consider concurrent ultrasound-guided fine needle aspiration or core biopsy of the abnormal left axillary lymph node for staging purposes. Surgical oncology referral is recommended following pathology results.
+
+Interpreting Radiologist: Jennifer L. Castillo, MD
+Board Certified, Breast Imaging
+Electronically signed: 03/14/2024 at 15:07
+
+===============================================================
+ULTRASOUND-GUIDED BIOPSY PROCEDURE NOTE
+Date of Procedure: 03/19/2024
+Performing Physician: Dr. R. Vasquez, MD
+===============================================================
+
+PROCEDURE: Ultrasound-guided 14-gauge core needle biopsy (CNB) of the left breast mass at the 10 o'clock position.
+
+TECHNIQUE: Informed consent was obtained. The left breast was prepped and draped in the standard sterile fashion. Using real-time ultrasound guidance, the 10 o'clock mass was identified. Local anesthesia was administered with 1% lidocaine. A 14-gauge automated core biopsy needle was advanced into the mass and five passes were performed. Adequate tissue cores were obtained and submitted to pathology in formalin. Following biopsy, a titanium biopsy marker clip (omega configuration) was deployed under ultrasound guidance at the biopsy site within the mass. Post-clip deployment ultrasound imaging confirmed satisfactory clip placement within the target lesion. Post-procedure mammogram was obtained to document clip position.
+
+SPECIMENS SUBMITTED: Left breast core biopsy — 5 cores, formalin-fixed.
+
+COMPLICATIONS: None.
+
+Post-Procedure Mammographic Confirmation: Clip identified at the 10 o'clock left breast mass site, concordant with ultrasound-guided biopsy target. Clip placement considered accurate.
+
+Performing Radiologist: R. Vasquez, MD
+Electronically signed: 03/19/2024 at 11:34
+
+===============================================================
+PATHOLOGY REPORT
+Date Received: 03/19/2024
+Date Reported: 03/21/2024
+Specimen: Left breast, 10 o'clock position — core needle biopsy (5 cores)
+Pathologist: Dr. Anita Nwachukwu, MD
+Accession: PATH-2024-07893
+===============================================================
+
+CLINICAL INFORMATION: Left breast mass, 10 o'clock position, ultrasound-guided core needle biopsy. Rule out malignancy.
+
+GROSS DESCRIPTION: Received in formalin, labeled "left breast core biopsy," are five tan-white cylindrical cores of tissue ranging from 0.8 cm to 1.4 cm in length. Submitted entirely in one cassette.
+
+MICROSCOPIC DESCRIPTION: Sections demonstrate infiltrating carcinoma arranged in nests and cords with moderate nuclear pleomorphism and a moderate mitotic rate (approximately 10 mitoses per 10 high-power fields). The tumor cells exhibit vesicular nuclei with prominent nucleoli. There is evidence of associated pleomorphic microcalcifications within the tumor nests and adjacent stroma. Tubule formation is partial, comprising approximately 30% of the tumor. There is associated ductal carcinoma in situ (DCIS), intermediate nuclear grade, of the solid type, with associated microcalcifications. Surrounding stroma demonstrates a moderate desmoplastic reaction.
+
+HISTOLOGIC GRADING (Nottingham/Elston-Ellis):
+  - Tubule formation: Score 3 (< 10% of tumor)
+  - Nuclear pleomorphism: Score 2 (moderate)
+  - Mitotic count: Score 2 (~10/10 HPF)
+  - Total Score: 7 — Grade 2 (Moderately Differentiated)
+
+DIAGNOSIS:
+LEFT BREAST, 10 O'CLOCK POSITION, CORE NEEDLE BIOPSY:
+  INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2, measuring at least 2.1 cm on imaging correlation (see note).
+  Associated ductal carcinoma in situ (DCIS), intermediate grade, solid type, with microcalcifications.
+
+NOTE: Core biopsy material does not permit definitive measurement of invasive component. Imaging correlation places the invasive component at approximately 2.1 cm (per mammographic measurement). Final sizing to be confirmed on excision specimen.
+
+Pathologist: Dr. Anita Nwachukwu, MD
+Electronically signed: 03/21/2024 at 09:15
+
+===============================================================
+RECEPTOR STATUS / ANCILLARY STUDIES
+Date Reported: 03/22/2024
+Specimen: Left breast core biopsy (PATH-2024-07893)
+Pathologist: Dr. Anita Nwachukwu, MD
+===============================================================
+
+ESTROGEN RECEPTOR (ER) — IHC:
+  Result: POSITIVE
+  Percentage of positive nuclei: 90%
+  Intensity: Strong (3+)
+  Internal positive control: Satisfactory
+  Interpretation: ER Positive
+
+PROGESTERONE RECEPTOR (PR) — IHC:
+  Result: POSITIVE
+  Percentage of positive nuclei: 55%
+  Intensity: Moderate (2+)
+  Internal positive control: Satisfactory
+  Interpretation: PR Positive
+
+HER2 — IHC:
+  Result: NEGATIVE
+  Score: 1+ (incomplete, faint membrane staining in < 10% of tumor cells)
+  Interpretation: HER2 Negative by IHC (no reflex ISH testing required per ASCO/CAP 2018 guidelines)
+
+HER2 ISH (FISH): Not performed (IHC score 1+; ISH not indicated).
+
+Ki-67 PROLIFERATION INDEX:
+  Result: 22%
+  Interpretation: Intermediate proliferative activity
+
+SUMMARY OF RECEPTOR STATUS:
+  ER: Positive (90%, strong 3+)
+  PR: Positive (55%, moderate 2+)
+  HER2: Negative (IHC 1+)
+  Molecular subtype: Luminal B (ER+/PR+/HER2-)
+
+Pathologist: Dr. Anita Nwachukwu, MD
+Electronically signed: 03/22/2024 at 10:48
+
+===============================================================
+END OF REPORT
+===============================================================

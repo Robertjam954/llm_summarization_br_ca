@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0036_0f687d",
+  "setting": "diverse",
+  "index": 36,
+  "profile": {
+    "cancer_type": "IDC grade 2",
+    "laterality": "left",
+    "modalities": "mammogram + ultrasound + pathology + receptor",
+    "special": "clip placed, calcifications present"
+  },
+  "features": null,
+  "raw_output_chars": 14413,
+  "json_parse_ok": false
+}

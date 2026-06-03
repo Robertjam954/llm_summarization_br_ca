@@ -1,0 +1,199 @@
+RIVERSIDE REGIONAL MEDICAL CENTER
+Department of Breast Imaging and Pathology
+3400 Lakeview Boulevard, Suite 210
+De-identified Report — Research Use Only
+
+Patient: [PATIENT]
+DOB: [REDACTED]
+Accession #: RRMC-2024-04471
+Ordering Physician: Dr. F. Nakamura, MD
+
+─────────────────────────────────────────────
+MAMMOGRAM
+─────────────────────────────────────────────
+
+Examination Date: 03/11/2024
+Examination Type: Diagnostic Bilateral Mammography
+Comparison: Prior screening mammogram dated 09/14/2022
+
+CLINICAL INDICATION: 54-year-old female presenting for annual diagnostic
+mammogram. No palpable abnormality reported. Family history of maternal
+breast cancer.
+
+TECHNIQUE: Standard craniocaudal (CC) and mediolateral oblique (MLO) views
+were obtained bilaterally. Additional spot compression magnification views
+of the left breast were performed.
+
+FINDINGS:
+
+Right breast: The breast parenchyma is heterogeneously dense (ACR category
+C), which may lower sensitivity for the detection of small masses. No
+suspicious masses, architectural distortion, or calcifications identified.
+Axillary lymph nodes are within normal limits on the right.
+
+Left breast: Within the upper outer quadrant of the left breast, at
+approximately the 10 o'clock position, 4.5 cm from the nipple, there is a
+cluster of amorphous calcifications spanning approximately 1.8 cm in its
+greatest dimension. The calcifications are localized to this single region
+and do not appear to extend to other quadrants. The morphology is
+predominantly amorphous with a regional distribution. No associated mass
+or architectural distortion is identified. There is no skin thickening or
+nipple retraction. Axillary lymph nodes on the left appear unremarkable
+with no pathologically enlarged nodes identified.
+
+IMPRESSION:
+Left breast: Cluster of amorphous calcifications in the upper outer
+quadrant at the 10 o'clock position, 4.5 cm from the nipple, measuring
+1.8 cm in greatest dimension. These calcifications are new compared to
+the 09/14/2022 study and are of uncertain significance.
+
+BI-RADS CATEGORY: 4B — Intermediate suspicion for malignancy.
+
+RECOMMENDATION: Stereotactic vacuum-assisted core needle biopsy of the
+left breast calcifications is recommended for tissue sampling and histologic
+evaluation. Correlation with pathology results is advised. Surgical
+evaluation to follow pending pathology.
+
+Interpreted by: Dr. A. Whitfield, MD, Breast Imaging Radiologist
+Electronic Signature: A. Whitfield, MD
+Date Signed: 03/11/2024
+
+─────────────────────────────────────────────
+STEREOTACTIC BIOPSY
+─────────────────────────────────────────────
+
+Procedure Date: 03/18/2024
+Procedure: Stereotactic Vacuum-Assisted Biopsy, Left Breast
+Performing Radiologist: Dr. A. Whitfield, MD
+
+INDICATION: Left breast amorphous calcifications at 10 o'clock position,
+upper outer quadrant, BI-RADS 4B, as identified on diagnostic mammogram
+dated 03/11/2024.
+
+TECHNIQUE: The patient was positioned prone on the stereotactic biopsy
+table. The left breast was immobilized with gentle compression. Pre-fire
+stereo pair images were obtained confirming accurate targeting of the
+calcification cluster. Under local anesthesia with 1% lidocaine with
+epinephrine, a 9-gauge vacuum-assisted biopsy needle was advanced to the
+target calcification cluster under stereotactic guidance. Twelve cores
+were obtained in standard fashion. Specimens were submitted for
+specimen radiography, which confirmed retrieval of calcifications in multiple
+cores.
+
+CLIP PLACEMENT: Following tissue sampling, a titanium biopsy marker clip
+(MicroMark II, oval configuration) was deployed at the biopsy site within
+the upper outer quadrant of the left breast at the 10 o'clock position.
+Post-deployment orthogonal mammographic views confirmed satisfactory clip
+placement at the biopsy site, concordant with the targeted calcification
+cluster.
+
+POST-PROCEDURE MAMMOGRAM: Post-biopsy mammographic views confirmed
+appropriate clip deployment. Residual calcifications noted at the site.
+No evidence of hematoma or pneumothorax.
+
+COMPLICATIONS: None.
+
+PATHOLOGY SUBMITTED: Left breast, stereotactic vacuum-assisted biopsy
+cores (twelve cores), forwarded to Department of Surgical Pathology.
+
+Performed by: Dr. A. Whitfield, MD
+Electronic Signature: A. Whitfield, MD
+Date Signed: 03/18/2024
+
+─────────────────────────────────────────────
+PATHOLOGY REPORT
+─────────────────────────────────────────────
+
+Report Date: 03/21/2024
+Specimen Received: 03/18/2024
+Accession #: PATH-2024-09832
+Submitting Physician: Dr. A. Whitfield, MD
+Pathologist: Dr. R. Okonkwo, MD, Surgical Pathology
+
+SPECIMEN:
+Left breast, upper outer quadrant, 10 o'clock position — stereotactic
+vacuum-assisted biopsy cores (twelve cores received).
+
+CLINICAL HISTORY: 54-year-old female. Left breast amorphous calcifications,
+upper outer quadrant, 10 o'clock, 4.5 cm from nipple. BI-RADS 4B.
+
+GROSS DESCRIPTION:
+Received in formalin are twelve tan-white cylindrical core needle biopsy
+fragments ranging from 0.8 to 1.5 cm in length. Specimen radiograph
+confirmed calcifications within submitted cores. All cores were entirely
+submitted in sequential cassettes A through D.
+
+MICROSCOPIC DESCRIPTION:
+Sections reveal breast parenchyma with ductal structures of varying
+caliber. Within several ducts, there is a proliferation of epithelial
+cells with mo derate nuclear pleomorphism, moderate nuclear-to-cytoplasmic
+ratio, and scattered mitotic figures. The proliferating cells partially to
+completely fill the affected ducts. Necrosis is absent. Calcifications
+are identified in association with involved ducts, corresponding to the
+amorphous morphology noted on imaging. The overall extent of involvement
+spans approximately 1.8 cm on histologic assessment, consistent with
+localized disease. No invasive carcinoma is identified on the sampled
+cores. No lymphovascular invasion identified. No normal ly formed lobules
+are destroyed. Background breast parenchyma shows mild fibrocystic change
+and columnar cell change.
+
+HISTOLOGIC DIAGNOSIS:
+Left breast, upper outer quadrant, 10 o'clock — Ductal carcinoma in situ
+(DCIS), intermediate nuclear grade, solid and cribriform patterns, with
+associated amorphous calcifications; extent approximately 1.8 cm.
+No invasive carcinoma identified.
+
+DCIS FEATURES:
+Nuclear grade: Intermediate (Grade 2)
+Architecture: Solid and cribriform
+Necrosis: Absent
+Calcifications: Present, associated with DCIS
+Margins: Not applicable (core biopsy)
+
+EXTENT: Localized to upper outer quadrant, left breast; approximately 1.8 cm
+span based on imaging and histologic correlation.
+
+─────────────────────────────────────────────
+RECEPTOR STATUS
+─────────────────────────────────────────────
+
+Report Date: 03/22/2024
+Accession #: PATH-2024-09832 (addendum)
+Pathologist: Dr. R. Okonkwo, MD
+
+ESTROGEN RECEPTOR (ER) — IHC:
+Result: POSITIVE
+Percentage of positive nuclei: 90%
+Staining intensity: Strong (3+)
+Internal control: Positive (normal ductal epithelium reactive)
+Interpretation: ER Positive
+
+PROGESTERONE RECEPTOR (PR) — IHC:
+Result: POSITIVE
+Percentage of positive nuclei: 75%
+Staining intensity: Moderate-to-strong (2–3+)
+Internal control: Positive
+Interpretation: PR Positive
+
+HER2 (ERBB2) — IHC:
+Result: NEGATIVE
+Score: 1+ (incomplete, faint membranous staining in < 10% of cells)
+Interpretation: HER2 IHC Negative; reflex ISH not indicated per protocol.
+
+HER2 ISH (FISH): Not performed (IHC 1+, reflex testing not triggered).
+
+Ki-67 Proliferation Index: Approximately 15% (intermediate proliferative
+activity, consistent with intermediate-grade DCIS).
+
+COMMENT: Receptor profile is consistent with intermediate-grade DCIS,
+hormone receptor-positive, HER2-negative. Findings are concordant with
+imaging. Radiologic-pathologic concordance confirmed by Dr. A. Whitfield,
+MD on 03/22/2024. Surgical evaluation is recommended.
+
+Electronically signed: Dr. R. Okonkwo, MD
+Department of Surgical Pathology, Riverside Regional Medical Center
+Date Signed: 03/22/2024
+
+─────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────

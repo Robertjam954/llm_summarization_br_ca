@@ -1,0 +1,282 @@
+MERCY REGIONAL MEDICAL CENTER
+Department of Breast Imaging and Surgical Pathology
+650 Harborview Drive, Suite 4100
+
+Patient: [PATIENT]                          DOB: [REDACTED]
+Initials: C.M.                              MRN: [REDACTED]
+Ordering Physician: Dr. R. Patel, MD        Accession #: MRMC-2024-08841
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ULTRASOUND — LEFT BREAST AND AXILLA
+Date of Examination: 03/07/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CLINICAL INDICATION: 54-year-old female presenting with a palpable
+mass in the left breast at the 10 o'clock position. Family history
+significant for maternal breast cancer.
+
+TECHNIQUE: High-resolution grayscale and color Doppler ultrasound
+of the left breast and left axilla was performed using a 12–5 MHz
+linear transducer.
+
+FINDINGS:
+
+LEFT BREAST:
+Two distinct solid hypoechoic masses were identified in the left breast.
+
+Mass 1 (Index Lesion):
+A 2.8 cm irregular, hypoechoic mass with angular margins and posterior
+acoustic shadowing was identified at the 10 o'clock position, middle
+depth, approximately 3.5 cm from the left nipple. Internal vascularity
+was increased on color Doppler interrogation.
+
+Mass 2 (Secondary Lesion):
+A 1.2 cm irregular hypoechoic mass with indistinct margins was identified
+at the 9 o'clock position, middle depth, approximately 4.8 cm from the
+left nipple. This lesion was considered separate from the index lesion.
+
+Skin thickening was noted overlying the 10 o'clock region. No skin
+retraction was identified.
+
+LEFT AXILLA:
+An enlarged left axillary lymph node measuring 2.1 cm in long axis was
+identified with markedly thickened cortex (cortical thickness 0.9 cm)
+and loss of fatty hilum, highly suspicious for metastatic involvement.
+
+IMPRESSION:
+1. Two suspicious solid masses in the left breast at 10 o'clock and
+   9 o'clock positions, consistent with multifocal disease. BI-RADS 5.
+2. Left axillary lymphadenopathy with morphologic features suspicious for
+   metastatic involvement.
+3. Ultrasound-guided biopsy of the dominant left breast mass and left
+   axillary lymph node is recommended. Correlation with MRI recommended
+   for further extent-of-disease evaluation.
+
+Interpreting Radiologist: Dr. S. Nguyen, MD
+Division of Breast Imaging
+Signed: 03/07/2024 at 16:42
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MRI — LEFT BREAST
+Date of Examination: 03/12/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CLINICAL INDICATION: Known left breast masses on ultrasound, BI-RADS 5.
+Extent-of-disease evaluation prior to surgical planning.
+
+TECHNIQUE: Bilateral breast MRI was performed on a 3.0 Tesla scanner
+(Siemens Vida) using a dedicated 16-channel breast coil. Sequences
+included T1-weighted, T2-weighted fat-saturated, and dynamic contrast-
+enhanced (DCE) series following intravenous administration of 0.1 mmol/kg
+gadobutrol (Gadavist). Subtraction images and kinetic curve analysis
+were generated. Diffusion-weighted imaging was also performed.
+
+FINDINGS:
+
+LEFT BREAST:
+Mass Enhancement — Index Lesion:
+An irregular mass with spiculated margins demonstrating avid heterogeneous
+enhancement was identified at the 10 o'clock position, middle depth,
+3.5 cm from the nipple. The lesion measured 3.1 cm in greatest dimension
+on post-contrast T1 subtraction images. Kinetic curve analysis demonstrated
+washout enhancement kinetics (type III curve), highly suspicious for
+malignancy.
+
+Mass Enhancement — Secondary Lesion:
+A second enhancing mass measuring 1.3 cm in greatest dimension was
+identified at the 9 o'clock position, middle depth, 4.8 cm from the
+nipple, corresponding to the second lesion seen on ultrasound. This
+lesion also demonstrated washout kinetics.
+
+Non-Mass Enhancement:
+Additional segmental non-mass enhancement (NME) was identified in the
+upper outer quadrant of the left breast extending approximately 5.5 cm in
+craniocaudal dimension. The distribution and clumped internal enhancement
+pattern are suspicious and may represent an extensive intraductal
+component or associated DCIS extending beyond the masses.
+
+RIGHT BREAST: No suspicious enhancement. No mass lesions. No abnormal
+lymph nodes.
+
+LEFT AXILLA: At least two enlarged left axillary lymph nodes were
+identified with cortical thickening and loss of normal fatty hilum,
+consistent with the ultrasound findings. The dominant node measured
+2.2 cm.
+
+IMPRESSION:
+1. Multifocal left breast malignancy: index lesion at 10 o'clock
+   (3.1 cm) and secondary lesion at 9 o'clock (1.3 cm), both with
+   type III washout kinetics. BI-RADS 6 (known biopsy- proven
+   malignancy, per clinical history — see addendum below).
+2. Extensive segmental non-mass enhancement in the left upper outer
+   quadrant (5.5 cm craniocaudal span), suspicious for associated DCIS.
+3. Left axillary lymphadenopathy, consistent with nodal metastasis.
+4. No contralateral disease.
+5. Surgical oncology referral recommended for multidisciplinary
+   treatment planning.
+
+Interpreting Radiologist: Dr. S. Nguyen, MD
+Division of Breast Imaging
+Signed: 03/12/2024 at 11:17
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ULTRASOUND-GUIDED CORE NEEDLE BIOPSY — LEFT BREAST (INDEX LESION)
+AND LEFT AXILLARY LYMPH NODE
+Date of Procedure: 03/14/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CLINICAL INDICATION: Suspicious left breast masses and left axillary
+lymphadenopathy identified on imaging.
+
+PROCEDURE DETAILS:
+
+Site 1 — Left Breast Index Lesion (10 o'clock, 3.5 cm from nipple):
+Informed consent was obtained. The patient was placed in the supine
+oblique position. The index lesion at the 10 o'clock position was
+identified under real-time ultrasound guidance. The skin and subcutaneous
+tissues were anesthetized with 1% lidocaine. Using a coaxial system,
+four cores were obtained with a 14-gauge automated spring-loaded core
+needle biopsy device (Bard Magnum). Cores were tan-white and frag-
+mented, consistent with adequate tissue sampling. A titanium biopsy
+clip (HydroMARK, ribbon configuration) was deployed at the biopsy site
+under real-time ultrasound visualization. Post-deployment image confirmed
+satisfactory clip placement within the lesion.
+
+Site 2 — Left Axillary Lymph Node:
+The dominant morphologically abnormal left axillary lymph node was
+identified under ultrasound guidance. Two passes were made with a 22-gauge
+fine needle for cytologic sampling (fine needle aspiration, FNA). Aspirate
+material was placed on cytology slides and in CytoLyt solution.
+
+Specimen radiograph of the breast cores confirmed presence of biopsy
+clip artifact. Cores were submitted to surgical pathology in formalin.
+Cytology samples submitted to cytopathology.
+
+Post-biopsy instructions provided. No immediate complications.
+
+Performing Radiologist: Dr. S. Nguyen, MD
+Signed: 03/14/2024 at 09:53
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PATHOLOGY REPORT — LEFT BREAST CORE NEEDLE BIOPSY
+Accession: PATH-2024-03287
+Received: 03/14/2024       Reported: 03/16/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SPECIMEN: Left breast, 10 o'clock position, ultrasound-guided 14-gauge
+core needle biopsy (4 cores).
+
+GROSS DESCRIPTION:
+Received in formalin labeled "left breast 10 o'clock CNB" are four tan-
+white cylindrical tissue cores measuring up to 1.4 cm in length and
+0.1 cm in diameter. All cores entirely submitted in one cassette.
+
+MICROSCOPIC DESCRIPTION:
+Sections demonstrate cores of fibroadipose breast tissue. There is an
+infiltrating carcinoma composed of highly pleomorphic cells arranged in
+solid nests and cords with central necrosis. Tumor cells have large
+irregular nuclei with prominent nucleoli and abundant mitotic figures
+(>10 mitoses per 10 HPF). The invasive component is consistent with
+inv asive ductal carcinoma (no special type), nuclear grade 3, histologic
+grade 3 (Nottingham score: tubule formation 3 + nuclear pleomorphism 3 +
+mitotic count 3 = 9/9).
+
+Additionally, adjacent  to the invasive component, high-grade ductal
+carcinoma in situ (DCIS) is identified, solid and comedo patterns with
+central necrosis and periductal fibrosis. Calcifications are present
+within necrotic DCIS foci.
+
+Invasive tumor size on core biopsy: at least 2.8 cm (limited by biopsy
+sampling; final size deferred to excision specimen).
+
+PATHOLOGIC DIAGNOSIS:
+LEFT BREAST, 10 O'CLOCK, ULTRASOUND-GUIDED CORE NEEDLE BIOPSY:
+— Invasive ductal carcinoma (IDC), no special type, grade 3.
+— High-grade ductal carcinoma in situ (DCIS), solid and comedo types,
+   with associated calcifications.
+
+Pathologist: Dr. L. Harrington, MD
+Signed: 03/16/2024 at 14:08
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CYTOPATHOLOGY REPORT — LEFT AXILLARY LYMPH NODE FNA
+Accession: CYTO-2024-00412
+Received: 03/14/2024       Reported: 03/15/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SPECIMEN: Left axillary lymph node, fine needle aspiration.
+
+CYTOLOGIC FINDINGS:
+Cellular smears show cohesive clusters and single atypical epithelial
+cells with enlarged nuclei, irregular nuclear contours, prominent
+nucleoli, and scant to moderate cytoplasm. Background lymphocytes are
+present. Morphology is consistent with metastatic carcinoma.
+
+CYTOPATHOLOGIC DIAGNOSIS:
+LEFT AXILLARY LYMPH NODE, FNA:
+— POSITIVE FOR MALIGNANT CELLS, consistent with metastatic carcinoma.
+   Correlation with concurrent breast core biopsy is recommended.
+
+Pathologist: Dr. T. Obasi, MD
+Signed: 03/15/2024 at 10:22
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECEPTOR STATUS / BIOMARKER REPORT
+Accession: PATH-2024-03287-IHC
+Reported: 03/18/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SPECIMEN: Left breast, 10 o'clock, core needle biopsy (PATH-2024-03287).
+
+ESTROGEN RECEPTOR (ER) — IHC (Ventana SP1 clone):
+Result: POSITIVE
+Percentage of positive nuclei: 85%
+Staining intensity: Strong (3+)
+Internal positive control: Satisfactory
+Interpretation: ER Positive
+
+PROGESTERONE RECEPTOR (PgR) — IHC (Ventana 1E2 clone):
+Result: POSITIVE
+Percentage of positive nuclei: 40%
+Staining intensity: Moderate (2+)
+Internal positive control: Satisfactory
+Interpretation: PgR Positive
+
+HER2 — IHC (Ventana 4B5 clone):
+Result: NEGATIVE (1+)
+Incomplete membrane staining in <10% of tumor cells
+Internal positive control: Satisfactory
+Interpretation: HER2 IHC Negative (1+); ISH testing NOT performed
+per ASCO/CAP guidelines (IHC score 1+ does not require reflex ISH).
+
+KI-67 PROLIFERATION INDEX:
+Ki-67: 62% (high)
+Interpretation: High proliferative activity, consistent with grade 3
+invasive carcinoma.
+
+OVERALL RECEPTOR INTERPRETATION:
+ER+/PgR+/HER2− (Luminal B-like phenotype based on high Ki-67).
+Clinical correlation and multidisciplinary tumor board review
+recommended. Surgical oncology and medical oncology referral advised
+for neoadjuvant chemotherapy consideration given multifocal disease
+and axillary nodal involvement.
+
+Pathologist: Dr. L. Harrington, MD
+Signed: 03/18/2024 at 08:55
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF REPORT — MERCY REGIONAL MEDICAL CENTER
+Transcribed and verified: 03/18/2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "3.1 cm (MRI, greatest dimension, index lesion)",
+        "evidence": "The lesion measured 3.1 cm in greatest dimension on post-contrast T1 subtraction images."
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast,

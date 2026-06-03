@@ -1,0 +1,202 @@
+REGIONAL MEDICAL CENTER — BREAST IMAGING AND PATHOLOGY SERVICES
+De-identified Report | Document Reference: BMI-2024-0027
+
+PATIENT: [PATIENT]
+DATE OF BIRTH: [REDACTED]
+ORDERING PHYSICIAN: Dr. M. Calloway, MD
+CLINICAL INDICATION: Palpable left breast mass; screening mammogram abnormality.
+
+─────────────────────────────────────────────────────────
+MAMMOGRAM
+─────────────────────────────────────────────────────────
+DATE OF EXAM: 03/04/2024
+TECHNIQUE: Standard two-view digital mammography of bilateral breasts (CC and MLO projections). Tomosynthesis acquired.
+
+BREAST COMPOSITION: Heterogeneously dense breast tissue (ACR category C), which may obscure small masses.
+
+FINDINGS:
+Left breast: There is an irregular, high-density mass measuring approximately 1.8 cm in greatest dimension located in the upper outer quadrant at the 10 o'clock position, at mid-depth, approximately 5.5 cm from the nipple. Associated with this mass are grouped fine pleomorphic calcifications within and immediately adjacent to the lesion. No skin thickening or nipple retraction is identified. No architectural distortion remote from the lesion.
+
+Right breast: No suspicious mass, calcification, or architectural distortion.
+
+Axillary lymph nodes: Left axillary region demonstrates a mildly enlarged lymph node with focal cortical thickening measuring up to 7 mm; this finding is indeterminate. Right axillary lymph nodes appear within normal limits.
+
+IMPRESSION:
+Left breast upper outer quadrant irregular mass with associated grouped fine pleomorphic calcifications.
+BI-RADS CATEGORY: 4C — High suspicion for malignancy.
+RECOMMENDATION: Targeted ultrasound of the left breast and left axilla. Tissue sampling recommended.
+
+Interpreted by: Dr. R. Nakamura, MD (Breast Imaging)
+Signed: 03/04/2024 at 14:32
+
+─────────────────────────────────────────────────────────
+ULTRASOUND
+─────────────────────────────────────────────────────────
+DATE OF EXAM: 03/07/2024
+TECHNIQUE: High-resolution grayscale and color Doppler ultrasound of the left breast and left axilla.
+
+FINDINGS:
+Left breast: At the 10 o'clock position, approximately 5.5 cm from the nipple, at mid-depth, there is an irregular hypoechoic mass measuring 1.9 cm x 1.4 cm x 1.3 cm. Margins are spiculated with angular features. Posterior acoustic shadowing is present. Increased internal vascularity is demonstrated on color Doppler interrogation. No associated duct ectasia. Fine calcifications are echogenic foci correlating with mammographic calcifications.
+
+Left axilla: A lymph node measuring 1.6 cm with diffuse cortical thickening up to 8 mm is identified. Loss of fatty hilum is noted. Findings are suspicious for nodal involvement.
+
+Right breast and axilla: Unremarkable.
+
+IMPRESSION:
+1. Left breast 10 o'clock mass, 5.5 cm from nipple — irregular, spiculated, hypoechoic mass measuring 1.9 cm (largest dimension) with associated echogenic calcifications. BI-RADS CATEGORY: 5 — Highly suggestive of malignancy.
+2. Left axillary lymph node with cortical thickening and loss of fatty hilum — suspicious for metastatic involvement.
+RECOMMENDATION: Ultrasound-guided core needle biopsy of the left breast mass and left axillary lymph node. Biopsy clip placement at time of biopsy.
+
+Interpreted by: Dr. R. Nakamura, MD (Breast Imaging)
+Signed: 03/07/2024 at 10:15
+
+─────────────────────────────────────────────────────────
+BIOPSY PROCEDURE NOTE
+─────────────────────────────────────────────────────────
+DATE OF PROCEDURE: 03/11/2024
+PROCEDURE: Ultrasound-guided 14-gauge core needle biopsy (CNB) of the left breast mass at the 10 o'clock position, 5.5 cm from the nipple, performed under real-time ultrasound guidance. Five cores obtained. An ultrasound-guided fine needle aspiration (FNA) of the suspicious left axillary lymph node was also performed.
+
+CLIP PLACEMENT: A titanium biopsy marker clip (omega-shaped) was deployed at the biopsy site within the left breast mass following core sampling. Post-clip deployment ultrasound images confirmed accurate clip placement within the center of the target lesion at the 10 o'clock position. Post-procedure mammogram obtained and confirmed clip position.
+
+COMPLICATIONS: None. Patient tolerated procedure well.
+
+Performed by: Dr. R. Nakamura, MD (Breast Imaging) / Assisted by: Ultrasound Technologist K. Breen, RDMS
+Signed: 03/11/2024 at 11:48
+
+─────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+─────────────────────────────────────────────────────────
+DATE RECEIVED: 03/11/2024
+DATE REPORTED: 03/13/2024
+SPECIMEN TYPE: Left breast core needle biopsy (5 cores, ultrasound-guided); Left axillary lymph node FNA.
+
+CLINICAL HISTORY: 1.9 cm left breast mass at 10 o'clock; grouped fine pleomorphic calcifications; BI-RADS 5.
+
+GROSS DESCRIPTION:
+Specimen A — Left breast core biopsy: Five tan-pink cylindrical cores ranging from 0.9 to 1.4 cm in length and 0.15 cm in diameter. Calcifications confirmed on specimen radiograph.
+Specimen B — Left axillary lymph node FNA: Two smear slides and one cell block prepared.
+
+MICROSCOPIC DESCRIPTION:
+Specimen A — Left breast: Sections reveal an infiltrating carcinoma with a tubular and nested growth pattern set within a desmoplastic stroma. The tumor cells are polygonal with moderate nuclear pleomorphism and moderate amounts of eosinophilic cytoplasm. Nuclei are intermediate in size with irregular contours and occasional prominent nucleoli. Mitotic figures are present (estimated rate: 8 per 10 high-power fields). Microcalcifications are identified within areas of both invasive carcinoma and adjacent ductal carcinoma in situ (DCIS). The DCIS component is of intermediate nuclear grade with cribriform and solid patterns; calcifications are associated with the DCIS component. No lymphovascular invasion is identified in this core biopsy material. The invasive carcinoma measures at least 1.8 cm across the cores submitted, consistent with the radiologic size of 1.9 cm.
+
+Specimen B — Left axillary lymph node FNA: Cellular smears reveal clusters of atypical epithelial cells with features consistent with metastatic carcinoma. Background lymphocytes present.
+
+HISTOLOGIC DIAGNOSIS:
+Left breast, 10 o'clock, ultrasound-guided core needle biopsy:
+— INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 (score: 6/9; tubule formation 2, nuclear pleomorphism 2, mitotic rate 2), measuring at least 1.8 cm.
+— Associated intermediate-grade DCIS with cribriform and solid patterns and microcalcifications.
+
+Left axillary lymph node, FNA:
+— METASTATIC CARCINOMA, consistent with breast primary.
+
+NOTTINGHAM GRADE: Grade 2 (Moderately differentiated)
+
+Pathologist: Dr. S. Okonkwo, MD (Surgical Pathology)
+Signed: 03/13/2024 at 09:22
+
+─────────────────────────────────────────────────────────
+RECEPTOR STATUS
+─────────────────────────────────────────────────────────
+DATE REPORTED: 03/14/2024
+SPECIMEN: Left breast core needle biopsy (03/11/2024)
+METHOD: Immunohistochemistry (IHC) performed on formalin-fixed paraffin-embedded (FFPE) tissue sections. HER2 FISH performed per protocol.
+
+ESTROGEN RECEPTOR (ER):
+Result: POSITIVE
+Percentage of positive nuclei: 90%
+Staining intensity: Strong (3+)
+Interpretation: ER Positive
+Internal control: Satisfactory (normal ductal epithelium positive)
+
+PROGESTERONE RECEPTOR (PR/PgR):
+Result: POSITIVE
+Percentage of positive nuclei: 65%
+Staining intensity: Moderate (2+)
+Interpretation: PR Positive
+Internal control: Satisfactory
+
+HER2 IHC:
+Result: 1+ (Incomplete, faint membrane staining in < 10% of tumor cells)
+Interpretation: NEGATIVE (IHC score 1+)
+Internal control: Satisfactory
+
+HER2 ISH (FLUORESCENCE IN SITU HYBRIDIZATION — FISH):
+Performed: Yes (reflexed per protocol given IHC 1+ in context of clinical setting)
+HER2 copy number (mean signals/cell): 1.9
+CEP17 copy number (mean signals/cell): 1.8
+HER2/CEP17 ratio: 1.05
+Interpretation: NOT AMPLIFIED (HER2/CEP17 ratio < 2.0; average HER2 copy number < 4.0)
+Internal control: Satisfactory
+
+KI-67 PROLIFERATION INDEX:
+Result: 22%
+Interpretation: Intermediate
+
+OVERALL RECEPTOR SUMMARY:
+ER+, PR+, HER2- (by IHC and ISH)
+Molecular subtype consistent with: Luminal B (HER2-negative)
+
+Pathologist: Dr. S. Okonkwo, MD (Surgical Pathology)
+Signed: 03/14/2024 at 13:55
+
+─────────────────────────────────────────────────────────
+MULTIDISCIPLINARY CLINICAL NOTE
+─────────────────────────────────────────────────────────
+DATE: 03/18/2024
+This case was reviewed at the multidisciplinary breast tumor board on 03/18/2024. The consensus recommendation is for surgical evaluation with discussion of upfront surgery versus neoadjuvant systemic therapy given the left axillary nodal involvement. Patient referred to breast surgical oncology and medical oncology for further management.
+
+─────────────────────────────────────────────────────────
+END OF REPORT
+─────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "1.9 cm (largest dimension, ultrasound)",
+        "evidence": "irregular hypoechoic mass measuring 1.9 cm x 1.4 cm x 1.3 cm ... largest dimension 1.9 cm"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, upper outer quadrant, 10 o'clock position, mid-depth, approximately 5.5 cm from the nipple",
+        "evidence": "located in the upper outer quadrant at the 10 o'clock position, at mid-depth, approximately 5.5 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Present; grouped fine pleomorphic calcifications within and immediately adjacent to the lesion; microcalcifications also associated with DCIS component (cribriform and solid patterns)",
+        "evidence": "Associated with this mass are grouped fine pleomorphic calcifications within and immediately adjacent to the lesion ... Microcalcifications are identified within areas of both invasive carcinoma and adjacent ductal carcinoma in situ (DCIS)"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": "No MRI modality was included in this document."
+      },
+      "feature_5_extent": {
+        "value": "Localized (with associated DCIS component); left axillary lymph node metastasis identified",
+        "evidence": "INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 ... measuring at least 1.8 cm. Associated intermediate-grade DCIS ... Left axillary lymph node, FNA: METASTATIC CARCINOMA, consistent with breast primary."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes; omega-shaped titanium biopsy marker clip deployed at the biopsy site; post-clip deployment ultrasound confirmed accurate placement within the center of the target lesion at the 10 o'clock position; post-procedure mammogram confirmed clip position",
+        "evidence": "A titanium biopsy marker clip (omega-shaped) was deployed at the biopsy site within the left breast mass following core sampling. Post-clip deployment ultrasound images confirmed accurate clip placement within the center of the target lesion at the 10 o'clock position. Post-procedure mammogram obtained and confirmed clip position."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical evaluation with discussion of upfront surgery versus neoadjuvant systemic therapy given the left axillary nodal involvement. Patient referred to breast surgical oncology and medical oncology for further management.",
+        "evidence": "The consensus recommendation is for surgical evaluation with discussion of upfront surgery versus neoadjuvant systemic therapy given the left axillary nodal involvement. Patient referred to breast surgical oncology and medical oncology for further management."
+      },
+      "feature_8_lymph_node": {
+        "value": "Left axillary lymph node suspicious/positive: 1.6 cm node with cortical thickening up to 8 mm, loss of fatty hilum on ultrasound; FNA confirms metastatic carcinoma consistent with breast primary",
+        "evidence": "A lymph node measuring 1.6 cm with diffuse cortical thickening up to 8 mm is identified. Loss of fatty hilum is noted. Findings are suspicious for nodal involvement. ... Left axillary lymph node, FNA: METASTATIC CARCINOMA, consistent with breast primary."
+      },
+      "feature_10_biopsy_method": {
+        "value": "Ultrasound-guided 14-gauge core needle biopsy (CNB) of the left breast mass; ultrasound-guided fine needle aspiration (FNA) of the left axillary lymph node",
+        "evidence": "Ultrasound-guided 14-gauge core needle biopsy (CNB) of the left breast mass at the 10 o'clock position ... An ultrasound-guided fine needle aspiration (FNA) of the suspicious left axillary lymph node was also performed."
+      },
+      "feature_11_invasive_component_size_pathology": {
+        "value": "At least 1.8 cm",
+        "evidence": "INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 (score: 6/9 ...), measuring at least 1.8 cm."
+      },
+      "feature_12_histologic_diagnosis": {
+        "value": "INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 (score: 6/9; tubule formation 2, nuclear pleomorphism 2, mitotic rate 2), measuring at least 1.8 cm; associated intermediate-grade DCIS with cribriform and solid patterns and microcalcifications; left axillary lymph node FNA: METASTATIC CARCINOMA, consistent with breast primary",
+        "evidence": "Left breast, 10 o'clock, ultrasound-guided core needle biopsy: — INVASIVE DUCTAL CARCINOMA (IDC), NOTTINGHAM GRADE 2 (score: 6/9; tubule formation 2, nuclear pleomorphism 2, mitotic rate 2), measuring at least 1.8 cm. — Associated intermediate-grade DCIS with cribriform and solid patterns and microcalcifications. Left axillary lymph node, FNA: — METASTATIC CARCINOMA, consistent with breast primary."
+      },
+      "feature_13_receptor_status": {
+        "value": "ER: Positive, 90%, strong (3+), internal control satisfactory; PR/PgR: Positive, 65%, moderate (2+), internal control satisfactory; HER2 IHC: Negative (1+, incomplete faint membrane staining in <10% of tumor cells), internal control satisfactory; HER2 ISH (FISH): Not amplified (

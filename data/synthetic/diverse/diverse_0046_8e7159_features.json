@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0046_8e7159",
+  "setting": "diverse",
+  "index": 46,
+  "profile": {
+    "cancer_type": "ILC grade 1",
+    "laterality": "right",
+    "modalities": "mammogram + MRI + US-guided biopsy + pathology",
+    "special": "no calcifications, non-mass MRI enhancement"
+  },
+  "features": null,
+  "raw_output_chars": 14206,
+  "json_parse_ok": false
+}

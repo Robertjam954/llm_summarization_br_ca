@@ -1,0 +1,261 @@
+REGIONAL BREAST CENTER — INTEGRATED IMAGING AND PATHOLOGY REPORT
+Patient: [PATIENT] | Initials: M.T. | DOB: [REDACTED] | Accession: RBC-2024-04491
+Ordering Physician: Dr. P. Hargrove | Report Date: 07/22/2024
+
+───────────────────────────────────────────────────────────────────────
+MAMMOGRAM
+───────────────────────────────────────────────────────────────────────
+Date of Examination: 07/08/2024
+Indication: Palpable abnormality, left breast. Routine screening with diagnostic
+callback. Patient reports focal tenderness at 10 o'clock position, left breast,
+for approximately 3 weeks.
+
+Technique: Standard bilateral digital mammography with CC and MLO projections
+supplemented by left spot-compression magnification views in the ML and CC
+projections.
+
+FINDINGS:
+
+Breast composition: Heterogeneously dense (ACR category C), which may lower the
+sensitivity of mammography.
+
+LEFT BREAST: An irregular mass measuring approximately 1.8 cm in greatest
+dimension is identified at the 10 o'clock position, left breast, in the anterior-
+to-mid depth, approximately 3.5 cm from the left nipple. The margins of the mass
+are partially obscured and partially spiculated. Within and immediately adjacent
+to the mass, a cluster of pleomorphic calcifications is identified on magnification
+views. The calcifications display heterogeneous morphology with a few fine
+linear forms, distributed in a segmental pattern spanning approximately 2.2 cm
+in the region of concern. No additional suspicious masses or calcification clusters
+are identified elsewhere in the left breast.
+
+RIGHT BREAST: No suspicious masses, calcifications, or architectural distortion.
+
+Axillary assessment: Left axillary lymph nodes appear mildly prominent with
+retained fatty hila; no clearly pathologic adenopathy identified on mammography.
+
+IMPRESSION:
+Left breast: Irregular spiculated mass at 10 o'clock with associated pleomorphic,
+heterogeneous calcifications in a segmental distribution.
+BI-RADS 4C — High suspicion for malignancy.
+
+RECOMMENDATION: Targeted ultrasound of the left breast at the 10 o'clock position
+and ultrasound evaluation of the left axilla. Ultrasound-guided core needle biopsy
+of the dominant mass is recommended.
+
+Interpreting Radiologist: Dr. S. Ellison, MD
+Digital Signature: S. Ellison / 07/08/2024 15:44
+
+───────────────────────────────────────────────────────────────────────
+ULTRASOUND
+───────────────────────────────────────────────────────────────────────
+Date of Examination: 07/10/2024
+Indication: Left breast mass at 10 o'clock on mammography. BI-RADS 4C. Correlative
+targeted ultrasound and axillary evaluation prior to biopsy planning.
+
+Technique: High-resolution grayscale and Doppler ultrasound of the left breast
+at the 10 o'clock position and left axilla. Contiguous real-time imaging was
+performed with a 15 MHz linear-array transducer.
+
+FINDINGS:
+
+LEFT BREAST — 10 O'CLOCK POSITION:
+At the 10 o'clock position, left breast, anterior-to-mid depth, 3.5 cm from the
+nipple, there is an irregular hypoechoic mass measuring 1.9 cm x 1.4 cm x 1.3 cm
+(AP x TR x CC). The mass demonstrates angular and microlobulated margins with
+posterior acoustic shadowing. Internal vascularity is increased on color Doppler.
+The sonographic findings correlate directly with the mammographic mass. Associated
+echogenic foci consistent with calcifications are demonstrated within the mass.
+
+No separate satellite lesions identified in the left breast. Disease appears
+localized to this single site.
+
+LEFT AXILLA: Three lymph nodes are visualized in the left axilla. The largest
+measures 1.7 cm in short axis and demonstrates diffuse cortical thickening of
+approximately 5 mm with eccentric cortex at the lower pole; the fatty hilum is
+markedly diminished. These findings are suspicious for nodal metastasis.
+Ultrasound-guided fine needle aspiration of the suspicious left axillary lymph
+node is recommended.
+
+RIGHT BREAST / RIGHT AXILLA: Not examined at this encounter per ordering
+physician instructions.
+
+IMPRESSION:
+1. Irregular hypoechoic mass, left breast, 10 o'clock, 3.5 cm from the nipple,
+   measuring 1.9 cm, correlating with mammographic mass. BI-RADS 4C.
+2. Suspicious left axillary lymphadenopathy with cortical thickening — recommend
+   ultrasound-guided fine needle aspiration.
+
+RECOMMENDATION: Ultrasound-guided 14-gauge core needle biopsy of the left breast
+mass at 10 o'clock. Ultrasound-guided fine needle aspiration of the suspicious
+left axillary lymph node. Clip placement at time of core biopsy.
+
+Interpreting Radiologist: Dr. S. Ellison, MD
+Digital Signature: S. Ellison / 07/10/2024 09:17
+
+───────────────────────────────────────────────────────────────────────
+ULTRASOUND-GUIDED CORE NEEDLE BIOPSY — PROCEDURE NOTE
+───────────────────────────────────────────────────────────────────────
+Date of Procedure: 07/12/2024
+Procedure: Ultrasound-guided 14-gauge core needle biopsy, left breast mass,
+10 o'clock position. Biopsy clip/marker placement.
+
+Operator: Dr. L. Nakamura, MD (Breast Imaging)
+Assistant: Radiology technologist
+
+PROCEDURE DETAILS:
+Informed consent was obtained. The patient was positioned supine with the
+left arm raised. The target lesion at the 10 o'clock position, left breast,
+3.5 cm from the nipple, was re-identified under real-time ultrasound guidance.
+The overlying skin was cleansed and sterile drapes were applied. Local anesthesia
+was administered with 1% lidocaine. Using a 14-gauge automated core needle
+device with a freehand technique, five (5) passes were made through the
+lesion under continuous ultrasound visualization, yielding adequate tissue cores
+for histopathologic analysis. Cores were tan-white and submitted in formalin.
+
+CLIP PLACEMENT: A titanium biopsy marker clip (MicroMark II, oval configuration)
+was deployed at the biopsy site within the left breast mass, 10 o'clock position,
+3.5 cm from the nipple, under direct ultrasound visualization. Post-deployment
+ultrasound confirmed the clip artifact was present within the target lesion.
+Post-biopsy mammogram (CC and ML views, left breast) confirmed accurate clip
+placement within the biopsy bed, with no significant displacement noted.
+
+Hemostasis achieved with manual compression. No immediate complications.
+
+Radiologist: Dr. L. Nakamura, MD
+Digital Signature: L. Nakamura / 07/12/2024 11:05
+
+───────────────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+───────────────────────────────────────────────────────────────────────
+Specimen Received: 07/12/2024
+Report Issued: 07/15/2024
+Accession: PATH-2024-09173
+Specimen Type: Ultrasound-guided core needle biopsy, left breast, 10 o'clock
+
+CLINICAL HISTORY: Left breast mass, 10 o'clock position, 3.5 cm from nipple.
+Mammographically spiculated mass with associated pleomorphic calcifications.
+BI-RADS 4C.
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "left breast 10 o'clock core biopsy," are five
+cream-white cylindrical tissue cores ranging from 0.8 to 1.5 cm in length and
+approximately 0.2 cm in diameter. Representative sections entirely submitted
+in one block (A1).
+
+MICROSCOPIC DESCRIPTION:
+Sections show breast parenchyma with infiltrating carcinoma. The malignant cells
+form irregular solid nests, glands, and cords invading a desmoplastic stroma.
+Nuclear pleomorphism is moderate (grade 2 nuclei). Mitotic figures number
+approximately 9 per 10 high-power fields. Tubule formation is partial (score 2).
+Overall Nottingham score: 2 + 2 + 2 = 6 (Grade 2). Lymphovascular invasion
+is not identified in the biopsy cores. Microcalcifications are present within
+the tumor and in adjacent benign ducts, consistent with the mammographic
+calcifications.
+
+The invasive carcinoma component measures at least 1.8 cm in greatest dimension
+on core biopsy (note: this represents a minimum estimate from the biopsy sample;
+surgical excision will determine final extent).
+
+DIAGNOSIS:
+Left breast, 10 o'clock, ultrasound-guided core needle biopsy:
+INVASIVE DUCTAL CARCINOMA (Infiltrating Carcinoma of No Special Type, NST),
+Nottingham Grade 2 (Score 6/9).
+- Microcalcifications present, within carcinoma and adjacent benign tissue.
+- Lymphovascular invasion: Not identified.
+
+COMMENT: Immunohistochemical studies for hormone receptor and HER2 status are
+performed and reported separately (see Receptor Status addendum below).
+
+Pathologist: Dr. A. Okonkwo, MD
+Digital Signature: A. Okonkwo / 07/15/2024 14:30
+
+───────────────────────────────────────────────────────────────────────
+RECEPTOR STATUS — IMMUNOHISTOCHEMISTRY ADDENDUM
+───────────────────────────────────────────────────────────────────────
+Specimen: Left breast core biopsy — PATH-2024-09173
+Report Date: 07/17/2024
+
+ESTROGEN RECEPTOR (ER):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 85%
+Intensity: Strong (3+)
+Allred Score: 8/8
+Internal positive control: Satisfactory. Internal negative control: Satisfactory.
+
+PROGESTERONE RECEPTOR (PgR):
+Result: POSITIVE
+Percentage of tumor nuclei staining: 55%
+Intensity: Moderate (2+)
+Allred Score: 6/8
+Internal positive control: Satisfactory. Internal negative control: Satisfactory.
+
+HER2 (IHC):
+Result: NEGATIVE
+Score: 1+ (incomplete, faint membrane staining in <10% of tumor cells)
+Reflex ISH: Not indicated per current ASCO/CAP guidelines for IHC 1+.
+Internal controls: Appropriate.
+
+HER2 ISH (FISH): Not performed (IHC score 1+; reflex testing not triggered).
+
+Ki-67 Proliferation Index: 22%
+
+SUMMARY:
+ER: Positive (85%, strong 3+)
+PgR: Positive (55%, moderate 2+)
+HER2: Negative (IHC 1+)
+Molecular subtype: Luminal A/B spectrum (pending Oncotype DX or equivalent
+genomic testing if clinically indicated).
+
+Pathologist: Dr. A. Okonkwo, MD
+Digital Signature: A. Okonkwo / 07/17/2024 10:52
+
+───────────────────────────────────────────────────────────────────────
+MULTIDISCIPLINARY NOTE
+───────────────────────────────────────────────────────────────────────
+Date: 07/19/2024
+The case was reviewed at the Multidisciplinary Breast Tumor Board on 07/19/2024.
+Findings are consistent with a left breast IDC Grade 2, ER+/PR+/HER2-, with
+suspicious left axillary lymphadenopathy. Recommendations include: surgical
+evaluation for definitive surgical planning (lumpectomy vs. mastectomy with
+sentinel lymph node biopsy or axillary dissection), and completion of axillary
+staging with ultrasound-guided fine needle aspiration of the suspicious left
+axillary lymph node prior to surgery. Genomic profiling (e.g., Oncotype DX)
+to be considered post-surgical excision for adjuvant chemotherapy decision-
+making. Medical oncology and radiation oncology referrals placed.
+
+End of Report.
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "1.9 cm (ultrasound: 1.9 cm x 1.4 cm x 1.3 cm; mammogram: 1.8 cm; pathology minimum estimate: 1.8 cm)",
+        "evidence": "Ultrasound: 'irregular hypoechoic mass measuring 1.9 cm x 1.4 cm x 1.3 cm'; Mammogram: 'irregular mass measuring approximately 1.8 cm in greatest dimension'; Pathology: 'invasive carcinoma component measures at least 1.8 cm in greatest dimension on core biopsy'"
+      },
+      "feature_2_lesion_location": {
+        "value": "Left breast, 10 o'clock position, anterior-to-mid depth, 3.5 cm from the nipple",
+        "evidence": "'At the 10 o'clock position, left breast, anterior-to-mid depth, 3.5 cm from the nipple'"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Calcifications present; pleomorphic heterogeneous morphology with fine linear forms; segmental distribution spanning approximately 2.2 cm; microcalcifications also present within tumor and adjacent benign ducts on pathology",
+        "evidence": "Mammogram: 'a cluster of pleomorphic calcifications...heterogeneous morphology with a few fine linear forms, distributed in a segmental pattern spanning approximately 2.2 cm'; Pathology: 'Microcalcifications are present within the tumor and in adjacent benign ducts, consistent with the mammographic calcifications'"
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Not reported",
+        "evidence": "No MRI was performed or reported in this document."
+      },
+      "feature_5_extent": {
+        "value": "Localized",
+        "evidence": "'No separate satellite lesions identified in the left breast. Disease appears localized to this single site.'"
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Biopsy marker clip placed; titanium MicroMark II, oval configuration; deployed at biopsy site, left breast mass, 10 o'clock, 3.5 cm from nipple; post-biopsy mammogram confirmed accurate clip placement with no significant displacement",
+        "evidence": "'A titanium biopsy marker clip (MicroMark II, oval configuration) was deployed at the biopsy site within the left breast mass, 10 o'clock position, 3.5 cm from the nipple...Post-biopsy mammogram (CC and ML views, left breast) confirmed accurate clip placement within the biopsy bed, with no significant displacement noted.'"
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Ultrasound-guided 14-gauge core needle biopsy of the left breast mass at 10 o'clock; ultrasound-guided fine needle aspiration of the suspicious left axillary lymph node; surgical evaluation for definitive surgical planning (lumpectomy vs. mastectomy with sentinel lymph node biopsy or axillary dissection); genomic profiling (e.g., Oncotype DX) to be considered post-surgical excision; medical oncology and radiation oncology referrals placed",
+        "evidence": "Ultrasound report: 'Ultrasound-guided 14-gauge core needle biopsy of the left breast mass at 10 o'clock. Ultrasound-guided fine needle aspiration of the suspicious left axillary lymph node. Clip placement at time of core biopsy.'; Multidisciplinary Note: 'surgical evaluation for definitive surgical planning (lumpectomy vs. mastectomy with sentinel lymph node biopsy or axillary dissection), and completion of axillary staging with ultrasound-guided fine needle aspiration of the suspicious left axillary lymph node prior to surgery. Genomic profiling (e.g., Oncotype DX) to be considered post-surgical excision...Medical oncology and radiation oncology referrals placed.'"
+      },

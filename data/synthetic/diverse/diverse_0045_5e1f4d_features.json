@@ -1,0 +1,14 @@
+{
+  "doc_id": "diverse_0045_5e1f4d",
+  "setting": "diverse",
+  "index": 45,
+  "profile": {
+    "cancer_type": "IDC grade 3 with DCIS component",
+    "laterality": "left",
+    "modalities": "ultrasound + MRI + US-guided biopsy + pathology + receptor",
+    "special": "multifocal disease, axillary lymph node involvement"
+  },
+  "features": null,
+  "raw_output_chars": 12626,
+  "json_parse_ok": false
+}

@@ -1,0 +1,270 @@
+REGIONAL MEDICAL CENTER — BREAST IMAGING & PATHOLOGY SERVICES
+Department of Radiology / Department of Pathology
+De-identified Report — Research Copy
+
+Patient: [PATIENT]
+DOB: [REDACTED]
+Accession: RMC-2024-039
+Ordering Physician: [PHYSICIAN]
+
+────────────────────────────────────────────────────────────────
+MAMMOGRAM
+Date of Examination: 02/14/2024
+Indication: Palpable lump, right breast, reported by patient for approximately 3 weeks.
+Technique: Standard bilateral digital mammography; craniocaudal (CC) and mediolateral oblique (MLO) views obtained.
+
+FINDINGS:
+Right breast: A  partially obscured, irregular mass measuring approximately 1.8 cm in greatest
+dimension is identified in the upper outer quadrant of the right breast at the 10 o'clock position,
+at approximately mid-depth, estimated 5 cm from the nipple. The mass demonstrates indistinct and
+angular margins. Associated fine linear and fine-linear branching (casting-type) calcifications
+are present within and immediately surrounding the mass, distributed in a segmental pattern over
+approximately 2.5 cm of tissue. No dominant architectural distortion elsewhere. Skin and nipple
+are unremarkable.
+
+Left breast: No suspicious mass, calcification, or architectural distortion. Scattered areas of
+fibroglandular density bilaterally (ACR density category B).
+
+IMPRESSION:
+Right breast — irregular mass with associated segmental fine linear calcifications, upper outer
+quadrant, 10 o'clock position, mid-depth, 5 cm from nipple. Highly suspicious for malignancy.
+
+BI-RADS Category: 5 — Highly Suggestive of Malignancy
+Recommendation: Ultrasound-guided core needle biopsy recommended. Breast MRI for extent of
+disease evaluation recommended after tissue diagnosis.
+
+Interpreting Radiologist: R. Halston, MD
+Signed: 02/14/2024  14:22
+
+────────────────────────────────────────────────────────────────
+ULTRASOUND
+Date of Examination: 02/16/2024
+Indication: Right breast mass identified on mammogram. Correlation with palpable finding.
+Technique: High-resolution B-mode and color Doppler ultrasound of the right breast and right axilla
+performed using a linear array 12–5 MHz transducer.
+
+FINDINGS:
+Right Breast: At the 10 o'clock position, 5 cm from the nipple, mid-depth, an irregular hypoechoic
+mass measuring 1.9 x 1.4 x 1.6 cm (AP x TR x CC) is identified. Margins are spiculated and non-
+parallel (taller than wide orientation present focally). Internal vascularity is increased on color
+Doppler. Posterior acoustic shadowing is present. The mass corresponds to the palpable abnormality
+and to the mammographic finding.
+
+Right Axilla: A single  lymph node is identified in the low axilla demonstrating cortical
+thickening measuring 4 mm. Fatty hilum is preserved. No additional morphologically abnormal lymph
+nodes are identified in the sampled axillary levels. Findings are indeterminate; low axillary
+node with cortical thickening, cannot exclude early nodal involvement.
+
+Left Breast and Axilla: No suspicious lesion identified. No pathologically enlarged lymph nodes.
+
+IMPRESSION:
+1. Right breast, 10 o'clock position, 5 cm from nipple, mid-depth: irregular hypoechoic mass,
+   1.9 cm greatest dimension. Highly suspicious for malignancy.
+2. Right low axillary lymph node with cortical thickening (4 mm); indeterminate — cannot exclude
+   early metastatic involvement.
+
+BI-RADS Category: 5 — Highly Suggestive of Malignancy
+Recommendation: Ultrasound-guided core needle biopsy of the right breast mass and consideration
+of right axillary lymph node sampling if clinically indicated after breast biopsy results.
+
+Interpreting Radiologist: R. Halston, MD
+Signed: 02/16/2024  10:47
+
+────────────────────────────────────────────────────────────────
+BIOPSY PROCEDURE NOTE
+Date of Procedure: 02/19/2024
+Indication: BI-RADS 5 right breast mass, 10 o'clock position.
+Procedure: Ultrasound-guided 14-gauge core needle biopsy (CNB), right breast mass, 10 o'clock
+position, 5 cm from nipple.
+Operator: M. Chen, MD (Interventional Breast Radiologist)
+
+TECHNIQUE:
+Patient was positioned supine with the right arm elevated. The target mass at the 10 o'clock
+position was identified with real-time ultrasound guidance. The skin was prepped in sterile fashion
+and 1% lidocaine was administered for local anesthesia. Using a co-axial technique, a 14-gauge
+automated spring-loaded biopsy device was advanced into the mass under continuous ultrasound
+visualization. Five (5) cores were obtained from representative areas of the lesion. Cores appeared
+grossly tan-white and were submitted in formalin for histopathologic analysis.
+
+CLIP PLACEMENT:
+Following biopsy, a metallic biopsy clip (BB-shaped titanium marker) was deployed under ultrasound
+guidance at the biopsy site within the right breast mass at the 10 o'clock position, 5 cm from the
+nipple. Post-deployment ultrasound confirmed clip artifact at the target site. Post-procedure
+mammographic views (CC and MLO) obtained to confirm clip position — clip is seen to correspond to
+the biopsy site in the right upper outer quadrant. Clip placement is accurate.
+
+Complications: None. Patient tolerated the procedure well.
+
+Procedure Radiologist: M. Chen, MD
+Signed: 02/19/2024  09:15
+
+────────────────────────────────────────────────────────────────
+PATHOLOGY REPORT
+Date Received: 02/19/2024
+Date Reported: 02/21/2024
+Specimen: Right breast core needle biopsy, 10 o'clock position (5 cores)
+Submitted by: M. Chen, MD
+Pathologist: S. Okafor, MD
+
+GROSS DESCRIPTION:
+Received in formalin, labeled "right breast 10 o'clock CNB," are five tan-white cylindrical core
+fragments ranging from 1.0 to 1.5 cm in length. Cores are submitted entirely in one cassette.
+
+MICROSCOPIC DESCRIPTION:
+Sections demonstrate infiltrating carcinoma arranged in nests, cords, and glandular structures
+within a moderately desmoplastic stroma. Tumor cells exhibit moderate nuclear pleomorphism with
+prominent nucleoli and moderate amount of eosinophilic cytoplasm. Mitotic activity is moderate
+(approximately 8–10 mitoses per 10 high-power fields). No necrosis is identified in the sampled
+cores. Associated high-grade ductal carcinoma in situ (DCIS) with cribriform and micropapillary
+architecture is identified at the periphery of the invasive component, with associated
+calcifications consistent with the mammographic findings.
+
+DIAGNOSIS:
+Right breast, 10 o'clock position, ultrasound-guided core needle biopsy:
+— INVASIVE DUCTAL CARCINOMA (IDC), Nottingham histologic grade 2 (tubule score 3 +
+   nuclear score 2 + mitosis score 2 = total 7/9).
+— Associated high-grade DCIS with cribriform and micropapillary patterns.
+— Invasive component size on core: at least 1.9 cm (imaging-based; definitive sizing deferred
+   to excision specimen).
+
+Note: Definitive tumor size, margin status, and lymphovascular invasion assessment will be reported
+on the final surgical excision specimen.
+
+Pathologist: S. Okafor, MD
+Signed: 02/21/2024  16:04
+
+────────────────────────────────────────────────────────────────
+RECEPTOR STATUS
+Date Reported: 02/22/2024
+Specimen Reference: Right breast CNB, 02/19/2024
+Pathologist: S. Okafor, MD
+Laboratory: RMC Immunohistochemistry & Molecular Pathology Laboratory
+(CLIA-certified; CAP-accredited)
+
+IMMUNOHISTOCHEMISTRY (IHC):
+
+ESTROGEN RECEPTOR (ER):
+Result: NEGATIVE
+Percentage of tumor nuclei staining: 0%
+Intensity: N/A
+Internal positive control: Adequate (normal ductal epithelium staining confirmed).
+Interpretation: ER-negative.
+
+PROGESTERONE RECEPTOR (PR/PgR):
+Result: NEGATIVE
+Percentage of tumor nuclei staining: 0%
+Intensity: N/A
+Internal positive control: Adequate.
+Interpretation: PR-negative.
+
+HER2 (IHC):
+Result: 3+ (POSITIVE)
+Staining pattern: Complete, intense circumferential membrane staining in >10% of tumor cells.
+Internal positive control: Adequate.
+Interpretation: HER2 IHC 3+ — positive; FISH/ISH reflex testing not required per current
+ASCO/CAP guidelines for IHC 3+ results; HER2 ISH performed for confirmatory purposes per
+institutional protocol.
+
+HER2 IN SITU HYBRIDIZATION (ISH / FISH):
+Method: Dual-probe fluorescence in situ hybridization (FISH)
+HER2 copy number (mean signals/cell): 8.6
+CEP17 copy number (mean signals/cell): 1.9
+HER2/CEP17 ratio: 4.5
+Result: AMPLIFIED — HER2 gene amplification confirmed.
+Interpretation: HER2-positive (ISH amplified; IHC 3+).
+
+SUMMARY:
+ER: Negative (0%)
+PR: Negative (0%)
+HER2: Positive (IHC 3+; ISH amplified, ratio 4.5)
+Subtype: HER2-enriched (ER-/PR-/HER2+)
+
+Pathologist: S. Okafor, MD
+Signed: 02/22/2024  11:30
+
+────────────────────────────────────────────────────────────────
+MRI — BREAST
+Date of Examination: 02/28/2024
+Indication: Known right breast IDC, HER2-positive. Extent of disease evaluation prior to
+surgical planning. Comparison: Mammogram 02/14/2024; Ultrasound 02/16/2024.
+Technique: Bilateral breast MRI at 3.0 Tesla with dedicated breast coil. Pre- and post-
+gadolinium (Gadavist 0.1 mmol/kg IV) dynamic contrast-enhanced sequences obtained.
+Diffusion-weighted imaging (DWI) performed. Kinetic analysis applied.
+
+FINDINGS:
+Right Breast:
+An irregularly shaped, heterogeneously enhancing mass is identified in the upper outer quadrant
+at the 10 o'clock position, mid-depth, 5 cm from the nipple, measuring 2.2 x 1.8 x 2.0 cm
+(AP x TR x CC). The mass demonstrates rapid initial enhancement with plateau kinetics
+(type II curve). A metallic susceptibility artifact consistent with the biopsy clip (BB marker)
+is noted within the mass.
+
+Additional Enhancement: Non-mass enhancement (NME) extending anteriorly and medially from the
+primary mass over a span of approximately 1.5 cm in a segmental distribution is identified,
+suspicious for associated DCIS spread. No separate satellite nodule is identified.
+
+Right Axilla: The previously noted low axillary lymph node (cortical thickness 4 mm on
+ultrasound) demonstrates mild enhancement; morphology remains indeterminate. No additional
+enlarged or morphologically abnormal axillary lymph nodes are visualized.
+
+Left Breast: No suspicious enhancement. No pathologically enlarged left axillary lymph nodes.
+
+IMPRESSION:
+1. Right breast, 10 o'clock position, upper outer quadrant, mid-depth, 5 cm from nipple:
+   Irregularly enhancing mass, 2.2 cm greatest dimension (AP), consistent with known IDC.
+   Biopsy clip (BB marker) confirmed at target site — clip placement accurate.
+2. Associated segmental non-mass enhancement (NME) extending 1.5 cm anteriorly/medially from
+   the primary mass, suspicious for DCIS component extension.
+3. Disease extent: Localized to the right upper outer quadrant; no satellite nodules; no
+   contralateral disease. Total imaging extent approximately 3.5 cm including NME.
+4. Right low axillary lymph node: mildly enhancing, cortically thickened; indeterminate.
+   Ultrasound-guided fine needle aspiration (FNA) or sentinel lymph node biopsy recommended
+   for definitive nodal staging.
+
+BI-RADS Category: 6 — Known Biopsy-Proven Malignancy
+Recommendation: Surgical oncology evaluation for definitive surgical planning. Consider
+neoadjuvant HER2-targeted therapy given HER2-positive status. Ultrasound-guided right axillary
+lymph node FNA or sentinel lymph node biopsy at time of surgery for nodal staging.
+
+Interpreting Radiologist: P. Nkemdirim, MD
+Signed: 02/28/2024  13:55
+
+────────────────────────────────────────────────────────────────
+END OF REPORT
+
+Electronically signed and verified. This document is a de-identified copy
+generated for research purposes. Do not use for clinical decision-making.
+
+────────────────────────────────────────────────────────────────
+
+```json
+{
+  "lesions": [
+    {
+      "lesion_id": "L1",
+      "feature_1_lesion_size": {
+        "value": "2.2 cm (greatest dimension, MRI)",
+        "evidence": "An irregularly shaped, heterogeneously enhancing mass... measuring 2.2 x 1.8 x 2.0 cm (AP x TR x CC)."
+      },
+      "feature_2_lesion_location": {
+        "value": "Right breast, upper outer quadrant, 10 o'clock position, mid-depth, 5 cm from nipple",
+        "evidence": "upper outer quadrant at the 10 o'clock position, mid-depth, 5 cm from the nipple"
+      },
+      "feature_3_calcifications_asymmetry": {
+        "value": "Present — fine linear and fine-linear branching (casting-type) calcifications, segmental distribution, extending approximately 2.5 cm",
+        "evidence": "Associated fine linear and fine-linear branching (casting-type) calcifications are present within and immediately surrounding the mass, distributed in a segmental pattern over approximately 2.5 cm of tissue."
+      },
+      "feature_4_additional_enhancement_mri": {
+        "value": "Non-mass enhancement (NME) extending anteriorly and medially from the primary mass over a span of approximately 1.5 cm in a segmental distribution, suspicious for associated DCIS spread",
+        "evidence": "Non-mass enhancement (NME) extending anteriorly and medially from the primary mass over a span of approximately 1.5 cm in a segmental distribution is identified, suspicious for associated DCIS spread."
+      },
+      "feature_5_extent": {
+        "value": "Localized to the right upper outer quadrant; no satellite nodules; no contralateral disease. Total imaging extent approximately 3.5 cm including NME.",
+        "evidence": "Disease extent: Localized to the right upper outer quadrant; no satellite nodules; no contralateral disease. Total imaging extent approximately 3.5 cm including NME."
+      },
+      "feature_6_accurate_clip_placement": {
+        "value": "Yes — BB-shaped titanium marker clip placed at biopsy site, right breast, 10 o'clock position, 5 cm from nipple; clip placement confirmed accurate on post-procedure mammogram and MRI",
+        "evidence": "a metallic biopsy clip (BB-shaped titanium marker) was deployed under ultrasound guidance at the biopsy site within the right breast mass at the 10 o'clock position, 5 cm from the nipple... Clip placement is accurate. / A metallic susceptibility artifact consistent with the biopsy clip (BB marker) is noted within the mass... Biopsy clip (BB marker) confirmed at target site — clip placement accurate."
+      },
+      "feature_7_workup_recommendation": {
+        "value": "Surgical oncology evaluation for definitive surgical planning. Consider neoadjuvant H
