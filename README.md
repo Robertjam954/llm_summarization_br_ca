@@ -102,12 +102,15 @@ pip install -r requirements.txt
 
 ## Project Status
 
-<<<<<<< HEAD
+Current phase: prompt and evaluation-method optimization, plus build-out of HCAT safety (NB11) and LangGraph agentic RAG validation (NB12). Notebook outputs and reports are research-grade and may change as experiments are re-run with updated prompt variants.
+
 Key analysis questions:
 - Which elements are most fragile (highest fabrication rate)?
 - Which document features predict fabrication?
 - Does RAG reduce hallucination vs full-document prompting?
 - Does OCR quality predict omission rate?
+- What is the residual PHI risk after deidentification (HCAT)?
+- Does LangGraph agentic RAG catch high-risk fabrications missed by single-shot extraction?
 
 ## Appendix E: Predictive Modeling Layer
 
@@ -272,6 +275,49 @@ notebooks/
     Outputs: vectorization_benchmark.csv, ml_validation_cv_results.csv, dl_validation_cv_results.csv,
              shap_feature_rankings_by_vec_method.csv, validation_methods_comparison.csv,
              validation_methods_by_domain.csv, ~6 PNGs
+│
+├── 08_ocr_image_quality_deblur.ipynb
+│   ├── Per-page OCR image quality scoring (sharpness, contrast, skew, brightness)
+│   ├── Deblurring experiments and quality-vs-extraction-error analysis
+│   └── Per-document quality summary plots
+│   Outputs: ocr_image_quality_log.csv, doc_text_eval_quality_plots.png
+│
+├── 09_mcodegpt_dag_extraction.ipynb
+│   ├── mCODE-aligned structured extraction via DAG decomposition
+│   ├── Element-level extraction with conditional branching per feature
+│   └── Comparison of DAG vs flat extraction strategies
+│   Outputs: mcodegpt_dag_extractions.csv, mcodegpt_extraction_log.csv
+│
+├── 10_openai_predictive_model.ipynb
+│   ├── OpenAI-API-driven classifier for predicting AI extraction errors
+│   ├── Calibration and uncertainty visualization
+│   └── Feature-importance attribution
+│   Outputs: accuracy_forecast_uncertainty.png, accuracy_vs_balanced_accuracy.csv
+│
+├── 11_hcat_embedding_evaluation.ipynb
+│   ├── HCAT (HIPAA Compliance Assessment Tool) safety metrics
+│   ├── PHI recall, false-negative rate, over-redaction rate, residual PHI risk score
+│   ├── Re-identification risk via k-anonymity / l-diversity proxies
+│   ├── Manual PHI annotation comparison on stratified 50-PDF sample
+│   └── Per-document and aggregated safety reporting
+│   Outputs: hcat_safety_metrics.csv, hcat_summary_statistics.csv,
+│            hcat_residual_phi_risk_heatmap.png, hcat_phi_type_breakdown.csv
+│
+└── 12_langgraph_deepeval_integration.ipynb
+    ├── Knowledge-graph construction (Patient / Observation / ClinicalFeature / Evidence nodes)
+    ├── Evidence chunking + embedding (text-embedding-3-large, 3072-dim)
+    ├── LangGraph agentic RAG nodes:
+    │   ├── generate_query_or_validate
+    │   ├── kg_retriever_tool
+    │   ├── grade_retrieved_evidence
+    │   ├── generate_validation_result (CORRECT / FABRICATION / OMISSION / UNCERTAIN)
+    │   └── rewrite_query
+    ├── DeepEval integration (Faithfulness, Hallucination, ContextualRecall/Relevancy/Precision,
+    │   AnswerRelevancy, Toxicity, PIILeakage, TaskCompletion, DAGMetric)
+    └── High-risk fabrication validation workflow (fabrication_rate > 0.15 from NB03)
+    Outputs: data/knowledge_graph/clinical_kg.graphml, data/knowledge_graph/evidence_embeddings.npy,
+             langgraph_fabrication_validation.csv, langgraph_fabrication_correction_rate.csv,
+             langgraph_evidence_quality_scores.csv, langgraph_validation_confusion_matrix.png
 ```
 
 ### F.2 Data Sources (`data/`)
@@ -315,27 +361,40 @@ data/
 src/
 ├── llm_eval_by_human/
 │   ├── main_analysis.py                     — primary analysis: element/domain metrics, bootstrap CIs,
-│   │                                          McNemar p-values, confusion matrices, all plots/tables
+│   │                                          McNemar p-values, confusion matrices, plots/tables
 │   ├── metric_utils.py                      — compute_confusion_counts, compute_metrics_from_counts,
 │   │                                          bootstrap_ci, element_metric_pvalue, mcnemar_exact_from_masks,
 │   │                                          metric_correct_masks, plot_confusion_heatmap
-│   ├── metrics_utils.py                     — duplicate of metric_utils.py (imported by some scripts)
-│   ├── human_judge_analysis_classification_metrics.py
+│   ├── metrics_utils.py                     — alias module (imported by some scripts)
+│   ├── human_judge_analysis_classification_metrics.py / .ipynb
 │   │                                        — extended classification analysis with inline p-value functions
-│   ├── add_observation_metrics.py           — add_observation_level_metrics, generate_observation_summary
-│   ├── create_comprehensive_enhanced_dataset.py — integrates obs/element/domain metrics into one CSV
-│   ├── observation_level_metrics.py         — per-row confusion status, row-level summary metrics
-│   ├── main analysis.py                     — older version of main_analysis.py (deprecated)
-│   └── modeling_feature_importance/
-│       ├── ai_feature_interaction_analysis.py      — H2O XGBoost/GBM feature interactions
-│       ├── ai_feature_interaction_clean.py         — cleaned version of interaction analysis
-│       ├── ai_element_accuracy_predictors_analysis.py
-│       ├── ai_fabrication_binary_analysis.py
-│       ├── ai_fabrication_comprehensive_analysis.py
-│       ├── ai_fabrication_predictors_analysis.py
-│       ├── h2o_ai_only_feature_importance.py
-│       ├── h2o_feature_importance_analysis.py
-│       └── h2o_model_selection_feature_importance.py
+│   └── main analysis.py                     — older version of main_analysis.py (deprecated)
+│
+├── llm_eval_by_llm/
+│   ├── api.py                               — LLM API calls for extraction
+│   ├── deepeval_multi_model_pipeline.py     — multi-model DeepEval evaluation harness
+│   ├── deep_eval_llm_judge_api.py           — DeepEval LLM-as-judge evaluation
+│   ├── document_similarity_analysis.py      — pairwise document similarity for fab analysis
+│   ├── feature_document_context.py          — feature-level context extraction
+│   ├── source_document_feature_extraction*.py — v1/v2/v3 (OCR + simple) extraction pipelines
+│   ├── apply_text_deidentification.py / simple_text_deidentification.py — text-only deid utilities
+│   ├── parse_v2_summaries.py / reprocess_failed_v2_patients.py — v2 summary parsing + reruns
+│   ├── prompt_iteration_tracker.py          — versioned prompt run logging
+│   ├── timeseries_prompt_forecasting.py     — prompt-metric forecast modeling
+│   ├── v2_prompt_fabrication_test.py        — fabrication probe on v2 prompts
+│   ├── xgb_aft_*.py                         — XGBoost AFT preprocessing / SHAP / feature processing
+│   ├── shap analysis and plot generation.R  — SHAP visualization (R)
+│   ├── needle_haystack_*                    — context-length / NIAH analysis assets
+│   ├── phoenix_prompt_tutorial.ipynb        — Arize Phoenix tracing tutorial
+│   └── test_llm_app.py / test_similarity_analysis.py — pipeline tests
+│
+├── llm_eval_by_ml/
+│   ├── plot_hashing_vs_dict_vectorizer.ipynb
+│   ├── text vec and judgement.ipynb         — text vectorization + ML judge
+│   ├── xgb_aft_preprocessing_feature_constuction_train_validate_evaluate.py
+│   ├── xgb_aft_shap_feature_importance.py
+│   ├── xgb_aft_feature_.processing_feature_processing_feature_importance.py
+│   └── shap analysis and plot generation.R
 │
 ├── classifier_models_prompt_optimization/
 │   ├── classifiers.py                       — sklearn classifiers (RF, SVM, Logistic, etc.)
@@ -346,65 +405,79 @@ src/
 │   ├── sgd_classifier.py
 │   └── tsne knn classifier.py
 │
-├── data collection and processing - fix/
-│   ├── analyze missing_descriptive analysis_descriptive plots_tables.py
-│   ├── h2o_automl_advanced.py
-│   ├── h2o_automl_example.py
-│   ├── h2o_automl_starter.py
-│   ├── h2o_local_automl.py
-│   └── h2o_simple_test.py
-│
-└── llm_eval_by_llm/
-    ├── api.py                               — LLM API calls for extraction
-    ├── deep_eval_llm_judge_api.py           — DeepEval LLM-as-judge evaluation
-    ├── demo_extraction.py                   — demo extraction pipeline
-    └── xgb_aft_*.py                         — XGBoost AFT feature processing + training
+├── prompt_eng/                              — prompt engineering scaffolds and helpers
+├── modeling/                                — modeling pipeline scaffolds (train/predict)
+├── data collection and processing/          — data collection + missingness analysis utilities
+└── misc_scripts/
+    ├── fab_page_quality_analysis.py         — per-page fab quality features (May 30 work)
+    ├── document_processor.py / pdf_txt_conversion.py
+    ├── rouge_bleu_semantic_similarity.py / rouge_blue_semantic_visualization.py
+    ├── vector_store_manager.py / vector_store_manager_embedding.py
+    ├── shap_feature_importance_classification_prediction.py
+    ├── xgb_binary_outcome_example.py
+    └── run_mistral7b.py
 ```
 
-### F.4 Generated Reports (`data reports/`)
+### F.4 Generated Reports (`reports/`)
+
+Current contents of `reports/` (regenerated as notebooks/pipelines run):
 
 ```
-data reports/
-├── Tables (CSV)
-│   ├── diagnostic_tests.csv / diagnostic_tests_with_p.csv
-│   ├── element_level_summary_wide.csv
-│   ├── domain_level_element_balanced_metrics.csv / domain_agg_metrics_with_p.csv
-│   ├── confusion_human.csv / confusion_ai.csv
-│   ├── comprehensive_enhanced_dataset_with_all_metrics.csv
-│   └── comprehensive_dataset_column_mapping.csv / comprehensive_dataset_sample.csv
+reports/
+├── Element / domain metrics (NB03)
+│   ├── element_level_metrics.csv
+│   ├── element_pvalues_one_sided.csv
+│   ├── domain_level_aggregated_metrics.csv
+│   ├── overall_mean_metric_paired_tests.csv
+│   ├── fabrication_rate_element_level.csv
+│   ├── confusion_heatmaps.png
+│   ├── faceted_diagnostic_pathology.png / faceted_diagnostic_radiology.png
+│   ├── domain_aggregated_diagnostic_metrics_human_vs_ai.png
+│   ├── eda_counts_pathology_human_vs_ai.png / eda_counts_radiology_human_vs_ai.png
+│   ├── eda_pathology_correct_omitted_fabricated.png / eda_radiology_correct_omitted_fabricated.png
+│   ├── eda_obs_histogram_human.png / eda_obs_histogram_ai.png
+│   └── case_accuracy_by_complexity.csv / .png
 │
-├── Plots (PNG)
-│   ├── confusion_heatmaps.png / confusion_tables.png
-│   ├── human_ai_metrics_facet_ci.png
-│   ├── element_level_diagnostic_metrics_human_vs_ai.png
-│   ├── domain_aggregated_diagnostic_metrics_human_vs_ai.png / domain_level_diagnostic_metrics_table.png
-│   ├── avg_metrics_rad_vs_path_grouped_ci_stars.png
-│   ├── fabrication_rate_element_plot.png / fabrication_rate_element_table.png
-│   ├── fabrication_rate_aggregate_plots.png / fabrication_rate_aggregate_table.png / fabrication_rate_domain_table.png
-│   ├── specificity_ai.png / roc_example.png / pr_example.png
-│   ├── bias_variance_demo.png / cv_boxplot.png
-│   └── (notebook-generated plots added on execution)
+├── Missingness (NB02)
+│   ├── missingness_per_feature_column.csv
+│   ├── missingness_avg_by_feature.csv
+│   ├── missingness_pathologic_features.csv / missingness_radiologic_features.csv
+│   ├── missingness_domain_summary.csv
+│   ├── missingness_bar_human_vs_ai.png
+│   ├── missingness_heatmap_by_feature_annotator.png
+│   └── missingness_per_observation_distribution.png
 │
-├── Modeling Reports (subdirectories)
-│   ├── ai_element_accuracy_predictors/      — importance CSVs, PNGs, report.md
-│   ├── ai_fabrication_binary/               — binary fabrication analysis outputs
-│   ├── ai_fabrication_predictors/           — fabrication predictor importance
-│   ├── ai_feature_interactions/             — feature interaction summary + report
-│   └── ai_only_feature_importance/          — AI-only feature importance outputs
+├── Source text extraction (NB04 / NB08)
+│   ├── text_extraction_log.csv / text_extraction_quality.png
+│   ├── per_case_text_stats.csv
+│   ├── docx_to_pdf_conversion_log.csv
+│   ├── doc_text_eval_quality_plots.png / doc_text_eval_summary.json
+│   └── nb01_timing_log.csv
 │
-└── Validation Methods Comparison (Notebook 07)
-    ├── vectorization_benchmark.csv          — speed + feature count per vectorizer
-    ├── vectorization_benchmark_plot.png     — throughput + dimensionality bar charts
-    ├── ml_validation_cv_results.csv         — XGBoost 5-fold CV per vec method
-    ├── dl_validation_cv_results.csv         — BERT TF-Hub 5-fold CV results
-    ├── shap_feature_rankings_by_vec_method.csv — SHAP importance per vectorizer
-    ├── shap_feature_importance_by_vec_method.png — top-20 feature bar plots
-    ├── validation_methods_comparison.csv    — unified Human vs LLM vs ML vs DL table
-    ├── validation_methods_comparison_plot.png — accuracy bar + grouped metrics plot
-    ├── validation_methods_heatmap.png       — eval method × vec method heatmap
-    ├── validation_methods_by_domain.csv     — domain-stratified comparison
-    └── validation_by_domain_plot.png        — Radiology vs Pathology comparison
+├── Fabrication / document quality (May 30 work)
+│   ├── fab_quality_results.csv / fab_quality_stats.csv
+│   ├── fab_document_quality_results.csv / fab_document_quality_stats.csv
+│   └── fab_page_quality_analysis.png
+│
+├── Prompt iteration / extraction comparison
+│   ├── prompt_history_metric_trends.png / prompt_metric_trajectories.csv
+│   ├── extraction_method_comparison.csv / extraction_method_boxplots.png
+│   ├── accuracy_vs_balanced_accuracy.csv / accuracy_vs_balanced_accuracy_scatter.png
+│   └── accuracy_forecast_uncertainty.png
+│
+├── Data dictionary (NB06)
+│   ├── data_dictionary.xlsx
+│   └── variable_names.xlsx
+│
+├── HCAT safety (NB11, planned)
+│   ├── hcat_safety_metrics.csv
+│   ├── hcat_summary_statistics.csv
+│   ├── hcat_residual_phi_risk_heatmap.png
+│   └── hcat_phi_type_breakdown.csv
+│
+└── LangGraph agentic RAG validation (NB12, planned)
+    ├── langgraph_fabrication_validation.csv
+    ├── langgraph_fabrication_correction_rate.csv
+    ├── langgraph_evidence_quality_scores.csv
+    └── langgraph_validation_confusion_matrix.png
 ```
-=======
-Current phase: prompt and evaluation-method optimization. Notebook outputs and reports are research-grade and may change as experiments are re-run with updated prompt variants.
->>>>>>> 740d1020037861cf7104139ecb25299bde8f60a1
