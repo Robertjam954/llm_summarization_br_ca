@@ -39,7 +39,7 @@ def run_single_case(
     case_id: str,
     ocr_text: str,
     prompt_id: str = "rag_verify_v1",
-    model_id: str = "claude-3-5-sonnet-20241022",
+    model_id: str = "claude-sonnet-4-6",
     feature_queue: Optional[List[str]] = None,
     run_id: Optional[str] = None,
 ) -> Dict[str, Any]:
@@ -75,7 +75,7 @@ def run_single_case(
 def run_batch(
     cases: List[Dict[str, str]],
     prompt_id: str = "rag_verify_v1",
-    model_id: str = "claude-3-5-sonnet-20241022",
+    model_id: str = "claude-sonnet-4-6",
     run_id: Optional[str] = None,
     save_results: bool = True,
 ) -> List[Dict[str, Any]]:
