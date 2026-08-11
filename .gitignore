@@ -32,13 +32,13 @@ data_private/
 *.env
 !.env.example
 
-# Sensitive data directories (safety net — these live in DATA_PRIVATE_DIR, not the repo)
-data/raw/
-data/deidentified/
-data/extracted_text/
-data/extracted_text_comparison/
+# Data directory is intentionally committed
+!data/
+!data/**
+data/**/.DS_Store
+data/**/~$*
 
-# data/features/ and reports/ are NON-PHI and intentionally committed
+# data/features/ and reports/ are intentionally committed
 
 # Temp files
 ~$*
